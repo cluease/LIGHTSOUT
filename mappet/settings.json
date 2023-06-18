@@ -1,5 +1,9 @@
 {
     "Triggers": {
+        "player_item_toss": {
+            "Blocks": [
+            ]
+        },
         "entity_death": {
             "Blocks": [
             ]
