@@ -1,0 +1,262 @@
+{
+    "Closable": 1b,
+    "Main": "70371482-4d3d-4f87-af2d-9fadcfd146c2",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Осмотреть тело)"
+            },
+            "X": -52,
+            "Title": "",
+            "Y": -28,
+            "Relations": [
+                "00ac62bb-9bf8-4d1d-979c-49f453255a0f"
+            ],
+            "Id": "df8ca846-874e-4285-aaee-b13e64ee1bfb"
+        },
+        {
+            "Type": "command",
+            "Command": "playsound customnpcs:misc.camera block @p",
+            "X": -144,
+            "Title": "фото",
+            "Y": 422,
+            "Id": "052903bf-1737-44f2-b0e2-e667460be2f8"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Сделать снимок)"
+            },
+            "X": -136,
+            "Title": "",
+            "Y": 266,
+            "Relations": [
+                "052903bf-1737-44f2-b0e2-e667460be2f8",
+                "6542ed72-4e09-45f6-a292-3031fe352546"
+            ],
+            "Id": "26fe8443-dac4-49ad-9ec1-0c9670321439"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 2,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "victim1",
+                            "Marker": "clothes1",
+                            "Selector": ""
+                        },
+                        {
+                            "Not": 0b,
+                            "Target": 2,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "victim1",
+                            "Marker": "pocket1",
+                            "Selector": ""
+                        },
+                        {
+                            "Not": 0b,
+                            "Target": 2,
+                            "Type": "quest",
+                            "Or": 0b,
+                            "Id": "story_case1_1",
+                            "Quest": 1,
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": -52,
+            "Title": "",
+            "Y": -170,
+            "Relations": [
+                "df8ca846-874e-4285-aaee-b13e64ee1bfb"
+            ],
+            "Id": "1af8e6dc-d12d-4c8b-9aa6-cde9ca24d341"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Назад)"
+            },
+            "X": 284,
+            "Title": "",
+            "Y": 265,
+            "Relations": [
+                "7131e1b8-566e-452a-850d-795782675e7e"
+            ],
+            "Id": "efe4f74e-1c3f-4b74-86db-00ce870da153"
+        },
+        {
+            "Read": 1b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Пусто"
+            },
+            "X": 156,
+            "Title": "",
+            "Y": 118,
+            "Sound": "",
+            "Relations": [
+                "efe4f74e-1c3f-4b74-86db-00ce870da153"
+            ],
+            "Id": "f8e1fc06-4fb4-4a41-adb3-6cf2597764ef",
+            "Marker": "pocket1"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Закрыть)"
+            },
+            "X": 426,
+            "Title": "",
+            "Y": -165,
+            "Id": "a308bc07-feac-4773-b83c-a7a40a55f231"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Поиск улик)"
+            },
+            "X": 158,
+            "Title": "",
+            "Y": -182,
+            "Morph": {
+                "RemoveParentSpace": 1b,
+                "Pose": {
+                    "P": [
+                        0.25f,
+                        1.46875f,
+                        0.40625f
+                    ]
+                },
+                "Billboard": 1b,
+                "Texture": "b.a:image/skins/explore.png",
+                "Name": "blockbuster.image"
+            },
+            "Sound": "",
+            "Relations": [
+                "7a12a01d-c148-4d24-a681-49e892806e5f",
+                "4a706702-3086-4929-9a9c-9518a85e5fe8",
+                "a308bc07-feac-4773-b83c-a7a40a55f231",
+                "1af8e6dc-d12d-4c8b-9aa6-cde9ca24d341"
+            ],
+            "Id": "7131e1b8-566e-452a-850d-795782675e7e",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Осмотреть одежду)"
+            },
+            "X": 360,
+            "Title": "",
+            "Y": -30,
+            "Relations": [
+                "b746f6e6-1617-4adb-9cbb-a314e8c313d5"
+            ],
+            "Id": "4a706702-3086-4929-9a9c-9518a85e5fe8"
+        },
+        {
+            "Read": 1b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Что за... такие раны мог нанести только какой-нибудь зверь. Интересно, сделаю снимок и подумаю об этом позже"
+            },
+            "X": -126,
+            "Title": "",
+            "Y": 118,
+            "Sound": "",
+            "Relations": [
+                "26fe8443-dac4-49ad-9ec1-0c9670321439"
+            ],
+            "Id": "00ac62bb-9bf8-4d1d-979c-49f453255a0f",
+            "Marker": "body1"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Проверить карманы)"
+            },
+            "X": 160,
+            "Title": "",
+            "Y": -30,
+            "Relations": [
+                "f8e1fc06-4fb4-4a41-adb3-6cf2597764ef"
+            ],
+            "Id": "7a12a01d-c148-4d24-a681-49e892806e5f"
+        },
+        {
+            "Read": 1b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Следы свежие, следовательно, убийство произошло не так давно"
+            },
+            "X": 378,
+            "Title": "",
+            "Y": 120,
+            "Sound": "",
+            "Relations": [
+                "efe4f74e-1c3f-4b74-86db-00ce870da153"
+            ],
+            "Id": "b746f6e6-1617-4adb-9cbb-a314e8c313d5",
+            "Marker": "clothes1"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 2,
+                            "Type": "quest",
+                            "Or": 0b,
+                            "Id": "story_case1_1",
+                            "Quest": 1,
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 158,
+            "Title": "",
+            "Y": -339,
+            "Relations": [
+                "7131e1b8-566e-452a-850d-795782675e7e"
+            ],
+            "Id": "70371482-4d3d-4f87-af2d-9fadcfd146c2"
+        },
+        {
+            "Type": "command",
+            "Command": "scene play karinarun",
+            "X": 60,
+            "Title": "",
+            "Y": 423,
+            "Id": "6542ed72-4e09-45f6-a292-3031fe352546"
+        }
+    ]
+}

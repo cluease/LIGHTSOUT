@@ -1,0 +1,294 @@
+{
+    "Closable": 1b,
+    "Main": "f92e7650-7ec3-4d10-86ae-d6993a1fd627",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Дай-ка взглянуть"
+            },
+            "X": 31,
+            "Title": "",
+            "Y": 637,
+            "Relations": [
+                "eaa9b977-e7b4-41f3-8233-b15cfd7ee260"
+            ],
+            "Id": "9ff79b34-1c39-4d52-8a99-fe04a9d0e645"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ну что, нашла какие-нибудь улики?"
+            },
+            "X": 22,
+            "Title": "",
+            "Y": -120,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "popcorn": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 0b,
+                            "Texture": "emoticons:textures/popcorn.png"
+                        },
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/Warren.png"
+                        }
+                    }
+                },
+                "Animation": "slim_3d",
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "4bf3a119-f602-4149-a218-6e14afca65d0"
+            ],
+            "Id": "f92e7650-7ec3-4d10-86ae-d6993a1fd627",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": " Вероятно, местный криминальный авторитет"
+            },
+            "X": 36,
+            "Title": "",
+            "Y": 1091,
+            "Sound": "",
+            "Relations": [
+                "a5b3ed8b-1417-4b71-b400-dbc07f07f562"
+            ],
+            "Id": "3a11f1c8-9092-4c63-89a9-7e27852bc06e",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Съездим, а сейчас давай обратно, все равно здесь больше нечего делать"
+            },
+            "X": 38,
+            "Title": "",
+            "Y": 1371,
+            "Sound": "",
+            "Relations": [
+                "4edbb83b-c61a-4ffd-a705-3634d5937d8c"
+            ],
+            "Id": "8e21db5d-d950-4166-97ad-817c39b0158f",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Окей, но ты же вернешься?"
+            },
+            "X": 34,
+            "Title": "",
+            "Y": 1676,
+            "Sound": "",
+            "Relations": [
+                "97da8eec-7376-4617-9c34-170b52b9aa8c"
+            ],
+            "Id": "41ff2b83-1a23-4cb5-85fc-0e145cc17504",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Вот"
+            },
+            "X": 33,
+            "Title": "",
+            "Y": 781,
+            "Sound": "",
+            "Relations": [
+                "df3a03d3-b7f4-4f40-ba0c-cbe8939bba9f"
+            ],
+            "Id": "eaa9b977-e7b4-41f3-8233-b15cfd7ee260",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ой, я совсем забыла что обещала своему другу заехать сегодня. Подстрахуешь меня перед начальством? В долгу не останусь"
+            },
+            "X": 36,
+            "Title": "",
+            "Y": 1521,
+            "Relations": [
+                "41ff2b83-1a23-4cb5-85fc-0e145cc17504"
+            ],
+            "Id": "4edbb83b-c61a-4ffd-a705-3634d5937d8c"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Убийца - девушка, сходившая на ноготочки. Дело закрыто"
+            },
+            "X": 30,
+            "Title": "",
+            "Y": 197,
+            "Sound": "",
+            "Relations": [
+                "dc8d48bf-3335-43c6-9053-0799d5a4e234"
+            ],
+            "Id": "0abdb420-9be2-4c8d-9511-6a65a7457550",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Отправиться в гости к другу)"
+            },
+            "X": 30,
+            "Title": "",
+            "Y": 2154,
+            "Relations": [
+                "bd42255b-1111-4c01-b0fc-289818874054"
+            ],
+            "Id": "2d32a7f2-d30a-40f1-8be5-17ce2b2e8d2d"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Убийство было совершено недавно, этот парень явно от кого-то
+бежал. Но вот рваные раны… такие обыкновенный человек вряд ли мог нанести, если у него конечно не огромные когти"
+            },
+            "X": 31,
+            "Title": "",
+            "Y": 37,
+            "Relations": [
+                "0abdb420-9be2-4c8d-9511-6a65a7457550"
+            ],
+            "Id": "4bf3a119-f602-4149-a218-6e14afca65d0"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Я тоже не стоял без дела и нашел под одним из столов любопытную записку с угрозой, адресом и временем"
+            },
+            "X": 31,
+            "Title": "",
+            "Y": 489,
+            "Sound": "",
+            "Relations": [
+                "9ff79b34-1c39-4d52-8a99-fe04a9d0e645"
+            ],
+            "Id": "0dcc3c8f-b227-4524-b797-08b7f45ad8c2",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Хорошо, ловлю на слове. Поехали"
+            },
+            "X": 33,
+            "Title": "",
+            "Y": 2006,
+            "Sound": "",
+            "Relations": [
+                "2d32a7f2-d30a-40f1-8be5-17ce2b2e8d2d"
+            ],
+            "Id": "2c2c178c-e66c-41b5-a2ee-75382ebb360e",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Кстати, я еще выяснила, что вчера вечером в этом пабе от каких-то мужиков прозвучали угрозы в чей-то адрес. Но, по словам
+главаря паба, жертву он увидел сегодня впервые"
+            },
+            "X": 30,
+            "Title": "",
+            "Y": 342,
+            "Relations": [
+                "0dcc3c8f-b227-4524-b797-08b7f45ad8c2"
+            ],
+            "Id": "dc8d48bf-3335-43c6-9053-0799d5a4e234"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Надо будет съездить на это место"
+            },
+            "X": 36,
+            "Title": "",
+            "Y": 1234,
+            "Relations": [
+                "8e21db5d-d950-4166-97ad-817c39b0158f"
+            ],
+            "Id": "a5b3ed8b-1417-4b71-b400-dbc07f07f562"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Интересно, кто такой Дэймон?"
+            },
+            "X": 36,
+            "Title": "",
+            "Y": 940,
+            "Relations": [
+                "3a11f1c8-9092-4c63-89a9-7e27852bc06e"
+            ],
+            "Id": "df3a03d3-b7f4-4f40-ba0c-cbe8939bba9f"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ну а куда я денусь"
+            },
+            "X": 34,
+            "Title": "",
+            "Y": 1851,
+            "Relations": [
+                "2c2c178c-e66c-41b5-a2ee-75382ebb360e"
+            ],
+            "Id": "97da8eec-7376-4617-9c34-170b52b9aa8c"
+        },
+        {
+            "Type": "command",
+            "Command": "tp @p 1013 35 -650",
+            "X": 98,
+            "Title": "",
+            "Y": 2312,
+            "Id": "bd42255b-1111-4c01-b0fc-289818874054"
+        }
+    ]
+}

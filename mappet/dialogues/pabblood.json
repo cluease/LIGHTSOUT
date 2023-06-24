@@ -1,0 +1,37 @@
+{
+    "Closable": 1b,
+    "Main": "7aaa3cf9-0deb-449b-80ec-e0b1f057b6bc",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "На полу и стене остались свежие следы крови, видимо, вчера здесь была драка"
+            },
+            "X": -22,
+            "Title": "",
+            "Y": -58,
+            "Morph": {
+                "RemoveParentSpace": 1b,
+                "Pose": {
+                    "P": [
+                        0.25f,
+                        1.46875f,
+                        0.40625f
+                    ]
+                },
+                "Billboard": 1b,
+                "Texture": "b.a:image/skins/explore.png",
+                "Name": "blockbuster.image"
+            },
+            "Sound": "",
+            "Id": "7aaa3cf9-0deb-449b-80ec-e0b1f057b6bc",
+            "Marker": ""
+        }
+    ]
+}

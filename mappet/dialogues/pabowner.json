@@ -1,0 +1,222 @@
+{
+    "Closable": 1b,
+    "Main": "f8de0cb2-0555-4d55-be0c-c0d293f0618e",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Полиция? Хвала небесам вы здесь"
+            },
+            "X": -26,
+            "Title": "",
+            "Y": -106,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/citizen1 (2).png"
+                        }
+                    }
+                },
+                "Animation": "slim_3d",
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "f8b82cc2-5185-4117-953b-15c87c463747"
+            ],
+            "Id": "1121aceb-da04-4045-9389-6c7cc03ec031",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Понятно, благодорю за сотрудничество"
+            },
+            "X": -91,
+            "Title": "",
+            "Y": 1059,
+            "Relations": [
+                "b75119cc-c5b0-4c4d-908c-8372a2f4b107"
+            ],
+            "Id": "bd5bb12c-ea0c-49d4-b132-ddb840e741b3"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Может, вы заметили что-нибудь подозрительное?"
+            },
+            "X": -88,
+            "Title": "",
+            "Y": 366,
+            "Relations": [
+                "23e5ed9f-97ad-4a2d-b662-095b0a323ed3"
+            ],
+            "Id": "b1e5d113-4a84-4c8c-b8c3-cd84108403af"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Я обычно не лезу в разговоры своих гостей, опасно это все, сами понимаете, кто обычно приходит в такие места. Но когда я приносил очередную порцию пива, то краем уха услышал про то, что кто-то кому-то что-то должен, иначе не поздоровится"
+            },
+            "X": -94,
+            "Title": "",
+            "Y": 563,
+            "Sound": "",
+            "Relations": [
+                "dfa144a7-719d-4f84-9e4f-7aefd95dc92c"
+            ],
+            "Id": "23e5ed9f-97ad-4a2d-b662-095b0a323ed3",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "К сожалению, это не я решаю"
+            },
+            "X": -91,
+            "Title": "",
+            "Y": 1369,
+            "Relations": [
+                "d983ca03-ae95-4a80-812f-d6ea5801e39a"
+            ],
+            "Id": "6265ac40-3e8d-4832-aee9-ae1c86892c10"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Не могли бы вы рассказать, что происходило в пабе вчера вечером?"
+            },
+            "X": -93,
+            "Title": "",
+            "Y": 62,
+            "Relations": [
+                "a9d1b930-c949-464a-8bcd-e4bebaf3282c"
+            ],
+            "Id": "f8b82cc2-5185-4117-953b-15c87c463747"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Эх, ладно, удачи вам там в расследовании"
+            },
+            "X": -91,
+            "Title": "",
+            "Y": 1523,
+            "Sound": "",
+            "Id": "d983ca03-ae95-4a80-812f-d6ea5801e39a",
+            "Marker": ""
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 1,
+                            "Type": "quest",
+                            "Or": 0b,
+                            "Id": "story_case1_2",
+                            "Quest": 1,
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": -26,
+            "Title": "",
+            "Y": -244,
+            "Relations": [
+                "1121aceb-da04-4045-9389-6c7cc03ec031"
+            ],
+            "Id": "f8de0cb2-0555-4d55-be0c-c0d293f0618e"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Слушайте, вы же не будете закрывать заведение? Это мой единственный заработок, а семью как-то кормить надо"
+            },
+            "X": -89,
+            "Title": "",
+            "Y": 1217,
+            "Sound": "",
+            "Relations": [
+                "6265ac40-3e8d-4832-aee9-ae1c86892c10"
+            ],
+            "Id": "b75119cc-c5b0-4c4d-908c-8372a2f4b107",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Да ничего особенного. Мужики как всегда собирались компаниями и приходили выпить"
+            },
+            "X": -91,
+            "Title": "",
+            "Y": 208,
+            "Sound": "",
+            "Relations": [
+                "b1e5d113-4a84-4c8c-b8c3-cd84108403af"
+            ],
+            "Id": "a9d1b930-c949-464a-8bcd-e4bebaf3282c",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "А жертва была вчера в пабе?"
+            },
+            "X": -91,
+            "Title": "",
+            "Y": 731,
+            "Relations": [
+                "9058605a-6f06-47e6-b465-6787e0baf255"
+            ],
+            "Id": "dfa144a7-719d-4f84-9e4f-7aefd95dc92c"
+        },
+        {
+            "Read": 1b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Точно нет. Я этого паренька впервые в жизни вижу"
+            },
+            "X": -91,
+            "Title": "",
+            "Y": 902,
+            "Sound": "",
+            "Relations": [
+                "bd5bb12c-ea0c-49d4-b132-ddb840e741b3"
+            ],
+            "Id": "9058605a-6f06-47e6-b465-6787e0baf255",
+            "Marker": "pabowner"
+        }
+    ]
+}

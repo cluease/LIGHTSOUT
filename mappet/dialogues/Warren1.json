@@ -1,0 +1,84 @@
+{
+    "Closable": 1b,
+    "Main": "e0679a46-2d34-4602-85dd-100af72c9568",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "М-да, растерзало его знатно"
+            },
+            "X": 170,
+            "Title": "",
+            "Y": 50,
+            "Id": "ae73230f-fc4e-4778-bcd1-8c27da11f9ac"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Черт, досталось же этому парню"
+            },
+            "X": 36,
+            "Title": "",
+            "Y": -58,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/Warren.png"
+                        }
+                    }
+                },
+                "Animation": "slim_3d",
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "ae73230f-fc4e-4778-bcd1-8c27da11f9ac",
+                "6880b48c-7e8b-4394-80e6-642f4d984c89"
+            ],
+            "Id": "e0679a46-2d34-4602-85dd-100af72c9568",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ну не знаю, меня больше устраивали вызовы наподобие \"Пожалуйста заберите моего пьяного мужа и посадите его в обезьянник, да желательно на подольше\""
+            },
+            "X": -152,
+            "Title": "",
+            "Y": 212,
+            "Sound": "",
+            "Id": "f109866b-7938-4217-adca-52156f2bc443",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Наконец-то хоть что-то интересное и серьезное"
+            },
+            "X": -152,
+            "Title": "",
+            "Y": 50,
+            "Relations": [
+                "f109866b-7938-4217-adca-52156f2bc443"
+            ],
+            "Id": "6880b48c-7e8b-4394-80e6-642f4d984c89"
+        }
+    ]
+}

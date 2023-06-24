@@ -1,0 +1,51 @@
+{
+    "Decline": {
+        "Blocks": [
+        ]
+    },
+    "Accept": {
+        "Blocks": [
+        ]
+    },
+    "Complete": {
+        "Blocks": [
+            {
+                "Type": "command",
+                "Command": "mp npc state @e[mpid=Warren] firstcase2",
+                "Frequency": 1
+            }
+        ]
+    },
+    "Instant": 1b,
+    "Rewards": [
+    ],
+    "Visible": 1b,
+    "Objectives": [
+        {
+            "Type": "state",
+            "Message": "Допросите главаря паба",
+            "Expression": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 1,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "pabowner",
+                            "Marker": "pabowner",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Expression": "dialogue_read(\"...\", subject)",
+                "Mode": 1
+            },
+            "Result": 0b
+        }
+    ],
+    "Title": "[9[lУбийство у паба",
+    "Story": "[l[6Тип задания:[r
+- Сюжетное",
+    "Cancelable": 0b
+}

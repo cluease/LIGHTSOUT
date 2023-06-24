@@ -23,6 +23,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2023-06-24 10:27:06 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_sword": {
     "criteria": {
       "has_iron_ingot": "2023-05-21 17:52:01 +0300"
@@ -50,6 +56,12 @@
   "minecraft:recipes/building_blocks/yellow_stained_hardened_clay": {
     "criteria": {
       "has_hardened_clay": "2023-05-21 14:16:18 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_lapis_bonemeal": {
+    "criteria": {
+      "has_bonemeal": "2023-06-24 10:41:43 +0300"
     },
     "done": true
   },
@@ -83,15 +95,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2023-06-24 11:07:53 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/bread": {
     "criteria": {
       "has_wheat": "2023-05-21 17:53:06 +0300"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/trapdoor": {
+  "minecraft:recipes/misc/light_gray_dye_from_gray_bonemeal": {
     "criteria": {
-      "has_planks": "2023-05-21 13:45:03 +0300"
+      "has_bonemeal": "2023-06-24 10:41:43 +0300"
     },
     "done": true
   },
@@ -140,6 +158,12 @@
   "minecraft:recipes/misc/red_dye_from_poppy": {
     "criteria": {
       "has_red_flower": "2023-05-24 20:21:53 +0300"
+    },
+    "done": true
+  },
+  "cfm:privacy": {
+    "criteria": {
+      "get_blinds_or_curtains": "2023-06-24 01:34:25 +0300"
     },
     "done": true
   },
@@ -221,9 +245,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2023-06-24 10:51:44 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/blue_concrete_powder": {
     "criteria": {
       "has_gravel": "2023-06-06 20:20:56 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_red_bonemeal": {
+    "criteria": {
+      "has_bonemeal": "2023-06-24 10:41:43 +0300"
     },
     "done": true
   },
@@ -329,6 +365,12 @@
     },
     "done": true
   },
+  "cfm:bathroom": {
+    "criteria": {
+      "get_bathroom_furniture": "2023-06-24 01:36:21 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/dark_oak_wooden_slab": {
     "criteria": {
       "has_planks": "2023-05-21 14:07:19 +0300"
@@ -356,6 +398,12 @@
   "minecraft:recipes/building_blocks/chiseled_quartz_block": {
     "criteria": {
       "has_quartz_block": "2023-06-18 11:37:40 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_log": "2023-06-24 10:45:17 +0300"
     },
     "done": true
   },
@@ -410,6 +458,18 @@
   "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
     "criteria": {
       "has_gravel": "2023-06-06 20:20:56 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye": {
+    "criteria": {
+      "has_bonemeal": "2023-06-24 10:41:43 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2023-06-24 10:27:06 +0300"
     },
     "done": true
   },
@@ -500,6 +560,12 @@
   "cfm:gardening": {
     "criteria": {
       "get_outdoor_furniture": "2023-05-24 21:03:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2023-06-24 10:27:06 +0300"
     },
     "done": true
   },
@@ -722,6 +788,12 @@
   "minecraft:recipes/building_blocks/dark_oak_stairs": {
     "criteria": {
       "has_planks": "2023-05-21 14:07:19 +0300"
+    },
+    "done": true
+  },
+  "cfm:appliance_city": {
+    "criteria": {
+      "place_appliance": "2023-06-24 01:33:19 +0300"
     },
     "done": true
   },
