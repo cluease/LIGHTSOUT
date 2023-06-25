@@ -1,0 +1,410 @@
+{
+    "Closable": 0b,
+    "Main": "cdf40324-ff29-46e9-a1d0-2ead0df8b88c",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Обидно, но ладно. Придется справляться самому. Если меня посадят, это будет на твоей совести"
+            },
+            "X": 172,
+            "Title": "",
+            "Y": 2133,
+            "Sound": "",
+            "Relations": [
+                "e2f04c35-fbd0-4f5e-8270-becf4d841e46"
+            ],
+            "Id": "fa1e27fb-2669-468e-a661-837871123549",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Зачем позвал?"
+            },
+            "X": 26,
+            "Title": "",
+            "Y": 770,
+            "Relations": [
+                "b43751cb-5ee5-47ed-8f11-03bd78cb5e8d"
+            ],
+            "Id": "ce2af2bd-4190-411b-8cbd-eb3c18370d29"
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p {\"text\":\"+ \\u041f\\u0440\\u0430\\u0432\\u043e\\u043d\\u0430\\u0440\\u0443\\u0448\\u0435\\u043d\\u0438\\u0435\",\"color\":\"red\"}",
+            "X": -373,
+            "Title": "",
+            "Y": 1839,
+            "Id": "cfbf1322-6a5f-4306-96e8-2350ce4abdf2"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Да когда ты мне в последний раз «просто так» звонил?"
+            },
+            "X": 25,
+            "Title": "",
+            "Y": 1064,
+            "Relations": [
+                "8fb623c7-5c39-4d3f-ac2e-102e8fc0e64a"
+            ],
+            "Id": "ad39e9f5-289f-434a-85c2-70e737c129f1"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Target": {
+                            "Target": 4,
+                            "Selector": ""
+                        },
+                        "Type": "state",
+                        "State": "Правонарушение",
+                        "Mode": 0,
+                        "Value": 1.0d,
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": -374,
+            "CustomData": "",
+            "Title": "+Правонарушение",
+            "Y": 1983,
+            "Id": "787610db-9340-4f94-9504-a6e41117d001"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Не парься, подруга. Меня найдут только в том случае если в тебе умрет совесть и ты решишь меня сдать. Тем более пока я эту инфу не
+использую в своих корыстных целях, никто даже не узнает"
+            },
+            "X": 27,
+            "Title": "",
+            "Y": 596,
+            "Sound": "",
+            "Relations": [
+                "ce2af2bd-4190-411b-8cbd-eb3c18370d29",
+                "7aa60a5d-8761-46fd-9671-2d4cb180dd65"
+            ],
+            "Id": "75863bab-1d7f-441a-85b8-c86bdc8eebc5",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Том, ты с ума сошел, а что если тебя найдут?"
+            },
+            "X": 28,
+            "Title": "",
+            "Y": 445,
+            "Relations": [
+                "75863bab-1d7f-441a-85b8-c86bdc8eebc5"
+            ],
+            "Id": "90f0e96e-aff6-415d-8b33-0ff18ee92149"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Я на днях был в клубе, и немножко там набедокурил. Ну, в общем, в клуб пришли какие-то военные, черт знает что они там забыли, и поймали меня, посадили на ночь в карцер и забрали все мои вещи, в том числе флешку, на которой у меня хранятся очень важные и секретные данные, которые им лучше не видеть. Вряд ли они конечно смотрели, но лучше лишний раз перестраховаться. Так вот, я хочу чтобы ты проникла на базу военных и нашла эту флешку"
+            },
+            "X": 24,
+            "Title": "",
+            "Y": 1508,
+            "Sound": "",
+            "Relations": [
+                "49864918-e416-4c77-88f2-2d5732addb14"
+            ],
+            "Id": "ae4482ce-86b9-4783-86c8-bc498c016668",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Хэй, кто это тут? Неужели Норт Гроссман, вы пришли меня арестовывать?"
+            },
+            "X": 30,
+            "Title": "",
+            "Y": -45,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/Tom.png"
+                        }
+                    }
+                },
+                "Animation": "slim_3d",
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "5b11a7ad-741b-4063-b27a-c48852add8b1",
+                "7aa60a5d-8761-46fd-9671-2d4cb180dd65"
+            ],
+            "Id": "cdf40324-ff29-46e9-a1d0-2ead0df8b88c",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Выкладывай"
+            },
+            "X": 23,
+            "Title": "",
+            "Y": 1362,
+            "Relations": [
+                "ae4482ce-86b9-4783-86c8-bc498c016668"
+            ],
+            "Id": "6d5b71ca-cae4-48d7-a242-84e46571ce6c"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Да так. Нельзя что ли родную подругу просто так пригласить в
+гости?"
+            },
+            "X": 26,
+            "Title": "",
+            "Y": 923,
+            "Sound": "",
+            "Relations": [
+                "ad39e9f5-289f-434a-85c2-70e737c129f1",
+                "7aa60a5d-8761-46fd-9671-2d4cb180dd65"
+            ],
+            "Id": "b43751cb-5ee5-47ed-8f11-03bd78cb5e8d",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 13778731,
+                "Text": "*вздох*. Так уж и быть, я помогу"
+            },
+            "X": -167,
+            "Title": "",
+            "Y": 1968,
+            "Relations": [
+                "787610db-9340-4f94-9504-a6e41117d001",
+                "cfbf1322-6a5f-4306-96e8-2350ce4abdf2",
+                "6f299f3d-f2ca-4efa-ba1a-f49859a8baa0"
+            ],
+            "Id": "2319b190-959d-410a-a0ca-8227d2c41ba8"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Том, я коп, а не грабитель"
+            },
+            "X": 24,
+            "Title": "",
+            "Y": 1642,
+            "Relations": [
+                "afccef77-88a0-4caf-a837-0d6f2cd687ce"
+            ],
+            "Id": "49864918-e416-4c77-88f2-2d5732addb14"
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p {\"text\":\"+ \\u0417\\u0430\\u043a\\u043e\\u043d\",\"color\":\"blue\"}",
+            "X": 472,
+            "Title": "",
+            "Y": 1861,
+            "Id": "bf6c675a-db0e-43e1-8d84-a481fceeead7"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Смешно, Том. Тебя пока не за что арестовывать"
+            },
+            "X": 31,
+            "Title": "",
+            "Y": 118,
+            "Relations": [
+                "5a46f8aa-137f-47a9-83ea-b9dd12949c2b"
+            ],
+            "Id": "5b11a7ad-741b-4063-b27a-c48852add8b1"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Норт, ты лучшая! Держи подслушку, не забудь одеть ее, когда пойдешь на базу"
+            },
+            "X": -168,
+            "Title": "",
+            "Y": 2125,
+            "Sound": "",
+            "Relations": [
+                "e2f04c35-fbd0-4f5e-8270-becf4d841e46"
+            ],
+            "Id": "6f299f3d-f2ca-4efa-ba1a-f49859a8baa0",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "А вот и неправда, кое-кто сейчас взломал секретную базу агентов ФБР! Или… мне не стоило этого говорить?"
+            },
+            "X": 28,
+            "Title": "",
+            "Y": 300,
+            "Sound": "",
+            "Relations": [
+                "90f0e96e-aff6-415d-8b33-0ff18ee92149",
+                "7aa60a5d-8761-46fd-9671-2d4cb180dd65"
+            ],
+            "Id": "5a46f8aa-137f-47a9-83ea-b9dd12949c2b",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Вот именно! Я бы и сам справился, но у меня будут проблемки с тем, чтобы проникнуть туда. А ты можешь просто показать свой ордер и тебя впустят. Ну пожааалуйста, Норт, по старой дружбе"
+            },
+            "X": 24,
+            "Title": "",
+            "Y": 1775,
+            "Sound": "",
+            "Relations": [
+                "2319b190-959d-410a-a0ca-8227d2c41ba8",
+                "7c9c8d2a-178b-4ef3-89f0-3a6a4b42f32c"
+            ],
+            "Id": "afccef77-88a0-4caf-a837-0d6f2cd687ce",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Закрыть)"
+            },
+            "X": -13,
+            "Title": "",
+            "Y": 2279,
+            "Relations": [
+                "c3a203b8-bcbe-4137-8193-effce2722cb9",
+                "096e63dc-e0d3-409c-a3dd-5b916ef738f9"
+            ],
+            "Id": "e2f04c35-fbd0-4f5e-8270-becf4d841e46"
+        },
+        {
+            "Type": "command",
+            "Command": "scene play Tom2 @p",
+            "X": -17,
+            "Title": "",
+            "Y": 2447,
+            "Id": "c3a203b8-bcbe-4137-8193-effce2722cb9"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Target": {
+                            "Target": 4,
+                            "Selector": ""
+                        },
+                        "Type": "state",
+                        "State": "Закон",
+                        "Mode": 0,
+                        "Value": 1.0d,
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": 469,
+            "CustomData": "",
+            "Title": "+Закон",
+            "Y": 2014,
+            "Id": "52c800b2-e1be-48ce-9778-b6b47794abaa"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 2907380,
+                "Text": "Извини, я не хочу нарушать закон и идти на такие риски"
+            },
+            "X": 172,
+            "Title": "",
+            "Y": 1973,
+            "Relations": [
+                "bf6c675a-db0e-43e1-8d84-a481fceeead7",
+                "52c800b2-e1be-48ce-9778-b6b47794abaa",
+                "fa1e27fb-2669-468e-a661-837871123549"
+            ],
+            "Id": "7c9c8d2a-178b-4ef3-89f0-3a6a4b42f32c"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ладно, расколола. Есть у меня одна маленькая проблемка.. и так как ты коп, то могла бы мне в этом помочь"
+            },
+            "X": 25,
+            "Title": "",
+            "Y": 1212,
+            "Sound": "",
+            "Relations": [
+                "6d5b71ca-cae4-48d7-a242-84e46571ce6c",
+                "7aa60a5d-8761-46fd-9671-2d4cb180dd65"
+            ],
+            "Id": "8fb623c7-5c39-4d3f-ac2e-102e8fc0e64a",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Закрыть)"
+            },
+            "X": 689,
+            "Title": "",
+            "Y": 1427,
+            "Id": "7aa60a5d-8761-46fd-9671-2d4cb180dd65"
+        },
+        {
+            "Type": "command",
+            "Command": "/mp npc state @e[mpid=Tom] invisible",
+            "X": 242,
+            "Title": "",
+            "Y": 2351,
+            "Id": "096e63dc-e0d3-409c-a3dd-5b916ef738f9"
+        }
+    ]
+}
