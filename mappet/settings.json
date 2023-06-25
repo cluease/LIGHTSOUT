@@ -90,6 +90,12 @@
         },
         "player_item_interact": {
             "Blocks": [
+                {
+                    "Type": "event",
+                    "CustomData": "",
+                    "Frequency": 1,
+                    "Event": "phone"
+                }
             ]
         },
         "projectile_impact": {

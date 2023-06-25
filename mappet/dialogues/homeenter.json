@@ -1,0 +1,151 @@
+{
+    "Closable": 1b,
+    "Main": "e5c645f3-07fe-45df-b250-c95b5b647802",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Type": "command",
+            "Command": "mp npc despawn @e[mpid=cat]",
+            "X": 394,
+            "Title": "",
+            "Y": 215,
+            "Id": "9a014ba5-bd5b-4b27-b950-7696cdc09198"
+        },
+        {
+            "Type": "command",
+            "Command": "tp @p 374 95 -1280",
+            "X": 181,
+            "Title": "",
+            "Y": -271,
+            "Id": "e3ab897c-0247-43e8-b4ce-48a4723e5c74"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 2,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "cat",
+                            "Marker": "catenter",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 177,
+            "Title": "",
+            "Y": -616,
+            "Relations": [
+                "b87d73b1-371d-4b66-906c-99468e84b7a4"
+            ],
+            "Id": "ffbe820a-7080-4b7d-9897-ad008fe74b11"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Войти в квартиру)"
+            },
+            "X": 189,
+            "Title": "без кота",
+            "Y": 185,
+            "Relations": [
+                "be36755b-01dd-4613-8c3f-56d18cf9b38f",
+                "9a014ba5-bd5b-4b27-b950-7696cdc09198"
+            ],
+            "Id": "ae90de9e-bd4d-4acf-b944-16102075d875"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Вы подошли к двери"
+            },
+            "X": -24,
+            "Title": "",
+            "Y": -80,
+            "Sound": "",
+            "Relations": [
+                "ffbe820a-7080-4b7d-9897-ad008fe74b11",
+                "42320c0d-3fe9-4629-a5af-b4156968a2d3"
+            ],
+            "Id": "e5c645f3-07fe-45df-b250-c95b5b647802",
+            "Marker": ""
+        },
+        {
+            "Type": "command",
+            "Command": "mp npc despawn @e[mpid=cat]",
+            "X": 404,
+            "Title": "",
+            "Y": -339,
+            "Id": "e027529e-5326-41b9-8ba5-d88eac31b3a5"
+        },
+        {
+            "Type": "command",
+            "Command": "tp @p 374 95 -1280",
+            "X": 188,
+            "Title": "",
+            "Y": 347,
+            "Id": "be36755b-01dd-4613-8c3f-56d18cf9b38f"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Войти в квартиру)"
+            },
+            "X": 179,
+            "Title": "С котом",
+            "Y": -434,
+            "Relations": [
+                "e3ab897c-0247-43e8-b4ce-48a4723e5c74",
+                "e027529e-5326-41b9-8ba5-d88eac31b3a5",
+                "f45046ab-8bbb-4bcc-8dbe-e23657c82692"
+            ],
+            "Id": "b87d73b1-371d-4b66-906c-99468e84b7a4"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 2,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "cat",
+                            "Marker": "catleave",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 187,
+            "Title": "",
+            "Y": 32,
+            "Relations": [
+                "ae90de9e-bd4d-4acf-b944-16102075d875"
+            ],
+            "Id": "42320c0d-3fe9-4629-a5af-b4156968a2d3"
+        },
+        {
+            "Type": "command",
+            "Command": "/mp npc summon cat home 377.127 95 -1286.959",
+            "X": 402,
+            "Title": "",
+            "Y": -494,
+            "Id": "f45046ab-8bbb-4bcc-8dbe-e23657c82692"
+        }
+    ]
+}

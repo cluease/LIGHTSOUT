@@ -1,0 +1,1622 @@
+{
+    "States": {
+        "default": {
+            "RespawnSaveUUID": 0b,
+            "TriggerRespawn": {
+                "Blocks": [
+                ]
+            },
+            "TriggerTick": {
+                "Blocks": [
+                ]
+            },
+            "StateName": "",
+            "TriggerInitialize": {
+                "Blocks": [
+                ]
+            },
+            "Killable": 1b,
+            "CanFallDamage": 1b,
+            "States": {
+            },
+            "PathDistance": 32.0f,
+            "Follow": "@p",
+            "Xp": 0,
+            "Morph": {
+                "Pose": "standing",
+                "Animation": {
+                    "Animates": 1b
+                },
+                "Skin": "b.a:mobs/ocelot/skins/bingus.png",
+                "Settings": {
+                    "Hands": 1b
+                },
+                "Name": "blockbuster.mobs/ocelot"
+            },
+            "Damage": 2.0f,
+            "TriggerInteract": {
+                "Blocks": [
+                    {
+                        "Dialogue": "cat",
+                        "Type": "dialogue",
+                        "CustomData": "",
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "CanSwim": 1b,
+            "Flee": 4.0f,
+            "LookAtPlayer": 1b,
+            "Respawn": 0b,
+            "Immovable": 0b,
+            "MaxHealth": 20.0f,
+            "TriggerDamaged": {
+                "Blocks": [
+                ]
+            },
+            "PatrolTriggers": [
+            ],
+            "CanRanged": 0b,
+            "Drops": [
+            ],
+            "Fallback": 15.0f,
+            "CanPickUpLoot": 0b,
+            "Unique": 0b,
+            "Id": "",
+            "PatrolCirculate": 0b,
+            "DamageDelay": 10,
+            "CanGetBurned": 1b,
+            "Wander": 0b,
+            "RespawnOnCoordinates": 0b,
+            "LookAround": 0b,
+            "RespawnPosY": 0.0d,
+            "RespawnDelay": 0,
+            "RespawnPosX": 0.0d,
+            "SightDistance": 25.0f,
+            "RespawnPosZ": 0.0d,
+            "Invincible": 1b,
+            "TriggerDied": {
+                "Blocks": [
+                ]
+            },
+            "Faction": "interactive",
+            "Speed": 3.0f,
+            "SightRadius": 120.0f,
+            "Health": 20.0f,
+            "Post": [
+            ],
+            "RegenDelay": 80,
+            "TriggerTarget": {
+                "Blocks": [
+                ]
+            },
+            "RegenFrequency": 20,
+            "HasPost": 0b,
+            "Patrol": [
+            ],
+            "PostRadius": 1.0f
+        },
+        "leave": {
+            "RespawnSaveUUID": 0b,
+            "TriggerRespawn": {
+                "Blocks": [
+                ]
+            },
+            "TriggerTick": {
+                "Blocks": [
+                ]
+            },
+            "StateName": "",
+            "TriggerInitialize": {
+                "Blocks": [
+                ]
+            },
+            "Killable": 1b,
+            "CanFallDamage": 1b,
+            "States": {
+            },
+            "PathDistance": 32.0f,
+            "Follow": "",
+            "Xp": 0,
+            "Morph": {
+                "Pose": "standing",
+                "Animation": {
+                    "Animates": 1b
+                },
+                "Skin": "b.a:mobs/ocelot/skins/bingus.png",
+                "Settings": {
+                    "Hands": 1b
+                },
+                "Name": "blockbuster.mobs/ocelot"
+            },
+            "Damage": 2.0f,
+            "TriggerInteract": {
+                "Blocks": [
+                    {
+                        "Dialogue": "cat",
+                        "Type": "dialogue",
+                        "CustomData": "",
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "CanSwim": 1b,
+            "Flee": 4.0f,
+            "LookAtPlayer": 1b,
+            "Respawn": 0b,
+            "Immovable": 0b,
+            "MaxHealth": 20.0f,
+            "TriggerDamaged": {
+                "Blocks": [
+                ]
+            },
+            "PatrolTriggers": [
+            ],
+            "CanRanged": 0b,
+            "Drops": [
+            ],
+            "Fallback": 15.0f,
+            "CanPickUpLoot": 0b,
+            "Unique": 0b,
+            "Id": "",
+            "PatrolCirculate": 0b,
+            "DamageDelay": 10,
+            "CanGetBurned": 1b,
+            "Wander": 0b,
+            "RespawnOnCoordinates": 0b,
+            "LookAround": 0b,
+            "RespawnPosY": 0.0d,
+            "RespawnDelay": 0,
+            "RespawnPosX": 0.0d,
+            "SightDistance": 25.0f,
+            "RespawnPosZ": 0.0d,
+            "Invincible": 0b,
+            "TriggerDied": {
+                "Blocks": [
+                ]
+            },
+            "Faction": "interactive",
+            "Speed": 3.0f,
+            "SightRadius": 120.0f,
+            "Health": 20.0f,
+            "Post": [
+            ],
+            "RegenDelay": 80,
+            "TriggerTarget": {
+                "Blocks": [
+                ]
+            },
+            "RegenFrequency": 20,
+            "HasPost": 0b,
+            "Patrol": [
+            ],
+            "PostRadius": 1.0f
+        },
+        "home": {
+            "RespawnSaveUUID": 0b,
+            "TriggerRespawn": {
+                "Blocks": [
+                ]
+            },
+            "TriggerTick": {
+                "Blocks": [
+                ]
+            },
+            "StateName": "",
+            "TriggerInitialize": {
+                "Blocks": [
+                ]
+            },
+            "Killable": 1b,
+            "CanFallDamage": 1b,
+            "States": {
+            },
+            "PathDistance": 32.0f,
+            "Follow": "",
+            "Xp": 0,
+            "Morph": {
+                "List": [
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Pose": "sitting",
+                            "Animation": {
+                                "Animates": 1b
+                            },
+                            "Skin": "b.a:mobs/ocelot/skins/bingus.png",
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.mobs/ocelot"
+                        },
+                        "Duration": 285.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 2.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Pose": "sitting",
+                            "Animation": {
+                                "Animates": 1b
+                            },
+                            "Skin": "b.a:mobs/ocelot/skins/bingus.png",
+                            "CustomPose": {
+                                "Size": [
+                                    0.6f,
+                                    0.7f,
+                                    0.6f
+                                ],
+                                "Poses": {
+                                    "leg_right": {
+                                        "P": [
+                                            -1.1f,
+                                            -4.0f,
+                                            1.0f
+                                        ],
+                                        "R": [
+                                            -33.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head": {
+                                        "P": [
+                                            0.0f,
+                                            7.75f,
+                                            -1.875f
+                                        ],
+                                        "R": [
+                                            -92.0f,
+                                            13.0f,
+                                            4.0f
+                                        ]
+                                    },
+                                    "mouth": {
+                                        "P": [
+                                            0.0f,
+                                            0.0f,
+                                            4.0f
+                                        ]
+                                    },
+                                    "arm_right": {
+                                        "P": [
+                                            -1.2f,
+                                            4.625f,
+                                            2.0f
+                                        ],
+                                        "R": [
+                                            -181.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "tail_1": {
+                                        "P": [
+                                            0.0f,
+                                            -7.0f,
+                                            -1.625f
+                                        ],
+                                        "R": [
+                                            20.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "tail_2": {
+                                        "P": [
+                                            0.0f,
+                                            -8.0f,
+                                            0.0f
+                                        ],
+                                        "R": [
+                                            60.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "body": {
+                                        "P": [
+                                            0.15625f,
+                                            3.5625f,
+                                            0.0f
+                                        ],
+                                        "R": [
+                                            89.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "leg_left": {
+                                        "P": [
+                                            1.1f,
+                                            -4.0f,
+                                            1.0f
+                                        ],
+                                        "R": [
+                                            -33.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head_anchor": {
+                                        "C": 16777215
+                                    },
+                                    "right_ear": {
+                                        "P": [
+                                            -1.5f,
+                                            4.0f,
+                                            1.0f
+                                        ]
+                                    },
+                                    "arm_left": {
+                                        "P": [
+                                            1.2f,
+                                            4.625f,
+                                            2.0f
+                                        ],
+                                        "R": [
+                                            -180.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_ear": {
+                                        "P": [
+                                            1.5f,
+                                            4.0f,
+                                            1.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.mobs/ocelot"
+                        },
+                        "Duration": 260.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Pose": "sitting",
+                            "Animation": {
+                                "Animates": 1b
+                            },
+                            "Skin": "b.a:mobs/ocelot/skins/bingus.png",
+                            "CustomPose": {
+                                "Size": [
+                                    0.6f,
+                                    0.7f,
+                                    0.6f
+                                ],
+                                "Poses": {
+                                    "leg_right": {
+                                        "P": [
+                                            -1.1f,
+                                            -4.0f,
+                                            1.0f
+                                        ],
+                                        "R": [
+                                            -120.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head": {
+                                        "P": [
+                                            0.0f,
+                                            7.75f,
+                                            -1.875f
+                                        ],
+                                        "R": [
+                                            -35.0f,
+                                            16.0f,
+                                            -22.0f
+                                        ]
+                                    },
+                                    "mouth": {
+                                        "P": [
+                                            0.0f,
+                                            0.0f,
+                                            4.0f
+                                        ]
+                                    },
+                                    "arm_right": {
+                                        "P": [
+                                            -1.2f,
+                                            4.625f,
+                                            2.0f
+                                        ],
+                                        "R": [
+                                            -45.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "tail_1": {
+                                        "P": [
+                                            0.0f,
+                                            -7.0f,
+                                            -1.625f
+                                        ],
+                                        "R": [
+                                            57.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "tail_2": {
+                                        "P": [
+                                            0.0f,
+                                            -8.0f,
+                                            0.0f
+                                        ],
+                                        "R": [
+                                            40.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "body": {
+                                        "P": [
+                                            0.0f,
+                                            7.0f,
+                                            0.0f
+                                        ],
+                                        "R": [
+                                            30.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "leg_left": {
+                                        "P": [
+                                            1.1f,
+                                            -4.0f,
+                                            1.0f
+                                        ],
+                                        "R": [
+                                            -120.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head_anchor": {
+                                        "C": 16777215
+                                    },
+                                    "right_ear": {
+                                        "P": [
+                                            -1.5f,
+                                            4.0f,
+                                            1.0f
+                                        ]
+                                    },
+                                    "arm_left": {
+                                        "P": [
+                                            1.2f,
+                                            4.625f,
+                                            2.0f
+                                        ],
+                                        "R": [
+                                            -170.0f,
+                                            7.0f,
+                                            -22.0f
+                                        ]
+                                    },
+                                    "left_ear": {
+                                        "P": [
+                                            1.5f,
+                                            4.0f,
+                                            1.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.mobs/ocelot"
+                        },
+                        "Duration": 16.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Pose": "sitting",
+                            "Animation": {
+                                "Animates": 1b
+                            },
+                            "Skin": "b.a:mobs/ocelot/skins/bingus.png",
+                            "CustomPose": {
+                                "Size": [
+                                    0.6f,
+                                    0.7f,
+                                    0.6f
+                                ],
+                                "Poses": {
+                                    "leg_right": {
+                                        "P": [
+                                            -1.1f,
+                                            -4.0f,
+                                            1.0f
+                                        ],
+                                        "R": [
+                                            -120.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head": {
+                                        "P": [
+                                            0.0f,
+                                            7.75f,
+                                            -1.875f
+                                        ],
+                                        "R": [
+                                            -22.0f,
+                                            16.0f,
+                                            -27.0f
+                                        ]
+                                    },
+                                    "mouth": {
+                                        "P": [
+                                            0.0f,
+                                            0.0f,
+                                            4.0f
+                                        ]
+                                    },
+                                    "arm_right": {
+                                        "P": [
+                                            -1.2f,
+                                            4.625f,
+                                            2.0f
+                                        ],
+                                        "R": [
+                                            -45.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "tail_1": {
+                                        "P": [
+                                            0.0f,
+                                            -7.0f,
+                                            -1.625f
+                                        ],
+                                        "R": [
+                                            57.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "tail_2": {
+                                        "P": [
+                                            0.0f,
+                                            -8.0f,
+                                            0.0f
+                                        ],
+                                        "R": [
+                                            40.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "body": {
+                                        "P": [
+                                            0.0f,
+                                            7.0f,
+                                            0.0f
+                                        ],
+                                        "R": [
+                                            30.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "leg_left": {
+                                        "P": [
+                                            1.1f,
+                                            -4.0f,
+                                            1.0f
+                                        ],
+                                        "R": [
+                                            -120.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head_anchor": {
+                                        "C": 16777215
+                                    },
+                                    "right_ear": {
+                                        "P": [
+                                            -1.5f,
+                                            4.0f,
+                                            1.0f
+                                        ]
+                                    },
+                                    "arm_left": {
+                                        "P": [
+                                            1.2f,
+                                            4.625f,
+                                            2.0f
+                                        ],
+                                        "R": [
+                                            -170.0f,
+                                            7.0f,
+                                            -22.0f
+                                        ]
+                                    },
+                                    "left_ear": {
+                                        "P": [
+                                            1.5f,
+                                            4.0f,
+                                            1.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.mobs/ocelot"
+                        },
+                        "Duration": 9.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Pose": "sitting",
+                            "Animation": {
+                                "Animates": 1b
+                            },
+                            "Skin": "b.a:mobs/ocelot/skins/bingus.png",
+                            "CustomPose": {
+                                "Size": [
+                                    0.6f,
+                                    0.7f,
+                                    0.6f
+                                ],
+                                "Poses": {
+                                    "leg_right": {
+                                        "P": [
+                                            -1.1f,
+                                            -4.0f,
+                                            1.0f
+                                        ],
+                                        "R": [
+                                            -120.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head": {
+                                        "P": [
+                                            0.0f,
+                                            7.75f,
+                                            -1.875f
+                                        ],
+                                        "R": [
+                                            -35.0f,
+                                            16.0f,
+                                            -22.0f
+                                        ]
+                                    },
+                                    "mouth": {
+                                        "P": [
+                                            0.0f,
+                                            0.0f,
+                                            4.0f
+                                        ]
+                                    },
+                                    "arm_right": {
+                                        "P": [
+                                            -1.2f,
+                                            4.625f,
+                                            2.0f
+                                        ],
+                                        "R": [
+                                            -45.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "tail_1": {
+                                        "P": [
+                                            0.0f,
+                                            -7.0f,
+                                            -1.625f
+                                        ],
+                                        "R": [
+                                            57.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "tail_2": {
+                                        "P": [
+                                            0.0f,
+                                            -8.0f,
+                                            0.0f
+                                        ],
+                                        "R": [
+                                            40.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "body": {
+                                        "P": [
+                                            0.0f,
+                                            7.0f,
+                                            0.0f
+                                        ],
+                                        "R": [
+                                            30.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "leg_left": {
+                                        "P": [
+                                            1.1f,
+                                            -4.0f,
+                                            1.0f
+                                        ],
+                                        "R": [
+                                            -120.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head_anchor": {
+                                        "C": 16777215
+                                    },
+                                    "right_ear": {
+                                        "P": [
+                                            -1.5f,
+                                            4.0f,
+                                            1.0f
+                                        ]
+                                    },
+                                    "arm_left": {
+                                        "P": [
+                                            1.2f,
+                                            4.625f,
+                                            2.0f
+                                        ],
+                                        "R": [
+                                            -170.0f,
+                                            7.0f,
+                                            -22.0f
+                                        ]
+                                    },
+                                    "left_ear": {
+                                        "P": [
+                                            1.5f,
+                                            4.0f,
+                                            1.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.mobs/ocelot"
+                        },
+                        "Duration": 16.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Pose": "sitting",
+                            "Animation": {
+                                "Animates": 1b
+                            },
+                            "Skin": "b.a:mobs/ocelot/skins/bingus.png",
+                            "CustomPose": {
+                                "Size": [
+                                    0.6f,
+                                    0.7f,
+                                    0.6f
+                                ],
+                                "Poses": {
+                                    "leg_right": {
+                                        "P": [
+                                            -1.1f,
+                                            -4.0f,
+                                            1.0f
+                                        ],
+                                        "R": [
+                                            -120.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head": {
+                                        "P": [
+                                            0.0f,
+                                            7.75f,
+                                            -1.875f
+                                        ],
+                                        "R": [
+                                            -32.0f,
+                                            -10.0f,
+                                            -8.0f
+                                        ]
+                                    },
+                                    "mouth": {
+                                        "P": [
+                                            0.0f,
+                                            0.0f,
+                                            4.0f
+                                        ]
+                                    },
+                                    "arm_right": {
+                                        "P": [
+                                            -1.2f,
+                                            4.625f,
+                                            2.0f
+                                        ],
+                                        "R": [
+                                            -45.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "tail_1": {
+                                        "P": [
+                                            0.0f,
+                                            -7.0f,
+                                            -1.625f
+                                        ],
+                                        "R": [
+                                            57.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "tail_2": {
+                                        "P": [
+                                            0.0f,
+                                            -8.0f,
+                                            0.0f
+                                        ],
+                                        "R": [
+                                            40.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "body": {
+                                        "P": [
+                                            0.0f,
+                                            7.0f,
+                                            0.0f
+                                        ],
+                                        "R": [
+                                            30.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "leg_left": {
+                                        "P": [
+                                            1.1f,
+                                            -4.0f,
+                                            1.0f
+                                        ],
+                                        "R": [
+                                            -120.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head_anchor": {
+                                        "C": 16777215
+                                    },
+                                    "right_ear": {
+                                        "P": [
+                                            -1.5f,
+                                            4.0f,
+                                            1.0f
+                                        ]
+                                    },
+                                    "arm_left": {
+                                        "P": [
+                                            1.2f,
+                                            4.625f,
+                                            2.0f
+                                        ],
+                                        "R": [
+                                            -45.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_ear": {
+                                        "P": [
+                                            1.5f,
+                                            4.0f,
+                                            1.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.mobs/ocelot"
+                        },
+                        "Duration": 61.25f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Pose": "sitting",
+                            "Animation": {
+                                "Animates": 1b
+                            },
+                            "Skin": "b.a:mobs/ocelot/skins/bingus.png",
+                            "CustomPose": {
+                                "Size": [
+                                    0.6f,
+                                    0.7f,
+                                    0.6f
+                                ],
+                                "Poses": {
+                                    "leg_right": {
+                                        "P": [
+                                            -1.1f,
+                                            -4.0f,
+                                            1.0f
+                                        ],
+                                        "R": [
+                                            -120.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head": {
+                                        "P": [
+                                            0.0f,
+                                            7.75f,
+                                            -1.875f
+                                        ],
+                                        "R": [
+                                            -18.0f,
+                                            27.0f,
+                                            -32.0f
+                                        ]
+                                    },
+                                    "mouth": {
+                                        "P": [
+                                            0.0f,
+                                            0.0f,
+                                            4.0f
+                                        ]
+                                    },
+                                    "arm_right": {
+                                        "P": [
+                                            -1.2f,
+                                            4.625f,
+                                            2.0f
+                                        ],
+                                        "R": [
+                                            -45.0f,
+                                            -27.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "tail_1": {
+                                        "P": [
+                                            0.0f,
+                                            -7.0f,
+                                            -1.625f
+                                        ],
+                                        "R": [
+                                            57.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "tail_2": {
+                                        "P": [
+                                            0.0f,
+                                            -8.0f,
+                                            0.0f
+                                        ],
+                                        "R": [
+                                            40.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "body": {
+                                        "P": [
+                                            0.0f,
+                                            7.0f,
+                                            0.0f
+                                        ],
+                                        "R": [
+                                            30.0f,
+                                            -3.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "leg_left": {
+                                        "P": [
+                                            1.1f,
+                                            -4.0f,
+                                            1.0f
+                                        ],
+                                        "R": [
+                                            -120.0f,
+                                            47.0f,
+                                            -22.0f
+                                        ]
+                                    },
+                                    "head_anchor": {
+                                        "C": 16777215
+                                    },
+                                    "right_ear": {
+                                        "P": [
+                                            -1.5f,
+                                            4.0f,
+                                            1.0f
+                                        ]
+                                    },
+                                    "arm_left": {
+                                        "P": [
+                                            1.2f,
+                                            4.625f,
+                                            2.0f
+                                        ],
+                                        "R": [
+                                            -45.0f,
+                                            94.0f,
+                                            91.0f
+                                        ]
+                                    },
+                                    "left_ear": {
+                                        "P": [
+                                            1.5f,
+                                            4.0f,
+                                            1.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.mobs/ocelot"
+                        },
+                        "Duration": 9.25f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Pose": "sitting",
+                            "Animation": {
+                                "Animates": 1b
+                            },
+                            "Skin": "b.a:mobs/ocelot/skins/bingus.png",
+                            "CustomPose": {
+                                "Size": [
+                                    0.6f,
+                                    0.7f,
+                                    0.6f
+                                ],
+                                "Poses": {
+                                    "leg_right": {
+                                        "P": [
+                                            -1.1f,
+                                            -4.0f,
+                                            1.0f
+                                        ],
+                                        "R": [
+                                            -120.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head": {
+                                        "P": [
+                                            0.0f,
+                                            7.75f,
+                                            -1.875f
+                                        ],
+                                        "R": [
+                                            -1.0f,
+                                            27.0f,
+                                            -32.0f
+                                        ]
+                                    },
+                                    "mouth": {
+                                        "P": [
+                                            0.0f,
+                                            0.0f,
+                                            4.0f
+                                        ]
+                                    },
+                                    "arm_right": {
+                                        "P": [
+                                            -1.2f,
+                                            4.625f,
+                                            2.0f
+                                        ],
+                                        "R": [
+                                            -45.0f,
+                                            -27.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "tail_1": {
+                                        "P": [
+                                            0.0f,
+                                            -7.0f,
+                                            -1.625f
+                                        ],
+                                        "R": [
+                                            57.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "tail_2": {
+                                        "P": [
+                                            0.0f,
+                                            -8.0f,
+                                            0.0f
+                                        ],
+                                        "R": [
+                                            40.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "body": {
+                                        "P": [
+                                            0.0f,
+                                            7.0f,
+                                            0.0f
+                                        ],
+                                        "R": [
+                                            30.0f,
+                                            -3.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "leg_left": {
+                                        "P": [
+                                            1.1f,
+                                            -4.0f,
+                                            1.0f
+                                        ],
+                                        "R": [
+                                            -120.0f,
+                                            47.0f,
+                                            -22.0f
+                                        ]
+                                    },
+                                    "head_anchor": {
+                                        "C": 16777215
+                                    },
+                                    "right_ear": {
+                                        "P": [
+                                            -1.5f,
+                                            4.0f,
+                                            1.0f
+                                        ]
+                                    },
+                                    "arm_left": {
+                                        "P": [
+                                            1.2f,
+                                            4.625f,
+                                            2.0f
+                                        ],
+                                        "R": [
+                                            -45.0f,
+                                            94.0f,
+                                            91.0f
+                                        ]
+                                    },
+                                    "left_ear": {
+                                        "P": [
+                                            1.5f,
+                                            4.0f,
+                                            1.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.mobs/ocelot"
+                        },
+                        "Duration": 8.25f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Pose": "sitting",
+                            "Animation": {
+                                "Animates": 1b
+                            },
+                            "Skin": "b.a:mobs/ocelot/skins/bingus.png",
+                            "CustomPose": {
+                                "Size": [
+                                    0.6f,
+                                    0.7f,
+                                    0.6f
+                                ],
+                                "Poses": {
+                                    "leg_right": {
+                                        "P": [
+                                            -1.1f,
+                                            -4.0f,
+                                            1.0f
+                                        ],
+                                        "R": [
+                                            -120.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head": {
+                                        "P": [
+                                            0.0f,
+                                            7.75f,
+                                            -1.875f
+                                        ],
+                                        "R": [
+                                            -18.0f,
+                                            27.0f,
+                                            -32.0f
+                                        ]
+                                    },
+                                    "mouth": {
+                                        "P": [
+                                            0.0f,
+                                            0.0f,
+                                            4.0f
+                                        ]
+                                    },
+                                    "arm_right": {
+                                        "P": [
+                                            -1.2f,
+                                            4.625f,
+                                            2.0f
+                                        ],
+                                        "R": [
+                                            -45.0f,
+                                            -27.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "tail_1": {
+                                        "P": [
+                                            0.0f,
+                                            -7.0f,
+                                            -1.625f
+                                        ],
+                                        "R": [
+                                            57.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "tail_2": {
+                                        "P": [
+                                            0.0f,
+                                            -8.0f,
+                                            0.0f
+                                        ],
+                                        "R": [
+                                            40.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "body": {
+                                        "P": [
+                                            0.0f,
+                                            7.0f,
+                                            0.0f
+                                        ],
+                                        "R": [
+                                            30.0f,
+                                            -3.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "leg_left": {
+                                        "P": [
+                                            1.1f,
+                                            -4.0f,
+                                            1.0f
+                                        ],
+                                        "R": [
+                                            -120.0f,
+                                            47.0f,
+                                            -22.0f
+                                        ]
+                                    },
+                                    "head_anchor": {
+                                        "C": 16777215
+                                    },
+                                    "right_ear": {
+                                        "P": [
+                                            -1.5f,
+                                            4.0f,
+                                            1.0f
+                                        ]
+                                    },
+                                    "arm_left": {
+                                        "P": [
+                                            1.2f,
+                                            4.625f,
+                                            2.0f
+                                        ],
+                                        "R": [
+                                            -45.0f,
+                                            94.0f,
+                                            91.0f
+                                        ]
+                                    },
+                                    "left_ear": {
+                                        "P": [
+                                            1.5f,
+                                            4.0f,
+                                            1.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.mobs/ocelot"
+                        },
+                        "Duration": 5.75f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Pose": "sitting",
+                            "Animation": {
+                                "Animates": 1b
+                            },
+                            "Skin": "b.a:mobs/ocelot/skins/bingus.png",
+                            "CustomPose": {
+                                "Size": [
+                                    0.6f,
+                                    0.7f,
+                                    0.6f
+                                ],
+                                "Poses": {
+                                    "leg_right": {
+                                        "P": [
+                                            -1.1f,
+                                            -4.0f,
+                                            1.0f
+                                        ],
+                                        "R": [
+                                            -120.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head": {
+                                        "P": [
+                                            0.0f,
+                                            7.75f,
+                                            -1.875f
+                                        ],
+                                        "R": [
+                                            -1.0f,
+                                            27.0f,
+                                            -32.0f
+                                        ]
+                                    },
+                                    "mouth": {
+                                        "P": [
+                                            0.0f,
+                                            0.0f,
+                                            4.0f
+                                        ]
+                                    },
+                                    "arm_right": {
+                                        "P": [
+                                            -1.2f,
+                                            4.625f,
+                                            2.0f
+                                        ],
+                                        "R": [
+                                            -45.0f,
+                                            -27.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "tail_1": {
+                                        "P": [
+                                            0.0f,
+                                            -7.0f,
+                                            -1.625f
+                                        ],
+                                        "R": [
+                                            57.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "tail_2": {
+                                        "P": [
+                                            0.0f,
+                                            -8.0f,
+                                            0.0f
+                                        ],
+                                        "R": [
+                                            40.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "body": {
+                                        "P": [
+                                            0.0f,
+                                            7.0f,
+                                            0.0f
+                                        ],
+                                        "R": [
+                                            30.0f,
+                                            -3.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "leg_left": {
+                                        "P": [
+                                            1.1f,
+                                            -4.0f,
+                                            1.0f
+                                        ],
+                                        "R": [
+                                            -120.0f,
+                                            47.0f,
+                                            -22.0f
+                                        ]
+                                    },
+                                    "head_anchor": {
+                                        "C": 16777215
+                                    },
+                                    "right_ear": {
+                                        "P": [
+                                            -1.5f,
+                                            4.0f,
+                                            1.0f
+                                        ]
+                                    },
+                                    "arm_left": {
+                                        "P": [
+                                            1.2f,
+                                            4.625f,
+                                            2.0f
+                                        ],
+                                        "R": [
+                                            -45.0f,
+                                            94.0f,
+                                            91.0f
+                                        ]
+                                    },
+                                    "left_ear": {
+                                        "P": [
+                                            1.5f,
+                                            4.0f,
+                                            1.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.mobs/ocelot"
+                        },
+                        "Duration": 5.0f,
+                        "EndPoint": 0b
+                    }
+                ],
+                "Name": "sequencer",
+                "Offset": [
+                    0.0f,
+                    0.0f,
+                    0.0f
+                ]
+            },
+            "Damage": 2.0f,
+            "TriggerInteract": {
+                "Blocks": [
+                    {
+                        "Dialogue": "cathome",
+                        "Type": "dialogue",
+                        "CustomData": "",
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "CanSwim": 1b,
+            "Flee": 4.0f,
+            "LookAtPlayer": 0b,
+            "Respawn": 0b,
+            "Immovable": 1b,
+            "MaxHealth": 20.0f,
+            "TriggerDamaged": {
+                "Blocks": [
+                ]
+            },
+            "PatrolTriggers": [
+            ],
+            "CanRanged": 0b,
+            "Drops": [
+            ],
+            "Fallback": 15.0f,
+            "CanPickUpLoot": 0b,
+            "Unique": 0b,
+            "Id": "",
+            "PatrolCirculate": 0b,
+            "DamageDelay": 10,
+            "CanGetBurned": 1b,
+            "Wander": 0b,
+            "RespawnOnCoordinates": 0b,
+            "LookAround": 1b,
+            "RespawnPosY": 0.0d,
+            "RespawnDelay": 0,
+            "RespawnPosX": 0.0d,
+            "SightDistance": 25.0f,
+            "RespawnPosZ": 0.0d,
+            "Invincible": 0b,
+            "TriggerDied": {
+                "Blocks": [
+                ]
+            },
+            "Faction": "interactive",
+            "Speed": 3.0f,
+            "SightRadius": 120.0f,
+            "Health": 20.0f,
+            "Post": [
+            ],
+            "RegenDelay": 80,
+            "TriggerTarget": {
+                "Blocks": [
+                ]
+            },
+            "RegenFrequency": 20,
+            "HasPost": 0b,
+            "Patrol": [
+            ],
+            "PostRadius": 1.0f
+        }
+    }
+}

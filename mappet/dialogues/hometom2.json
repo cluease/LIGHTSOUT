@@ -1,6 +1,6 @@
 {
     "Closable": 1b,
-    "Main": "f8dc111f-84a9-47a6-bdec-4207f4d686b2",
+    "Main": "93515ccf-8423-4268-aca8-8901efa22195",
     "OnClose": {
         "Blocks": [
         ]
@@ -78,7 +78,7 @@
             "Id": "f5fb816d-a481-4b5d-adfe-9b180d46450c"
         },
         {
-            "Read": 0b,
+            "Read": 1b,
             "Type": "reaction",
             "Message": {
                 "Color": 16777215,
@@ -92,7 +92,51 @@
                 "b4320476-5cde-4f44-b94d-70d504145566"
             ],
             "Id": "b77d67c8-27c5-4d51-82aa-a07561b7a8cf",
-            "Marker": ""
+            "Marker": "tom3"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 1,
+                            "Type": "dialogue",
+                            "Or": 1b,
+                            "Id": "hometom",
+                            "Marker": "tom1",
+                            "Selector": ""
+                        },
+                        {
+                            "Not": 0b,
+                            "Target": 1,
+                            "Type": "dialogue",
+                            "Or": 1b,
+                            "Id": "hometom",
+                            "Marker": "tom2",
+                            "Selector": ""
+                        },
+                        {
+                            "Not": 1b,
+                            "Target": 1,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "hometom2",
+                            "Marker": "tom3",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 12,
+            "Title": "",
+            "Y": -190,
+            "Relations": [
+                "f8dc111f-84a9-47a6-bdec-4207f4d686b2"
+            ],
+            "Id": "93515ccf-8423-4268-aca8-8901efa22195"
         },
         {
             "Type": "command",

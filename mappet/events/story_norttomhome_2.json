@@ -1,0 +1,176 @@
+{
+    "Main": "fb8f0125-b1a4-463a-b800-43aba51e8dba",
+    "Nodes": [
+        {
+            "Type": "command",
+            "Command": "/tellraw @p [\"\",{\"text\":\"\\u0422\\u043e\\u043c:\",\"bold\":true,\"color\":\"aqua\"},{\"text\":\" \\u0422\\u0438\\u0445\\u043e, \\u043a\\u0442\\u043e-\\u0442\\u043e \\u0438\\u0434\\u0435\\u0442\\u2026 \\u0447\\u0435\\u0440\\u0442, \\u044d\\u0442\\u043e \\u043d\\u0430\\u0432\\u0435\\u0440\\u043d\\u043e\\u0435 \\u041c\\u0438\\u043d. \\u0415\\u0439 \\u043e\\u0447\\u0435\\u043d\\u044c \\u043d\\u0435 \\u043d\\u0440\\u0430\\u0432\\u0438\\u0442\\u0441\\u044f, \\u043a\\u043e\\u0433\\u0434\\u0430 \\u044f \\u043f\\u0440\\u0438\\u0432\\u043e\\u0436\\u0443 \\u043a\\u043e\\u0433\\u043e-\\u0442\\u043e \\u043a \\u043d\\u0430\\u043c\"}]",
+            "X": -58,
+            "Title": "",
+            "Y": 531,
+            "Relations": [
+                "ca5c1e35-51b4-4220-92e8-ba47352989bc"
+            ],
+            "Id": "b3f16d03-36aa-4eff-8596-33d61577f214"
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p [\"\",{\"text\":\"\\u0422\\u043e\\u043c: \",\"bold\":true,\"color\":\"aqua\"},{\"text\":\"\\u0421\\u043f\\u0430\\u0441\\u0438\\u0431\\u043e, \\u0435\\u0449\\u0435 \\u0443\\u0432\\u0438\\u0434\\u0438\\u043c\\u0441\\u044f!\"}]",
+            "X": -58,
+            "Title": "",
+            "Y": 2176,
+            "Id": "91294697-0e31-451c-aee1-3ec03a56a222"
+        },
+        {
+            "Type": "timer",
+            "Timer": 60,
+            "X": -57,
+            "Title": "",
+            "Y": 685,
+            "Relations": [
+                "23dfe237-2d9e-405c-8354-6256346ca750"
+            ],
+            "Id": "ca5c1e35-51b4-4220-92e8-ba47352989bc"
+        },
+        {
+            "Type": "timer",
+            "Timer": 50,
+            "X": -56,
+            "Title": "",
+            "Y": 1330,
+            "Relations": [
+                "9d4c2708-bbc3-43ef-b4df-053604f9866c"
+            ],
+            "Id": "ea988b31-30dd-49ea-910e-6365c23fefc3"
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p [\"\",{\"text\":\"\\u041d\\u043e\\u0440\\u0442:\",\"bold\":true,\"color\":\"gold\"},{\"text\":\" \\u042d\\u0442\\u043e \\u0442\\u043e\\u0447\\u043d\\u043e \"}]",
+            "X": -58,
+            "Title": "",
+            "Y": 238,
+            "Relations": [
+                "0631ce44-74b6-432e-8bd8-6c559a894dfe"
+            ],
+            "Id": "5b122e24-2d92-4a0e-b760-2884c67464f4"
+        },
+        {
+            "Type": "command",
+            "Command": "mp npc summon click default 1002 44 -650",
+            "X": 196,
+            "Title": "",
+            "Y": 2137,
+            "Id": "fc6ed28f-e546-4a37-ae84-d1de2e7c6c39"
+        },
+        {
+            "Type": "timer",
+            "Timer": 80,
+            "X": -58,
+            "Title": "",
+            "Y": 103,
+            "Relations": [
+                "5b122e24-2d92-4a0e-b760-2884c67464f4"
+            ],
+            "Id": "7ee45517-b58a-4dc5-be8c-b74d37dbbd56"
+        },
+        {
+            "Type": "timer",
+            "Timer": 55,
+            "X": -53,
+            "Title": "",
+            "Y": 1989,
+            "Relations": [
+                "91294697-0e31-451c-aee1-3ec03a56a222",
+                "fc6ed28f-e546-4a37-ae84-d1de2e7c6c39"
+            ],
+            "Id": "0950e09f-ca8e-42f7-804c-29700ddae180"
+        },
+        {
+            "Type": "timer",
+            "Timer": 50,
+            "X": -53,
+            "Title": "",
+            "Y": 995,
+            "Relations": [
+                "32ead2f8-d6b0-4f01-bdb9-6a27c8cf67cb"
+            ],
+            "Id": "8f246590-87a7-4c13-8a18-fb108ac9c293"
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p [\"\",{\"text\":\"\\u041d\\u043e\\u0440\\u0442:\",\"bold\":true,\"color\":\"gold\"},{\"text\":\" \\u041b\\u0430\\u0434\\u043d\\u043e, \\u043b\\u0430\\u0434\\u043d\\u043e\"}]",
+            "X": -51,
+            "Title": "",
+            "Y": 1836,
+            "Relations": [
+                "0950e09f-ca8e-42f7-804c-29700ddae180"
+            ],
+            "Id": "4bfed816-e412-4e8d-919c-b8e3b81b5d60"
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p [\"\",{\"text\":\"\\u0422\\u043e\\u043c:\",\"bold\":true,\"color\":\"aqua\"},{\"text\":\" \\u041d\\u043e\\u0440\\u0442, \\u0432 \\u043e\\u043a\\u043d\\u043e, \\u0441\\u0440\\u043e\\u0447\\u043d\\u043e!\"}]",
+            "X": -58,
+            "Title": "",
+            "Y": 844,
+            "Relations": [
+                "8f246590-87a7-4c13-8a18-fb108ac9c293"
+            ],
+            "Id": "23dfe237-2d9e-405c-8354-6256346ca750"
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p [\"\",{\"text\":\"\\u0422\\u043e\\u043c:\",\"bold\":true,\"color\":\"aqua\"},{\"text\":\" \\u041f\\u043e\\u0436\\u0430\\u043b\\u0443\\u0439\\u0441\\u0442\\u0430, \\u041c\\u0438\\u043d \\u043c\\u0435\\u043d\\u044f \\u0443\\u0431\\u044c\\u0435\\u0442 \"}]",
+            "X": -52,
+            "Title": "",
+            "Y": 1496,
+            "Relations": [
+                "6145d264-6ba6-4516-b631-964929547802"
+            ],
+            "Id": "9d4c2708-bbc3-43ef-b4df-053604f9866c"
+        },
+        {
+            "Type": "timer",
+            "Timer": 75,
+            "X": -54,
+            "Title": "",
+            "Y": 386,
+            "Relations": [
+                "b3f16d03-36aa-4eff-8596-33d61577f214"
+            ],
+            "Id": "0631ce44-74b6-432e-8bd8-6c559a894dfe"
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p [\"\",{\"text\":\"\\u041d\\u043e\\u0440\\u0442:\",\"bold\":true,\"color\":\"gold\"},{\"text\":\" \\u0427\\u0442\\u043e?\"}]",
+            "X": -57,
+            "Title": "",
+            "Y": 1158,
+            "Relations": [
+                "ea988b31-30dd-49ea-910e-6365c23fefc3"
+            ],
+            "Id": "32ead2f8-d6b0-4f01-bdb9-6a27c8cf67cb"
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p [\"\",{\"text\":\"\\u0422\\u043e\\u043c:\",\"bold\":true,\"color\":\"aqua\"},{\"text\":\" \\u0414\\u0430 \\u0443\\u0436, \\u044d\\u0442\\u043e \\u0431\\u044b\\u043b\\u043e \\u0442\\u044f\\u0436\\u0435\\u043b\\u043e\\u0435 \\u0432\\u0440\\u0435\\u043c\\u044f \\u0434\\u043b\\u044f \\u043d\\u0430\\u0441 \\u043e\\u0431\\u043e\\u0438\\u0445\"}]",
+            "X": -56,
+            "Title": "",
+            "Y": -36,
+            "Relations": [
+                "7ee45517-b58a-4dc5-be8c-b74d37dbbd56"
+            ],
+            "Id": "fb8f0125-b1a4-463a-b800-43aba51e8dba"
+        },
+        {
+            "Type": "timer",
+            "Timer": 50,
+            "X": -42,
+            "Title": "",
+            "Y": 1673,
+            "Relations": [
+                "4bfed816-e412-4e8d-919c-b8e3b81b5d60"
+            ],
+            "Id": "6145d264-6ba6-4516-b631-964929547802"
+        }
+    ]
+}

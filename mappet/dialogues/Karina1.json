@@ -39,6 +39,14 @@
             "Marker": ""
         },
         {
+            "Type": "command",
+            "Command": "mp faction add @p karina 1",
+            "X": 458,
+            "Title": "",
+            "Y": 318,
+            "Id": "e7db4bf3-c8d2-4995-b1a6-92db130b63bb"
+        },
+        {
             "Type": "reply",
             "Message": {
                 "Color": 16777215,
@@ -94,9 +102,18 @@
             "Title": "",
             "Y": 310,
             "Relations": [
-                "66c50e37-9e7f-440e-8f7c-8e5e5b75a247"
+                "66c50e37-9e7f-440e-8f7c-8e5e5b75a247",
+                "e7db4bf3-c8d2-4995-b1a6-92db130b63bb"
             ],
             "Id": "9043f0da-1341-4d00-8265-e8f569b12b57"
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p {\"text\":\"\\u0412\\u0430\\u0448\\u0435 \\u0437\\u043d\\u0430\\u043a\\u043e\\u043c\\u0441\\u0442\\u0432\\u043e \\u0441 \\u041a\\u0430\\u0440\\u0438\\u043d\\u043e\\u0439 \\u043d\\u0430\\u0447\\u0430\\u043b\\u0438\\u0441\\u044c \\u0441 \\u043f\\u0440\\u0438\\u044f\\u0442\\u043d\\u043e\\u0439 \\u043d\\u043e\\u0442\\u044b\",\"color\":\"light_purple\"}",
+            "X": 406,
+            "Title": "",
+            "Y": 898,
+            "Id": "b4da7645-21a7-443a-9e5d-b1d344f9febb"
         },
         {
             "Type": "command",
@@ -262,7 +279,8 @@
             "Y": 759,
             "Sound": "",
             "Relations": [
-                "9bf2d430-dc50-4968-a73a-c45e2a853b3b"
+                "9bf2d430-dc50-4968-a73a-c45e2a853b3b",
+                "b4da7645-21a7-443a-9e5d-b1d344f9febb"
             ],
             "Id": "318d7da6-f35f-4d7b-9bc5-ffacaa34434c",
             "Marker": ""

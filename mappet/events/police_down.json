@@ -1,0 +1,13 @@
+{
+    "Main": "0c09f48f-06cf-4a3f-816e-c747eab8fe43",
+    "Nodes": [
+        {
+            "Type": "command",
+            "Command": "/tp @p 1059 122 -2857",
+            "X": 28,
+            "Title": "",
+            "Y": -34,
+            "Id": "0c09f48f-06cf-4a3f-816e-c747eab8fe43"
+        }
+    ]
+}

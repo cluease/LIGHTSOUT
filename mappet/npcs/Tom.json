@@ -106,7 +106,7 @@
             },
             "CanSwim": 1b,
             "Flee": 4.0f,
-            "LookAtPlayer": 0b,
+            "LookAtPlayer": 1b,
             "Respawn": 0b,
             "Immovable": 1b,
             "MaxHealth": 20.0f,

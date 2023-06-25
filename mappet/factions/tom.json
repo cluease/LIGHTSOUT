@@ -1,0 +1,34 @@
+{
+    "Color": 16750316,
+    "Visible": {
+        "Condition": {
+        },
+        "Mode": 1
+    },
+    "Title": "Том",
+    "DefaultScore": 0,
+    "OthersAttitude": "FRIENDLY",
+    "PlayerAttitude": "FRIENDLY",
+    "OwnRelation": {
+        "Thresholds": [
+            {
+                "Score": 3,
+                "Attitude": "FRIENDLY",
+                "Color": 8978348,
+                "Title": "Друзья"
+            },
+            {
+                "Score": 8,
+                "Attitude": "FRIENDLY",
+                "Color": 6029137,
+                "Title": "Лучшие друзья"
+            },
+            {
+                "Score": 12,
+                "Attitude": "FRIENDLY",
+                "Color": 16733600,
+                "Title": "BFF ^_^"
+            }
+        ]
+    }
+}

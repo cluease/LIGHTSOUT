@@ -7,7 +7,7 @@
     },
     "Nodes": [
         {
-            "Read": 0b,
+            "Read": 1b,
             "Type": "reaction",
             "Message": {
                 "Color": 16777215,
@@ -21,7 +21,7 @@
                 "e2f04c35-fbd0-4f5e-8270-becf4d841e46"
             ],
             "Id": "fa1e27fb-2669-468e-a661-837871123549",
-            "Marker": ""
+            "Marker": "tom1"
         },
         {
             "Type": "reply",
@@ -254,7 +254,7 @@
             "Id": "5b11a7ad-741b-4063-b27a-c48852add8b1"
         },
         {
-            "Read": 0b,
+            "Read": 1b,
             "Type": "reaction",
             "Message": {
                 "Color": 16777215,
@@ -268,7 +268,7 @@
                 "e2f04c35-fbd0-4f5e-8270-becf4d841e46"
             ],
             "Id": "6f299f3d-f2ca-4efa-ba1a-f49859a8baa0",
-            "Marker": ""
+            "Marker": "tom2"
         },
         {
             "Read": 0b,

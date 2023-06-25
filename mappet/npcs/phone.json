@@ -23,6 +23,28 @@
             "Follow": "",
             "Xp": 0,
             "Morph": {
+                "CustomPose": {
+                    "Size": [
+                        0.6f,
+                        0.9f,
+                        0.6f
+                    ],
+                    "Poses": {
+                        "head": {
+                            "P": [
+                                0.0f,
+                                -8.34375f,
+                                0.0f
+                            ],
+                            "S": [
+                                0.75f,
+                                0.75f,
+                                0.75f
+                            ],
+                            "C": 16777215
+                        }
+                    }
+                },
                 "BodyParts": [
                     {
                         "R": [
@@ -58,6 +80,16 @@
             "Damage": 2.0f,
             "TriggerInteract": {
                 "Blocks": [
+                    {
+                        "Type": "command",
+                        "Command": "/give @p variedcommodities:phone",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "mp npc despawn @e[mpid=phone]",
+                        "Frequency": 1
+                    }
                 ]
             },
             "CanSwim": 1b,

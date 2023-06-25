@@ -1,0 +1,34 @@
+{
+    "Color": 3751130,
+    "Visible": {
+        "Condition": {
+        },
+        "Mode": 1
+    },
+    "Title": "Полиция",
+    "DefaultScore": 0,
+    "OthersAttitude": "FRIENDLY",
+    "PlayerAttitude": "FRIENDLY",
+    "OwnRelation": {
+        "Thresholds": [
+            {
+                "Score": 3,
+                "Attitude": "FRIENDLY",
+                "Color": 12401836,
+                "Title": "Младший сержант"
+            },
+            {
+                "Score": 8,
+                "Attitude": "FRIENDLY",
+                "Color": 7552146,
+                "Title": "Лейтенант"
+            },
+            {
+                "Score": 12,
+                "Attitude": "FRIENDLY",
+                "Color": 2768800,
+                "Title": "Полковник"
+            }
+        ]
+    }
+}

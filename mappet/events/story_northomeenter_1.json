@@ -1,0 +1,13 @@
+{
+    "Main": "85ea596a-ffdf-4f67-a21f-133ea432f836",
+    "Nodes": [
+        {
+            "Type": "command",
+            "Command": "tp @p 374 95 -1280",
+            "X": 28,
+            "Title": "",
+            "Y": -70,
+            "Id": "85ea596a-ffdf-4f67-a21f-133ea432f836"
+        }
+    ]
+}

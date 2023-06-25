@@ -1,0 +1,209 @@
+{
+    "Closable": 0b,
+    "Main": "1e411a29-b9fa-4369-b293-d0512bb8d260",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "мяу"
+            },
+            "X": -2,
+            "Title": "",
+            "Y": -46,
+            "Sound": "",
+            "Relations": [
+                "be096f47-dfed-4f1e-b838-848aab4aa5f2"
+            ],
+            "Id": "2ea08ba8-501d-4923-82d2-888be6df9c51",
+            "Marker": ""
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 1b,
+                            "Target": 2,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "cat",
+                            "Marker": "cat",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": -1,
+            "Title": "",
+            "Y": -180,
+            "Relations": [
+                "2ea08ba8-501d-4923-82d2-888be6df9c51"
+            ],
+            "Id": "1e411a29-b9fa-4369-b293-d0512bb8d260"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Оставить на улице)"
+            },
+            "X": -98,
+            "Title": "",
+            "Y": 668,
+            "Relations": [
+                "1dfbce41-4d9c-423c-a04d-bd33a86705ca",
+                "aa24edcc-c427-47cf-88ae-17e9bdd526c8"
+            ],
+            "Id": "64a12429-fd1f-43a2-963a-fa07663cd0d6"
+        },
+        {
+            "Read": 1b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "мяу?"
+            },
+            "X": -287,
+            "Title": "",
+            "Y": 701,
+            "Sound": "",
+            "Relations": [
+                "2d1fc157-02d8-43cb-aaa9-e3f240c4cf5d"
+            ],
+            "Id": "1dfbce41-4d9c-423c-a04d-bd33a86705ca",
+            "Marker": "catleave"
+        },
+        {
+            "Read": 1b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "мяу!"
+            },
+            "X": 276,
+            "Title": "",
+            "Y": 796,
+            "Sound": "",
+            "Relations": [
+                "824e1861-170f-4dfb-9638-59c9b6b30b25"
+            ],
+            "Id": "87675ba8-0ec5-4631-a2f4-454949ff12d5",
+            "Marker": "catenter"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "мяяяу"
+            },
+            "X": 0,
+            "Title": "",
+            "Y": 260,
+            "Sound": "",
+            "Relations": [
+                "f5ab73b4-7b1b-4018-8ae4-e8081b2bec0a"
+            ],
+            "Id": "f126fed9-c0a0-45d7-acaf-9631f5408099",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Тебе наверное холодно?"
+            },
+            "X": 2,
+            "Title": "",
+            "Y": 402,
+            "Relations": [
+                "9b4e3b1a-3720-4ae3-a219-cd0ea697a6cf"
+            ],
+            "Id": "f5ab73b4-7b1b-4018-8ae4-e8081b2bec0a"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Приютить)"
+            },
+            "X": 130,
+            "Title": "",
+            "Y": 668,
+            "Relations": [
+                "87675ba8-0ec5-4631-a2f4-454949ff12d5"
+            ],
+            "Id": "68ab7765-98c4-49fe-938d-a628b4dfdedd"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ой, киса, привет"
+            },
+            "X": 2,
+            "Title": "",
+            "Y": 110,
+            "Relations": [
+                "f126fed9-c0a0-45d7-acaf-9631f5408099"
+            ],
+            "Id": "be096f47-dfed-4f1e-b838-848aab4aa5f2"
+        },
+        {
+            "Read": 1b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "мяяяяу"
+            },
+            "X": 2,
+            "Title": "",
+            "Y": 544,
+            "Sound": "",
+            "Relations": [
+                "64a12429-fd1f-43a2-963a-fa07663cd0d6",
+                "68ab7765-98c4-49fe-938d-a628b4dfdedd"
+            ],
+            "Id": "9b4e3b1a-3720-4ae3-a219-cd0ea697a6cf",
+            "Marker": "cat"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Прости"
+            },
+            "X": -458,
+            "Title": "",
+            "Y": 703,
+            "Id": "2d1fc157-02d8-43cb-aaa9-e3f240c4cf5d"
+        },
+        {
+            "Type": "command",
+            "Command": "mp npc state @e[mpid=cat] leave",
+            "X": -272,
+            "Title": "",
+            "Y": 939,
+            "Id": "aa24edcc-c427-47cf-88ae-17e9bdd526c8"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Пойдем, кроха"
+            },
+            "X": 278,
+            "Title": "",
+            "Y": 945,
+            "Id": "824e1861-170f-4dfb-9638-59c9b6b30b25"
+        }
+    ]
+}

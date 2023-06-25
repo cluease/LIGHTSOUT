@@ -1,0 +1,24 @@
+{
+    "Closable": 1b,
+    "Main": "9a2b5cfd-4aa0-4f38-b140-b7d14587a85c",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "мяу?"
+            },
+            "X": -14,
+            "Title": "",
+            "Y": -98,
+            "Sound": "",
+            "Id": "9a2b5cfd-4aa0-4f38-b140-b7d14587a85c",
+            "Marker": ""
+        }
+    ]
+}

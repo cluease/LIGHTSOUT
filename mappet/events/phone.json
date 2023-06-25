@@ -1,0 +1,48 @@
+{
+    "Main": "815578fe-b498-47f3-ac4a-a8c7779ac70e",
+    "Nodes": [
+        {
+            "Type": "command",
+            "Command": "mp dialogue open @p phone",
+            "X": 20,
+            "Title": "",
+            "Y": 116,
+            "Id": "d3315a3c-d905-464a-a63a-5c74515f6882"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 4,
+                            "Type": "item",
+                            "Or": 0b,
+                            "Check": 0,
+                            "Id": "",
+                            "Selector": "",
+                            "Stack": {
+                                "ForgeCaps": {
+                                    "customnpcs:itemscripteddata": {
+                                    }
+                                },
+                                "id": "variedcommodities:phone",
+                                "Count": 1b,
+                                "Damage": 0s
+                            }
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 20,
+            "Title": "",
+            "Y": -20,
+            "Relations": [
+                "d3315a3c-d905-464a-a63a-5c74515f6882"
+            ],
+            "Id": "815578fe-b498-47f3-ac4a-a8c7779ac70e"
+        }
+    ]
+}

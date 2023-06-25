@@ -1,0 +1,49 @@
+{
+    "Closable": 1b,
+    "Main": "8985a32a-2852-4d84-a0fb-1bd04193c12c",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Подняться к боссу)"
+            },
+            "X": 108,
+            "Title": "",
+            "Y": -346,
+            "Relations": [
+                "5fa14034-879c-4a8f-a856-36bd7f2593a5"
+            ],
+            "Id": "41f658d1-9f6a-4d38-a321-0937f199e80b"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "На какой этаж вы хотите подняться?"
+            },
+            "X": 6,
+            "Title": "",
+            "Y": -50,
+            "Sound": "",
+            "Relations": [
+                "41f658d1-9f6a-4d38-a321-0937f199e80b"
+            ],
+            "Id": "8985a32a-2852-4d84-a0fb-1bd04193c12c",
+            "Marker": ""
+        },
+        {
+            "Type": "command",
+            "Command": "tp @p 1064 142 -2867",
+            "X": 272,
+            "Title": "",
+            "Y": -344,
+            "Id": "5fa14034-879c-4a8f-a856-36bd7f2593a5"
+        }
+    ]
+}

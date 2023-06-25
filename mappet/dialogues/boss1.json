@@ -1,0 +1,148 @@
+{
+    "Closable": 1b,
+    "Main": "6134cda9-ef0a-43ab-ae44-a97f4a00ae88",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Прошу прощения, Мистер Горден, было срочное дело"
+            },
+            "X": 204,
+            "Title": "",
+            "Y": -156,
+            "Relations": [
+                "093ab3f5-a6cd-4737-97ef-3d445a29aa5f"
+            ],
+            "Id": "7893bfdc-8208-4b51-87b9-c0b595116eaa"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Для сотрудников полиции не должно быть никаких срочных
+дел помимо работы. Пока ты прохлаждалась, поступил звонок о
+двойном убийстве на заправке, мигом туда"
+            },
+            "X": 406,
+            "Title": "",
+            "Y": -160,
+            "Sound": "",
+            "Relations": [
+                "cc7620d9-e883-44fe-96ac-108b4591c00d"
+            ],
+            "Id": "093ab3f5-a6cd-4737-97ef-3d445a29aa5f",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Так точно, сэр "
+            },
+            "X": 602,
+            "Title": "",
+            "Y": -158,
+            "Id": "cc7620d9-e883-44fe-96ac-108b4591c00d"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Норт Гроссман, где тебя носит черт возьми?!"
+            },
+            "X": -22,
+            "Title": "",
+            "Y": -42,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 0b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/boss.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                        "RX": -0.12217305f
+                    },
+                    "right_arm": {
+                        "RX": 0.5410521f,
+                        "RY": 0.33161253f
+                    },
+                    "left_leg": {
+                        "RX": 1.5707964f
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                        "RX": -1.1170107f
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RX": -0.19198625f,
+                        "RY": -0.104719795f,
+                        "RZ": 0.017453292f
+                    },
+                    "left_arm": {
+                        "RX": 0.62831855f,
+                        "RY": -0.38397244f
+                    },
+                    "low_right_arm": {
+                        "RY": -0.05235988f,
+                        "RZ": 0.61086524f
+                    },
+                    "right_leg": {
+                        "RX": 1.5707964f
+                    },
+                    "anchor": {
+                        "X": 0.1875f,
+                        "RZ": 0.61086524f,
+                        "Z": -0.1875f
+                    },
+                    "low_left_leg": {
+                        "RX": -1.134464f
+                    },
+                    "low_left_arm": {
+                        "RZ": -0.5235988f
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Animation": "slim_simple_plus",
+                "Name": "emoticons.slim_simple_plus"
+            },
+            "Sound": "",
+            "Relations": [
+                "7893bfdc-8208-4b51-87b9-c0b595116eaa"
+            ],
+            "Id": "6134cda9-ef0a-43ab-ae44-a97f4a00ae88",
+            "Marker": ""
+        }
+    ]
+}

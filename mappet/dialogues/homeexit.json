@@ -1,0 +1,172 @@
+{
+    "Closable": 1b,
+    "Main": "83e7a62c-4c54-40ce-8ab5-40ad0fb521b5",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Отправиться на военную базу)"
+            },
+            "X": 465,
+            "Title": "",
+            "Y": 281,
+            "Relations": [
+                "65641cb9-9b46-426a-91ca-b857ee9b02d4"
+            ],
+            "Id": "f516a501-5c52-42a8-b330-67798914e432"
+        },
+        {
+            "Type": "command",
+            "Command": "/tp @p 1126 130 -1530",
+            "X": 676,
+            "Title": "",
+            "Y": 281,
+            "Id": "65641cb9-9b46-426a-91ca-b857ee9b02d4"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "СЮЖЕТНЫЕ ЗАДАНИЯ"
+            },
+            "X": 254,
+            "Title": "",
+            "Y": -63,
+            "Id": "dd1017ba-cb92-4c49-978c-85a309adaa20"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Выйти во двор)"
+            },
+            "X": 593,
+            "Title": "",
+            "Y": -371,
+            "Relations": [
+                "edb51705-d080-425f-b10a-cedb4ad5ab63"
+            ],
+            "Id": "d0175a9d-5747-4d2c-8d06-b0384f3e0cd4"
+        },
+        {
+            "Type": "command",
+            "Command": "tp @p 372 91 -1271",
+            "X": 761,
+            "Title": "",
+            "Y": -375,
+            "Id": "edb51705-d080-425f-b10a-cedb4ad5ab63"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Вы подошли к двери, куда желаете направиться?"
+            },
+            "X": 46,
+            "Title": "",
+            "Y": -100,
+            "Sound": "",
+            "Relations": [
+                "16089be8-7710-4a5c-89b9-a302ae9e5aa3",
+                "d8b11e64-8557-4d46-9c3e-09e5c4152823",
+                "dd1017ba-cb92-4c49-978c-85a309adaa20"
+            ],
+            "Id": "83e7a62c-4c54-40ce-8ab5-40ad0fb521b5",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "ДОПОЛНИТЕЛЬНЫЕ ЗАДАНИЯ"
+            },
+            "X": 40,
+            "Title": "",
+            "Y": 276,
+            "Relations": [
+                "5115fb47-08d5-4e37-947d-43f321064755"
+            ],
+            "Id": "d8b11e64-8557-4d46-9c3e-09e5c4152823"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "ОТКРЫТЫЙ МИР"
+            },
+            "X": 179,
+            "Title": "ОТКРЫТЫЙ МИР",
+            "Y": -367,
+            "Relations": [
+                "aa44b416-0214-45c3-ae58-618d3345545a"
+            ],
+            "Id": "16089be8-7710-4a5c-89b9-a302ae9e5aa3"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 1,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "hometom",
+                            "Marker": "tom2",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 361,
+            "Title": "",
+            "Y": 154,
+            "Relations": [
+                "f516a501-5c52-42a8-b330-67798914e432"
+            ],
+            "Id": "ba20698d-532e-41e9-8d42-accd036efea1"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Выберите, куда хотите отправиться"
+            },
+            "X": 236,
+            "Title": "",
+            "Y": 274,
+            "Sound": "",
+            "Relations": [
+                "ba20698d-532e-41e9-8d42-accd036efea1"
+            ],
+            "Id": "5115fb47-08d5-4e37-947d-43f321064755",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Выберите, куда хотите отправиться"
+            },
+            "X": 412,
+            "Title": "",
+            "Y": -366,
+            "Sound": "",
+            "Relations": [
+                "d0175a9d-5747-4d2c-8d06-b0384f3e0cd4"
+            ],
+            "Id": "aa44b416-0214-45c3-ae58-618d3345545a",
+            "Marker": ""
+        }
+    ]
+}

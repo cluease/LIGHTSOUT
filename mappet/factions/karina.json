@@ -1,0 +1,34 @@
+{
+    "Color": 16762465,
+    "Visible": {
+        "Condition": {
+        },
+        "Mode": 1
+    },
+    "Title": "Карина",
+    "DefaultScore": 0,
+    "OthersAttitude": "FRIENDLY",
+    "PlayerAttitude": "FRIENDLY",
+    "OwnRelation": {
+        "Thresholds": [
+            {
+                "Score": 3,
+                "Attitude": "FRIENDLY",
+                "Color": 16762536,
+                "Title": "Знакомые"
+            },
+            {
+                "Score": 8,
+                "Attitude": "FRIENDLY",
+                "Color": 16751713,
+                "Title": "Друзья"
+            },
+            {
+                "Score": 12,
+                "Attitude": "FRIENDLY",
+                "Color": 16731217,
+                "Title": "BFF ^_^"
+            }
+        ]
+    }
+}
