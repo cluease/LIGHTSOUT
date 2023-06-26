@@ -1,0 +1,114 @@
+{
+    "Closable": 1b,
+    "Main": "87f5a131-aa02-4f94-981d-042e82836e1c",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Снова ты?"
+            },
+            "X": 236,
+            "Title": "",
+            "Y": -210,
+            "Relations": [
+                "a983c1a2-aa7b-4e09-b440-2c6b6029f12d"
+            ],
+            "Id": "a0d7a0c5-c519-41ff-aaaf-cf431e857127"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Конечно, Это же сенсация! Второе преступление за день, звезды сегодня явно на моей стороне"
+            },
+            "X": 456,
+            "Title": "",
+            "Y": -202,
+            "Sound": "",
+            "Id": "a983c1a2-aa7b-4e09-b440-2c6b6029f12d",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "..."
+            },
+            "X": 62,
+            "Title": "",
+            "Y": -94,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/karina.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                    },
+                    "left_arm": {
+                    },
+                    "low_right_arm": {
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Animation": "slim_3d",
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "a0d7a0c5-c519-41ff-aaaf-cf431e857127"
+            ],
+            "Id": "87f5a131-aa02-4f94-981d-042e82836e1c",
+            "Marker": ""
+        }
+    ]
+}

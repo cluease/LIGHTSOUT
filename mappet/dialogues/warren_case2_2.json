@@ -1,0 +1,494 @@
+{
+    "Closable": 0b,
+    "Main": "522ff653-f065-465f-b77f-03c0fbe76106",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "С дуба рухнула? Идти с незнакомцем, у которого бог знает
+что на уме в лес? С тобой все хорошо?"
+            },
+            "X": 444,
+            "Title": "",
+            "Y": -282,
+            "Sound": "",
+            "Relations": [
+                "2b0603b8-bc17-422d-bf46-dd51deca24f7"
+            ],
+            "Id": "edaddef1-0cd8-4efe-bcb0-b12d9d64c882",
+            "Marker": ""
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 2,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "Ralph",
+                            "Marker": "ifyes",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 50,
+            "Title": "If согласились пойти (правда)",
+            "Y": -274,
+            "Relations": [
+                "49ce4068-e1ef-4f46-848e-708b1d05ed02"
+            ],
+            "Id": "1eb52859-e155-42c4-ad40-a835cb79de32"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Condition": {
+                                "Blocks": [
+                                    {
+                                        "Not": 0b,
+                                        "Target": 1,
+                                        "Type": "dialogue",
+                                        "Or": 0b,
+                                        "Id": "Ralph",
+                                        "Marker": "ifno",
+                                        "Selector": ""
+                                    }
+                                ]
+                            },
+                            "Not": 0b,
+                            "Type": "condition",
+                            "Or": 0b
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 228,
+            "Title": "If сдали в полицию",
+            "Y": 192,
+            "Relations": [
+                "8dfe4569-e488-47c4-97f5-cfabf836a534"
+            ],
+            "Id": "ed04bd21-d19e-403b-8054-8c6881831cbc"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Решила действовать радикально?"
+            },
+            "X": 420,
+            "Title": "",
+            "Y": 198,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/Warren.png"
+                        }
+                    }
+                },
+                "Animation": "slim_3d",
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "2f437f46-b955-4e5e-bf11-93627296c680"
+            ],
+            "Id": "8dfe4569-e488-47c4-97f5-cfabf836a534",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Уоррен смутился, плавно отвел взгляд. Он точно что-то хотел
+сказать, но резко передумал)"
+            },
+            "X": 1492,
+            "Title": "",
+            "Y": -142,
+            "Sound": "",
+            "Relations": [
+                "44cfa6da-e4ae-45db-aac4-ecc1a3b9d014"
+            ],
+            "Id": "47f7f6d5-50d8-4cfb-9d7c-b5dffb3ab550",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Эээ, довезешь меня до дома? Мы здесь вроде бы со всем
+справились"
+            },
+            "X": 1674,
+            "Title": "",
+            "Y": -144,
+            "Relations": [
+                "a5f111c1-57bf-4f79-8134-6e118d74d377"
+            ],
+            "Id": "44cfa6da-e4ae-45db-aac4-ecc1a3b9d014"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Выяснить толком ничего не удалось, но я согласилась пойти с
+ним в лес, как раз к той хижине, о которой он тебе говорил"
+            },
+            "X": 256,
+            "Title": "",
+            "Y": -280,
+            "Relations": [
+                "edaddef1-0cd8-4efe-bcb0-b12d9d64c882"
+            ],
+            "Id": "49ce4068-e1ef-4f46-848e-708b1d05ed02"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Подкинешь до дома?"
+            },
+            "X": 1142,
+            "Title": "",
+            "Y": -32,
+            "Relations": [
+                "871b96ad-8a16-4604-84ba-b45a4ca46a1f"
+            ],
+            "Id": "f2775fe5-2cfd-4a76-9e8b-a188977d94aa"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Уверена, все пройдёт отлично и я найду новые улики. Только
+держи рот на замке и никому не проболтайся, что я пойду в лес,
+лишние глаза и уши нам не нужны"
+            },
+            "X": 982,
+            "Title": "",
+            "Y": -282,
+            "Relations": [
+                "b1049ae4-93fe-4fae-8108-e0c9676dfba3"
+            ],
+            "Id": "c39e98aa-a3af-407b-af30-210faeccb85d"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Д-да, садись в машину"
+            },
+            "X": 1828,
+            "Title": "",
+            "Y": -146,
+            "Sound": "",
+            "Id": "a5f111c1-57bf-4f79-8134-6e118d74d377",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ну как все прошло? Удалось что-нибудь выяснить?"
+            },
+            "X": 44,
+            "Title": "",
+            "Y": -52,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/Warren.png"
+                        }
+                    }
+                },
+                "Animation": "slim_3d",
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "1eb52859-e155-42c4-ad40-a835cb79de32",
+                "6f704879-f6d2-42e1-8b39-358924bce78f",
+                "ed04bd21-d19e-403b-8054-8c6881831cbc"
+            ],
+            "Id": "522ff653-f065-465f-b77f-03c0fbe76106",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Точно"
+            },
+            "X": 1490,
+            "Title": "",
+            "Y": -398,
+            "Sound": "",
+            "Id": "a3b0c204-20d4-4e14-aa9b-e22ee28cd291",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Не знаю, небезопасно это все…"
+            },
+            "X": 806,
+            "Title": "",
+            "Y": -284,
+            "Sound": "",
+            "Relations": [
+                "c39e98aa-a3af-407b-af30-210faeccb85d"
+            ],
+            "Id": "ffc65657-c8a5-4f59-914d-50ba61846800",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ты правильно поступила"
+            },
+            "X": 866,
+            "Title": "",
+            "Y": 208,
+            "Sound": "",
+            "Relations": [
+                "88fb3452-9a00-48be-afda-ec6cf34d5d86"
+            ],
+            "Id": "d3d2410e-8ed6-40c6-80e5-17faf681e1cd",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Надеюсь, ты права"
+            },
+            "X": 994,
+            "Title": "",
+            "Y": -34,
+            "Sound": "",
+            "Relations": [
+                "f2775fe5-2cfd-4a76-9e8b-a188977d94aa"
+            ],
+            "Id": "6fa5dd1c-d814-45a2-9e7a-94df25b9b179",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "И без тебя знаю. Подкинешь меня до дома?"
+            },
+            "X": 1098,
+            "Title": "",
+            "Y": 207,
+            "Relations": [
+                "871b96ad-8a16-4604-84ba-b45a4ca46a1f"
+            ],
+            "Id": "88fb3452-9a00-48be-afda-ec6cf34d5d86"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "У этого парня явно не все дома, эффективнее будет допросить его уже непосредственно в участке"
+            },
+            "X": 624,
+            "Title": "",
+            "Y": 200,
+            "Relations": [
+                "d3d2410e-8ed6-40c6-80e5-17faf681e1cd"
+            ],
+            "Id": "2f437f46-b955-4e5e-bf11-93627296c680"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Эх, убийств становится все больше, а мы топчемся на одном
+месте, хреновые из нас копы"
+            },
+            "X": 660,
+            "Title": "",
+            "Y": -46,
+            "Sound": "",
+            "Relations": [
+                "7cbe1f4f-d2df-4571-8e91-60765b8a5f89"
+            ],
+            "Id": "83d0a869-839f-4e95-9623-06889c3a8e8e",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Уоррен, он явно что-то знает. А это единственный шанс хоть
+немного продвинуться в деле. Я смогу себя защитить в случае чего, ты
+же знаешь"
+            },
+            "X": 620,
+            "Title": "",
+            "Y": -286,
+            "Relations": [
+                "ffc65657-c8a5-4f59-914d-50ba61846800"
+            ],
+            "Id": "2b0603b8-bc17-422d-bf46-dd51deca24f7"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Нет, мне он тоже ничего внятного не рассказал"
+            },
+            "X": 458,
+            "Title": "",
+            "Y": -52,
+            "Relations": [
+                "83d0a869-839f-4e95-9623-06889c3a8e8e"
+            ],
+            "Id": "e98c07fb-ae52-4c1e-8a3c-6d4659ead65b"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Мы же близкие люди"
+            },
+            "X": 1320,
+            "Title": "",
+            "Y": -146,
+            "Relations": [
+                "47f7f6d5-50d8-4cfb-9d7c-b5dffb3ab550"
+            ],
+            "Id": "6182c8af-7afc-4354-b812-e584c2d4b433"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Мы же коллеги"
+            },
+            "X": 1326,
+            "Title": "",
+            "Y": -400,
+            "Relations": [
+                "a3b0c204-20d4-4e14-aa9b-e22ee28cd291"
+            ],
+            "Id": "d7889639-ed20-4763-8c36-4b4c08a4c794"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 2,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "Ralph",
+                            "Marker": "ifyes",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 238,
+            "Title": "If согласились пойти (Ложь)",
+            "Y": -50,
+            "Relations": [
+                "e98c07fb-ae52-4c1e-8a3c-6d4659ead65b"
+            ],
+            "Id": "6f704879-f6d2-42e1-8b39-358924bce78f"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Не кисни, мы только сегодня начали. Уверена, через пару дней
+найдем какие-никакие улики"
+            },
+            "X": 834,
+            "Title": "",
+            "Y": -38,
+            "Relations": [
+                "6fa5dd1c-d814-45a2-9e7a-94df25b9b179"
+            ],
+            "Id": "7cbe1f4f-d2df-4571-8e91-60765b8a5f89"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ладно, надеюсь ты знаешь что делаешь. А еще, спасибо за
+доверие, я это ценю"
+            },
+            "X": 1176,
+            "Title": "",
+            "Y": -282,
+            "Sound": "",
+            "Relations": [
+                "d7889639-ed20-4763-8c36-4b4c08a4c794",
+                "6182c8af-7afc-4354-b812-e584c2d4b433"
+            ],
+            "Id": "b1049ae4-93fe-4fae-8108-e0c9676dfba3",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Конечно, садись в машину"
+            },
+            "X": 1334,
+            "Title": "",
+            "Y": -10,
+            "Sound": "",
+            "Id": "871b96ad-8a16-4604-84ba-b45a4ca46a1f",
+            "Marker": ""
+        }
+    ]
+}

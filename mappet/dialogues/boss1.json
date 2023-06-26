@@ -21,7 +21,7 @@
             "Id": "7893bfdc-8208-4b51-87b9-c0b595116eaa"
         },
         {
-            "Read": 0b,
+            "Read": 1b,
             "Type": "reaction",
             "Message": {
                 "Color": 16777215,
@@ -37,7 +37,7 @@
                 "cc7620d9-e883-44fe-96ac-108b4591c00d"
             ],
             "Id": "093ab3f5-a6cd-4737-97ef-3d445a29aa5f",
-            "Marker": ""
+            "Marker": "order1"
         },
         {
             "Type": "reply",

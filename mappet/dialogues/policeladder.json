@@ -7,14 +7,40 @@
     },
     "Nodes": [
         {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 2,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "phone",
+                            "Marker": "nortpolice1",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 136,
+            "Title": "",
+            "Y": -342,
+            "Relations": [
+                "41f658d1-9f6a-4d38-a321-0937f199e80b"
+            ],
+            "Id": "ee7efea5-2405-4077-a158-3687732f7749"
+        },
+        {
             "Type": "reply",
             "Message": {
                 "Color": 16777215,
                 "Text": "(Подняться к боссу)"
             },
-            "X": 108,
+            "X": 276,
             "Title": "",
-            "Y": -346,
+            "Y": -342,
             "Relations": [
                 "5fa14034-879c-4a8f-a856-36bd7f2593a5"
             ],
@@ -32,7 +58,7 @@
             "Y": -50,
             "Sound": "",
             "Relations": [
-                "41f658d1-9f6a-4d38-a321-0937f199e80b"
+                "ee7efea5-2405-4077-a158-3687732f7749"
             ],
             "Id": "8985a32a-2852-4d84-a0fb-1bd04193c12c",
             "Marker": ""
@@ -40,9 +66,9 @@
         {
             "Type": "command",
             "Command": "tp @p 1064 142 -2867",
-            "X": 272,
+            "X": 440,
             "Title": "",
-            "Y": -344,
+            "Y": -340,
             "Id": "5fa14034-879c-4a8f-a856-36bd7f2593a5"
         }
     ]

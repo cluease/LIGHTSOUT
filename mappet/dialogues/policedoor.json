@@ -1,0 +1,75 @@
+{
+    "Closable": 1b,
+    "Main": "f1a56346-a1c4-4b6b-8970-6352fbf57972",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 1,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "boss1",
+                            "Marker": "order1",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 144,
+            "Title": "",
+            "Y": -196,
+            "Relations": [
+                "ed91c962-d6a9-4394-b7f5-78400942c544"
+            ],
+            "Id": "5a79531e-e2e2-4f4b-8ff6-456518311a0f"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Вы подошли к двери, куда желаете отправиться?"
+            },
+            "X": -4,
+            "Title": "",
+            "Y": -20,
+            "Sound": "",
+            "Relations": [
+                "5a79531e-e2e2-4f4b-8ff6-456518311a0f"
+            ],
+            "Id": "f1a56346-a1c4-4b6b-8970-6352fbf57972",
+            "Marker": ""
+        },
+        {
+            "Type": "command",
+            "Command": "tp @p 1564 17 -1088",
+            "X": 494,
+            "Title": "",
+            "Y": -200,
+            "Id": "e68c8c60-2947-419b-b064-dffdb8882b5a"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Отправиться на заправку)"
+            },
+            "X": 314,
+            "Title": "",
+            "Y": -196,
+            "Relations": [
+                "e68c8c60-2947-419b-b064-dffdb8882b5a"
+            ],
+            "Id": "ed91c962-d6a9-4394-b7f5-78400942c544"
+        }
+    ]
+}

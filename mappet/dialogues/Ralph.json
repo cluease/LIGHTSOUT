@@ -1,0 +1,526 @@
+{
+    "Closable": 0b,
+    "Main": "1901cb6c-8291-40e9-aee8-6e88ac8219c8",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Что за мать? Кто их убил?"
+            },
+            "X": 1459,
+            "Title": "",
+            "Y": 114,
+            "Relations": [
+                "26edbd37-2de6-43cb-b71b-3f9f5a86a460"
+            ],
+            "Id": "b2b87be7-ad5b-48bd-91b9-d55a041fcac3"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Как давно вы здесь?"
+            },
+            "X": 287,
+            "Title": "",
+            "Y": 97,
+            "Relations": [
+                "4326110f-079e-49eb-9f06-2dab0545cfae"
+            ],
+            "Id": "d38399dd-6309-46d5-88a1-5d461d03132e"
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p {\"text\":\"+ \\u0417\\u0430\\u043a\\u043e\\u043d\",\"color\":\"blue\"}",
+            "X": 2756,
+            "Title": "",
+            "Y": 478,
+            "Id": "c837ed2d-6e18-440e-855b-b2e11e73c7ca"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "О, я их видел еще живыми, затем наблюдал за чудным
+зрелищем"
+            },
+            "X": 830,
+            "Title": "",
+            "Y": 109,
+            "Sound": "",
+            "Relations": [
+                "90b1dfd4-61d6-4261-89ae-282f98281a61",
+                "a3992218-7da8-486b-bacc-8547af6eb0dd"
+            ],
+            "Id": "e24f23a1-ef7d-4088-b3af-d3112b09f17d",
+            "Marker": ""
+        },
+        {
+            "Read": 1b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Славно"
+            },
+            "X": 2463,
+            "Title": "",
+            "Y": -97,
+            "Sound": "",
+            "Id": "916b8f85-86c8-485f-ac95-3c6b95ba4a6c",
+            "Marker": "ifyes"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Стрельнешь сигаретку?"
+            },
+            "X": 398,
+            "Title": "",
+            "Y": -350,
+            "Relations": [
+                "2aeccdcb-961e-4660-9ec9-c694551ccd8f"
+            ],
+            "Id": "d9fe5c38-1345-4329-bf08-27555a9902ba"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Матушка всем помогает. Великая, милосердная, щедрая…"
+            },
+            "X": 1668,
+            "Title": "",
+            "Y": 116,
+            "Sound": "",
+            "Relations": [
+                "cf2bf0b3-baa9-4c19-bf02-74f8f940d64b",
+                "a3992218-7da8-486b-bacc-8547af6eb0dd"
+            ],
+            "Id": "26edbd37-2de6-43cb-b71b-3f9f5a86a460",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "То была последняя"
+            },
+            "X": 589,
+            "Title": "",
+            "Y": -357,
+            "Sound": "",
+            "Relations": [
+                "f894878c-0030-4ef7-99d5-02d8792dea62"
+            ],
+            "Id": "2aeccdcb-961e-4660-9ec9-c694551ccd8f",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "О, да. Мать бы ими гордилась"
+            },
+            "X": 1248,
+            "Title": "",
+            "Y": 117,
+            "Sound": "",
+            "Relations": [
+                "b2b87be7-ad5b-48bd-91b9-d55a041fcac3",
+                "a3992218-7da8-486b-bacc-8547af6eb0dd"
+            ],
+            "Id": "a6876df2-7be0-40cf-837d-9d6fa3d35a03",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(У этого незнакомца явно не все дома)"
+            },
+            "X": 1856,
+            "Title": "",
+            "Y": 119,
+            "Relations": [
+                "dc59c8a7-e88c-4288-9c1b-d3c13797d706"
+            ],
+            "Id": "cf2bf0b3-baa9-4c19-bf02-74f8f940d64b"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Достаточно"
+            },
+            "X": 479,
+            "Title": "",
+            "Y": 103,
+            "Sound": "",
+            "Relations": [
+                "c8f63e63-dc41-40cf-b24c-c8d1186d041e",
+                "a3992218-7da8-486b-bacc-8547af6eb0dd"
+            ],
+            "Id": "4326110f-079e-49eb-9f06-2dab0545cfae",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Вы видели как их убили?"
+            },
+            "X": 1030,
+            "Title": "",
+            "Y": 110,
+            "Relations": [
+                "a6876df2-7be0-40cf-837d-9d6fa3d35a03"
+            ],
+            "Id": "90b1dfd4-61d6-4261-89ae-282f98281a61"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Вам придется пройти в участок, у меня есть пару вопросов"
+            },
+            "X": 2226,
+            "Title": "",
+            "Y": 278,
+            "Relations": [
+                "5bcfcf0f-7af0-4162-bc4c-72ed6ed42b46"
+            ],
+            "Id": "1127af00-945f-442e-971c-c8fa36ee1e82"
+        },
+        {
+            "Type": "command",
+            "Command": "scene play police_case2 @p",
+            "X": 2748,
+            "Title": "сцена",
+            "Y": 632,
+            "Id": "8f3d655a-e2f6-4e99-ac4b-747da2bfbddd"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Жаль"
+            },
+            "X": 736,
+            "Title": "",
+            "Y": -346,
+            "Relations": [
+                "f3191850-9c93-4aa8-a775-aa664015538d"
+            ],
+            "Id": "f894878c-0030-4ef7-99d5-02d8792dea62"
+        },
+        {
+            "Read": 1b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ты это зря"
+            },
+            "X": 2421,
+            "Title": "",
+            "Y": 347,
+            "Sound": "",
+            "Relations": [
+                "1b7b9a67-a1d8-4b07-a125-2b7b13d41476"
+            ],
+            "Id": "5bcfcf0f-7af0-4162-bc4c-72ed6ed42b46",
+            "Marker": "ifno"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Я согласна, встретимся через несколько дней на этом же месте"
+            },
+            "X": 2235,
+            "Title": "",
+            "Y": -93,
+            "Relations": [
+                "916b8f85-86c8-485f-ac95-3c6b95ba4a6c",
+                "4d94f8a7-9f8d-437b-af9d-759e5b16817c",
+                "a5906ffe-2aee-4de9-b1bd-1125bdb0d536"
+            ],
+            "Id": "3cca0b0b-3d01-4667-8b9d-fef164ad3e4e"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Добрый вечер"
+            },
+            "X": 123,
+            "Title": "",
+            "Y": -100,
+            "Relations": [
+                "f4d000ee-4d8f-41a2-a954-fde3c3853759"
+            ],
+            "Id": "b707a46d-bade-4697-aa9d-23a72b144326"
+        },
+        {
+            "Type": "command",
+            "Command": "mp state add @p Правонарушение 1",
+            "X": 2464,
+            "Title": "",
+            "Y": -279,
+            "Id": "4d94f8a7-9f8d-437b-af9d-759e5b16817c"
+        },
+        {
+            "Read": 1b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Матушка живет далеко, ее признание нужно заслужить. Я
+через несколько дней направлюсь к лесной хижине, можем пойти
+вместе. Я чувствую, внутри тебя бушует энергия. Проверим, достойна
+ли ты встречи с великой госпожой"
+            },
+            "X": 2087,
+            "Title": "",
+            "Y": 128,
+            "Sound": "",
+            "Relations": [
+                "3cca0b0b-3d01-4667-8b9d-fef164ad3e4e",
+                "1127af00-945f-442e-971c-c8fa36ee1e82"
+            ],
+            "Id": "dc59c8a7-e88c-4288-9c1b-d3c13797d706",
+            "Marker": "ifmama"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Видели трупы на улице?"
+            },
+            "X": 640,
+            "Title": "",
+            "Y": 100,
+            "Relations": [
+                "e24f23a1-ef7d-4088-b3af-d3112b09f17d"
+            ],
+            "Id": "c8f63e63-dc41-40cf-b24c-c8d1186d041e"
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p {\"text\":\"+ \\u041f\\u0440\\u0430\\u0432\\u043e\\u043d\\u0430\\u0440\\u0443\\u0448\\u0435\\u043d\\u0438\\u0435\",\"color\":\"red\"}",
+            "X": 2462,
+            "Title": "",
+            "Y": -414,
+            "Id": "a5906ffe-2aee-4de9-b1bd-1125bdb0d536"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Приветствую"
+            },
+            "X": 287,
+            "Title": "",
+            "Y": -96,
+            "Sound": "",
+            "Relations": [
+                "d9fe5c38-1345-4329-bf08-27555a9902ba",
+                "d38399dd-6309-46d5-88a1-5d461d03132e",
+                "a3992218-7da8-486b-bacc-8547af6eb0dd"
+            ],
+            "Id": "f4d000ee-4d8f-41a2-a954-fde3c3853759",
+            "Marker": ""
+        },
+        {
+            "Type": "command",
+            "Command": "mp state add @p Закон 1",
+            "X": 2754,
+            "Title": "",
+            "Y": 346,
+            "Id": "637064e6-7b5b-463e-baf5-18580475d193"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "*Медленно затягивает сигарету, задумчиво смотря вдаль*"
+            },
+            "X": -48,
+            "Title": "",
+            "Y": -92,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 0b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/Ralph.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                    },
+                    "left_arm": {
+                        "RX": 0.13962634f,
+                        "RY": -0.34906587f,
+                        "RZ": 0.05235988f
+                    },
+                    "low_right_arm": {
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                        "RZ": -1.2217305E-7f
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "slim_simple_plus",
+                "BodyParts": [
+                    {
+                        "R": [
+                            0.0f,
+                            -180.0f,
+                            0.0f
+                        ],
+                        "S": [
+                            1.25f,
+                            1.25f,
+                            1.25f
+                        ],
+                        "T": [
+                            0.0f,
+                            0.09375f,
+                            -0.15625f
+                        ],
+                        "Limb": "low_left_arm.end",
+                        "Morph": {
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.cigs/cig_more_lit"
+                        }
+                    }
+                ],
+                "Name": "emoticons.slim_simple_plus"
+            },
+            "Sound": "",
+            "Relations": [
+                "b707a46d-bade-4697-aa9d-23a72b144326",
+                "a3992218-7da8-486b-bacc-8547af6eb0dd"
+            ],
+            "Id": "f3191850-9c93-4aa8-a775-aa664015538d",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Закрыть)"
+            },
+            "X": 1119,
+            "Title": "",
+            "Y": -117,
+            "Id": "a3992218-7da8-486b-bacc-8547af6eb0dd"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Condition": {
+                                "Blocks": [
+                                    {
+                                        "Not": 0b,
+                                        "Target": 2,
+                                        "Type": "dialogue",
+                                        "Or": 0b,
+                                        "Id": "victim2",
+                                        "Marker": "strangeman",
+                                        "Selector": ""
+                                    }
+                                ]
+                            },
+                            "Not": 0b,
+                            "Type": "condition",
+                            "Or": 0b
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": -48,
+            "Title": "strangeman",
+            "Y": -254,
+            "Relations": [
+                "f3191850-9c93-4aa8-a775-aa664015538d"
+            ],
+            "Id": "1901cb6c-8291-40e9-aee8-6e88ac8219c8"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Вызвать следственно-оперативную группу и задержать
+сумасшедшего)"
+            },
+            "X": 2545,
+            "Title": "",
+            "Y": 447,
+            "Relations": [
+                "637064e6-7b5b-463e-baf5-18580475d193",
+                "c837ed2d-6e18-440e-855b-b2e11e73c7ca",
+                "8f3d655a-e2f6-4e99-ac4b-747da2bfbddd"
+            ],
+            "Id": "1b7b9a67-a1d8-4b07-a125-2b7b13d41476"
+        }
+    ]
+}

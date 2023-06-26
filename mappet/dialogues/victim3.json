@@ -1,0 +1,242 @@
+{
+    "Closable": 1b,
+    "Main": "6fc684a7-fff7-4dae-b6f0-8ae58cfb723c",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "И снова рваные раны, я даже не удивлена. Стоп.. мне показалось или 
+у него бьется сердце?"
+            },
+            "X": -474,
+            "Title": "",
+            "Y": 226,
+            "Sound": "",
+            "Relations": [
+                "a516294d-503c-4c1a-b6e1-b502d794fce5"
+            ],
+            "Id": "cc6697df-54f6-4858-817f-e97e4ac9fefe",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Осмотреть следы крови)"
+            },
+            "X": 248,
+            "Title": "",
+            "Y": 82,
+            "Relations": [
+                "3534d62e-3115-43c0-a332-367ef28b98b8"
+            ],
+            "Id": "5a8aa9ba-2e7f-474f-855b-451ca2e134c1"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Проверить карманы)"
+            },
+            "X": -156,
+            "Title": "",
+            "Y": 78,
+            "Relations": [
+                "8cf546ba-c770-4a6b-aa46-cf0de1f1f0be"
+            ],
+            "Id": "0b90b705-135c-43c4-8f0b-4a8fdef3ed93"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "[lПоиск улик"
+            },
+            "X": -8,
+            "Title": "",
+            "Y": -72,
+            "Sound": "",
+            "Relations": [
+                "0b90b705-135c-43c4-8f0b-4a8fdef3ed93",
+                "4b809153-ca40-4b9d-9ea5-73e59deda0b9",
+                "5a8aa9ba-2e7f-474f-855b-451ca2e134c1",
+                "52dfb3f0-fe55-47ae-a6ab-8ea20f320261"
+            ],
+            "Id": "6fc684a7-fff7-4dae-b6f0-8ae58cfb723c",
+            "Marker": ""
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 2,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "victim3",
+                            "Marker": "hint1",
+                            "Selector": ""
+                        },
+                        {
+                            "Not": 0b,
+                            "Target": 2,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "victim3",
+                            "Marker": "hint2",
+                            "Selector": ""
+                        },
+                        {
+                            "Not": 0b,
+                            "Target": 2,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "victim3",
+                            "Marker": "hint3",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": -226,
+            "Title": "",
+            "Y": -70,
+            "Relations": [
+                "15798b97-50b3-4551-b4fd-893afb9a7dab"
+            ],
+            "Id": "52dfb3f0-fe55-47ae-a6ab-8ea20f320261"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Проверить пульс)"
+            },
+            "X": -474,
+            "Title": "",
+            "Y": 374,
+            "Relations": [
+                "c77eecee-2fde-475b-ae7e-61fda6da96c3"
+            ],
+            "Id": "a516294d-503c-4c1a-b6e1-b502d794fce5"
+        },
+        {
+            "Read": 1b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Он жив! Нужно срочно сказать об этом медикам"
+            },
+            "X": -474,
+            "Title": "",
+            "Y": 516,
+            "Sound": "cfm:fart_3",
+            "Id": "c77eecee-2fde-475b-ae7e-61fda6da96c3",
+            "Marker": "healive"
+        },
+        {
+            "Read": 1b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Отлично, бумажник, нужно будет отправить его на экспертизу.
+Ну, или оставить себе"
+            },
+            "X": -156,
+            "Title": "",
+            "Y": 230,
+            "Sound": "",
+            "Relations": [
+                "0e0fdf47-0010-4c9d-858d-15d0b27f47d3"
+            ],
+            "Id": "8cf546ba-c770-4a6b-aa46-cf0de1f1f0be",
+            "Marker": "hint1"
+        },
+        {
+            "Read": 1b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Кровь уже засохшая, от убийства прошло уже достаточно много времени"
+            },
+            "X": 258,
+            "Title": "",
+            "Y": 234,
+            "Sound": "",
+            "Relations": [
+                "0e0fdf47-0010-4c9d-858d-15d0b27f47d3"
+            ],
+            "Id": "3534d62e-3115-43c0-a332-367ef28b98b8",
+            "Marker": "hint3"
+        },
+        {
+            "Read": 1b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Костюм от дорогого бренда, этот мужчина явно не из бедных"
+            },
+            "X": 36,
+            "Title": "",
+            "Y": 238,
+            "Sound": "",
+            "Relations": [
+                "0e0fdf47-0010-4c9d-858d-15d0b27f47d3"
+            ],
+            "Id": "6122daba-1283-4b21-9938-cf2f2352c34d",
+            "Marker": "hint2"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Назад)"
+            },
+            "X": -122,
+            "Title": "",
+            "Y": 488,
+            "Relations": [
+                "6fc684a7-fff7-4dae-b6f0-8ae58cfb723c"
+            ],
+            "Id": "0e0fdf47-0010-4c9d-858d-15d0b27f47d3"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Осмотреть костюм)"
+            },
+            "X": 42,
+            "Title": "",
+            "Y": 80,
+            "Relations": [
+                "6122daba-1283-4b21-9938-cf2f2352c34d"
+            ],
+            "Id": "4b809153-ca40-4b9d-9ea5-73e59deda0b9"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 3499487,
+                "Text": "(Осмотреть тело)"
+            },
+            "X": -366,
+            "Title": "",
+            "Y": 54,
+            "Relations": [
+                "cc6697df-54f6-4858-817f-e97e4ac9fefe"
+            ],
+            "Id": "15798b97-50b3-4551-b4fd-893afb9a7dab"
+        }
+    ]
+}

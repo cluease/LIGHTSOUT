@@ -1,0 +1,109 @@
+{
+    "Closable": 1b,
+    "Main": "c8f3d4c8-74b3-4334-9eee-a6339a8724f9",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Кажется, мы имеем дело с настоящим серийным маньяком"
+            },
+            "X": 422,
+            "Title": "",
+            "Y": -51,
+            "Sound": "",
+            "Relations": [
+                "01d5f8c7-79d5-4cf6-977b-3c86233e9aff",
+                "4bb94493-046c-4bb9-880b-ab75460df900"
+            ],
+            "Id": "285d057f-1ecb-481f-909d-fbe33f326eea",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "В этом городке нередко кого-то убивают, просто людям нет
+дела до этого. Но три убийства за день… такое я вижу впервые"
+            },
+            "X": 234,
+            "Title": "",
+            "Y": -57,
+            "Relations": [
+                "285d057f-1ecb-481f-909d-fbe33f326eea"
+            ],
+            "Id": "7d07efe2-d8e0-4d40-9256-aa006c642e00"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Вполне возможно"
+            },
+            "X": 598,
+            "Title": "",
+            "Y": -175,
+            "Id": "4bb94493-046c-4bb9-880b-ab75460df900"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Пока рано делать выводы"
+            },
+            "X": 600,
+            "Title": "",
+            "Y": 32,
+            "Id": "01d5f8c7-79d5-4cf6-977b-3c86233e9aff"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Тебе не кажется странным, что это уже второе убийство за
+день? Еще и двойное"
+            },
+            "X": 18,
+            "Title": "",
+            "Y": -50,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "popcorn": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 0b,
+                            "Texture": "emoticons:textures/popcorn.png"
+                        },
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/Warren.png"
+                        }
+                    }
+                },
+                "Animation": "slim_3d",
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "7d07efe2-d8e0-4d40-9256-aa006c642e00"
+            ],
+            "Id": "c8f3d4c8-74b3-4334-9eee-a6339a8724f9",
+            "Marker": ""
+        }
+    ]
+}

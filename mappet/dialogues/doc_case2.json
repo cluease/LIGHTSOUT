@@ -1,0 +1,182 @@
+{
+    "Closable": 0b,
+    "Main": "ee4a9916-c376-4191-a832-67b9eb02117e",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 2,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "victim3",
+                            "Marker": "healive",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 42,
+            "Title": "",
+            "Y": 82,
+            "Relations": [
+                "91e261ed-f008-431d-b8ec-c9a1bc75044e"
+            ],
+            "Id": "aa265190-c5b2-4c6e-8716-775e5bcc8b8f"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Они явно были совершены в порыве ярости, но парню без
+головы повезло гораздо меньше"
+            },
+            "X": 414,
+            "Title": "",
+            "Y": -204,
+            "Sound": "",
+            "Id": "ed844f17-f0ca-43e5-a312-2513eb05255b",
+            "Marker": ""
+        },
+        {
+            "Type": "command",
+            "Command": "scene play doc_case2 @p",
+            "X": 796,
+            "Title": "",
+            "Y": 176,
+            "Id": "e80e8f2a-c64c-49fd-9a1a-7235f259c8a0"
+        },
+        {
+            "Type": "command",
+            "Command": "mp npc despawn @e[mpid=victim3]",
+            "X": 594,
+            "Title": "",
+            "Y": -136,
+            "Id": "47a7d63b-7702-43b7-ae88-d5b67842c783"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Что вы можете сказать об этих двух убийствах?"
+            },
+            "X": 230,
+            "Title": "",
+            "Y": -206,
+            "Relations": [
+                "ed844f17-f0ca-43e5-a312-2513eb05255b"
+            ],
+            "Id": "71ca579c-f62c-466f-8810-e840d513192e"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Проверьте еще раз, а лучше поверьте мне на слово, сразу
+возьмите каталку и отвезите его в больницу как можно скорее"
+            },
+            "X": 594,
+            "Title": "",
+            "Y": -6,
+            "Relations": [
+                "e80e8f2a-c64c-49fd-9a1a-7235f259c8a0",
+                "1cc24d98-f0df-4bd2-9851-ca851eb4b67d",
+                "e9e2ddd6-8c11-4f04-a08c-df6052459387",
+                "47a7d63b-7702-43b7-ae88-d5b67842c783"
+            ],
+            "Id": "6048e866-f170-49c6-bc80-301c4248e195"
+        },
+        {
+            "Type": "command",
+            "Command": "mp npc despawn @e[mpid=doc]",
+            "X": 592,
+            "Title": "",
+            "Y": 174,
+            "Id": "1cc24d98-f0df-4bd2-9851-ca851eb4b67d"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Да?"
+            },
+            "X": 42,
+            "Title": "",
+            "Y": -84,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/doc4.png"
+                        }
+                    }
+                },
+                "Animation": "slim_3d",
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "71ca579c-f62c-466f-8810-e840d513192e",
+                "aa265190-c5b2-4c6e-8716-775e5bcc8b8f"
+            ],
+            "Id": "ee4a9916-c376-4191-a832-67b9eb02117e",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Мужчина в костюме еще дышит!"
+            },
+            "X": 230,
+            "Title": "",
+            "Y": 12,
+            "Relations": [
+                "70337f71-f608-4be6-b1ec-c0fdca7547f6"
+            ],
+            "Id": "91e261ed-f008-431d-b8ec-c9a1bc75044e"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Что? Не может быть, мы только что проверяли его пульс, сердце
+не билось"
+            },
+            "X": 388,
+            "Title": "",
+            "Y": -12,
+            "Sound": "",
+            "Relations": [
+                "6048e866-f170-49c6-bc80-301c4248e195"
+            ],
+            "Id": "70337f71-f608-4be6-b1ec-c0fdca7547f6",
+            "Marker": ""
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p [\"\",{\"text\":\"\\u041f\\u0430\\u0440\\u0430\\u043c\\u0435\\u0434\\u0438\\u043a: \",\"bold\":true,\"color\":\"green\"},{\"text\":\"\\u041c\\u0430\\u0439\\u043a, \\u0441\\u043a\\u043e\\u0440\\u0435\\u0435 \\u0431\\u0435\\u0440\\u0438 \\u0435\\u0433\\u043e \\u0438 \\u043d\\u0435\\u0441\\u0438 \\u0432 \\u0431\\u0430\\u0433\\u0430\\u0436\\u043d\\u0438\\u043a \",\"color\":\"white\"}]",
+            "X": 796,
+            "Title": "",
+            "Y": -2,
+            "Id": "e9e2ddd6-8c11-4f04-a08c-df6052459387"
+        }
+    ]
+}

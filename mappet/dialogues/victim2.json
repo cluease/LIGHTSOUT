@@ -1,0 +1,181 @@
+{
+    "Closable": 0b,
+    "Main": "45ecae68-931d-4f1b-989d-8dcc046f45e2",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Посмотреть на оторванную голову)"
+            },
+            "X": -24,
+            "Title": "",
+            "Y": 100,
+            "Relations": [
+                "37f826f8-3f71-4c05-9ca2-bf4784777a33"
+            ],
+            "Id": "f66a1820-6ab9-4658-bb62-9a43f6f7a5df"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Сделать снимок)"
+            },
+            "X": -28,
+            "Title": "",
+            "Y": 404,
+            "Relations": [
+                "46a108bd-0daa-4889-bc1f-c17f78de8e54",
+                "11f1feb4-97a7-438c-848f-a91a6e0dceba"
+            ],
+            "Id": "07f57890-0c1a-4607-85f1-a72024d26c7f"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Без проблем"
+            },
+            "X": -27,
+            "Title": "",
+            "Y": 980,
+            "Id": "feea62f4-d22e-4cb5-a27d-02a142c2acaf"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ну и жуть, это слишком даже для самого отпетого убийцы"
+            },
+            "X": -26,
+            "Title": "",
+            "Y": 250,
+            "Sound": "",
+            "Relations": [
+                "07f57890-0c1a-4607-85f1-a72024d26c7f",
+                "bbaa6548-8514-4929-b68d-b7f3fd4788ff"
+            ],
+            "Id": "37f826f8-3f71-4c05-9ca2-bf4784777a33",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Как продвигается расследование? Ох.. черт, вот это да"
+            },
+            "X": -27,
+            "Title": "",
+            "Y": 548,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "popcorn": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 0b,
+                            "Texture": "emoticons:textures/popcorn.png"
+                        },
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/Warren.png"
+                        }
+                    }
+                },
+                "Animation": "slim_3d",
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "3fca6fa8-67ef-4aca-9a59-36c7f9cad73e"
+            ],
+            "Id": "46a108bd-0daa-4889-bc1f-c17f78de8e54",
+            "Marker": ""
+        },
+        {
+            "Read": 1b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Я сейчас разговаривал со странным мужчиной возле заправки. Попытался задать пару вопросов, но он оказался
+не особо разговорчивым, невнятно отвечал и твердил про какую-то
+хижину в лесу. Может, ты попробуешь с ним поговорить?"
+            },
+            "X": -29,
+            "Title": "",
+            "Y": 838,
+            "Sound": "",
+            "Relations": [
+                "feea62f4-d22e-4cb5-a27d-02a142c2acaf"
+            ],
+            "Id": "147e030f-0705-4a9a-aa36-c9e0e727dc16",
+            "Marker": "strangeman"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Закрыть)"
+            },
+            "X": 238,
+            "Title": "",
+            "Y": 59,
+            "Id": "bbaa6548-8514-4929-b68d-b7f3fd4788ff"
+        },
+        {
+            "Type": "command",
+            "Command": "playsound customnpcs:misc.camera block @p",
+            "X": 210,
+            "Title": "",
+            "Y": 410,
+            "Id": "11f1feb4-97a7-438c-848f-a91a6e0dceba"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "И не говори"
+            },
+            "X": -29,
+            "Title": "",
+            "Y": 704,
+            "Relations": [
+                "147e030f-0705-4a9a-aa36-c9e0e727dc16"
+            ],
+            "Id": "3fca6fa8-67ef-4aca-9a59-36c7f9cad73e"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "[lПоиск улик"
+            },
+            "X": -24,
+            "Title": "",
+            "Y": -56,
+            "Sound": "",
+            "Relations": [
+                "f66a1820-6ab9-4658-bb62-9a43f6f7a5df",
+                "bbaa6548-8514-4929-b68d-b7f3fd4788ff"
+            ],
+            "Id": "45ecae68-931d-4f1b-989d-8dcc046f45e2",
+            "Marker": ""
+        }
+    ]
+}

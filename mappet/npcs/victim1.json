@@ -101,7 +101,7 @@
                 "Blocks": [
                 ]
             },
-            "CanSwim": 0b,
+            "CanSwim": 1b,
             "Flee": 4.0f,
             "LookAtPlayer": 0b,
             "Respawn": 0b,

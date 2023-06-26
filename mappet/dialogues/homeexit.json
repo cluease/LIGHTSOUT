@@ -14,7 +14,7 @@
             },
             "X": 465,
             "Title": "",
-            "Y": 281,
+            "Y": 453,
             "Relations": [
                 "65641cb9-9b46-426a-91ca-b857ee9b02d4"
             ],
@@ -25,40 +25,38 @@
             "Command": "/tp @p 1126 130 -1530",
             "X": 676,
             "Title": "",
-            "Y": 281,
+            "Y": 453,
             "Id": "65641cb9-9b46-426a-91ca-b857ee9b02d4"
         },
         {
             "Type": "reply",
             "Message": {
                 "Color": 16777215,
-                "Text": "СЮЖЕТНЫЕ ЗАДАНИЯ"
+                "Text": "(Отправиться в полицейский участок)"
             },
-            "X": 254,
+            "X": 770,
             "Title": "",
-            "Y": -63,
-            "Id": "dd1017ba-cb92-4c49-978c-85a309adaa20"
+            "Y": -224,
+            "Relations": [
+                "417e2c53-1092-4a6e-b0eb-e7e39eac0d67",
+                "e0bb6ae6-d1dd-4f7a-b6d1-e734211478ae"
+            ],
+            "Id": "a3ec4d40-72ee-4805-9f67-00a5d0c4b1e5"
         },
         {
-            "Type": "reply",
-            "Message": {
-                "Color": 16777215,
-                "Text": "(Выйти во двор)"
-            },
-            "X": 593,
+            "Type": "command",
+            "Command": "tp @p 1058 121 -2860",
+            "X": 1020,
             "Title": "",
-            "Y": -371,
-            "Relations": [
-                "edb51705-d080-425f-b10a-cedb4ad5ab63"
-            ],
-            "Id": "d0175a9d-5747-4d2c-8d06-b0384f3e0cd4"
+            "Y": -130,
+            "Id": "e0bb6ae6-d1dd-4f7a-b6d1-e734211478ae"
         },
         {
             "Type": "command",
             "Command": "tp @p 372 91 -1271",
-            "X": 761,
+            "X": 716,
             "Title": "",
-            "Y": -375,
+            "Y": -669,
             "Id": "edb51705-d080-425f-b10a-cedb4ad5ab63"
         },
         {
@@ -66,9 +64,9 @@
             "Type": "reaction",
             "Message": {
                 "Color": 16777215,
-                "Text": "Вы подошли к двери, куда желаете направиться?"
+                "Text": "Вы подошли к двери, куда желаете отправиться?"
             },
-            "X": 46,
+            "X": 48,
             "Title": "",
             "Y": -100,
             "Sound": "",
@@ -88,7 +86,7 @@
             },
             "X": 40,
             "Title": "",
-            "Y": 276,
+            "Y": 448,
             "Relations": [
                 "5115fb47-08d5-4e37-947d-43f321064755"
             ],
@@ -100,9 +98,9 @@
                 "Color": 16777215,
                 "Text": "ОТКРЫТЫЙ МИР"
             },
-            "X": 179,
+            "X": 134,
             "Title": "ОТКРЫТЫЙ МИР",
-            "Y": -367,
+            "Y": -661,
             "Relations": [
                 "aa44b416-0214-45c3-ae58-618d3345545a"
             ],
@@ -128,7 +126,7 @@
             "Type": "condition",
             "X": 361,
             "Title": "",
-            "Y": 154,
+            "Y": 326,
             "Relations": [
                 "f516a501-5c52-42a8-b330-67798914e432"
             ],
@@ -143,7 +141,7 @@
             },
             "X": 236,
             "Title": "",
-            "Y": 274,
+            "Y": 446,
             "Sound": "",
             "Relations": [
                 "ba20698d-532e-41e9-8d42-accd036efea1"
@@ -158,15 +156,94 @@
                 "Color": 16777215,
                 "Text": "Выберите, куда хотите отправиться"
             },
-            "X": 412,
+            "X": 367,
             "Title": "",
-            "Y": -366,
+            "Y": -660,
             "Sound": "",
             "Relations": [
                 "d0175a9d-5747-4d2c-8d06-b0384f3e0cd4"
             ],
             "Id": "aa44b416-0214-45c3-ae58-618d3345545a",
             "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Выберите, куда хотите отправиться"
+            },
+            "X": 434,
+            "Title": "",
+            "Y": -86,
+            "Sound": "",
+            "Relations": [
+                "17253ae4-94cf-4e2b-9fec-dae17918d9a7"
+            ],
+            "Id": "64234d68-3f1a-40d3-888c-749fbd644b64",
+            "Marker": ""
+        },
+        {
+            "Type": "command",
+            "Command": "scene play Warren_if_northere @p",
+            "X": 1024,
+            "Title": "",
+            "Y": -294,
+            "Id": "417e2c53-1092-4a6e-b0eb-e7e39eac0d67"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "СЮЖЕТНЫЕ ЗАДАНИЯ"
+            },
+            "X": 252,
+            "Title": "",
+            "Y": -85,
+            "Relations": [
+                "64234d68-3f1a-40d3-888c-749fbd644b64"
+            ],
+            "Id": "dd1017ba-cb92-4c49-978c-85a309adaa20"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Выйти во двор)"
+            },
+            "X": 548,
+            "Title": "",
+            "Y": -665,
+            "Relations": [
+                "edb51705-d080-425f-b10a-cedb4ad5ab63"
+            ],
+            "Id": "d0175a9d-5747-4d2c-8d06-b0384f3e0cd4"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 1,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "phone",
+                            "Marker": "nortpolice1",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 590,
+            "Title": "",
+            "Y": -222,
+            "Relations": [
+                "a3ec4d40-72ee-4805-9f67-00a5d0c4b1e5"
+            ],
+            "Id": "17253ae4-94cf-4e2b-9fec-dae17918d9a7"
         }
     ]
 }
