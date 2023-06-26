@@ -15,7 +15,7 @@
                 "Blocks": [
                 ]
             },
-            "Killable": 1b,
+            "Killable": 0b,
             "CanFallDamage": 1b,
             "States": {
             },
@@ -100,6 +100,12 @@
             "Damage": 2.0f,
             "TriggerInteract": {
                 "Blocks": [
+                    {
+                        "Dialogue": "boss1",
+                        "Type": "dialogue",
+                        "CustomData": "",
+                        "Frequency": 1
+                    }
                 ]
             },
             "CanSwim": 1b,

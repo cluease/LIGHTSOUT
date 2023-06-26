@@ -89,6 +89,11 @@
                         "Type": "command",
                         "Command": "mp npc despawn @e[mpid=phone]",
                         "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/playsound customnpcs:misc.ringtone block @p ~ ~ ~ 300",
+                        "Frequency": 1
                     }
                 ]
             },

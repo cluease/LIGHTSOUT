@@ -9,7 +9,7 @@
         {
             "Type": "reply",
             "Message": {
-                "Color": 16777215,
+                "Color": 4081380,
                 "Text": "(Осмотреть тело)"
             },
             "X": -52,
@@ -119,17 +119,6 @@
             "Marker": "pocket1"
         },
         {
-            "Type": "reply",
-            "Message": {
-                "Color": 16777215,
-                "Text": "(Закрыть)"
-            },
-            "X": 426,
-            "Title": "",
-            "Y": -165,
-            "Id": "a308bc07-feac-4773-b83c-a7a40a55f231"
-        },
-        {
             "Read": 0b,
             "Type": "reaction",
             "Message": {
@@ -156,7 +145,6 @@
             "Relations": [
                 "7a12a01d-c148-4d24-a681-49e892806e5f",
                 "4a706702-3086-4929-9a9c-9518a85e5fe8",
-                "a308bc07-feac-4773-b83c-a7a40a55f231",
                 "1af8e6dc-d12d-4c8b-9aa6-cde9ca24d341"
             ],
             "Id": "7131e1b8-566e-452a-850d-795782675e7e",

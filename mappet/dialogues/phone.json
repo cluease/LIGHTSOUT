@@ -62,6 +62,14 @@
             "Id": "f711f7b7-6433-4274-853b-fc91ee93386d"
         },
         {
+            "Type": "command",
+            "Command": "/stopsound @p block customnpcs:misc.ringtone",
+            "X": 496,
+            "Title": "",
+            "Y": -126,
+            "Id": "1adcd2f8-d7ea-4a2d-9bdf-38ca25e08740"
+        },
+        {
             "Read": 0b,
             "Type": "reaction",
             "Message": {
@@ -117,7 +125,8 @@
             "Title": "",
             "Y": -263,
             "Relations": [
-                "de473d81-0f7c-4b12-8d62-e6c435480b28"
+                "de473d81-0f7c-4b12-8d62-e6c435480b28",
+                "1adcd2f8-d7ea-4a2d-9bdf-38ca25e08740"
             ],
             "Id": "b4d40abb-2fcf-4236-9bc4-c0f960824897"
         },

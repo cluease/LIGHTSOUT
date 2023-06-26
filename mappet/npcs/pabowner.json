@@ -98,6 +98,12 @@
             "Damage": 2.0f,
             "TriggerInteract": {
                 "Blocks": [
+                    {
+                        "Dialogue": "pabowner",
+                        "Type": "dialogue",
+                        "CustomData": "",
+                        "Frequency": 1
+                    }
                 ]
             },
             "CanSwim": 1b,

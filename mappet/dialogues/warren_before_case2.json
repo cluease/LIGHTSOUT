@@ -1,0 +1,249 @@
+{
+    "Closable": 1b,
+    "Main": "37568490-9dd2-4b1f-9fc0-b7d98ca66450",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ладно, поехали уже"
+            },
+            "X": 1870,
+            "Title": "",
+            "Y": -137,
+            "Relations": [
+                "e6fce68e-c810-4b3d-a949-72faa4aef726",
+                "814757fb-95be-4d26-b8b5-8997ccb95801"
+            ],
+            "Id": "180cd6e7-4f9a-41e5-93ab-db6a106750d2"
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p {\"text\":\"\\u0423\\u043e\\u0440\\u0440\\u0435\\u043d\\u0443 \\u043f\\u043e\\u043d\\u0440\\u0430\\u0432\\u0438\\u043b\\u0430\\u0441\\u044c \\u0432\\u0430\\u0448\\u0430 \\u0440\\u0435\\u0430\\u043a\\u0446\\u0438\\u044f\",\"color\":\"light_purple\"}",
+            "X": 1566,
+            "Title": "Уоррену понравилось",
+            "Y": -395,
+            "Id": "86aa64b9-eb70-4ba0-98d3-0bf3b66a8b89"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Я рада, что мы теперь будем чаще видеться"
+            },
+            "X": 1354,
+            "Title": "",
+            "Y": -245,
+            "Relations": [
+                "b3087300-e429-476d-92a4-d6eda362106f",
+                "86aa64b9-eb70-4ba0-98d3-0bf3b66a8b89",
+                "e4ce9592-964a-4e0f-af75-3bf91dc1a662"
+            ],
+            "Id": "a413dc47-1f6a-4d6c-b040-0df18cfec83f"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ну как, сильно отругали?"
+            },
+            "X": 0,
+            "Title": "",
+            "Y": -46,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/Warren.png"
+                        }
+                    }
+                },
+                "Animation": "slim_3d",
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "90cf7e67-1249-46af-a947-a166b836b482"
+            ],
+            "Id": "37568490-9dd2-4b1f-9fc0-b7d98ca66450",
+            "Marker": ""
+        },
+        {
+            "Type": "command",
+            "Command": "tp @p 1563 16 -1087",
+            "X": 2034,
+            "Title": "",
+            "Y": -133,
+            "Id": "e6fce68e-c810-4b3d-a949-72faa4aef726"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Обещаю быть самым лучшим и полезным напарником!"
+            },
+            "X": 1592,
+            "Title": "",
+            "Y": -33,
+            "Sound": "",
+            "Relations": [
+                "180cd6e7-4f9a-41e5-93ab-db6a106750d2"
+            ],
+            "Id": "2a1a14d3-bde4-40da-9918-fc6780337b7e",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Двойное убийство, Уоррен"
+            },
+            "X": 538,
+            "Title": "",
+            "Y": -187,
+            "Relations": [
+                "b7560cfa-404e-4c6e-b659-d33819942c76"
+            ],
+            "Id": "f4cec54e-c3ff-4b5b-bb95-68d17299f311"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Правда? Я тоже"
+            },
+            "X": 1588,
+            "Title": "",
+            "Y": -241,
+            "Sound": "",
+            "Relations": [
+                "180cd6e7-4f9a-41e5-93ab-db6a106750d2"
+            ],
+            "Id": "b3087300-e429-476d-92a4-d6eda362106f",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ошалеть, уже второе за день"
+            },
+            "X": 390,
+            "Title": "",
+            "Y": -188,
+            "Sound": "",
+            "Relations": [
+                "f4cec54e-c3ff-4b5b-bb95-68d17299f311"
+            ],
+            "Id": "0480dd71-02dc-4d8c-a4bb-91fbccc23cc9",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Фух, хоть какая-то хорошая новость"
+            },
+            "X": 1126,
+            "Title": "",
+            "Y": -183,
+            "Sound": "",
+            "Relations": [
+                "a413dc47-1f6a-4d6c-b040-0df18cfec83f",
+                "0d8edf7a-bbe4-4a93-b08d-e49084f9fa89"
+            ],
+            "Id": "3ffd3978-8549-4b8a-a16f-5db1e3a5c693",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Мне все равно, с кем работать. Главное успшено расследовать это дело"
+            },
+            "X": 1358,
+            "Title": "",
+            "Y": -39,
+            "Relations": [
+                "2a1a14d3-bde4-40da-9918-fc6780337b7e"
+            ],
+            "Id": "0d8edf7a-bbe4-4a93-b08d-e49084f9fa89"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "..."
+            },
+            "X": 696,
+            "Title": "",
+            "Y": -180,
+            "Sound": "",
+            "Relations": [
+                "cdcc5ae0-012e-4fd9-b2fd-0166e5314343"
+            ],
+            "Id": "b7560cfa-404e-4c6e-b659-d33819942c76",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "А еще, если эти убийства будут схожи с предыдущим, то босс назначит нас с тобой главными по этому делу"
+            },
+            "X": 902,
+            "Title": "",
+            "Y": -182,
+            "Relations": [
+                "3ffd3978-8549-4b8a-a16f-5db1e3a5c693"
+            ],
+            "Id": "cdcc5ae0-012e-4fd9-b2fd-0166e5314343"
+        },
+        {
+            "Type": "command",
+            "Command": "mp faction add Уоррен 1",
+            "X": 1356,
+            "Title": "",
+            "Y": -393,
+            "Id": "e4ce9592-964a-4e0f-af75-3bf91dc1a662"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Бывало и хуже, у нас новое дело. Убийство на заправке"
+            },
+            "X": 223,
+            "Title": "",
+            "Y": -192,
+            "Relations": [
+                "0480dd71-02dc-4d8c-a4bb-91fbccc23cc9"
+            ],
+            "Id": "90cf7e67-1249-46af-a947-a166b836b482"
+        },
+        {
+            "Type": "command",
+            "Command": "mp npc despawn @e[mpid=Warren_before_case2]",
+            "X": 2032,
+            "Title": "",
+            "Y": -288,
+            "Id": "814757fb-95be-4d26-b8b5-8997ccb95801"
+        }
+    ]
+}

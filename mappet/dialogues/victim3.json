@@ -1,6 +1,6 @@
 {
     "Closable": 1b,
-    "Main": "6fc684a7-fff7-4dae-b6f0-8ae58cfb723c",
+    "Main": "21c5568f-180e-4058-b92e-e3cff60d202d",
     "OnClose": {
         "Blocks": [
         ]
@@ -73,6 +73,14 @@
             "Marker": ""
         },
         {
+            "Type": "command",
+            "Command": "/playsound customnpcs:misc.heartbeat block @p ~ ~ ~ 300",
+            "X": -710,
+            "Title": "",
+            "Y": 510,
+            "Id": "cc511c11-cf88-4410-b627-412a0c4f25b7"
+        },
+        {
             "Condition": {
                 "Condition": {
                     "Blocks": [
@@ -126,7 +134,8 @@
             "Title": "",
             "Y": 374,
             "Relations": [
-                "c77eecee-2fde-475b-ae7e-61fda6da96c3"
+                "c77eecee-2fde-475b-ae7e-61fda6da96c3",
+                "cc511c11-cf88-4410-b627-412a0c4f25b7"
             ],
             "Id": "a516294d-503c-4c1a-b6e1-b502d794fce5"
         },
@@ -140,7 +149,7 @@
             "X": -474,
             "Title": "",
             "Y": 516,
-            "Sound": "cfm:fart_3",
+            "Sound": "",
             "Id": "c77eecee-2fde-475b-ae7e-61fda6da96c3",
             "Marker": "healive"
         },
@@ -237,6 +246,32 @@
                 "cc6697df-54f6-4858-817f-e97e4ac9fefe"
             ],
             "Id": "15798b97-50b3-4551-b4fd-893afb9a7dab"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 1b,
+                            "Target": 2,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "victim3",
+                            "Marker": "healive",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": -10,
+            "Title": "",
+            "Y": -230,
+            "Relations": [
+                "6fc684a7-fff7-4dae-b6f0-8ae58cfb723c"
+            ],
+            "Id": "21c5568f-180e-4058-b92e-e3cff60d202d"
         }
     ]
 }

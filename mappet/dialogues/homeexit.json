@@ -112,7 +112,7 @@
                     "Blocks": [
                         {
                             "Not": 0b,
-                            "Target": 1,
+                            "Target": 2,
                             "Type": "dialogue",
                             "Or": 0b,
                             "Id": "hometom",
@@ -225,7 +225,7 @@
                     "Blocks": [
                         {
                             "Not": 0b,
-                            "Target": 1,
+                            "Target": 2,
                             "Type": "dialogue",
                             "Or": 0b,
                             "Id": "phone",

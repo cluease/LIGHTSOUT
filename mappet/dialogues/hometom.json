@@ -183,6 +183,14 @@
             "Id": "6d5b71ca-cae4-48d7-a242-84e46571ce6c"
         },
         {
+            "Type": "command",
+            "Command": "mp faction add @p tom 1",
+            "X": -307,
+            "Title": "",
+            "Y": 2260,
+            "Id": "5d5b2b01-159f-4d98-b5c5-97e5ec418420"
+        },
+        {
             "Read": 0b,
             "Type": "reaction",
             "Message": {
@@ -265,7 +273,8 @@
             "Y": 2125,
             "Sound": "",
             "Relations": [
-                "e2f04c35-fbd0-4f5e-8270-becf4d841e46"
+                "e2f04c35-fbd0-4f5e-8270-becf4d841e46",
+                "5d5b2b01-159f-4d98-b5c5-97e5ec418420"
             ],
             "Id": "6f299f3d-f2ca-4efa-ba1a-f49859a8baa0",
             "Marker": "tom2"

@@ -133,7 +133,7 @@
                     "Blocks": [
                         {
                             "Not": 0b,
-                            "Target": 1,
+                            "Target": 2,
                             "Type": "quest",
                             "Or": 0b,
                             "Id": "story_case1_2",
@@ -145,9 +145,9 @@
                 "Mode": 1
             },
             "Type": "condition",
-            "X": -26,
+            "X": -28,
             "Title": "",
-            "Y": -244,
+            "Y": -240,
             "Relations": [
                 "1121aceb-da04-4045-9389-6c7cc03ec031"
             ],
