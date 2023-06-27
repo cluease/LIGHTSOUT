@@ -1,0 +1,226 @@
+{
+    "Closable": 0b,
+    "Main": "b2ea89c9-b40c-405c-bd33-f9f2882f6575",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Все еще работаешь на Гордена?"
+            },
+            "X": 451,
+            "Title": "",
+            "Y": -219,
+            "Sound": "",
+            "Relations": [
+                "1fd99630-ed32-4f6a-b1c1-d0370b9d03ef"
+            ],
+            "Id": "0a89d8b0-2b78-4f6b-b601-bad1a30a0bb5",
+            "Marker": ""
+        },
+        {
+            "Type": "command",
+            "Command": "/setblock 2373 20 -1728 air",
+            "X": 1160,
+            "Title": "",
+            "Y": -379,
+            "Id": "c4b5ce82-8aa6-4b21-b5a4-d97a8a47dcee"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "О, Норт! Какими судьбами? Да и еще в такой поздний час"
+            },
+            "X": -16,
+            "Title": "",
+            "Y": -68,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 0b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/gorden.png"
+                        }
+                    }
+                },
+                "Animation": "default_simple_plus",
+                "Name": "emoticons.default_simple_plus"
+            },
+            "Sound": "",
+            "Relations": [
+                "38f426d4-419a-4d19-b1dc-a3d5eb2a93b5"
+            ],
+            "Id": "b2ea89c9-b40c-405c-bd33-f9f2882f6575",
+            "Marker": ""
+        },
+        {
+            "Type": "command",
+            "Command": "/setblock 2374 20 -1728 air",
+            "X": 1562,
+            "Title": "",
+            "Y": -378,
+            "Id": "2066ec01-32b5-4997-956e-c3eb3fa7028a"
+        },
+        {
+            "Type": "command",
+            "Command": "/setblock 2376 20 -1728 air",
+            "X": 1916,
+            "Title": "",
+            "Y": -366,
+            "Id": "c426d42f-692f-42c9-a58f-5be6867b7f32"
+        },
+        {
+            "Type": "command",
+            "Command": "/setblock 2376 21 -1728 air",
+            "X": 1915,
+            "Title": "",
+            "Y": -527,
+            "Id": "1cf65167-86f0-432d-8cae-d6b7ccf2f337"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ладно, как знаешь. Проходите"
+            },
+            "X": 1229,
+            "Title": "",
+            "Y": -204,
+            "Sound": "",
+            "Relations": [
+                "c4b5ce82-8aa6-4b21-b5a4-d97a8a47dcee",
+                "995d4495-6d0f-42d4-b9c5-dd690c8e7b4d",
+                "aa58e5d2-7d0b-410b-96a8-88945cfa52b6",
+                "c08947b3-0497-4f8f-8ea8-e6271b75f18f",
+                "2066ec01-32b5-4997-956e-c3eb3fa7028a",
+                "a2053812-7bb2-4c2b-95d3-1dc9c69b6097",
+                "134bb03e-60c3-4a54-bb81-1dc15716a7ec",
+                "673d80dd-246e-4f7e-abbc-cbdd54d4bd5e",
+                "c426d42f-692f-42c9-a58f-5be6867b7f32",
+                "1cf65167-86f0-432d-8cae-d6b7ccf2f337"
+            ],
+            "Id": "005ea65b-caba-4513-8c4a-92c325769580",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "По работе. Ты же пропустишь нас?"
+            },
+            "X": 240,
+            "Title": "",
+            "Y": -214,
+            "Relations": [
+                "0a89d8b0-2b78-4f6b-b601-bad1a30a0bb5"
+            ],
+            "Id": "38f426d4-419a-4d19-b1dc-a3d5eb2a93b5"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Да. Других вакансий пока не встречала"
+            },
+            "X": 656,
+            "Title": "",
+            "Y": -216,
+            "Relations": [
+                "81618334-066d-45b8-8ec1-8ead3dd889c2"
+            ],
+            "Id": "1fd99630-ed32-4f6a-b1c1-d0370b9d03ef"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Устроилась бы в воинскую часть, там хоть платят побольше"
+            },
+            "X": 841,
+            "Title": "",
+            "Y": -214,
+            "Sound": "",
+            "Relations": [
+                "d8290800-1d75-489f-895f-fa075d2a9b2e"
+            ],
+            "Id": "81618334-066d-45b8-8ec1-8ead3dd889c2",
+            "Marker": ""
+        },
+        {
+            "Type": "command",
+            "Command": "/setblock 2377 20 -1728 air",
+            "X": 1372,
+            "Title": "",
+            "Y": -383,
+            "Id": "c08947b3-0497-4f8f-8ea8-e6271b75f18f"
+        },
+        {
+            "Type": "command",
+            "Command": "/setblock 2374 21 -1728 air",
+            "X": 1556,
+            "Title": "",
+            "Y": -530,
+            "Id": "a2053812-7bb2-4c2b-95d3-1dc9c69b6097"
+        },
+        {
+            "Type": "command",
+            "Command": "/setblock 2375 20 -1728 air",
+            "X": 1731,
+            "Title": "",
+            "Y": -368,
+            "Id": "134bb03e-60c3-4a54-bb81-1dc15716a7ec"
+        },
+        {
+            "Type": "command",
+            "Command": "/setblock 2377 21 -1728 air",
+            "X": 1382,
+            "Title": "",
+            "Y": -537,
+            "Id": "aa58e5d2-7d0b-410b-96a8-88945cfa52b6"
+        },
+        {
+            "Type": "command",
+            "Command": "/setblock 2375 21 -1728 air",
+            "X": 1730,
+            "Title": "",
+            "Y": -531,
+            "Id": "673d80dd-246e-4f7e-abbc-cbdd54d4bd5e"
+        },
+        {
+            "Type": "command",
+            "Command": "/setblock 2373 21 -1728 air",
+            "X": 1169,
+            "Title": "",
+            "Y": -540,
+            "Id": "995d4495-6d0f-42d4-b9c5-dd690c8e7b4d"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Меня пока и эта работа устраивает. Ко всему прочему, меня назначили главной по делу о серийных убийствах в городе. Было бы глупо сейчас увольняться"
+            },
+            "X": 1022,
+            "Title": "",
+            "Y": -211,
+            "Relations": [
+                "005ea65b-caba-4513-8c4a-92c325769580"
+            ],
+            "Id": "d8290800-1d75-489f-895f-fa075d2a9b2e"
+        }
+    ]
+}

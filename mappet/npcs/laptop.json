@@ -15,7 +15,7 @@
                 "Blocks": [
                 ]
             },
-            "Killable": 1b,
+            "Killable": 0b,
             "CanFallDamage": 1b,
             "States": {
             },

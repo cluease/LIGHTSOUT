@@ -1,0 +1,24 @@
+{
+    "Main": "c31a8fe3-ebc5-4122-9527-fe080d47117c",
+    "Nodes": [
+        {
+            "Type": "command",
+            "Command": "/execute @r ~ ~ ~ mp npc summon damon default 2281 23 -1766",
+            "X": 28,
+            "Title": "",
+            "Y": 128,
+            "Id": "b0b420ec-63c8-44a9-a624-50d7c0496d16"
+        },
+        {
+            "Type": "timer",
+            "Timer": 2,
+            "X": 28,
+            "Title": "",
+            "Y": -16,
+            "Relations": [
+                "b0b420ec-63c8-44a9-a624-50d7c0496d16"
+            ],
+            "Id": "c31a8fe3-ebc5-4122-9527-fe080d47117c"
+        }
+    ]
+}

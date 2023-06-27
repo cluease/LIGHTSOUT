@@ -106,7 +106,7 @@
                     }
                 ]
             },
-            "CanSwim": 1b,
+            "CanSwim": 0b,
             "Flee": 4.0f,
             "LookAtPlayer": 1b,
             "Respawn": 0b,

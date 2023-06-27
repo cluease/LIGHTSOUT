@@ -16,7 +16,7 @@
                 ]
             },
             "Killable": 1b,
-            "CanFallDamage": 0b,
+            "CanFallDamage": 1b,
             "States": {
             },
             "PathDistance": 32.0f,
@@ -65,7 +65,7 @@
             "RespawnPosX": 0.0d,
             "SightDistance": 25.0f,
             "RespawnPosZ": 0.0d,
-            "Invincible": 1b,
+            "Invincible": 0b,
             "TriggerDied": {
                 "Blocks": [
                 ]
@@ -351,7 +351,7 @@
                 ]
             },
             "RegenFrequency": 20,
-            "HasPost": 0b,
+            "HasPost": 1b,
             "Patrol": [
             ],
             "PostRadius": 1.0f

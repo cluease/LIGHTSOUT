@@ -1,0 +1,24 @@
+{
+    "Main": "17a9c6cd-06c5-4727-a50a-674c4b9634ea",
+    "Nodes": [
+        {
+            "Type": "command",
+            "Command": "mp npc summon click demonexit 2299 21 -1769",
+            "X": -60,
+            "Title": "",
+            "Y": 56,
+            "Id": "c4cbad30-b817-4ba6-b611-d3846b096ad4"
+        },
+        {
+            "Type": "timer",
+            "Timer": 120,
+            "X": -60,
+            "Title": "",
+            "Y": -76,
+            "Relations": [
+                "c4cbad30-b817-4ba6-b611-d3846b096ad4"
+            ],
+            "Id": "17a9c6cd-06c5-4727-a50a-674c4b9634ea"
+        }
+    ]
+}

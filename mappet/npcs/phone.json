@@ -101,7 +101,7 @@
             "Flee": 4.0f,
             "LookAtPlayer": 0b,
             "Respawn": 0b,
-            "Immovable": 1b,
+            "Immovable": 0b,
             "MaxHealth": 20.0f,
             "TriggerDamaged": {
                 "Blocks": [

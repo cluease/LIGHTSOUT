@@ -148,7 +148,7 @@
                 ]
             },
             "RegenFrequency": 20,
-            "HasPost": 0b,
+            "HasPost": 1b,
             "Patrol": [
             ],
             "PostRadius": 1.0f

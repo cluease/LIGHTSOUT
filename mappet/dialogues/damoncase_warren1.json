@@ -1,0 +1,128 @@
+{
+    "Closable": 1b,
+    "Main": "90a7ccc8-df9b-4633-857e-ddd342b015d6",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Type": "command",
+            "Command": "mp npc summon Warren2 follow @p",
+            "X": 975,
+            "Title": "",
+            "Y": -200,
+            "Id": "5f3f5606-b919-4630-b7d6-e7d3a8286fdf"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Это точно, лучше держаться вместе"
+            },
+            "X": 106,
+            "Title": "",
+            "Y": -106,
+            "Relations": [
+                "39ef3166-2e91-4d7d-af46-29ece8174712"
+            ],
+            "Id": "3e9774b5-7e52-4ebd-a21c-19e0b0ffeea7"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Хорошая идея"
+            },
+            "X": 280,
+            "Title": "",
+            "Y": -104,
+            "Sound": "",
+            "Relations": [
+                "b7505283-411b-4acc-9887-1093f55bc0f7"
+            ],
+            "Id": "39ef3166-2e91-4d7d-af46-29ece8174712",
+            "Marker": ""
+        },
+        {
+            "Read": 1b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Чего же мы ждем?"
+            },
+            "X": 600,
+            "Title": "",
+            "Y": -102,
+            "Sound": "",
+            "Relations": [
+                "21b33d76-afbe-4dc5-8ae5-9109fb32879f"
+            ],
+            "Id": "e2be44df-32fa-4e60-9e50-61a00ee2f933",
+            "Marker": "warrenno"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Жутковато здесь"
+            },
+            "X": -70,
+            "Title": "",
+            "Y": -80,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/Warren.png"
+                        }
+                    }
+                },
+                "Animation": "slim_3d",
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "3e9774b5-7e52-4ebd-a21c-19e0b0ffeea7"
+            ],
+            "Id": "90a7ccc8-df9b-4633-857e-ddd342b015d6",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "В записке был указан этот адрес, теперь необходимо дойти до нужного переулка"
+            },
+            "X": 432,
+            "Title": "",
+            "Y": -106,
+            "Relations": [
+                "e2be44df-32fa-4e60-9e50-61a00ee2f933"
+            ],
+            "Id": "b7505283-411b-4acc-9887-1093f55bc0f7"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Пошли"
+            },
+            "X": 750,
+            "Title": "",
+            "Y": -100,
+            "Relations": [
+                "5f3f5606-b919-4630-b7d6-e7d3a8286fdf"
+            ],
+            "Id": "21b33d76-afbe-4dc5-8ae5-9109fb32879f"
+        }
+    ]
+}

@@ -53,6 +53,9 @@
                         }
                     }
                 },
+                "Transition": {
+                    "Animates": 1b
+                },
                 "Animation": "slim_3d",
                 "Name": "emoticons.slim_3d"
             },
@@ -90,6 +93,35 @@
             "X": 38,
             "Title": "",
             "Y": 1371,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "popcorn": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 0b,
+                            "Texture": "emoticons:textures/popcorn.png"
+                        },
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/Warren.png"
+                        }
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "slim_3d",
+                "Name": "emoticons.slim_3d"
+            },
             "Sound": "",
             "Relations": [
                 "4edbb83b-c61a-4ffd-a705-3634d5937d8c"
@@ -124,6 +156,106 @@
             "X": 33,
             "Title": "",
             "Y": 781,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "popcorn": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 0b,
+                            "Texture": "emoticons:textures/popcorn.png"
+                        },
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/Warren.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                    },
+                    "left_arm": {
+                        "RX": 1.4486233f,
+                        "RY": 0.08726647f
+                    },
+                    "low_right_arm": {
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                        "RX": -1.7453292E-8f,
+                        "RY": 1.7453292E-8f,
+                        "RZ": 0.2617994f
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "slim_3d",
+                "BodyParts": [
+                    {
+                        "R": [
+                            -96.00001f,
+                            0.0f,
+                            0.0f
+                        ],
+                        "S": [
+                            0.5f,
+                            0.5f,
+                            0.5f
+                        ],
+                        "T": [
+                            0.0f,
+                            0.15625f,
+                            -0.15625f
+                        ],
+                        "Limb": "low_left_arm.end",
+                        "Morph": {
+                            "Texture": "b.a:image/skins/damonthreat.png",
+                            "Name": "blockbuster.image"
+                        }
+                    }
+                ],
+                "Name": "emoticons.slim_3d"
+            },
             "Sound": "",
             "Relations": [
                 "df3a03d3-b7f4-4f40-ba0c-cbe8939bba9f"
