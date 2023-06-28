@@ -15,14 +15,6 @@
             "Id": "9a014ba5-bd5b-4b27-b950-7696cdc09198"
         },
         {
-            "Type": "command",
-            "Command": "tp @p 374 95 -1280",
-            "X": 181,
-            "Title": "",
-            "Y": -271,
-            "Id": "e3ab897c-0247-43e8-b4ce-48a4723e5c74"
-        },
-        {
             "Condition": {
                 "Condition": {
                     "Blocks": [
@@ -54,6 +46,54 @@
                 "Color": 16777215,
                 "Text": "(Войти в квартиру)"
             },
+            "X": 397,
+            "Title": "После поимки Дэймона",
+            "Y": -101,
+            "Relations": [
+                "05b9f303-1603-423f-8e50-8c0d9114c435"
+            ],
+            "Id": "bf16b41c-313e-4629-8e0e-1f3fd6f65db3"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 2,
+                            "Type": "quest",
+                            "Or": 0b,
+                            "Id": "story_demoncase_2",
+                            "Quest": 2,
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 200,
+            "Title": "",
+            "Y": -107,
+            "Relations": [
+                "bf16b41c-313e-4629-8e0e-1f3fd6f65db3"
+            ],
+            "Id": "23f5e482-6d0a-4a86-8eba-f56ea33dbf19"
+        },
+        {
+            "Type": "command",
+            "Command": "tp @p 374 95 -1280",
+            "X": 181,
+            "Title": "",
+            "Y": -271,
+            "Id": "e3ab897c-0247-43e8-b4ce-48a4723e5c74"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Войти в квартиру)"
+            },
             "X": 189,
             "Title": "без кота",
             "Y": 185,
@@ -76,7 +116,8 @@
             "Sound": "",
             "Relations": [
                 "ffbe820a-7080-4b7d-9897-ad008fe74b11",
-                "42320c0d-3fe9-4629-a5af-b4156968a2d3"
+                "42320c0d-3fe9-4629-a5af-b4156968a2d3",
+                "23f5e482-6d0a-4a86-8eba-f56ea33dbf19"
             ],
             "Id": "e5c645f3-07fe-45df-b250-c95b5b647802",
             "Marker": ""
@@ -88,6 +129,14 @@
             "Title": "",
             "Y": -339,
             "Id": "e027529e-5326-41b9-8ba5-d88eac31b3a5"
+        },
+        {
+            "Type": "command",
+            "Command": "tp @p 374 95 -1280",
+            "X": 584,
+            "Title": "",
+            "Y": -102,
+            "Id": "05b9f303-1603-423f-8e50-8c0d9114c435"
         },
         {
             "Type": "command",
@@ -131,7 +180,7 @@
                 "Mode": 1
             },
             "Type": "condition",
-            "X": 187,
+            "X": 189,
             "Title": "",
             "Y": 32,
             "Relations": [

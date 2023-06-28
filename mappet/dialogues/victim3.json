@@ -39,6 +39,14 @@
             "Id": "5a8aa9ba-2e7f-474f-855b-451ca2e134c1"
         },
         {
+            "Type": "command",
+            "Command": "/playsound customnpcs:misc.guihint block @p ~ ~ ~ 300",
+            "X": 214,
+            "Title": "",
+            "Y": -136,
+            "Id": "a40eda95-fd03-4a02-9228-32f1f73bb6ff"
+        },
+        {
             "Type": "reply",
             "Message": {
                 "Color": 16777215,
@@ -67,7 +75,8 @@
                 "0b90b705-135c-43c4-8f0b-4a8fdef3ed93",
                 "4b809153-ca40-4b9d-9ea5-73e59deda0b9",
                 "5a8aa9ba-2e7f-474f-855b-451ca2e134c1",
-                "52dfb3f0-fe55-47ae-a6ab-8ea20f320261"
+                "52dfb3f0-fe55-47ae-a6ab-8ea20f320261",
+                "a40eda95-fd03-4a02-9228-32f1f73bb6ff"
             ],
             "Id": "6fc684a7-fff7-4dae-b6f0-8ae58cfb723c",
             "Marker": ""

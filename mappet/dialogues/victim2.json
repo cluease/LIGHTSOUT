@@ -108,6 +108,14 @@
             "Marker": ""
         },
         {
+            "Type": "command",
+            "Command": "/playsound customnpcs:misc.guihint block @p ~ ~ ~ 300",
+            "X": 222,
+            "Title": "",
+            "Y": -107,
+            "Id": "e2792989-1cb6-499d-946e-939c4e67db88"
+        },
+        {
             "Read": 1b,
             "Type": "reaction",
             "Message": {
@@ -172,7 +180,8 @@
             "Sound": "",
             "Relations": [
                 "f66a1820-6ab9-4658-bb62-9a43f6f7a5df",
-                "bbaa6548-8514-4929-b68d-b7f3fd4788ff"
+                "bbaa6548-8514-4929-b68d-b7f3fd4788ff",
+                "e2792989-1cb6-499d-946e-939c4e67db88"
             ],
             "Id": "45ecae68-931d-4f1b-989d-8dcc046f45e2",
             "Marker": ""

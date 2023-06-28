@@ -11,7 +11,7 @@
         "Blocks": [
             {
                 "Type": "command",
-                "Command": "/mp npc summon Warren secondcase2 1563 16 -1087",
+                "Command": "/mp npc summon Warren secondcase2 1564 16 -1087",
                 "Frequency": 1
             },
             {

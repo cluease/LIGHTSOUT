@@ -155,7 +155,7 @@
             "Id": "",
             "PatrolCirculate": 0b,
             "DamageDelay": 10,
-            "CanGetBurned": 1b,
+            "CanGetBurned": 0b,
             "Wander": 0b,
             "RespawnOnCoordinates": 0b,
             "LookAround": 0b,

@@ -21,6 +21,14 @@
             "Id": "9ff79b34-1c39-4d52-8a99-fe04a9d0e645"
         },
         {
+            "Type": "command",
+            "Command": "/mp npc summon Tom invisible 1002 43 -641",
+            "X": 251,
+            "Title": "",
+            "Y": 2156,
+            "Id": "99ed6fcf-88cc-42cd-80da-1d5b4d196a3a"
+        },
+        {
             "Read": 0b,
             "Type": "reaction",
             "Message": {
@@ -304,7 +312,8 @@
             "Title": "",
             "Y": 2154,
             "Relations": [
-                "bd42255b-1111-4c01-b0fc-289818874054"
+                "bd42255b-1111-4c01-b0fc-289818874054",
+                "99ed6fcf-88cc-42cd-80da-1d5b4d196a3a"
             ],
             "Id": "2d32a7f2-d30a-40f1-8be5-17ce2b2e8d2d"
         },

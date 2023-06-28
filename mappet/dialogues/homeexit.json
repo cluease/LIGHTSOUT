@@ -34,9 +34,9 @@
                 "Color": 16777215,
                 "Text": "(Отправиться в полицейский участок)"
             },
-            "X": 770,
+            "X": 768,
             "Title": "",
-            "Y": -224,
+            "Y": -330,
             "Relations": [
                 "417e2c53-1092-4a6e-b0eb-e7e39eac0d67",
                 "e0bb6ae6-d1dd-4f7a-b6d1-e734211478ae"
@@ -46,9 +46,9 @@
         {
             "Type": "command",
             "Command": "tp @p 1058 121 -2860",
-            "X": 1020,
+            "X": 1024,
             "Title": "",
-            "Y": -130,
+            "Y": -264,
             "Id": "e0bb6ae6-d1dd-4f7a-b6d1-e734211478ae"
         },
         {
@@ -91,6 +91,32 @@
                 "5115fb47-08d5-4e37-947d-43f321064755"
             ],
             "Id": "d8b11e64-8557-4d46-9c3e-09e5c4152823"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 2,
+                            "Type": "quest",
+                            "Or": 0b,
+                            "Id": "story_demoncase_2",
+                            "Quest": 2,
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 622,
+            "Title": "",
+            "Y": -78,
+            "Relations": [
+                "0a46ca15-8ce6-4e48-9d51-a31ee3d5f2d3"
+            ],
+            "Id": "4817ba34-8b00-4f42-9004-9ef7c9cea775"
         },
         {
             "Type": "reply",
@@ -178,7 +204,8 @@
             "Y": -86,
             "Sound": "",
             "Relations": [
-                "17253ae4-94cf-4e2b-9fec-dae17918d9a7"
+                "17253ae4-94cf-4e2b-9fec-dae17918d9a7",
+                "4817ba34-8b00-4f42-9004-9ef7c9cea775"
             ],
             "Id": "64234d68-3f1a-40d3-888c-749fbd644b64",
             "Marker": ""
@@ -186,9 +213,9 @@
         {
             "Type": "command",
             "Command": "scene play Warren_if_northere @p",
-            "X": 1024,
+            "X": 1022,
             "Title": "",
-            "Y": -294,
+            "Y": -400,
             "Id": "417e2c53-1092-4a6e-b0eb-e7e39eac0d67"
         },
         {
@@ -204,6 +231,29 @@
                 "64234d68-3f1a-40d3-888c-749fbd644b64"
             ],
             "Id": "dd1017ba-cb92-4c49-978c-85a309adaa20"
+        },
+        {
+            "Type": "command",
+            "Command": "tp @p 2367 20 -1719",
+            "X": 986,
+            "Title": "",
+            "Y": -78,
+            "Id": "8e6957ac-cb54-46eb-9899-a49a51a1fc6b"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Отправиться на улицу Солти)"
+            },
+            "X": 800,
+            "Title": "Дэймон",
+            "Y": -78,
+            "Relations": [
+                "8e6957ac-cb54-46eb-9899-a49a51a1fc6b",
+                "ad097491-bd8e-42b3-af84-b1e56712da41"
+            ],
+            "Id": "0a46ca15-8ce6-4e48-9d51-a31ee3d5f2d3"
         },
         {
             "Type": "reply",
@@ -237,13 +287,22 @@
                 "Mode": 1
             },
             "Type": "condition",
-            "X": 590,
+            "X": 588,
             "Title": "",
-            "Y": -222,
+            "Y": -328,
             "Relations": [
                 "a3ec4d40-72ee-4805-9f67-00a5d0c4b1e5"
             ],
             "Id": "17253ae4-94cf-4e2b-9fec-dae17918d9a7"
+        },
+        {
+            "Type": "quest",
+            "SkipIfCompleted": 0b,
+            "X": 985,
+            "Title": "",
+            "Y": 74,
+            "Id": "ad097491-bd8e-42b3-af84-b1e56712da41",
+            "Quest": "story_demoncase_1"
         }
     ]
 }

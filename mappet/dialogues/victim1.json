@@ -145,7 +145,8 @@
             "Relations": [
                 "7a12a01d-c148-4d24-a681-49e892806e5f",
                 "4a706702-3086-4929-9a9c-9518a85e5fe8",
-                "1af8e6dc-d12d-4c8b-9aa6-cde9ca24d341"
+                "1af8e6dc-d12d-4c8b-9aa6-cde9ca24d341",
+                "6299380c-bcea-4476-b5b0-ea56ad58978a"
             ],
             "Id": "7131e1b8-566e-452a-850d-795782675e7e",
             "Marker": ""
@@ -237,6 +238,14 @@
                 "7131e1b8-566e-452a-850d-795782675e7e"
             ],
             "Id": "70371482-4d3d-4f87-af2d-9fadcfd146c2"
+        },
+        {
+            "Type": "command",
+            "Command": "/playsound customnpcs:misc.guihint block @p ~ ~ ~ 300",
+            "X": 476,
+            "Title": "",
+            "Y": -465,
+            "Id": "6299380c-bcea-4476-b5b0-ea56ad58978a"
         },
         {
             "Type": "command",

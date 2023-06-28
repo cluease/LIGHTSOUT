@@ -17,7 +17,8 @@
             "Y": -137,
             "Relations": [
                 "e6fce68e-c810-4b3d-a949-72faa4aef726",
-                "814757fb-95be-4d26-b8b5-8997ccb95801"
+                "814757fb-95be-4d26-b8b5-8997ccb95801",
+                "5d3ca00c-66c9-4af2-9cdf-5756b2175b53"
             ],
             "Id": "180cd6e7-4f9a-41e5-93ab-db6a106750d2"
         },
@@ -103,6 +104,15 @@
             ],
             "Id": "2a1a14d3-bde4-40da-9918-fc6780337b7e",
             "Marker": ""
+        },
+        {
+            "Type": "quest",
+            "SkipIfCompleted": 0b,
+            "X": 1870,
+            "Title": "",
+            "Y": 28,
+            "Id": "5d3ca00c-66c9-4af2-9cdf-5756b2175b53",
+            "Quest": "story_case2_1"
         },
         {
             "Type": "reply",
@@ -239,7 +249,7 @@
         },
         {
             "Type": "command",
-            "Command": "mp npc despawn @e[mpid=Warren_before_case2]",
+            "Command": "mp npc despawn @e[mpid=Warren]",
             "X": 2032,
             "Title": "",
             "Y": -288,

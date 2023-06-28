@@ -171,7 +171,7 @@
             "Type": "reply",
             "Message": {
                 "Color": 16777215,
-                "Text": "Подкинешь до дома?"
+                "Text": "Помню. Подкинешь до дома?"
             },
             "X": 1142,
             "Title": "",
@@ -198,6 +198,14 @@
             "Id": "c39e98aa-a3af-407b-af30-210faeccb85d"
         },
         {
+            "Type": "command",
+            "Command": "mp faction add @p warren 1",
+            "X": 1632,
+            "Title": "",
+            "Y": -287,
+            "Id": "e45603da-679c-4dee-b50d-2b8fb83a17c9"
+        },
+        {
             "Read": 0b,
             "Type": "reaction",
             "Message": {
@@ -208,8 +216,19 @@
             "Title": "",
             "Y": -146,
             "Sound": "",
+            "Relations": [
+                "f2421da3-8cbf-4c1a-ad68-9102698779bf"
+            ],
             "Id": "a5f111c1-57bf-4f79-8134-6e118d74d377",
             "Marker": ""
+        },
+        {
+            "Type": "command",
+            "Command": "mp npc summon click case2exit 1563 16 -1087",
+            "X": 2151,
+            "Title": "",
+            "Y": -169,
+            "Id": "f2421da3-8cbf-4c1a-ad68-9102698779bf"
         },
         {
             "Read": 0b,
@@ -252,12 +271,16 @@
             "Type": "reaction",
             "Message": {
                 "Color": 16777215,
-                "Text": "Точно"
+                "Text": "Точно
+Не забудь, что мы сегодня встречаемся в 23:30 на улице Солти"
             },
             "X": 1490,
             "Title": "",
             "Y": -398,
             "Sound": "",
+            "Relations": [
+                "f2421da3-8cbf-4c1a-ad68-9102698779bf"
+            ],
             "Id": "a3b0c204-20d4-4e14-aa9b-e22ee28cd291",
             "Marker": ""
         },
@@ -283,7 +306,7 @@
             "Type": "reaction",
             "Message": {
                 "Color": 16777215,
-                "Text": "Ты правильно поступила"
+                "Text": "Ты правильно поступила. стати, не забудь, что мы сегодня в 23:30 встречаемся на улице Солти"
             },
             "X": 866,
             "Title": "",
@@ -300,7 +323,7 @@
             "Type": "reaction",
             "Message": {
                 "Color": 16777215,
-                "Text": "Надеюсь, ты права"
+                "Text": "Надеюсь, ты права. Кстати, не забудь, что мы сегодня в 23:30 встречаемся на улице Солти"
             },
             "X": 994,
             "Title": "",
@@ -398,7 +421,8 @@
             "Title": "",
             "Y": -146,
             "Relations": [
-                "47f7f6d5-50d8-4cfb-9d7c-b5dffb3ab550"
+                "47f7f6d5-50d8-4cfb-9d7c-b5dffb3ab550",
+                "e45603da-679c-4dee-b50d-2b8fb83a17c9"
             ],
             "Id": "6182c8af-7afc-4354-b812-e584c2d4b433"
         },
@@ -487,6 +511,9 @@
             "Title": "",
             "Y": -10,
             "Sound": "",
+            "Relations": [
+                "f2421da3-8cbf-4c1a-ad68-9102698779bf"
+            ],
             "Id": "871b96ad-8a16-4604-84ba-b45a4ca46a1f",
             "Marker": ""
         }

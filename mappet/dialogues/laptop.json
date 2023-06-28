@@ -10,6 +10,34 @@
             "Type": "reply",
             "Message": {
                 "Color": 16777215,
+                "Text": "(Открыть плейлист)"
+            },
+            "X": 115,
+            "Title": "",
+            "Y": -208,
+            "Relations": [
+                "93a8a5ba-9651-4d47-a4d6-2161432e0877"
+            ],
+            "Id": "72e71a81-6e24-462d-bf0d-b3b2b8a7d246"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Выключить музыку)"
+            },
+            "X": 457,
+            "Title": "",
+            "Y": -401,
+            "Relations": [
+                "a4478c62-7991-43a6-9662-0635e4d05bba"
+            ],
+            "Id": "b02e99f0-3424-4603-b25a-d0070b3cf80a"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
                 "Text": "(Зайти в мессенджер)"
             },
             "X": 354,
@@ -23,7 +51,7 @@
                 "Color": 16777215,
                 "Text": "(Почитать последние новости города)"
             },
-            "X": 346,
+            "X": 360,
             "Title": "",
             "Y": -236,
             "Id": "4da79726-808e-4efb-8795-570e867b3671"
@@ -42,10 +70,51 @@
             "Relations": [
                 "e58e5f0f-f94b-4997-8fa6-87d17ac1d50f",
                 "7520810a-96e2-4547-a69a-3bd073431dc8",
-                "4da79726-808e-4efb-8795-570e867b3671"
+                "4da79726-808e-4efb-8795-570e867b3671",
+                "72e71a81-6e24-462d-bf0d-b3b2b8a7d246"
             ],
             "Id": "7c78184b-63b9-448c-a729-284816ea2834",
             "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Вы открыли плейлист с музыкой"
+            },
+            "X": 204,
+            "Title": "",
+            "Y": -516,
+            "Sound": "",
+            "Relations": [
+                "8d2c0d2c-b48f-493f-a852-4d1ca6841566",
+                "b02e99f0-3424-4603-b25a-d0070b3cf80a"
+            ],
+            "Id": "93a8a5ba-9651-4d47-a4d6-2161432e0877",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Включить музыку)"
+            },
+            "X": 459,
+            "Title": "",
+            "Y": -579,
+            "Relations": [
+                "2cf23ee0-c1d8-4cf7-8427-e23839b5a9da"
+            ],
+            "Id": "8d2c0d2c-b48f-493f-a852-4d1ca6841566"
+        },
+        {
+            "Type": "command",
+            "Command": "/playsound customnpcs:songs.underwater master @p ~ ~ ~ 300",
+            "X": 699,
+            "Title": "",
+            "Y": -619,
+            "Id": "2cf23ee0-c1d8-4cf7-8427-e23839b5a9da"
         },
         {
             "Type": "reply",
@@ -57,6 +126,14 @@
             "Title": "",
             "Y": 73,
             "Id": "7520810a-96e2-4547-a69a-3bd073431dc8"
+        },
+        {
+            "Type": "command",
+            "Command": "/stopsound @p master customnpcs:songs.underwater",
+            "X": 708,
+            "Title": "",
+            "Y": -377,
+            "Id": "a4478c62-7991-43a6-9662-0635e4d05bba"
         }
     ]
 }
