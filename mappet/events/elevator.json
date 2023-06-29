@@ -4,28 +4,37 @@
         {
             "Type": "command",
             "Command": "tp @p 1007 43 -645",
-            "X": 38,
+            "X": 59,
             "Title": "",
-            "Y": 114,
+            "Y": 149,
             "Id": "05bf7699-a867-4608-b3bf-0b0e25582e33"
         },
         {
             "Type": "command",
             "Command": "scene play Tom1 @p",
-            "X": 214,
+            "X": 296,
             "Title": "",
-            "Y": 116,
+            "Y": 136,
             "Id": "6c686bcd-ba26-438d-9159-433b14a198cb"
+        },
+        {
+            "Type": "command",
+            "Command": "execute @p ~ ~ ~ mp npc summon Tom invisible 1002 43 -641",
+            "X": -212,
+            "Title": "",
+            "Y": 135,
+            "Id": "069ca9ef-e7f2-4e44-9ced-43b1994cf4ae"
         },
         {
             "Type": "timer",
             "Timer": 120,
-            "X": 38,
+            "X": 54,
             "Title": "",
-            "Y": -20,
+            "Y": -22,
             "Relations": [
                 "05bf7699-a867-4608-b3bf-0b0e25582e33",
-                "6c686bcd-ba26-438d-9159-433b14a198cb"
+                "6c686bcd-ba26-438d-9159-433b14a198cb",
+                "069ca9ef-e7f2-4e44-9ced-43b1994cf4ae"
             ],
             "Id": "e67b2660-9358-4a34-ac0d-55daf7a86217"
         }

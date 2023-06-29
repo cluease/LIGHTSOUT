@@ -413,22 +413,26 @@
                 "RemoveParentSpace": 1b,
                 "Pose": {
                     "P": [
-                        0.0625f,
+                        0.125f,
                         1.5f,
-                        -0.25f
+                        0.375f
+                    ],
+                    "S": [
+                        1.25f,
+                        1.25f,
+                        1.25f
                     ]
                 },
                 "Billboard": 1b,
-                "Texture": "b.a:image/skins/rc.png",
+                "Texture": "b.a:image/skins/icon-exit.png",
                 "Name": "blockbuster.image"
             },
             "Damage": 2.0f,
             "TriggerInteract": {
                 "Blocks": [
                     {
-                        "Dialogue": "policeladder",
-                        "Type": "dialogue",
-                        "CustomData": "",
+                        "Type": "command",
+                        "Command": "/tp @p 1060 121 -2858",
                         "Frequency": 1
                     }
                 ]

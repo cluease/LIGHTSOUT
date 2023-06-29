@@ -35,7 +35,7 @@
                 "Text": "(Отправиться в полицейский участок)"
             },
             "X": 768,
-            "Title": "",
+            "Title": "перед заправкой",
             "Y": -330,
             "Relations": [
                 "417e2c53-1092-4a6e-b0eb-e7e39eac0d67",
@@ -101,6 +101,15 @@
                             "Target": 2,
                             "Type": "quest",
                             "Or": 0b,
+                            "Id": "story_case2_1",
+                            "Quest": 2,
+                            "Selector": ""
+                        },
+                        {
+                            "Not": 1b,
+                            "Target": 2,
+                            "Type": "quest",
+                            "Or": 0b,
                             "Id": "story_demoncase_2",
                             "Quest": 2,
                             "Selector": ""
@@ -110,7 +119,7 @@
                 "Mode": 1
             },
             "Type": "condition",
-            "X": 622,
+            "X": 624,
             "Title": "",
             "Y": -78,
             "Relations": [
@@ -251,7 +260,7 @@
             "Y": -78,
             "Relations": [
                 "8e6957ac-cb54-46eb-9899-a49a51a1fc6b",
-                "ad097491-bd8e-42b3-af84-b1e56712da41"
+                "c4cae1a0-b605-445a-afe1-0fdefda9deb8"
             ],
             "Id": "0a46ca15-8ce6-4e48-9d51-a31ee3d5f2d3"
         },
@@ -281,28 +290,36 @@
                             "Id": "phone",
                             "Marker": "nortpolice1",
                             "Selector": ""
+                        },
+                        {
+                            "Not": 1b,
+                            "Target": 2,
+                            "Type": "quest",
+                            "Or": 0b,
+                            "Id": "story_case2_1",
+                            "Quest": 2,
+                            "Selector": ""
                         }
                     ]
                 },
                 "Mode": 1
             },
             "Type": "condition",
-            "X": 588,
+            "X": 586,
             "Title": "",
-            "Y": -328,
+            "Y": -330,
             "Relations": [
                 "a3ec4d40-72ee-4805-9f67-00a5d0c4b1e5"
             ],
             "Id": "17253ae4-94cf-4e2b-9fec-dae17918d9a7"
         },
         {
-            "Type": "quest",
-            "SkipIfCompleted": 0b,
-            "X": 985,
+            "Type": "command",
+            "Command": "mp quest accept @p story_demoncase_1",
+            "X": 984,
             "Title": "",
-            "Y": 74,
-            "Id": "ad097491-bd8e-42b3-af84-b1e56712da41",
-            "Quest": "story_demoncase_1"
+            "Y": 85,
+            "Id": "c4cae1a0-b605-445a-afe1-0fdefda9deb8"
         }
     ]
 }

@@ -159,6 +159,14 @@
             "Marker": ""
         },
         {
+            "Type": "command",
+            "Command": "/mp state set @p demonrun 0 ",
+            "X": 2433,
+            "Title": "",
+            "Y": -251,
+            "Id": "4d7a866b-b57f-4216-a353-e25e70f4e009"
+        },
+        {
             "Type": "reply",
             "Message": {
                 "Color": 16777215,
@@ -405,7 +413,8 @@
                 "d68db0a4-06d9-440b-a4d3-3638fce101f0",
                 "23936c7f-26b4-41d3-9f9f-7c0223991561",
                 "eedde4e1-cd55-45a4-b9af-87f18ea06da0",
-                "42ff7e45-39ed-46e2-98e9-5c37083309ec"
+                "42ff7e45-39ed-46e2-98e9-5c37083309ec",
+                "4d7a866b-b57f-4216-a353-e25e70f4e009"
             ],
             "Id": "3440582c-fec4-4646-9654-6b40b04369cc"
         },

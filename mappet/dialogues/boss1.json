@@ -243,10 +243,19 @@
             "Y": -274,
             "Sound": "",
             "Relations": [
-                "5afbb630-bcf5-452f-9c27-13b93b757b64"
+                "5afbb630-bcf5-452f-9c27-13b93b757b64",
+                "b0f2b9bf-40a7-45df-8dc1-4c899169a87b"
             ],
             "Id": "62c980bc-aeb9-43fb-a336-4c46e847647f",
             "Marker": "order1"
+        },
+        {
+            "Type": "command",
+            "Command": "/mp npc summon click policeladder 1064.962 142 -2865.734",
+            "X": 1748,
+            "Title": "",
+            "Y": -596,
+            "Id": "b0f2b9bf-40a7-45df-8dc1-4c899169a87b"
         }
     ]
 }

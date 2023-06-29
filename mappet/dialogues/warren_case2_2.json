@@ -55,22 +55,13 @@
                 "Condition": {
                     "Blocks": [
                         {
-                            "Condition": {
-                                "Blocks": [
-                                    {
-                                        "Not": 0b,
-                                        "Target": 1,
-                                        "Type": "dialogue",
-                                        "Or": 0b,
-                                        "Id": "Ralph",
-                                        "Marker": "ifno",
-                                        "Selector": ""
-                                    }
-                                ]
-                            },
                             "Not": 0b,
-                            "Type": "condition",
-                            "Or": 0b
+                            "Target": 2,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "Ralph",
+                            "Marker": "ifno",
+                            "Selector": ""
                         }
                     ]
                 },
