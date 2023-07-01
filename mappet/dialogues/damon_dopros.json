@@ -1,0 +1,1030 @@
+{
+    "Closable": 0b,
+    "Main": "27b3c68f-fe52-467f-8094-27149a609894",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Кто с тобой на этих фото?"
+            },
+            "X": 380,
+            "Title": "",
+            "Y": -95,
+            "Relations": [
+                "eb598cb3-63bd-4bf2-80a2-4b20bcca4a46"
+            ],
+            "Id": "322663b8-124a-4f6c-8b96-1048178a18e8"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Хватит меня обрабатывать, не верю ни едиому слову"
+            },
+            "X": 2524,
+            "Title": "",
+            "Y": -391,
+            "Sound": "",
+            "Relations": [
+                "1856c8ce-e174-4d11-85d7-eba86e177140",
+                "e4e47443-2199-483b-b5b2-3b97a2231b71",
+                "8f7df9a7-da03-4885-b2c1-f3e737860f37",
+                "78d66147-eaa8-421c-b7f1-94793acd19f3"
+            ],
+            "Id": "2f184124-7149-47d0-9efb-feddb262c2e4",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Я обещаю, что не обману"
+            },
+            "X": 1770,
+            "Title": "",
+            "Y": -120,
+            "Relations": [
+                "9ac18988-2828-4808-b85c-606a5c836da5"
+            ],
+            "Id": "490c1286-fd9e-42a5-a919-8005ea9fc334"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Снова будешь молчать?"
+            },
+            "X": 198,
+            "Title": "",
+            "Y": -371,
+            "Relations": [
+                "15852ad7-657b-4f63-b667-04be9f60af0d"
+            ],
+            "Id": "5b0adad6-bb7d-4932-84fa-0e328ceebeb9"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "На местности, где гуляют люди? Сомнительно"
+            },
+            "X": -232,
+            "Title": "",
+            "Y": 475,
+            "Id": "3e09be7b-cadc-4173-91ce-f203445d7dc0"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Даю тебе последний шанс рассказать мне все, что знаешь, иначе я не стану помогать"
+            },
+            "X": 3030,
+            "Title": "а",
+            "Y": -584,
+            "Relations": [
+                "38ebd1f9-cb81-4831-98b1-fb27680dfbe7"
+            ],
+            "Id": "78d66147-eaa8-421c-b7f1-94793acd19f3"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Закрыть)"
+            },
+            "X": 3570,
+            "Title": "",
+            "Y": -538,
+            "Relations": [
+                "49d9808a-0f42-445d-ac8a-72b3d1808a4f"
+            ],
+            "Id": "6148c918-ebe2-49fe-af6b-45f59dcf160b"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Закрыть)"
+            },
+            "X": 3584,
+            "Title": "",
+            "Y": -163,
+            "Relations": [
+                "df10997e-6ffe-4b78-85a3-be6ad7298523"
+            ],
+            "Id": "4566f5ac-852c-41e8-b3cf-0c550500ff83"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Зуб даю"
+            },
+            "X": 2523,
+            "Title": "",
+            "Y": -17,
+            "Relations": [
+                "38ebd1f9-cb81-4831-98b1-fb27680dfbe7"
+            ],
+            "Id": "0f29d7b1-6712-4c49-803a-c34c8760d4cc"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Правда?"
+            },
+            "X": 2335,
+            "Title": "",
+            "Y": -15,
+            "Sound": "",
+            "Relations": [
+                "0f29d7b1-6712-4c49-803a-c34c8760d4cc",
+                "05e7070f-ee98-4856-98cb-180b9550cd6c"
+            ],
+            "Id": "b5fa5720-51ef-420b-88c9-a33122072f5b",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "И что же?"
+            },
+            "X": 2296,
+            "Title": "",
+            "Y": 217,
+            "Sound": "",
+            "Relations": [
+                "e4e47443-2199-483b-b5b2-3b97a2231b71",
+                "2ff891eb-f8a1-4b36-b0e1-344ad6d12ad0"
+            ],
+            "Id": "9fb5d096-e662-4615-a5bd-2cc1a8e122d4",
+            "Marker": ""
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p {\"text\":\"\\u0412\\u0430\\u043c \\u043d\\u0435 \\u0443\\u0434\\u0430\\u043b\\u043e\\u0441\\u044c \\u0443\\u0437\\u043d\\u0430\\u0442\\u044c \\u043f\\u043e\\u043b\\u0435\\u0437\\u043d\\u0443\\u044e \\u0438\\u043d\\u0444\\u043e\\u0440\\u043c\\u0430\\u0446\\u0438\\u044e\",\"color\":\"red\"}",
+            "X": 3798,
+            "Title": "",
+            "Y": -42,
+            "Id": "df10997e-6ffe-4b78-85a3-be6ad7298523"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Мне запрещено разглашать эту информацию"
+            },
+            "X": 379,
+            "Title": "",
+            "Y": 54,
+            "Sound": "",
+            "Relations": [
+                "5aaf3a97-559e-47f1-8929-d7c1e3aed2fe"
+            ],
+            "Id": "eb598cb3-63bd-4bf2-80a2-4b20bcca4a46",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Пытку электрошокером. Тогда ты мне точно все расскажешь"
+            },
+            "X": 2363,
+            "Title": "",
+            "Y": 386,
+            "Relations": [
+                "13d1057a-dee2-4d32-9bf9-468b529e4a5a"
+            ],
+            "Id": "2ff891eb-f8a1-4b36-b0e1-344ad6d12ad0"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Не надо мне угрожать"
+            },
+            "X": 2448,
+            "Title": "",
+            "Y": -777,
+            "Sound": "",
+            "Relations": [
+                "f6cd3649-d404-4901-8ef5-78390aed881a"
+            ],
+            "Id": "879142df-ade2-47a8-b5ef-a4567ae11564",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Это не угроза, а факт"
+            },
+            "X": 2635,
+            "Title": "",
+            "Y": -775,
+            "Relations": [
+                "02c020d4-b119-4f5a-9b63-fc5861a97529"
+            ],
+            "Id": "f6cd3649-d404-4901-8ef5-78390aed881a"
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p {\"text\":\"\\u0412\\u0430\\u043c \\u0443\\u0434\\u0430\\u043b\\u043e\\u0441\\u044c \\u0443\\u0437\\u043d\\u0430\\u0442\\u044c \\u043f\\u043e\\u043b\\u0435\\u0437\\u043d\\u0443\\u044e \\u0438\\u043d\\u0444\\u043e\\u0440\\u043c\\u0430\\u0446\\u0438\\u044e\",\"color\":\"green\"}",
+            "X": 3785,
+            "Title": "",
+            "Y": -615,
+            "Id": "49d9808a-0f42-445d-ac8a-72b3d1808a4f"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Я расследую дело об убийствах в городе. Если ты что-то про них знаешь, то можешь рассказать мне. А взамен я, после переговоров, скажу что ты оправдался и ни в чем не виновен. И мы забудем про
+наши недавние терки"
+            },
+            "X": 1032,
+            "Title": "",
+            "Y": -345,
+            "Relations": [
+                "e4938a65-9c14-4de8-82a1-049a0563bf18"
+            ],
+            "Id": "b3a5536f-76e7-4c7c-8409-493cf16612c2"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Назад)"
+            },
+            "X": -25,
+            "Title": "",
+            "Y": 817,
+            "Relations": [
+                "27b3c68f-fe52-467f-8094-27149a609894"
+            ],
+            "Id": "6fe9345e-f48f-4fc4-83ce-b92cff6f1431"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 195,
+            "Title": "",
+            "Y": -145,
+            "Relations": [
+                "322663b8-124a-4f6c-8b96-1048178a18e8"
+            ],
+            "Id": "b561e357-5424-4f3e-b010-92e6444b9ad0"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Кто - \"они'?"
+            },
+            "X": 378,
+            "Title": "",
+            "Y": 514,
+            "Relations": [
+                "27b3c68f-fe52-467f-8094-27149a609894"
+            ],
+            "Id": "a12862b5-600d-4338-ad1a-bbc673f8164e"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Выкладывай"
+            },
+            "X": 1407,
+            "Title": "",
+            "Y": -345,
+            "Relations": [
+                "869fb14d-aa38-4640-b246-f8e6cc39a6c5"
+            ],
+            "Id": "5402adcd-fcf1-4910-b286-11ea3cba42bb"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Вроде как тут тебе нужна информация, а не мне"
+            },
+            "X": 2012,
+            "Title": "",
+            "Y": -539,
+            "Sound": "",
+            "Relations": [
+                "a2e3f423-3016-43f1-95d6-f0ab044012f3",
+                "de7bae01-8e30-469d-bd45-3d302b86f7d1"
+            ],
+            "Id": "3c00a3bf-dddc-47f2-b1ae-9ebff3188b5b",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Они меня найдут"
+            },
+            "X": 377,
+            "Title": "",
+            "Y": 346,
+            "Sound": "",
+            "Relations": [
+                "a12862b5-600d-4338-ad1a-bbc673f8164e"
+            ],
+            "Id": "22f15aae-b5dd-42cc-ad1f-38569533f2f0",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "И продолжишь сидеть, если не расскажешь мне про этого человека"
+            },
+            "X": 2272,
+            "Title": "",
+            "Y": -209,
+            "Relations": [
+                "d536a457-3535-4879-b175-7dd18ea84ed4"
+            ],
+            "Id": "2bb055ed-37b4-4ee8-9372-c25d01381f5f"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Я... не знаю с кем связаны убийства в городе. Но знаю одного человека, который может тебе в этом помочь"
+            },
+            "X": 1227,
+            "Title": "",
+            "Y": -348,
+            "Sound": "",
+            "Relations": [
+                "5402adcd-fcf1-4910-b286-11ea3cba42bb",
+                "a348d887-2b53-4676-97d7-2b8d89344057"
+            ],
+            "Id": "e4938a65-9c14-4de8-82a1-049a0563bf18",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Тебе лучше пойти на контакт, иначе это все плохо для тебя закончится"
+            },
+            "X": 2939,
+            "Title": "",
+            "Y": -398,
+            "Relations": [
+                "879142df-ade2-47a8-b5ef-a4567ae11564"
+            ],
+            "Id": "8f7df9a7-da03-4885-b2c1-f3e737860f37"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Знаешь что, забудь. Я не буду ничего говорить"
+            },
+            "X": 3385,
+            "Title": "провал",
+            "Y": -274,
+            "Sound": "",
+            "Relations": [
+                "4566f5ac-852c-41e8-b3cf-0c550500ff83"
+            ],
+            "Id": "13d1057a-dee2-4d32-9bf9-468b529e4a5a",
+            "Marker": ""
+        },
+        {
+            "Condition": {
+                "Condition": {
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": -25,
+            "Title": "",
+            "Y": -20,
+            "Relations": [
+                "49ad56ec-0ef6-47f3-9be2-0b26f017796a"
+            ],
+            "Id": "c83a2d68-16e1-4970-8a7a-8c1fc67fef89"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Закрыть)"
+            },
+            "X": 636,
+            "Title": "",
+            "Y": -557,
+            "Id": "a348d887-2b53-4676-97d7-2b8d89344057"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Слушай, ты мне уже порядком надоел. Либо ты говоришь, кто это за человек и где его можно найти, либо я прямо сейчас запираю тебя в камере"
+            },
+            "X": 2773,
+            "Title": "",
+            "Y": -272,
+            "Relations": [
+                "879142df-ade2-47a8-b5ef-a4567ae11564",
+                "13d1057a-dee2-4d32-9bf9-468b529e4a5a"
+            ],
+            "Id": "1856c8ce-e174-4d11-85d7-eba86e177140"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ага, одному уже поверил. И что из этого вышло? 
+Сижу в этой долбаной клетке"
+            },
+            "X": 2009,
+            "Title": "",
+            "Y": -282,
+            "Sound": "",
+            "Relations": [
+                "92454c66-50b2-4e0d-b14d-a5092c94c7a6",
+                "2bb055ed-37b4-4ee8-9372-c25d01381f5f",
+                "e4e47443-2199-483b-b5b2-3b97a2231b71"
+            ],
+            "Id": "904ddf86-a89a-4519-b9dd-0044e8699ae1",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Шутка"
+            },
+            "X": 2527,
+            "Title": "",
+            "Y": 153,
+            "Relations": [
+                "13d1057a-dee2-4d32-9bf9-468b529e4a5a"
+            ],
+            "Id": "05e7070f-ee98-4856-98cb-180b9550cd6c"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Черт с тобой, только попробуй меня обмануть. 
+На улице Солти есть один странный мужик, то ли бомж, то ли хиппи.
+Он постоянно достает прохожих со своими легендами и бреднями про город. Все его считают сумасшедшим, но я недавно краем уха подслушал о чем он говорит, и сдается мне что его слова не такие 
+уж и бредовые в связи с последними событиями. Думаю, он может тебе помочь. Обычно он ошивается возле дорогих домов"
+            },
+            "X": 3383,
+            "Title": "успех",
+            "Y": -434,
+            "Sound": "",
+            "Relations": [
+                "6148c918-ebe2-49fe-af6b-45f59dcf160b"
+            ],
+            "Id": "38ebd1f9-cb81-4831-98b1-fb27680dfbe7",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "На кого охотишься?"
+            },
+            "X": -25,
+            "Title": "",
+            "Y": 479,
+            "Relations": [
+                "b27f5459-a558-4521-ae15-644981e01e9e"
+            ],
+            "Id": "5c31d7ae-3394-493b-a08d-77f48afbf1ec"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Мне тоже надоело с тобой возиться, но я же здесь"
+            },
+            "X": 3024,
+            "Title": "",
+            "Y": -840,
+            "Relations": [
+                "13d1057a-dee2-4d32-9bf9-468b529e4a5a"
+            ],
+            "Id": "407e0394-cc3b-489e-b5e0-ef9f9ca3e24c"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Подслушал, пока сидел в камере"
+            },
+            "X": 2792,
+            "Title": "аа",
+            "Y": -582,
+            "Sound": "",
+            "Relations": [
+                "78d66147-eaa8-421c-b7f1-94793acd19f3",
+                "1856c8ce-e174-4d11-85d7-eba86e177140",
+                "e4e47443-2199-483b-b5b2-3b97a2231b71"
+            ],
+            "Id": "43962000-75f8-4b82-b636-2559249244f1",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "На самом деле, меня мало волнует, за что ты здесь изначально находишься. Я здесь, чтобы предложить тебе выгодную сделку"
+            },
+            "X": 669,
+            "Title": "",
+            "Y": -348,
+            "Relations": [
+                "323db6be-89ed-4873-9e3c-8f82b061ee2e"
+            ],
+            "Id": "d6a7071d-deba-452e-8434-8f3fca726736"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "..."
+            },
+            "X": -21,
+            "Title": "",
+            "Y": -220,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/demon.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RX": 0.61086524f
+                    },
+                    "left_arm": {
+                    },
+                    "low_right_arm": {
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Animation": "default_3d",
+                "Name": "emoticons.default_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "5b0adad6-bb7d-4932-84fa-0e328ceebeb9",
+                "b561e357-5424-4f3e-b010-92e6444b9ad0",
+                "c83a2d68-16e1-4970-8a7a-8c1fc67fef89",
+                "a348d887-2b53-4676-97d7-2b8d89344057"
+            ],
+            "Id": "27b3c68f-fe52-467f-8094-27149a609894",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ты не в том положении, чтобы ставить здесь свои условия"
+            },
+            "X": 1773,
+            "Title": "",
+            "Y": -469,
+            "Relations": [
+                "3c00a3bf-dddc-47f2-b1ae-9ebff3188b5b"
+            ],
+            "Id": "a56af383-ea94-4777-b5d2-21783e998ade"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Вроде как, ты не хочешь сидеть в тюрьме 4 года, я не права?"
+            },
+            "X": 2254,
+            "Title": "",
+            "Y": -777,
+            "Relations": [
+                "879142df-ade2-47a8-b5ef-a4567ae11564"
+            ],
+            "Id": "a2e3f423-3016-43f1-95d6-f0ab044012f3"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "И у тебя есть замечательная возможность выйти отсюда. Поверь, не каждому преступнику дается такой шанс"
+            },
+            "X": 2265,
+            "Title": "",
+            "Y": -393,
+            "Relations": [
+                "2f184124-7149-47d0-9efb-feddb262c2e4"
+            ],
+            "Id": "92454c66-50b2-4e0d-b14d-a5092c94c7a6"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "?"
+            },
+            "X": 861,
+            "Title": "",
+            "Y": -347,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/demon.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                    },
+                    "left_arm": {
+                    },
+                    "low_right_arm": {
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                        "RZ": 0.2617994f
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b,
+                    "Duration": 14
+                },
+                "Animation": "default_3d",
+                "Name": "emoticons.default_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "b3a5536f-76e7-4c7c-8409-493cf16612c2",
+                "a348d887-2b53-4676-97d7-2b8d89344057"
+            ],
+            "Id": "323db6be-89ed-4873-9e3c-8f82b061ee2e",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Мне все меньше и меньше хочется тебе помогать"
+            },
+            "X": 2843,
+            "Title": "",
+            "Y": -780,
+            "Sound": "",
+            "Relations": [
+                "78d66147-eaa8-421c-b7f1-94793acd19f3",
+                "1856c8ce-e174-4d11-85d7-eba86e177140",
+                "407e0394-cc3b-489e-b5e0-ef9f9ca3e24c"
+            ],
+            "Id": "02c020d4-b119-4f5a-9b63-fc5861a97529",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Почему?"
+            },
+            "X": 377,
+            "Title": "",
+            "Y": 193,
+            "Relations": [
+                "22f15aae-b5dd-42cc-ad1f-38569533f2f0"
+            ],
+            "Id": "5aaf3a97-559e-47f1-8929-d7c1e3aed2fe"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Охотой занимаюсь"
+            },
+            "X": -25,
+            "Title": "",
+            "Y": 322,
+            "Sound": "",
+            "Relations": [
+                "5c31d7ae-3394-493b-a08d-77f48afbf1ec",
+                "3e09be7b-cadc-4173-91ce-f203445d7dc0"
+            ],
+            "Id": "36dff2c0-1c04-42ee-a433-3e699c05b445",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Раз тебе все известно, то почему расследование еще не сдвинулось 
+с мертвой точки?"
+            },
+            "X": 2424,
+            "Title": "",
+            "Y": -589,
+            "Sound": "",
+            "Relations": [
+                "00e8b525-ad72-47cb-a3ef-b62d3c285f6f"
+            ],
+            "Id": "db371167-92d3-4c5b-b1ca-0b809bb641d4",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Откуда ты?..."
+            },
+            "X": 2599,
+            "Title": "",
+            "Y": -586,
+            "Relations": [
+                "43962000-75f8-4b82-b636-2559249244f1"
+            ],
+            "Id": "00e8b525-ad72-47cb-a3ef-b62d3c285f6f"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Я верну твои деньги, только уже законным путем"
+            },
+            "X": 2160,
+            "Title": "",
+            "Y": -22,
+            "Relations": [
+                "b5fa5720-51ef-420b-88c9-a33122072f5b"
+            ],
+            "Id": "e4e47443-2199-483b-b5b2-3b97a2231b71"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Мне и так все известно, просто нужно уточнить пару моментов "
+            },
+            "X": 2258,
+            "Title": "",
+            "Y": -594,
+            "Relations": [
+                "db371167-92d3-4c5b-b1ca-0b809bb641d4"
+            ],
+            "Id": "de7bae01-8e30-469d-bd45-3d302b86f7d1"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Дэймон замялся)"
+            },
+            "X": 2522,
+            "Title": "",
+            "Y": -201,
+            "Sound": "",
+            "Relations": [
+                "e4e47443-2199-483b-b5b2-3b97a2231b71",
+                "1856c8ce-e174-4d11-85d7-eba86e177140",
+                "78d66147-eaa8-421c-b7f1-94793acd19f3",
+                "8f7df9a7-da03-4885-b2c1-f3e737860f37"
+            ],
+            "Id": "d536a457-3535-4879-b175-7dd18ea84ed4",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Стоп, стоп, стоп, не так быстро. Где гарантии того, что ты меня не надуешь и правда скажешь, что я не виновен?"
+            },
+            "X": 1557,
+            "Title": "",
+            "Y": -352,
+            "Sound": "",
+            "Relations": [
+                "a56af383-ea94-4777-b5d2-21783e998ade",
+                "d28734dc-900b-402c-b6bb-b1c57d2b5f51",
+                "490c1286-fd9e-42a5-a919-8005ea9fc334"
+            ],
+            "Id": "869fb14d-aa38-4640-b246-f8e6cc39a6c5",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Гарантий нет, тебе придется мне поверить на слово"
+            },
+            "X": 1775,
+            "Title": "",
+            "Y": -291,
+            "Relations": [
+                "904ddf86-a89a-4519-b9dd-0044e8699ae1"
+            ],
+            "Id": "d28734dc-900b-402c-b6bb-b1c57d2b5f51"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "На кой мне твои обещания?! Меня уже один долбоящер одурачил. Хотя тоже клялся, что все до копейки отдаст"
+            },
+            "X": 1929,
+            "Title": "",
+            "Y": 39,
+            "Sound": "",
+            "Relations": [
+                "e4e47443-2199-483b-b5b2-3b97a2231b71",
+                "8f7df9a7-da03-4885-b2c1-f3e737860f37",
+                "3c9b882c-0de8-4c7f-81f1-0abbde56f9c5"
+            ],
+            "Id": "9ac18988-2828-4808-b85c-606a5c836da5",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Я что-нибудь придумаю"
+            },
+            "X": 2065,
+            "Title": "",
+            "Y": 210,
+            "Relations": [
+                "9fb5d096-e662-4615-a5bd-2cc1a8e122d4"
+            ],
+            "Id": "3c9b882c-0de8-4c7f-81f1-0abbde56f9c5"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Зачем ты устанавливаешь ловушки в лесу?"
+            },
+            "X": -31,
+            "Title": "",
+            "Y": 142,
+            "Relations": [
+                "36dff2c0-1c04-42ee-a433-3e699c05b445"
+            ],
+            "Id": "49ad56ec-0ef6-47f3-9be2-0b26f017796a"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "На животных. Что за бредовые вопросы?"
+            },
+            "X": -23,
+            "Title": "",
+            "Y": 641,
+            "Sound": "",
+            "Relations": [
+                "6fe9345e-f48f-4fc4-83ce-b92cff6f1431"
+            ],
+            "Id": "b27f5459-a558-4521-ae15-644981e01e9e",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "А есть смысл оправдываться? Вы все сами видели"
+            },
+            "X": 428,
+            "Title": "",
+            "Y": -357,
+            "Sound": "",
+            "Relations": [
+                "d6a7071d-deba-452e-8434-8f3fca726736",
+                "b561e357-5424-4f3e-b010-92e6444b9ad0",
+                "a348d887-2b53-4676-97d7-2b8d89344057"
+            ],
+            "Id": "15852ad7-657b-4f63-b667-04be9f60af0d",
+            "Marker": ""
+        }
+    ]
+}

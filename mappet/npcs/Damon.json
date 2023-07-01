@@ -144,6 +144,173 @@
             "Patrol": [
             ],
             "PostRadius": 1.0f
+        },
+        "dopros": {
+            "RespawnSaveUUID": 0b,
+            "TriggerRespawn": {
+                "Blocks": [
+                ]
+            },
+            "TriggerTick": {
+                "Blocks": [
+                ]
+            },
+            "StateName": "",
+            "TriggerInitialize": {
+                "Blocks": [
+                ]
+            },
+            "Killable": 1b,
+            "CanFallDamage": 1b,
+            "States": {
+            },
+            "PathDistance": 32.0f,
+            "Follow": "",
+            "Xp": 0,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 0b,
+                            "Color": 16777215,
+                            "Smooth": 0b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/demon.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                        "RX": 1.2740906f,
+                        "RY": -0.122173f
+                    },
+                    "left_leg": {
+                        "RX": 1.5707964f,
+                        "RY": -0.2617994f
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                        "RX": -0.61086535f
+                    },
+                    "low_right_arm.end": {
+                        "RZ": -0.48869202f
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RX": 0.5410518f
+                    },
+                    "left_arm": {
+                        "RX": 1.2902368f,
+                        "RY": 0.052168697f,
+                        "RZ": 0.011377872f,
+                        "Z": 0.09375f
+                    },
+                    "low_right_arm": {
+                        "RZ": 0.50614566f
+                    },
+                    "right_leg": {
+                        "RX": 1.5707964f,
+                        "RY": 0.2617994f
+                    },
+                    "anchor": {
+                        "Z": -0.75f
+                    },
+                    "low_left_leg": {
+                        "RX": -0.6283185f,
+                        "RY": 1.0471976E-7f,
+                        "RZ": -6.981317E-8f
+                    },
+                    "low_left_arm": {
+                        "RZ": -0.5410519f
+                    },
+                    "low_left_arm.end": {
+                        "RZ": 0.4014258f
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "default_simple_plus",
+                "Name": "emoticons.default_simple_plus"
+            },
+            "Damage": 2.0f,
+            "TriggerInteract": {
+                "Blocks": [
+                    {
+                        "Dialogue": "damon_dopros",
+                        "Type": "dialogue",
+                        "CustomData": "",
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "CanSwim": 1b,
+            "Flee": 4.0f,
+            "LookAtPlayer": 0b,
+            "Respawn": 1b,
+            "Immovable": 1b,
+            "MaxHealth": 20.0f,
+            "TriggerDamaged": {
+                "Blocks": [
+                ]
+            },
+            "PatrolTriggers": [
+            ],
+            "CanRanged": 0b,
+            "Drops": [
+            ],
+            "Fallback": 15.0f,
+            "CanPickUpLoot": 0b,
+            "Unique": 0b,
+            "Id": "",
+            "PatrolCirculate": 0b,
+            "DamageDelay": 10,
+            "CanGetBurned": 1b,
+            "Wander": 0b,
+            "RespawnOnCoordinates": 0b,
+            "LookAround": 0b,
+            "RespawnPosY": 0.0d,
+            "RespawnDelay": 0,
+            "RespawnPosX": 0.0d,
+            "SightDistance": 25.0f,
+            "RespawnPosZ": 0.0d,
+            "Invincible": 1b,
+            "TriggerDied": {
+                "Blocks": [
+                ]
+            },
+            "Faction": "interactive",
+            "Speed": 1.0f,
+            "SightRadius": 120.0f,
+            "Health": 20.0f,
+            "Post": [
+            ],
+            "RegenDelay": 80,
+            "TriggerTarget": {
+                "Blocks": [
+                ]
+            },
+            "RegenFrequency": 20,
+            "HasPost": 0b,
+            "Patrol": [
+            ],
+            "PostRadius": 1.0f
         }
     }
 }
