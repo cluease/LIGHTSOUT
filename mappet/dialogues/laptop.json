@@ -110,7 +110,7 @@
         },
         {
             "Type": "command",
-            "Command": "/playsound customnpcs:songs.underwater master @p ~ ~ ~ 300",
+            "Command": "/playsound customnpcs:songs.cupcakke master @p ~ ~ ~ 300",
             "X": 699,
             "Title": "",
             "Y": -619,
@@ -129,7 +129,7 @@
         },
         {
             "Type": "command",
-            "Command": "/stopsound @p master customnpcs:songs.underwater",
+            "Command": "/stopsound @p master customnpcs:songs.cupcakke",
             "X": 708,
             "Title": "",
             "Y": -377,
