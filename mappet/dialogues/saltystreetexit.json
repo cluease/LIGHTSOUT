@@ -1,0 +1,49 @@
+{
+    "Closable": 1b,
+    "Main": "148fde9f-9cad-4a8f-a83a-5a442a397fdb",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Пойти домой)"
+            },
+            "X": 204,
+            "Title": "",
+            "Y": -68,
+            "Relations": [
+                "42bf6dce-b3d2-4d3e-9dad-a06be34de6ae"
+            ],
+            "Id": "7d83df80-9c4c-4719-92c0-da2fbfffb134"
+        },
+        {
+            "Type": "command",
+            "Command": "tp @p 373 91 -1263",
+            "X": 372,
+            "Title": "",
+            "Y": -140,
+            "Id": "42bf6dce-b3d2-4d3e-9dad-a06be34de6ae"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Куда вы желаете отправиться?"
+            },
+            "X": -48,
+            "Title": "",
+            "Y": 2,
+            "Sound": "",
+            "Relations": [
+                "7d83df80-9c4c-4719-92c0-da2fbfffb134"
+            ],
+            "Id": "148fde9f-9cad-4a8f-a83a-5a442a397fdb",
+            "Marker": ""
+        }
+    ]
+}

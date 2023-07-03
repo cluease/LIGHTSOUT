@@ -1,0 +1,46 @@
+{
+    "Decline": {
+        "Blocks": [
+        ]
+    },
+    "Accept": {
+        "Blocks": [
+        ]
+    },
+    "Complete": {
+        "Blocks": [
+        ]
+    },
+    "Instant": 1b,
+    "Rewards": [
+    ],
+    "Visible": 1b,
+    "Objectives": [
+        {
+            "Type": "state",
+            "Message": "Найдите Ральфа и поговорите с ним",
+            "Expression": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 2,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "Ralph_street2",
+                            "Marker": "hintralph",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Expression": "dialogue_read(\"...\", subject)",
+                "Mode": 1
+            },
+            "Result": 0b
+        }
+    ],
+    "Title": "В поисках улик",
+    "Story": "[6[lТип задания:[r
+- Сюжетное",
+    "Cancelable": 0b
+}

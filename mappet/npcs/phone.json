@@ -16,7 +16,7 @@
                 ]
             },
             "Killable": 1b,
-            "CanFallDamage": 0b,
+            "CanFallDamage": 1b,
             "States": {
             },
             "PathDistance": 32.0f,
@@ -101,7 +101,7 @@
             "Flee": 4.0f,
             "LookAtPlayer": 0b,
             "Respawn": 0b,
-            "Immovable": 0b,
+            "Immovable": 1b,
             "MaxHealth": 20.0f,
             "TriggerDamaged": {
                 "Blocks": [

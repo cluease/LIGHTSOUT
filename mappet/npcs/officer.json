@@ -16,6 +16,107 @@
                 ]
             },
             "Killable": 1b,
+            "CanFallDamage": 0b,
+            "States": {
+            },
+            "PathDistance": 32.0f,
+            "Follow": "",
+            "Xp": 0,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 0b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/police (2).png"
+                        }
+                    }
+                },
+                "Animation": "slim_simple_plus",
+                "Name": "emoticons.slim_simple_plus"
+            },
+            "Damage": 2.0f,
+            "TriggerInteract": {
+                "Blocks": [
+                    {
+                        "Type": "command",
+                        "Command": "/tellraw @p [\"\",{\"text\":\"\\u0410\\u0441\\u0441\\u0438\\u0441\\u0442\\u0435\\u043d\\u0442:\",\"bold\":true,\"color\":\"blue\"},{\"text\":\" \\u0425\\u044d\\u0439 \\u041d\\u043e\\u0440\\u0442, \\u043c\\u044b \\u0441\\u043e\\u0431\\u0440\\u0430\\u043b\\u0438 \\u043d\\u0435\\u043c\\u043d\\u043e\\u0433\\u043e \\u0438\\u043d\\u0444\\u043e\\u0440\\u043c\\u0430\\u0446\\u0438\\u0438 \\u043e\\u0431 \\u044d\\u0442\\u043e\\u043c \\u043a\\u0430\\u0434\\u0440\\u0435, \\u0444\\u0430\\u0439\\u043b\\u044b \\u0438 \\u0444\\u043e\\u0442\\u043e \\u043b\\u0435\\u0436\\u0430\\u0442 \\u043d\\u0430 \\u0441\\u0442\\u043e\\u043b\\u0435, \\u043f\\u043e\\u0441\\u043c\\u043e\\u0442\\u0440\\u0438, \\u043c\\u043e\\u0436\\u0435\\u0442 \\u043e\\u043d\\u0438 \\u0447\\u0435\\u043c \\u043f\\u043e\\u043c\\u043e\\u0433\\u0443\\u0442\"}]",
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "CanSwim": 1b,
+            "Flee": 4.0f,
+            "LookAtPlayer": 1b,
+            "Respawn": 1b,
+            "Immovable": 1b,
+            "MaxHealth": 20.0f,
+            "TriggerDamaged": {
+                "Blocks": [
+                ]
+            },
+            "PatrolTriggers": [
+            ],
+            "CanRanged": 0b,
+            "Drops": [
+            ],
+            "Fallback": 15.0f,
+            "CanPickUpLoot": 0b,
+            "Unique": 0b,
+            "Id": "",
+            "PatrolCirculate": 0b,
+            "DamageDelay": 10,
+            "CanGetBurned": 1b,
+            "Wander": 0b,
+            "RespawnOnCoordinates": 0b,
+            "LookAround": 0b,
+            "RespawnPosY": 0.0d,
+            "RespawnDelay": 0,
+            "RespawnPosX": 0.0d,
+            "SightDistance": 25.0f,
+            "RespawnPosZ": 0.0d,
+            "Invincible": 1b,
+            "TriggerDied": {
+                "Blocks": [
+                ]
+            },
+            "Faction": "interactive",
+            "Speed": 1.0f,
+            "SightRadius": 120.0f,
+            "Health": 20.0f,
+            "Post": [
+            ],
+            "RegenDelay": 80,
+            "TriggerTarget": {
+                "Blocks": [
+                ]
+            },
+            "RegenFrequency": 20,
+            "HasPost": 0b,
+            "Patrol": [
+            ],
+            "PostRadius": 1.0f
+        },
+        "afterdopros": {
+            "RespawnSaveUUID": 0b,
+            "TriggerRespawn": {
+                "Blocks": [
+                ]
+            },
+            "TriggerTick": {
+                "Blocks": [
+                ]
+            },
+            "StateName": "",
+            "TriggerInitialize": {
+                "Blocks": [
+                ]
+            },
+            "Killable": 1b,
             "CanFallDamage": 1b,
             "States": {
             },
@@ -36,60 +137,23 @@
                         }
                     }
                 },
-                "Pose": {
-                    "low_body": {
-                    },
-                    "right_arm": {
-                    },
-                    "left_leg": {
-                    },
-                    "misc_bone_1": {
-                    },
-                    "misc_bone_2": {
-                    },
-                    "misc_bone_3": {
-                    },
-                    "low_leg_right": {
-                    },
-                    "low_right_arm.end": {
-                    },
-                    "misc_gbone_2": {
-                    },
-                    "misc_gbone_1": {
-                    },
-                    "body": {
-                    },
-                    "misc_gbone_3": {
-                    },
-                    "head": {
-                    },
-                    "left_arm": {
-                    },
-                    "low_right_arm": {
-                    },
-                    "right_leg": {
-                    },
-                    "anchor": {
-                        "RZ": -3.0717795f
-                    },
-                    "low_left_leg": {
-                    },
-                    "low_left_arm": {
-                    },
-                    "low_left_arm.end": {
-                    }
-                },
                 "Animation": "slim_simple_plus",
                 "Name": "emoticons.slim_simple_plus"
             },
             "Damage": 2.0f,
             "TriggerInteract": {
                 "Blocks": [
+                    {
+                        "Dialogue": "police_assistant",
+                        "Type": "dialogue",
+                        "CustomData": "",
+                        "Frequency": 1
+                    }
                 ]
             },
             "CanSwim": 1b,
             "Flee": 4.0f,
-            "LookAtPlayer": 0b,
+            "LookAtPlayer": 1b,
             "Respawn": 1b,
             "Immovable": 1b,
             "MaxHealth": 20.0f,

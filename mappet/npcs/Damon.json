@@ -16,7 +16,7 @@
                 ]
             },
             "Killable": 1b,
-            "CanFallDamage": 0b,
+            "CanFallDamage": 1b,
             "States": {
             },
             "PathDistance": 32.0f,

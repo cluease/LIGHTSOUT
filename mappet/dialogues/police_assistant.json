@@ -1,0 +1,312 @@
+{
+    "Closable": 1b,
+    "Main": "503d3647-9b65-4830-b068-a37fae08c502",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Да"
+            },
+            "X": 199,
+            "Title": "Если провалили допрос (Да) +Закон",
+            "Y": -77,
+            "Relations": [
+                "7529dcd9-033c-48f4-b6d3-260eb1f454ab"
+            ],
+            "Id": "f7940f49-d826-4a73-b8cd-c59fff2678ed"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ну что, обратно в камеру его?"
+            },
+            "X": -214,
+            "Title": "",
+            "Y": 168,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 0b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/police (2).png"
+                        }
+                    }
+                },
+                "Animation": "slim_simple_plus",
+                "Name": "emoticons.slim_simple_plus"
+            },
+            "Sound": "",
+            "Relations": [
+                "1ca2d3dc-c7f3-43d4-8e11-c1a515421566",
+                "2258b889-fc86-47f5-8c75-3a1c2a5f8b5c"
+            ],
+            "Id": "503d3647-9b65-4830-b068-a37fae08c502",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Понял приянл, будет сделано"
+            },
+            "X": 479,
+            "Title": "",
+            "Y": 434,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 0b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/police (2).png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RX": -0.19198622f
+                    },
+                    "left_arm": {
+                        "RX": 2.076942f,
+                        "RY": -0.61086524f,
+                        "RZ": 0.41887906f,
+                        "Y": -0.0625f
+                    },
+                    "low_right_arm": {
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                        "RZ": 0.2617994f
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                        "RX": 0.20943952f,
+                        "RY": 0.22689281f,
+                        "RZ": -0.57595867f
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b,
+                    "Duration": 4
+                },
+                "Animation": "slim_simple_plus",
+                "Name": "emoticons.slim_simple_plus"
+            },
+            "Sound": "",
+            "Id": "d7c7d948-9323-447e-a86e-4fe1452a25c3",
+            "Marker": ""
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 2,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "damon_dopros",
+                            "Marker": "damon1",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": -7,
+            "Title": "",
+            "Y": 312,
+            "Relations": [
+                "921fea17-48ab-4f90-ab3f-961d08edea26",
+                "0731a6de-545b-4701-8581-fd560dae7b27"
+            ],
+            "Id": "2258b889-fc86-47f5-8c75-3a1c2a5f8b5c"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 2,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "damon_dopros",
+                            "Marker": "damon2",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": -5,
+            "Title": "",
+            "Y": 52,
+            "Relations": [
+                "f7940f49-d826-4a73-b8cd-c59fff2678ed"
+            ],
+            "Id": "1ca2d3dc-c7f3-43d4-8e11-c1a515421566"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Да"
+            },
+            "X": 240,
+            "Title": "Если пообещали не сажать (Да) +Закон",
+            "Y": 174,
+            "Relations": [
+                "7529dcd9-033c-48f4-b6d3-260eb1f454ab"
+            ],
+            "Id": "921fea17-48ab-4f90-ab3f-961d08edea26"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Понял принял, будет сделано"
+            },
+            "X": 447,
+            "Title": "",
+            "Y": -39,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 0b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/police (2).png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RX": -0.19198622f
+                    },
+                    "left_arm": {
+                        "RX": 2.076942f,
+                        "RY": -0.61086524f,
+                        "RZ": 0.41887906f,
+                        "Y": -0.0625f
+                    },
+                    "low_right_arm": {
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                        "RZ": 0.2617994f
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                        "RX": 0.20943952f,
+                        "RY": 0.22689281f,
+                        "RZ": -0.57595867f
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b,
+                    "Duration": 4
+                },
+                "Animation": "slim_simple_plus",
+                "Name": "emoticons.slim_simple_plus"
+            },
+            "Sound": "",
+            "Id": "7529dcd9-033c-48f4-b6d3-260eb1f454ab",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ему удалось оправдаться, а весомых аргументов для того, чтобы посадить его за решетку я не нашла, так что отпускай его"
+            },
+            "X": 232,
+            "Title": "",
+            "Y": 390,
+            "Relations": [
+                "d7c7d948-9323-447e-a86e-4fe1452a25c3"
+            ],
+            "Id": "0731a6de-545b-4701-8581-fd560dae7b27"
+        }
+    ]
+}

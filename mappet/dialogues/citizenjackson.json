@@ -1,0 +1,130 @@
+{
+    "Closable": 1b,
+    "Main": "dc76f74b-1df7-4e52-b888-2d2011f0ee51",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Дарова"
+            },
+            "X": -180,
+            "Title": "",
+            "Y": -42,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 0b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/citizen5.png"
+                        }
+                    }
+                },
+                "Animation": "slim_simple_plus",
+                "Name": "emoticons.slim_simple_plus"
+            },
+            "Sound": "",
+            "Relations": [
+                "d4d4928e-c029-45fe-a233-ba8a5472867d"
+            ],
+            "Id": "dc76f74b-1df7-4e52-b888-2d2011f0ee51",
+            "Marker": ""
+        },
+        {
+            "Read": 1b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Вроде бы, со стороны леса"
+            },
+            "X": 648,
+            "Title": "",
+            "Y": -36,
+            "Sound": "",
+            "Id": "243220ca-87b4-4cd6-817a-6b33a8ded0ce",
+            "Marker": "hint2"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Привет, я расследую дело о городских убийствах, слышал что-нибудь?"
+            },
+            "X": 8,
+            "Title": "",
+            "Y": -38,
+            "Relations": [
+                "2ce42257-11eb-402d-8114-feef9fadbf3c"
+            ],
+            "Id": "07321d32-9a56-411c-80f6-ac699dfc2bd0"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 2,
+                            "Type": "quest",
+                            "Or": 0b,
+                            "Id": "story_saltystreet_citizens",
+                            "Quest": 1,
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 5,
+            "Title": "",
+            "Y": -206,
+            "Relations": [
+                "07321d32-9a56-411c-80f6-ac699dfc2bd0"
+            ],
+            "Id": "d4d4928e-c029-45fe-a233-ba8a5472867d"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "О, было дело недавно. Мы с ребятами как всегда вечером возвращались с баскетбольной площадки и увидели, как какой-то
+парень бежал по дороге как сумасшедший. У него вся одежда была порвана, одного ботинка не было, вообщем, выглядел ужасно. Мы попытались догнать, чтобы помочь, но он скрылся в темных улицах"
+            },
+            "X": 239,
+            "Title": "",
+            "Y": -37,
+            "Sound": "",
+            "Relations": [
+                "bff8ea2a-8cb5-45b9-9e2f-7b58add19d27"
+            ],
+            "Id": "2ce42257-11eb-402d-8114-feef9fadbf3c",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "А откуда он бежал?"
+            },
+            "X": 451,
+            "Title": "",
+            "Y": -37,
+            "Relations": [
+                "243220ca-87b4-4cd6-817a-6b33a8ded0ce"
+            ],
+            "Id": "bff8ea2a-8cb5-45b9-9e2f-7b58add19d27"
+        }
+    ]
+}

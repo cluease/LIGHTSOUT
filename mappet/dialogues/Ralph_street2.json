@@ -1,0 +1,627 @@
+{
+    "Closable": 1b,
+    "Main": "ddbcdd28-3872-47fc-b2bc-9e6ffce12a9f",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Read": 1b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "В городе, на улице Глум. Говорят, она была скрытной и не
+особо разговорчивой"
+            },
+            "X": 1837,
+            "Title": "",
+            "Y": -104,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 0b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/ralph.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RX": 0.12217298f
+                    },
+                    "left_arm": {
+                    },
+                    "low_right_arm": {
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                        "RZ": 0.2617994f
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "slim_simple_plus",
+                "Name": "emoticons.slim_simple_plus"
+            },
+            "Sound": "",
+            "Relations": [
+                "3361d80a-ec02-4dbd-acfb-ff665e4c1d98"
+            ],
+            "Id": "797c2f60-7735-40b0-9538-a62b64c5c76e",
+            "Marker": "hintralph"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Кто-то говорит, что она сошла с ума и заперлась у себя дома.
+А кто-то, что она уже давно съехала из этого места… правды никто так и не знает"
+            },
+            "X": 1491,
+            "Title": "",
+            "Y": -222,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 0b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/ralph.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RX": 0.38397244f
+                    },
+                    "left_arm": {
+                    },
+                    "low_right_arm": {
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                        "RZ": 0.2617994f
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "slim_simple_plus",
+                "Name": "emoticons.slim_simple_plus"
+            },
+            "Sound": "",
+            "Relations": [
+                "1fef2cb1-de62-47f1-a49f-e6669d8f89cc"
+            ],
+            "Id": "142a1f9c-333a-4503-abe9-544322303cf7",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Интересно… и ничего больше не было слышно об этой
+женщине?"
+            },
+            "X": 1274,
+            "Title": "",
+            "Y": -196,
+            "Relations": [
+                "142a1f9c-333a-4503-abe9-544322303cf7"
+            ],
+            "Id": "05124adc-a901-40a0-9cdc-633487f394b2"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Верно, все в силе. Но я здесь по другому поводу"
+            },
+            "X": 91,
+            "Title": "",
+            "Y": -68,
+            "Relations": [
+                "609504db-a844-4d75-9dc6-648a1c5f5a99"
+            ],
+            "Id": "217bf2a8-f7e0-49bd-bac9-a2c00a9a67d5"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "В любом случае, расскажите хотя бы одну"
+            },
+            "X": 864,
+            "Title": "",
+            "Y": -74,
+            "Relations": [
+                "16c7bc9e-9eda-4091-ba4b-3564d50a21e7"
+            ],
+            "Id": "c29fcbff-eda9-42e3-be1b-1da9fdde504e"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Мне сказали, что вы знаете множество городских легенд,
+хотелось бы послушать парочку"
+            },
+            "X": 506,
+            "Title": "",
+            "Y": -69,
+            "Relations": [
+                "3d918026-68b6-410a-831d-668a610640f0"
+            ],
+            "Id": "09979cc1-4435-4789-afb1-d9b4db9e801b"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ооо, милочка, это не просто легенды…"
+            },
+            "X": 655,
+            "Title": "",
+            "Y": -68,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 0b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/ralph.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RX": 0.38397244f
+                    },
+                    "left_arm": {
+                    },
+                    "low_right_arm": {
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                        "RZ": 0.2617994f
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "slim_simple_plus",
+                "Name": "emoticons.slim_simple_plus"
+            },
+            "Sound": "",
+            "Relations": [
+                "c29fcbff-eda9-42e3-be1b-1da9fdde504e"
+            ],
+            "Id": "3d918026-68b6-410a-831d-668a610640f0",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Оо, нет. Эти твари гораздо опаснее выдуманных сказочных
+персонажей. Не дай святый Аллах встретиться с одним из них…"
+            },
+            "X": 1468,
+            "Title": "",
+            "Y": 52,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 0b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/ralph.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RX": 0.38397244f
+                    },
+                    "left_arm": {
+                    },
+                    "low_right_arm": {
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                        "RZ": 0.2617994f
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "slim_simple_plus",
+                "Name": "emoticons.slim_simple_plus"
+            },
+            "Sound": "",
+            "Relations": [
+                "1fef2cb1-de62-47f1-a49f-e6669d8f89cc"
+            ],
+            "Id": "1c364026-df7e-466f-970a-f8f1fcd5ee84",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Волкоподобное существо это… типа, оборотень?"
+            },
+            "X": 1270,
+            "Title": "",
+            "Y": 42,
+            "Relations": [
+                "1c364026-df7e-466f-970a-f8f1fcd5ee84"
+            ],
+            "Id": "1ccf385d-7b31-4153-a873-0a7f24d5d307"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Так уж и быть. Ходят слухи, что пару месяцев назад во
+Фраобэртон поселилась одна невероятной красоты особа.
+Расчетливая, мудрая женщина, занимавшаяся алхимией. Несколько
+лет она несла на своей душе великое горе, сын ее был смертельно
+болен. Девушка долгое время мучалась, пытаясь отыскать формулу от
+его болезни, но ему ничего не помогало. Перепробовав множество
+вариантов, она изобрела нечто страшное… Женщина дала
+попробовать своему сыну очередную микстуру, и тот обратился в
+волкоподобное существо, после чего больше не мог признать в
+незнакомке свою мать и сбежал из дома. С тех пор она не выходила из
+своего жилья"
+            },
+            "X": 1094,
+            "Title": "",
+            "Y": -72,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 0b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/ralph.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                        "RX": 0.46364763f,
+                        "RY": 0.25268024f,
+                        "RZ": -2.0344439f
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RX": -0.19198622f
+                    },
+                    "left_arm": {
+                        "RX": 0.26179922f,
+                        "RZ": 2.0943952f
+                    },
+                    "low_right_arm": {
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                        "RZ": 0.2617994f
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "slim_simple_plus",
+                "Name": "emoticons.slim_simple_plus"
+            },
+            "Sound": "",
+            "Relations": [
+                "05124adc-a901-40a0-9cdc-633487f394b2",
+                "1ccf385d-7b31-4153-a873-0a7f24d5d307"
+            ],
+            "Id": "16c7bc9e-9eda-4091-ba4b-3564d50a21e7",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "И что же сподвигло столь юную даму вновь побеседовать с
+обыкновенным стариком?"
+            },
+            "X": 292,
+            "Title": "",
+            "Y": -60,
+            "Sound": "",
+            "Relations": [
+                "09979cc1-4435-4789-afb1-d9b4db9e801b"
+            ],
+            "Id": "609504db-a844-4d75-9dc6-648a1c5f5a99",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Кх-кхм. Мы, кажется, договорились встретиться вечером на
+заправке"
+            },
+            "X": -96,
+            "Title": "",
+            "Y": -12,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 0b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/ralph.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                    },
+                    "left_arm": {
+                    },
+                    "low_right_arm": {
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                        "RZ": 0.2617994f
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Animation": "slim_simple_plus",
+                "Name": "emoticons.slim_simple_plus"
+            },
+            "Sound": "",
+            "Relations": [
+                "217bf2a8-f7e0-49bd-bac9-a2c00a9a67d5"
+            ],
+            "Id": "ddbcdd28-3872-47fc-b2bc-9e6ffce12a9f",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "И где же она жила?"
+            },
+            "X": 1651,
+            "Title": "",
+            "Y": -102,
+            "Relations": [
+                "797c2f60-7735-40b0-9538-a62b64c5c76e"
+            ],
+            "Id": "1fef2cb1-de62-47f1-a49f-e6669d8f89cc"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ясно… ну.. что ж, до вечера"
+            },
+            "X": 2016,
+            "Title": "",
+            "Y": -100,
+            "Id": "3361d80a-ec02-4dbd-acfb-ff665e4c1d98"
+        }
+    ]
+}

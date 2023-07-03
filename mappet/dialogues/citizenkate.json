@@ -1,0 +1,294 @@
+{
+    "Closable": 1b,
+    "Main": "99cb7d5b-9481-41c6-ad73-4e05517d17c2",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Вам что-нибудь известно?"
+            },
+            "X": 528,
+            "Title": "",
+            "Y": -80,
+            "Relations": [
+                "70a1d2a9-1b2b-4b4f-980e-4cab9f73c4ff"
+            ],
+            "Id": "b8c6b59e-0729-4dd9-8aef-6095b0074d76"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Я стараюсь держаться подальше от этого. Регулярно хожу в церковь, молюсь за здравие своей семьи"
+            },
+            "X": 654,
+            "Title": "",
+            "Y": -88,
+            "Sound": "",
+            "Relations": [
+                "a24aae16-32f2-4e8f-b7a2-a3c3edf031c9"
+            ],
+            "Id": "70a1d2a9-1b2b-4b4f-980e-4cab9f73c4ff",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ох, да. Читала недавние новости, упаси господь"
+            },
+            "X": 344,
+            "Title": "",
+            "Y": -78,
+            "Sound": "",
+            "Relations": [
+                "b8c6b59e-0729-4dd9-8aef-6095b0074d76"
+            ],
+            "Id": "18345b62-f496-4161-b250-06d0319991d1",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Может, вы слышали или видели последнее время что-то странное?"
+            },
+            "X": 858,
+            "Title": "",
+            "Y": -82,
+            "Relations": [
+                "4904d076-4acf-432b-b2e5-9f83db74df8e"
+            ],
+            "Id": "a24aae16-32f2-4e8f-b7a2-a3c3edf031c9"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Я расследую дело о городских убийствах, слышали что-нибудь?"
+            },
+            "X": 146,
+            "Title": "",
+            "Y": -90,
+            "Relations": [
+                "18345b62-f496-4161-b250-06d0319991d1"
+            ],
+            "Id": "91381d9f-5023-4315-9553-8cf9a8eec8ef"
+        },
+        {
+            "Read": 1b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Не припомню. Вот только на последней молитве Батюшка предупреждал нас об опасности, идущей с темного леса. А мы то,
+девки глупые, недавно всей оравой по грибы да ягоды ходили! Ой, горе нам, горе…"
+            },
+            "X": 1062,
+            "Title": "",
+            "Y": -124,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 0b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/mamama.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                        "RX": 1.6755162f,
+                        "RZ": 0.34906587f
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RX": 0.45378563f,
+                        "RY": 0.15707964f,
+                        "RZ": 0.034906585f
+                    },
+                    "left_arm": {
+                        "RX": 1.7802359f,
+                        "RZ": -0.4712389f
+                    },
+                    "low_right_arm": {
+                        "RZ": 0.90757126f
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                        "RZ": 0.2617994f
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                        "RX": -0.12217305f,
+                        "RZ": -0.82030475f
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "slim_simple_plus",
+                "Name": "emoticons.slim_simple_plus"
+            },
+            "Sound": "",
+            "Relations": [
+                "932d812a-a017-4ace-b9a6-2a6b558572d8"
+            ],
+            "Id": "4904d076-4acf-432b-b2e5-9f83db74df8e",
+            "Marker": "hint1"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 2,
+                            "Type": "quest",
+                            "Or": 0b,
+                            "Id": "story_saltystreet_citizens",
+                            "Quest": 1,
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 148,
+            "Title": "",
+            "Y": -230,
+            "Relations": [
+                "91381d9f-5023-4315-9553-8cf9a8eec8ef"
+            ],
+            "Id": "3593590e-a4d4-4f03-b6a3-d6d7f62d3ebf"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Чем могу быть полезна?"
+            },
+            "X": -74,
+            "Title": "",
+            "Y": -84,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 0b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/mamama.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RX": 0.08726647f,
+                        "RY": 0.19198622f,
+                        "RZ": 0.17453294f
+                    },
+                    "left_arm": {
+                    },
+                    "low_right_arm": {
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                        "RZ": 0.2617994f
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Animation": "slim_simple_plus",
+                "Name": "emoticons.slim_simple_plus"
+            },
+            "Sound": "",
+            "Relations": [
+                "3593590e-a4d4-4f03-b6a3-d6d7f62d3ebf"
+            ],
+            "Id": "99cb7d5b-9481-41c6-ad73-4e05517d17c2",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Спасибо, всего доброго"
+            },
+            "X": 1228,
+            "Title": "",
+            "Y": -128,
+            "Id": "932d812a-a017-4ace-b9a6-2a6b558572d8"
+        }
+    ]
+}

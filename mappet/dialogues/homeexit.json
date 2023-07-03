@@ -52,11 +52,37 @@
             "Id": "e0bb6ae6-d1dd-4f7a-b6d1-e734211478ae"
         },
         {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 2,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "bed",
+                            "Marker": "day2",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 358,
+            "Title": "после сна",
+            "Y": -1458,
+            "Relations": [
+                "940d555f-1416-47a9-ae62-aa82a1958b84"
+            ],
+            "Id": "691b826b-8bc6-4621-bdf3-fd981195f6ae"
+        },
+        {
             "Type": "command",
             "Command": "tp @p 372 91 -1271",
             "X": 716,
             "Title": "",
-            "Y": -669,
+            "Y": -1298,
             "Id": "edb51705-d080-425f-b10a-cedb4ad5ab63"
         },
         {
@@ -81,7 +107,7 @@
         {
             "Type": "reply",
             "Message": {
-                "Color": 16777215,
+                "Color": 1987839,
                 "Text": "ДОПОЛНИТЕЛЬНЫЕ ЗАДАНИЯ"
             },
             "X": 40,
@@ -130,14 +156,15 @@
         {
             "Type": "reply",
             "Message": {
-                "Color": 16777215,
+                "Color": 6400341,
                 "Text": "ОТКРЫТЫЙ МИР"
             },
             "X": 134,
             "Title": "ОТКРЫТЫЙ МИР",
-            "Y": -661,
+            "Y": -1290,
             "Relations": [
-                "aa44b416-0214-45c3-ae58-618d3345545a"
+                "aa44b416-0214-45c3-ae58-618d3345545a",
+                "691b826b-8bc6-4621-bdf3-fd981195f6ae"
             ],
             "Id": "16089be8-7710-4a5c-89b9-a302ae9e5aa3"
         },
@@ -193,7 +220,7 @@
             },
             "X": 367,
             "Title": "",
-            "Y": -660,
+            "Y": -1289,
             "Sound": "",
             "Relations": [
                 "d0175a9d-5747-4d2c-8d06-b0384f3e0cd4"
@@ -230,7 +257,7 @@
         {
             "Type": "reply",
             "Message": {
-                "Color": 16777215,
+                "Color": 16763478,
                 "Text": "СЮЖЕТНЫЕ ЗАДАНИЯ"
             },
             "X": 252,
@@ -265,6 +292,14 @@
             "Id": "0a46ca15-8ce6-4e48-9d51-a31ee3d5f2d3"
         },
         {
+            "Type": "command",
+            "Command": "tp @p 2286 23 -1697",
+            "X": 713,
+            "Title": "",
+            "Y": -1470,
+            "Id": "61b69010-0092-434f-aa2b-8f5439c6eb16"
+        },
+        {
             "Type": "reply",
             "Message": {
                 "Color": 16777215,
@@ -272,7 +307,7 @@
             },
             "X": 548,
             "Title": "",
-            "Y": -665,
+            "Y": -1294,
             "Relations": [
                 "edb51705-d080-425f-b10a-cedb4ad5ab63"
             ],
@@ -320,6 +355,20 @@
             "Title": "",
             "Y": 85,
             "Id": "c4cae1a0-b605-445a-afe1-0fdefda9deb8"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Отправиться на улицу Солти)"
+            },
+            "X": 550,
+            "Title": "",
+            "Y": -1459,
+            "Relations": [
+                "61b69010-0092-434f-aa2b-8f5439c6eb16"
+            ],
+            "Id": "940d555f-1416-47a9-ae62-aa82a1958b84"
         }
     ]
 }

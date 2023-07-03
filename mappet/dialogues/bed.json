@@ -1,0 +1,198 @@
+{
+    "Closable": 1b,
+    "Main": "4a3ce3c9-900e-4180-9677-11063a203eac",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Интересно, куда это все меня заведет..."
+            },
+            "X": 786,
+            "Title": "",
+            "Y": 14,
+            "Relations": [
+                "fdb21f0c-ea52-4f50-b766-355728d9b3fa"
+            ],
+            "Id": "05dc9eed-2909-4dae-9e46-be8d776d4222"
+        },
+        {
+            "Type": "command",
+            "Command": "/title @a times 20 100 20",
+            "X": 1411,
+            "Title": "",
+            "Y": -190,
+            "Id": "641a25ba-f9d0-4c9a-a561-04e9714937f9"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Вы ложитесь в кровать"
+            },
+            "X": 160,
+            "Title": "",
+            "Y": 12,
+            "Sound": "",
+            "Relations": [
+                "e34226f1-fd8b-46f0-be75-6bf2371ab1c9"
+            ],
+            "Id": "65926b33-448b-48eb-9ff0-859774a53b10",
+            "Marker": ""
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Target": {
+                            "Target": 2,
+                            "Selector": ""
+                        },
+                        "Type": "state",
+                        "State": "day2",
+                        "Mode": 1,
+                        "Value": 1.0d,
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": 1413,
+            "CustomData": "",
+            "Title": "day2",
+            "Y": -46,
+            "Id": "f2d53efb-127c-4ca0-80a8-6bb81e3233b3"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Проснуться утром)"
+            },
+            "X": 1141,
+            "Title": "",
+            "Y": 15,
+            "Relations": [
+                "641a25ba-f9d0-4c9a-a561-04e9714937f9",
+                "083e78bc-43d9-4202-8d92-cf4ed2c2304d",
+                "e0e6210a-a066-44d2-b450-a9213c1d06eb",
+                "f2d53efb-127c-4ca0-80a8-6bb81e3233b3",
+                "ebbdfd2e-11ba-4671-98a8-331265310d66"
+            ],
+            "Id": "2f80f6bd-a199-4239-be2f-9a7a9770110c"
+        },
+        {
+            "Type": "command",
+            "Command": "mp event trigger @p day2wakeup",
+            "X": 1414,
+            "Title": "",
+            "Y": 108,
+            "Id": "ebbdfd2e-11ba-4671-98a8-331265310d66"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 2,
+                            "Type": "quest",
+                            "Or": 0b,
+                            "Id": "story_demoncase_2",
+                            "Quest": 2,
+                            "Selector": ""
+                        },
+                        {
+                            "Not": 1b,
+                            "Target": 1,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "bed",
+                            "Marker": "day2",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": -52,
+            "Title": "",
+            "Y": 12,
+            "Relations": [
+                "65926b33-448b-48eb-9ff0-859774a53b10"
+            ],
+            "Id": "4a3ce3c9-900e-4180-9677-11063a203eac"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "И правда, обычно Норт поступали звонки о богохульстве или очередном домашнем избиении. Но в этот раз все иначе. Несмотря на это, Норт была рада, что в ее жизни появилось хоть какое-то серьезное дело"
+            },
+            "X": 560,
+            "Title": "",
+            "Y": 10,
+            "Sound": "",
+            "Relations": [
+                "05dc9eed-2909-4dae-9e46-be8d776d4222"
+            ],
+            "Id": "84b873da-dcd8-4b2e-9cce-1164869bc613",
+            "Marker": ""
+        },
+        {
+            "Type": "command",
+            "Command": "/title @a subtitle {\"text\":\"\\u0421\\u0443\\u0431\\u0431\\u043e\\u0442\\u0430\",\"color\":\"yellow\"}",
+            "X": 1241,
+            "Title": "",
+            "Y": -182,
+            "Id": "083e78bc-43d9-4202-8d92-cf4ed2c2304d"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Давненько у меня не было настолько насыщенных деньков"
+            },
+            "X": 356,
+            "Title": "Рассуждения",
+            "Y": 4,
+            "Relations": [
+                "84b873da-dcd8-4b2e-9cce-1164869bc613"
+            ],
+            "Id": "e34226f1-fd8b-46f0-be75-6bf2371ab1c9"
+        },
+        {
+            "Read": 1b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Норт предалась рассуждениям, но через несколько минут, незаметно для себя, уснула"
+            },
+            "X": 954,
+            "Title": "",
+            "Y": 12,
+            "Sound": "",
+            "Relations": [
+                "2f80f6bd-a199-4239-be2f-9a7a9770110c"
+            ],
+            "Id": "fdb21f0c-ea52-4f50-b766-355728d9b3fa",
+            "Marker": "day2"
+        },
+        {
+            "Type": "command",
+            "Command": "/title @a title {\"text\":\"\\u0414\\u0435\\u043d\\u044c 2\",\"bold\":true,\"color\":\"gold\"}",
+            "X": 1066,
+            "Title": "",
+            "Y": -191,
+            "Id": "e0e6210a-a066-44d2-b450-a9213c1d06eb"
+        }
+    ]
+}

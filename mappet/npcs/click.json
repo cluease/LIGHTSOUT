@@ -98,6 +98,109 @@
             ],
             "PostRadius": 1.0f
         },
+        "bed": {
+            "RespawnSaveUUID": 0b,
+            "TriggerRespawn": {
+                "Blocks": [
+                ]
+            },
+            "TriggerTick": {
+                "Blocks": [
+                ]
+            },
+            "StateName": "",
+            "TriggerInitialize": {
+                "Blocks": [
+                ]
+            },
+            "Killable": 1b,
+            "CanFallDamage": 1b,
+            "States": {
+            },
+            "PathDistance": 32.0f,
+            "Follow": "",
+            "Xp": 0,
+            "Morph": {
+                "RemoveParentSpace": 1b,
+                "Pose": {
+                    "P": [
+                        0.125f,
+                        1.5f,
+                        0.375f
+                    ],
+                    "S": [
+                        1.75f,
+                        1.75f,
+                        1.75f
+                    ]
+                },
+                "Billboard": 1b,
+                "Texture": "b.a:image/skins/rc.png",
+                "Name": "blockbuster.image"
+            },
+            "Damage": 2.0f,
+            "TriggerInteract": {
+                "Blocks": [
+                    {
+                        "Dialogue": "bed",
+                        "Type": "dialogue",
+                        "CustomData": "",
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "CanSwim": 1b,
+            "Flee": 4.0f,
+            "LookAtPlayer": 0b,
+            "Respawn": 1b,
+            "Immovable": 1b,
+            "MaxHealth": 20.0f,
+            "TriggerDamaged": {
+                "Blocks": [
+                ]
+            },
+            "PatrolTriggers": [
+            ],
+            "CanRanged": 0b,
+            "Drops": [
+            ],
+            "Fallback": 15.0f,
+            "CanPickUpLoot": 0b,
+            "Unique": 0b,
+            "Id": "",
+            "PatrolCirculate": 0b,
+            "DamageDelay": 10,
+            "CanGetBurned": 1b,
+            "Wander": 0b,
+            "RespawnOnCoordinates": 0b,
+            "LookAround": 0b,
+            "RespawnPosY": 0.0d,
+            "RespawnDelay": 0,
+            "RespawnPosX": 0.0d,
+            "SightDistance": 25.0f,
+            "RespawnPosZ": 0.0d,
+            "Invincible": 1b,
+            "TriggerDied": {
+                "Blocks": [
+                ]
+            },
+            "Faction": "interactive",
+            "Speed": 1.0f,
+            "SightRadius": 120.0f,
+            "Health": 20.0f,
+            "Post": [
+            ],
+            "RegenDelay": 80,
+            "TriggerTarget": {
+                "Blocks": [
+                ]
+            },
+            "RegenFrequency": 20,
+            "HasPost": 0b,
+            "Patrol": [
+            ],
+            "PostRadius": 1.0f
+        },
         "default": {
             "RespawnSaveUUID": 0b,
             "TriggerRespawn": {
@@ -114,7 +217,7 @@
                 ]
             },
             "Killable": 1b,
-            "CanFallDamage": 0b,
+            "CanFallDamage": 1b,
             "States": {
             },
             "PathDistance": 32.0f,
@@ -233,6 +336,11 @@
                     {
                         "Type": "command",
                         "Command": "tp @p 373 91 -1263",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/tellraw @p {\"text\":\"\\u041e\\u0445, \\u043a\\u0430\\u043a\\u043e\\u0439 \\u0442\\u044f\\u0436\\u0435\\u043b\\u044b\\u0439 \\u0434\\u0435\\u043d\\u044c. \\u041d\\u0443\\u0436\\u043d\\u043e \\u043f\\u043e\\u0439\\u0442\\u0438 \\u043f\\u043e\\u0441\\u043f\\u0430\\u0442\\u044c\",\"color\":\"yellow\"}",
                         "Frequency": 1
                     }
                 ]
@@ -441,6 +549,109 @@
             "Flee": 4.0f,
             "LookAtPlayer": 0b,
             "Respawn": 0b,
+            "Immovable": 1b,
+            "MaxHealth": 20.0f,
+            "TriggerDamaged": {
+                "Blocks": [
+                ]
+            },
+            "PatrolTriggers": [
+            ],
+            "CanRanged": 0b,
+            "Drops": [
+            ],
+            "Fallback": 15.0f,
+            "CanPickUpLoot": 0b,
+            "Unique": 0b,
+            "Id": "",
+            "PatrolCirculate": 0b,
+            "DamageDelay": 10,
+            "CanGetBurned": 1b,
+            "Wander": 0b,
+            "RespawnOnCoordinates": 0b,
+            "LookAround": 0b,
+            "RespawnPosY": 0.0d,
+            "RespawnDelay": 0,
+            "RespawnPosX": 0.0d,
+            "SightDistance": 25.0f,
+            "RespawnPosZ": 0.0d,
+            "Invincible": 1b,
+            "TriggerDied": {
+                "Blocks": [
+                ]
+            },
+            "Faction": "interactive",
+            "Speed": 1.0f,
+            "SightRadius": 120.0f,
+            "Health": 20.0f,
+            "Post": [
+            ],
+            "RegenDelay": 80,
+            "TriggerTarget": {
+                "Blocks": [
+                ]
+            },
+            "RegenFrequency": 20,
+            "HasPost": 0b,
+            "Patrol": [
+            ],
+            "PostRadius": 1.0f
+        },
+        "saltystreetexit": {
+            "RespawnSaveUUID": 0b,
+            "TriggerRespawn": {
+                "Blocks": [
+                ]
+            },
+            "TriggerTick": {
+                "Blocks": [
+                ]
+            },
+            "StateName": "",
+            "TriggerInitialize": {
+                "Blocks": [
+                ]
+            },
+            "Killable": 1b,
+            "CanFallDamage": 1b,
+            "States": {
+            },
+            "PathDistance": 32.0f,
+            "Follow": "",
+            "Xp": 0,
+            "Morph": {
+                "RemoveParentSpace": 1b,
+                "Pose": {
+                    "P": [
+                        0.125f,
+                        1.5f,
+                        0.375f
+                    ],
+                    "S": [
+                        1.75f,
+                        1.75f,
+                        1.75f
+                    ]
+                },
+                "Billboard": 1b,
+                "Texture": "b.a:image/skins/icon-exit.png",
+                "Name": "blockbuster.image"
+            },
+            "Damage": 2.0f,
+            "TriggerInteract": {
+                "Blocks": [
+                    {
+                        "Dialogue": "saltystreetexit",
+                        "Type": "dialogue",
+                        "CustomData": "",
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "CanSwim": 1b,
+            "Flee": 4.0f,
+            "LookAtPlayer": 0b,
+            "Respawn": 1b,
             "Immovable": 1b,
             "MaxHealth": 20.0f,
             "TriggerDamaged": {

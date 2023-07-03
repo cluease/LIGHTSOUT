@@ -1,0 +1,55 @@
+{
+    "Decline": {
+        "Blocks": [
+        ]
+    },
+    "Accept": {
+        "Blocks": [
+        ]
+    },
+    "Complete": {
+        "Blocks": [
+        ]
+    },
+    "Instant": 1b,
+    "Rewards": [
+    ],
+    "Visible": 1b,
+    "Objectives": [
+        {
+            "Type": "state",
+            "Message": "Поговорите с жителями города о городских убийствах",
+            "Expression": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 2,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "citizenkate",
+                            "Marker": "hint1",
+                            "Selector": ""
+                        },
+                        {
+                            "Not": 0b,
+                            "Target": 2,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "citizenjackson",
+                            "Marker": "hint2",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Expression": "dialogue_read(\"...\", subject)",
+                "Mode": 1
+            },
+            "Result": 0b
+        }
+    ],
+    "Title": "В поисках улик",
+    "Story": "[6[lТип задания:[r
+- Сюжетное",
+    "Cancelable": 0b
+}
