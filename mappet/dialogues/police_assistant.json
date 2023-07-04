@@ -1,5 +1,5 @@
 {
-    "Closable": 1b,
+    "Closable": 0b,
     "Main": "503d3647-9b65-4830-b068-a37fae08c502",
     "OnClose": {
         "Blocks": [
@@ -16,7 +16,8 @@
             "Title": "Если провалили допрос (Да) +Закон",
             "Y": -77,
             "Relations": [
-                "7529dcd9-033c-48f4-b6d3-260eb1f454ab"
+                "7529dcd9-033c-48f4-b6d3-260eb1f454ab",
+                "63df6c70-5b27-4db1-86cc-b60b964c899f"
             ],
             "Id": "f7940f49-d826-4a73-b8cd-c59fff2678ed"
         },
@@ -204,7 +205,8 @@
             "Title": "Если пообещали не сажать (Да) +Закон",
             "Y": 174,
             "Relations": [
-                "7529dcd9-033c-48f4-b6d3-260eb1f454ab"
+                "7529dcd9-033c-48f4-b6d3-260eb1f454ab",
+                "63df6c70-5b27-4db1-86cc-b60b964c899f"
             ],
             "Id": "921fea17-48ab-4f90-ab3f-961d08edea26"
         },
@@ -304,9 +306,18 @@
             "Title": "",
             "Y": 390,
             "Relations": [
-                "d7c7d948-9323-447e-a86e-4fe1452a25c3"
+                "d7c7d948-9323-447e-a86e-4fe1452a25c3",
+                "63df6c70-5b27-4db1-86cc-b60b964c899f"
             ],
             "Id": "0731a6de-545b-4701-8581-fd560dae7b27"
+        },
+        {
+            "Type": "command",
+            "Command": "/mp npc summon click doprosexit 1062 137 -2874",
+            "X": 693,
+            "Title": "",
+            "Y": 138,
+            "Id": "63df6c70-5b27-4db1-86cc-b60b964c899f"
         }
     ]
 }

@@ -19,6 +19,14 @@
         },
         {
             "Type": "command",
+            "Command": "stopsound @p master customnpcs:misc.elevator",
+            "X": 298,
+            "Title": "",
+            "Y": -35,
+            "Id": "21ec9a46-e59a-4363-b088-bcbd0478deb4"
+        },
+        {
+            "Type": "command",
             "Command": "execute @p ~ ~ ~ mp npc summon Tom invisible 1002 43 -641",
             "X": -212,
             "Title": "",
@@ -34,7 +42,8 @@
             "Relations": [
                 "05bf7699-a867-4608-b3bf-0b0e25582e33",
                 "6c686bcd-ba26-438d-9159-433b14a198cb",
-                "069ca9ef-e7f2-4e44-9ced-43b1994cf4ae"
+                "069ca9ef-e7f2-4e44-9ced-43b1994cf4ae",
+                "21ec9a46-e59a-4363-b088-bcbd0478deb4"
             ],
             "Id": "e67b2660-9358-4a34-ac0d-55daf7a86217"
         }

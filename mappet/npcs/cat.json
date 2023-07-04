@@ -8,11 +8,21 @@
             },
             "TriggerTick": {
                 "Blocks": [
+                    {
+                        "Type": "command",
+                        "Command": "/playsound minecraft:entity.cat.purreow block @p",
+                        "Frequency": 3
+                    }
                 ]
             },
             "StateName": "",
             "TriggerInitialize": {
                 "Blocks": [
+                    {
+                        "Type": "command",
+                        "Command": "/playsound minecraft:entity.cat.death block @p",
+                        "Frequency": 1
+                    }
                 ]
             },
             "Killable": 1b,
@@ -37,9 +47,8 @@
             "TriggerInteract": {
                 "Blocks": [
                     {
-                        "Dialogue": "cat",
-                        "Type": "dialogue",
-                        "CustomData": "",
+                        "Type": "command",
+                        "Command": "/playsound minecraft:entity.cat.ambient block @p",
                         "Frequency": 1
                     }
                 ]
@@ -67,7 +76,7 @@
             "DamageDelay": 10,
             "CanGetBurned": 0b,
             "Wander": 0b,
-            "RespawnOnCoordinates": 0b,
+            "RespawnOnCoordinates": 1b,
             "LookAround": 0b,
             "RespawnPosY": 0.0d,
             "RespawnDelay": 0,

@@ -81,6 +81,24 @@
             "Type": "reaction",
             "Message": {
                 "Color": 16777215,
+                "Text": "(Щеки Уоррена покрылись лекгим румянцем)
+Спасибо..."
+            },
+            "X": 1443,
+            "Title": "",
+            "Y": 192,
+            "Sound": "",
+            "Relations": [
+                "17935bb3-4fde-4f2f-8c5d-a9cbfb6f510d"
+            ],
+            "Id": "3a80c8b1-9219-4ead-be10-5a29dc3e9f07",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
                 "Text": "Решила действовать радикально?"
             },
             "X": 420,
@@ -144,6 +162,20 @@
             "Id": "44cfa6da-e4ae-45db-aac4-ecc1a3b9d014"
         },
         {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "А.. Да, конечно, садись в машину"
+            },
+            "X": 1840,
+            "Title": "",
+            "Y": 177,
+            "Sound": "",
+            "Id": "d499fbba-5722-48f8-bc04-3a09802b3cd7",
+            "Marker": ""
+        },
+        {
             "Type": "reply",
             "Message": {
                 "Color": 16777215,
@@ -191,9 +223,9 @@
         {
             "Type": "command",
             "Command": "mp faction add @p warren 1",
-            "X": 1632,
+            "X": 1658,
             "Title": "",
-            "Y": -287,
+            "Y": -267,
             "Id": "e45603da-679c-4dee-b50d-2b8fb83a17c9"
         },
         {
@@ -304,10 +336,27 @@
             "Y": 208,
             "Sound": "",
             "Relations": [
-                "88fb3452-9a00-48be-afda-ec6cf34d5d86"
+                "88fb3452-9a00-48be-afda-ec6cf34d5d86",
+                "d02b3959-81ea-4a3d-8eb1-98e76f7923b1"
             ],
             "Id": "d3d2410e-8ed6-40c6-80e5-17faf681e1cd",
             "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ау? До дома подвезешь?"
+            },
+            "X": 1638,
+            "Title": "",
+            "Y": 182,
+            "Relations": [
+                "d499fbba-5722-48f8-bc04-3a09802b3cd7",
+                "e45603da-679c-4dee-b50d-2b8fb83a17c9",
+                "6b34b9a7-13da-43fc-8ffd-791f68dddebc"
+            ],
+            "Id": "17935bb3-4fde-4f2f-8c5d-a9cbfb6f510d"
         },
         {
             "Read": 0b,
@@ -418,6 +467,14 @@
             "Id": "6182c8af-7afc-4354-b812-e584c2d4b433"
         },
         {
+            "Type": "command",
+            "Command": "/tellraw @p {\"text\":\"\\u0423\\u043e\\u0440\\u0440\\u0435\\u043d \\u043e\\u0446\\u0435\\u043d\\u0438\\u043b \\u0432\\u0430\\u0448\\u0443 \\u043f\\u043e\\u0445\\u0432\\u0430\\u043b\\u0443\",\"color\":\"light_purple\"}",
+            "X": 1853,
+            "Title": "уоррен заценил",
+            "Y": 17,
+            "Id": "6b34b9a7-13da-43fc-8ffd-791f68dddebc"
+        },
+        {
             "Type": "reply",
             "Message": {
                 "Color": 16777215,
@@ -471,6 +528,20 @@
                 "6fa5dd1c-d814-45a2-9e7a-94df25b9b179"
             ],
             "Id": "7cbe1f4f-d2df-4571-8e91-60765b8a5f89"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Приятно слышать. Ты тоже здорово постарался! Кстати, подкинешь до дома?"
+            },
+            "X": 1093,
+            "Title": "",
+            "Y": 382,
+            "Relations": [
+                "3a80c8b1-9219-4ead-be10-5a29dc3e9f07"
+            ],
+            "Id": "d02b3959-81ea-4a3d-8eb1-98e76f7923b1"
         },
         {
             "Read": 0b,

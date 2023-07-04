@@ -1,0 +1,311 @@
+{
+    "Closable": 1b,
+    "Main": "a1af2ff0-e5a5-4783-8872-7dcb64495ad9",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Извините. Вы не видели случайно милую девушку, с короткими черными волосами и голубыми глазами?"
+            },
+            "X": 362,
+            "Title": "",
+            "Y": 274,
+            "Relations": [
+                "6955ca11-bf95-4d3f-8335-68508bbd7cdb"
+            ],
+            "Id": "3ae73f2e-4f36-4c52-a132-6b18089f0078"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Вчера были жестко убиты 3 человека, подозрительно одинаковым образом"
+            },
+            "X": 583,
+            "Title": "",
+            "Y": 2,
+            "Relations": [
+                "30762ec0-8528-415c-bdcb-dbfbc5caa20e"
+            ],
+            "Id": "ef503321-8951-4db6-b992-bcc67456c4f6"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777109,
+                "Text": "(Может, сменила имидж?)"
+            },
+            "X": 734,
+            "Title": "",
+            "Y": 276,
+            "Relations": [
+                "179184bb-ff32-4b9a-b56e-aa394d627d4a",
+                "fd7e9af0-cb6d-468b-b68d-826db27e06d0"
+            ],
+            "Id": "36a664fd-b34b-44ba-8eac-aab1d60b5978"
+        },
+        {
+            "Type": "command",
+            "Command": "/mp npc summon clickkris waiting 2300 20 -1733",
+            "X": 784,
+            "Title": "",
+            "Y": 468,
+            "Id": "fd7e9af0-cb6d-468b-b68d-826db27e06d0"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 4,
+                            "Type": "quest",
+                            "Or": 0b,
+                            "Id": "story_kris_1",
+                            "Quest": 1,
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 86,
+            "Title": "",
+            "Y": 248,
+            "Relations": [
+                "3ae73f2e-4f36-4c52-a132-6b18089f0078"
+            ],
+            "Id": "85d992ee-df92-4158-bd72-fb1740d66749"
+        },
+        {
+            "Read": 1b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Да вроде нет. Приходила недавно одна женщина, выглядела
+очень статно и богато, будто из 19 века сбежала. Никогда таких в
+жизни не встречал. Но в остальном, ничего в ней такого не было,
+заказала тыквенно-пряный латте и ушла, даже чаевые оставила"
+            },
+            "X": 1146,
+            "Title": "",
+            "Y": 4,
+            "Sound": "",
+            "Relations": [
+                "bd48abad-92cf-4919-a33c-5f151625ccb1"
+            ],
+            "Id": "69b5fb48-ee26-4502-b22b-7ad9a38c292b",
+            "Marker": "hint3"
+        },
+        {
+            "Read": 1b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "С короткими черны… нет, извините… не припомню"
+            },
+            "X": 558,
+            "Title": "",
+            "Y": 276,
+            "Sound": "",
+            "Relations": [
+                "36a664fd-b34b-44ba-8eac-aab1d60b5978"
+            ],
+            "Id": "6955ca11-bf95-4d3f-8335-68508bbd7cdb",
+            "Marker": "bar1"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Спасибо"
+            },
+            "X": 1314,
+            "Title": "",
+            "Y": 0,
+            "Id": "bd48abad-92cf-4919-a33c-5f151625ccb1"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Здравствуйте, будете делать заказ?"
+            },
+            "X": -116,
+            "Title": "",
+            "Y": 22,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 0b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/barista.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RZ": 0.12217305f
+                    },
+                    "left_arm": {
+                    },
+                    "low_right_arm": {
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                        "RZ": 0.2617994f
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Animation": "slim_simple_plus",
+                "Name": "emoticons.slim_simple_plus"
+            },
+            "Sound": "",
+            "Relations": [
+                "16c1fc0d-753e-4252-87a1-5e79c418f059",
+                "85d992ee-df92-4158-bd72-fb1740d66749"
+            ],
+            "Id": "a1af2ff0-e5a5-4783-8872-7dcb64495ad9",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Здравствуйте, я здесь по другой причине. Слышали что-нибудь о городских убийствах?"
+            },
+            "X": 120,
+            "Title": "",
+            "Y": 20,
+            "Relations": [
+                "be60c2eb-5b13-4626-a817-0a1aa6525813"
+            ],
+            "Id": "f70b66ca-fbb3-4577-9221-03713a738114"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Не слежу за новостями, что за убийства?"
+            },
+            "X": 372,
+            "Title": "",
+            "Y": 16,
+            "Sound": "",
+            "Relations": [
+                "ef503321-8951-4db6-b992-bcc67456c4f6"
+            ],
+            "Id": "be60c2eb-5b13-4626-a817-0a1aa6525813",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Правда? Первый раз слышу… что-ж, буду знать. Еще
+вопросы?"
+            },
+            "X": 764,
+            "Title": "",
+            "Y": 4,
+            "Sound": "",
+            "Relations": [
+                "b4ad6463-ac0b-4a3c-ac94-bce130638594"
+            ],
+            "Id": "30762ec0-8528-415c-bdcb-dbfbc5caa20e",
+            "Marker": ""
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 4,
+                            "Type": "quest",
+                            "Or": 0b,
+                            "Id": "story_saltystreet_citizens",
+                            "Quest": 1,
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 118,
+            "Title": "",
+            "Y": -154,
+            "Relations": [
+                "f70b66ca-fbb3-4577-9221-03713a738114"
+            ],
+            "Id": "16c1fc0d-753e-4252-87a1-5e79c418f059"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Может, у вас были странные клиенты последнее время?"
+            },
+            "X": 972,
+            "Title": "",
+            "Y": 11,
+            "Relations": [
+                "69b5fb48-ee26-4502-b22b-7ad9a38c292b"
+            ],
+            "Id": "b4ad6463-ac0b-4a3c-ac94-bce130638594"
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p {\"text\":\"\\u041b\\u0430\\u0434\\u043d\\u043e, \\u043d\\u0430\\u0432\\u0435\\u0440\\u043d\\u043e\\u0435 \\u043a\\u0430\\u043a \\u0432\\u0441\\u0435\\u0433\\u0434\\u0430 \\u043e\\u043f\\u0430\\u0437\\u0434\\u044b\\u0432\\u0430\\u0435\\u0442. \\u041f\\u043e\\u0434\\u043e\\u0436\\u0434\\u0443 \\u0435\\u0449\\u0435 10 \\u043c\\u0438\\u043d\\u0443\\u0442\",\"color\":\"yellow\"}",
+            "X": 926,
+            "Title": "",
+            "Y": 354,
+            "Id": "179184bb-ff32-4b9a-b56e-aa394d627d4a"
+        }
+    ]
+}

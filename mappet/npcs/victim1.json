@@ -30,23 +30,23 @@
                             "Normals": 1b,
                             "Lighting": 1b,
                             "Color": 16777215,
-                            "Smooth": 1b,
+                            "Smooth": 0b,
                             "Visible": 1b,
                             "Texture": "b.a:alex/skins/victim1.png"
                         }
-                    },
-                    "RenderHeldItems": 0b
+                    }
                 },
                 "Pose": {
                     "low_body": {
                     },
                     "right_arm": {
-                        "RX": -0.2617994f,
-                        "RZ": -0.7853982f
+                        "RX": -0.05235988f,
+                        "RY": -0.38397244f,
+                        "RZ": -0.33161256f
                     },
                     "left_leg": {
-                        "RX": -0.2617994f,
-                        "RZ": 0.2617994f
+                        "RY": 0.034906585f,
+                        "RZ": 0.4712389f
                     },
                     "misc_bone_1": {
                     },
@@ -67,20 +67,23 @@
                     "misc_gbone_3": {
                     },
                     "head": {
-                        "RY": -0.7853982f,
-                        "RZ": 0.2617994f
+                        "RX": -0.05235988f,
+                        "RY": -0.33161256f
                     },
                     "left_arm": {
-                        "RZ": 0.5235988f
+                        "RX": 0.017453292f,
+                        "RY": -0.22689283f,
+                        "RZ": 2.3561945f
                     },
                     "low_right_arm": {
                     },
                     "right_leg": {
-                        "RZ": -0.5235988f
+                        "RY": 0.31415927f,
+                        "RZ": -0.36651915f
                     },
                     "anchor": {
-                        "RX": 1.5707964f,
-                        "Z": -0.625f
+                        "RX": 1.5707966f,
+                        "Z": -0.59375f
                     },
                     "low_left_leg": {
                     },
@@ -90,11 +93,8 @@
                     }
                 },
                 "Animated": 0b,
-                "Transition": {
-                    "Duration": 0
-                },
-                "Animation": "slim_3d",
-                "Name": "emoticons.slim_3d"
+                "Animation": "slim_simple_plus",
+                "Name": "emoticons.slim_simple_plus"
             },
             "Damage": 2.0f,
             "TriggerInteract": {

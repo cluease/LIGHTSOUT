@@ -72,6 +72,9 @@
             "Title": "",
             "Y": -97,
             "Sound": "",
+            "Relations": [
+                "663aeedb-0dc4-490f-ac01-aa6425b55de5"
+            ],
             "Id": "916b8f85-86c8-485f-ac95-3c6b95ba4a6c",
             "Marker": "ifyes"
         },
@@ -223,6 +226,14 @@
                 "f3191850-9c93-4aa8-a775-aa664015538d"
             ],
             "Id": "f894878c-0030-4ef7-99d5-02d8792dea62"
+        },
+        {
+            "Type": "command",
+            "Command": "/mp npc summon Ralph street2 2320 20 -1765",
+            "X": 2648,
+            "Title": "спавн ральфа",
+            "Y": -103,
+            "Id": "663aeedb-0dc4-490f-ac01-aa6425b55de5"
         },
         {
             "Read": 1b,

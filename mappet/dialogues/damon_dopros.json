@@ -106,7 +106,8 @@
                 "49d9808a-0f42-445d-ac8a-72b3d1808a4f",
                 "416ef5b8-58b4-4506-9d15-c642e345dd84",
                 "0b4784cf-7194-4e87-bc91-dfc484940089",
-                "5a799ed5-655f-4310-9ea7-dfcf01a4df01"
+                "3f0070e3-bd27-4a51-92ca-f56cd7014859",
+                "528777c2-3a75-469c-b097-bdb083fd4145"
             ],
             "Id": "6148c918-ebe2-49fe-af6b-45f59dcf160b"
         },
@@ -122,7 +123,8 @@
             "Relations": [
                 "df10997e-6ffe-4b78-85a3-be6ad7298523",
                 "416ef5b8-58b4-4506-9d15-c642e345dd84",
-                "0b4784cf-7194-4e87-bc91-dfc484940089"
+                "0b4784cf-7194-4e87-bc91-dfc484940089",
+                "4a7a1407-cb1c-4263-88b5-103f5036a3f8"
             ],
             "Id": "4566f5ac-852c-41e8-b3cf-0c550500ff83"
         },
@@ -178,6 +180,14 @@
         },
         {
             "Type": "command",
+            "Command": "mp quest accept @p story_saltystreet_ralph",
+            "X": 3397,
+            "Title": "",
+            "Y": -910,
+            "Id": "eefb4c9b-25ca-4478-89ff-6a18080d001b"
+        },
+        {
+            "Type": "command",
             "Command": "/tellraw @p {\"text\":\"\\u0412\\u0430\\u043c \\u043d\\u0435 \\u0443\\u0434\\u0430\\u043b\\u043e\\u0441\\u044c \\u0443\\u0437\\u043d\\u0430\\u0442\\u044c \\u043f\\u043e\\u043b\\u0435\\u0437\\u043d\\u0443\\u044e \\u0438\\u043d\\u0444\\u043e\\u0440\\u043c\\u0430\\u0446\\u0438\\u044e\",\"color\":\"red\"}",
             "X": 3798,
             "Title": "",
@@ -216,14 +226,6 @@
             "Id": "2ff891eb-f8a1-4b36-b0e1-344ad6d12ad0"
         },
         {
-            "Type": "command",
-            "Command": "/mp npc summon Ralph street2 2320 20 -1765",
-            "X": 3794,
-            "Title": "спавн ральфа",
-            "Y": -485,
-            "Id": "5a799ed5-655f-4310-9ea7-dfcf01a4df01"
-        },
-        {
             "Condition": {
                 "Condition": {
                     "Blocks": [
@@ -250,6 +252,32 @@
                 "27b3c68f-fe52-467f-8094-27149a609894"
             ],
             "Id": "ddd0abd5-06d5-469b-8964-893d50216e00"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 2,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "Ralph",
+                            "Marker": "ifno",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 3671,
+            "Title": "ifno",
+            "Y": -737,
+            "Relations": [
+                "f2c18c7f-7f96-4012-8737-277a382873e3"
+            ],
+            "Id": "528777c2-3a75-469c-b097-bdb083fd4145"
         },
         {
             "Read": 0b,
@@ -289,6 +317,14 @@
             "Title": "",
             "Y": -615,
             "Id": "49d9808a-0f42-445d-ac8a-72b3d1808a4f"
+        },
+        {
+            "Type": "command",
+            "Command": "mp quest accept @p story_saltystreet_citizens",
+            "X": 3778,
+            "Title": "",
+            "Y": -912,
+            "Id": "f2c18c7f-7f96-4012-8737-277a382873e3"
         },
         {
             "Type": "reply",
@@ -396,6 +432,14 @@
             ],
             "Id": "22f15aae-b5dd-42cc-ad1f-38569533f2f0",
             "Marker": ""
+        },
+        {
+            "Type": "command",
+            "Command": "mp quest accept story_saltystreet_citizens",
+            "X": 3454,
+            "Title": "",
+            "Y": 50,
+            "Id": "4a7a1407-cb1c-4263-88b5-103f5036a3f8"
         },
         {
             "Type": "reply",
@@ -746,6 +790,32 @@
                 "2f184124-7149-47d0-9efb-feddb262c2e4"
             ],
             "Id": "92454c66-50b2-4e0d-b14d-a5092c94c7a6"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 2,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "Ralph",
+                            "Marker": "ifyes",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 3438,
+            "Title": "ifyes",
+            "Y": -738,
+            "Relations": [
+                "eefb4c9b-25ca-4478-89ff-6a18080d001b"
+            ],
+            "Id": "3f0070e3-bd27-4a51-92ca-f56cd7014859"
         },
         {
             "Read": 0b,

@@ -1,0 +1,34 @@
+{
+    "Decline": {
+        "Blocks": [
+        ]
+    },
+    "Accept": {
+        "Blocks": [
+        ]
+    },
+    "Complete": {
+        "Blocks": [
+        ]
+    },
+    "Instant": 1b,
+    "Rewards": [
+    ],
+    "Visible": 1b,
+    "Objectives": [
+        {
+            "Type": "state",
+            "Message": "Отправляйтесь на указанный адрес и найдите подругу",
+            "Expression": {
+                "Condition": {
+                },
+                "Mode": 1
+            },
+            "Result": 0b
+        }
+    ],
+    "Title": "Каменная леди, ледяная сказка",
+    "Story": "[l[6Тип задания:[r
+- Сюжетное",
+    "Cancelable": 0b
+}

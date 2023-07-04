@@ -10,6 +10,28 @@
             "Type": "reply",
             "Message": {
                 "Color": 16777215,
+                "Text": "(Отправиться на улиицу Паула Донована)"
+            },
+            "X": 228,
+            "Title": "",
+            "Y": 154,
+            "Relations": [
+                "81d57842-a2c7-4182-82d2-465e51347c7b"
+            ],
+            "Id": "a9a047a4-482d-4e54-b21b-80f784ffe2df"
+        },
+        {
+            "Type": "command",
+            "Command": "tp @p 162 18 -2859",
+            "X": 406,
+            "Title": "",
+            "Y": 82,
+            "Id": "81d57842-a2c7-4182-82d2-465e51347c7b"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
                 "Text": "(Пойти домой)"
             },
             "X": 204,
@@ -29,6 +51,32 @@
             "Id": "42bf6dce-b3d2-4d3e-9dad-a06be34de6ae"
         },
         {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 2,
+                            "Type": "quest",
+                            "Or": 0b,
+                            "Id": "story_kris_3",
+                            "Quest": 1,
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 30,
+            "Title": "",
+            "Y": 152,
+            "Relations": [
+                "a9a047a4-482d-4e54-b21b-80f784ffe2df"
+            ],
+            "Id": "1c9662c9-5385-415a-8737-d3614069e227"
+        },
+        {
             "Read": 0b,
             "Type": "reaction",
             "Message": {
@@ -40,7 +88,8 @@
             "Y": 2,
             "Sound": "",
             "Relations": [
-                "7d83df80-9c4c-4719-92c0-da2fbfffb134"
+                "7d83df80-9c4c-4719-92c0-da2fbfffb134",
+                "1c9662c9-5385-415a-8737-d3614069e227"
             ],
             "Id": "148fde9f-9cad-4a8f-a83a-5a442a397fdb",
             "Marker": ""

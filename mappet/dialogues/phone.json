@@ -7,6 +7,23 @@
     },
     "Nodes": [
         {
+            "Read": 1b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Так, улица Паула Донована. Вроде как не особо далеко отсюда"
+            },
+            "X": -25,
+            "Title": "",
+            "Y": 483,
+            "Sound": "",
+            "Relations": [
+                "76bc622d-93fd-4c19-befa-915f5dbf6d20"
+            ],
+            "Id": "fa627ced-6719-4aa3-a0ab-d58c405825ca",
+            "Marker": "kris2"
+        },
+        {
             "Type": "reply",
             "Message": {
                 "Color": 16777215,
@@ -54,49 +71,54 @@
             "Marker": "nortpolice1"
         },
         {
-            "Type": "command",
-            "Command": "/tellraw @p {\"text\":\"\\u041d\\u0443\\u0436\\u043d\\u043e \\u043f\\u043e\\u0442\\u043e\\u0440\\u043e\\u043f\\u0438\\u0442\\u044c\\u0441\\u044f, \\u0435\\u0441\\u043b\\u0438 \\u043d\\u0435 \\u0445\\u043e\\u0447\\u0443 \\u043e\\u0442\\u0445\\u0432\\u0430\\u0442\\u0438\\u0442\\u044c \\u043e\\u0442 \\u0431\\u043e\\u0441\\u0441\\u0430\",\"color\":\"yellow\"}",
-            "X": 1239,
-            "Title": "",
-            "Y": -558,
-            "Id": "f711f7b7-6433-4274-853b-fc91ee93386d"
-        },
-        {
-            "Type": "command",
-            "Command": "/stopsound @p block customnpcs:misc.ringtone",
-            "X": 496,
-            "Title": "",
-            "Y": -126,
-            "Id": "1adcd2f8-d7ea-4a2d-9bdf-38ca25e08740"
-        },
-        {
-            "Read": 0b,
-            "Type": "reaction",
-            "Message": {
-                "Color": 16777215,
-                "Text": "Вы взяли телефон, что желаете сделать?"
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Target": {
+                            "Target": 4,
+                            "Selector": ""
+                        },
+                        "Type": "state",
+                        "State": "wherekris",
+                        "Mode": 1,
+                        "Value": 1.0d,
+                        "Frequency": 1
+                    }
+                ]
             },
-            "X": 36,
+            "Cancel": 0b,
+            "X": 220,
+            "CustomData": "",
             "Title": "",
-            "Y": -16,
-            "Sound": "",
+            "Y": 676,
+            "Id": "3b0b1f15-df2a-452b-887b-5f94d6f6dfaf"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 4,
+                            "Type": "quest",
+                            "Or": 0b,
+                            "Id": "story_kris_2",
+                            "Quest": 1,
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": -47,
+            "Title": "",
+            "Y": 160,
             "Relations": [
-                "a34711f4-8796-4d3f-8f7d-84ce8216d822",
-                "95d253d7-9ded-4733-b483-1fff637131b4"
+                "0bbd03d0-c228-4e8b-bb43-a7be6acc7b60"
             ],
-            "Id": "ab9eccd1-1333-4eee-a0e1-0a9802034ff0",
-            "Marker": ""
-        },
-        {
-            "Type": "reply",
-            "Message": {
-                "Color": 16777215,
-                "Text": "(Прочитать СМС)"
-            },
-            "X": 284,
-            "Title": "",
-            "Y": 136,
-            "Id": "a34711f4-8796-4d3f-8f7d-84ce8216d822"
+            "Id": "7c3fbeec-ddbb-48d9-aae8-9525bbb10420"
         },
         {
             "Read": 0b,
@@ -114,32 +136,6 @@
             ],
             "Id": "de473d81-0f7c-4b12-8d62-e6c435480b28",
             "Marker": ""
-        },
-        {
-            "Type": "reply",
-            "Message": {
-                "Color": 16777215,
-                "Text": "Уоррен"
-            },
-            "X": 497,
-            "Title": "",
-            "Y": -263,
-            "Relations": [
-                "de473d81-0f7c-4b12-8d62-e6c435480b28",
-                "1adcd2f8-d7ea-4a2d-9bdf-38ca25e08740"
-            ],
-            "Id": "b4d40abb-2fcf-4236-9bc4-c0f960824897"
-        },
-        {
-            "Type": "reply",
-            "Message": {
-                "Color": 16777215,
-                "Text": "Уже бегу [4(Положить трубку)"
-            },
-            "X": 1311,
-            "Title": "",
-            "Y": -416,
-            "Id": "e164cdae-1309-4311-8074-5afe47cfc3a9"
         },
         {
             "Condition": {
@@ -168,6 +164,101 @@
             "Id": "3aed545b-d256-4eef-a7a7-7865f5e40906"
         },
         {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Надо поспешить, черт знает во что она могла вляпаться"
+            },
+            "X": -38,
+            "Title": "",
+            "Y": 638,
+            "Relations": [
+                "8855278d-1884-45ef-ba7c-e260a1f16a69",
+                "3b0b1f15-df2a-452b-887b-5f94d6f6dfaf"
+            ],
+            "Id": "76bc622d-93fd-4c19-befa-915f5dbf6d20"
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p {\"text\":\"\\u041d\\u0443\\u0436\\u043d\\u043e \\u043f\\u043e\\u0442\\u043e\\u0440\\u043e\\u043f\\u0438\\u0442\\u044c\\u0441\\u044f, \\u0435\\u0441\\u043b\\u0438 \\u043d\\u0435 \\u0445\\u043e\\u0447\\u0443 \\u043e\\u0442\\u0445\\u0432\\u0430\\u0442\\u0438\\u0442\\u044c \\u043e\\u0442 \\u0431\\u043e\\u0441\\u0441\\u0430\",\"color\":\"yellow\"}",
+            "X": 1239,
+            "Title": "",
+            "Y": -558,
+            "Id": "f711f7b7-6433-4274-853b-fc91ee93386d"
+        },
+        {
+            "Type": "command",
+            "Command": "/stopsound @p block customnpcs:misc.ringtone",
+            "X": 496,
+            "Title": "",
+            "Y": -126,
+            "Id": "1adcd2f8-d7ea-4a2d-9bdf-38ca25e08740"
+        },
+        {
+            "Type": "command",
+            "Command": "mp quest complete @p story_kris_2",
+            "X": 54,
+            "Title": "",
+            "Y": 793,
+            "Id": "8855278d-1884-45ef-ba7c-e260a1f16a69"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Вы взяли телефон, что желаете сделать?"
+            },
+            "X": 38,
+            "Title": "",
+            "Y": -14,
+            "Sound": "",
+            "Relations": [
+                "a34711f4-8796-4d3f-8f7d-84ce8216d822",
+                "95d253d7-9ded-4733-b483-1fff637131b4",
+                "7c3fbeec-ddbb-48d9-aae8-9525bbb10420"
+            ],
+            "Id": "ab9eccd1-1333-4eee-a0e1-0a9802034ff0",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Прочитать СМС)"
+            },
+            "X": 284,
+            "Title": "",
+            "Y": 136,
+            "Id": "a34711f4-8796-4d3f-8f7d-84ce8216d822"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Уоррен"
+            },
+            "X": 497,
+            "Title": "",
+            "Y": -263,
+            "Relations": [
+                "de473d81-0f7c-4b12-8d62-e6c435480b28",
+                "1adcd2f8-d7ea-4a2d-9bdf-38ca25e08740"
+            ],
+            "Id": "b4d40abb-2fcf-4236-9bc4-c0f960824897"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Уже бегу [4(Положить трубку)"
+            },
+            "X": 1311,
+            "Title": "",
+            "Y": -416,
+            "Id": "e164cdae-1309-4311-8074-5afe47cfc3a9"
+        },
+        {
             "Read": 0b,
             "Type": "reaction",
             "Message": {
@@ -183,6 +274,20 @@
             ],
             "Id": "eb342152-ba88-4fb0-ae19-ea10648ca684",
             "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Посмотреть геолокацию Кристины)"
+            },
+            "X": -50,
+            "Title": "",
+            "Y": 314,
+            "Relations": [
+                "fa627ced-6719-4aa3-a0ab-d58c405825ca"
+            ],
+            "Id": "0bbd03d0-c228-4e8b-bb43-a7be6acc7b60"
         }
     ]
 }

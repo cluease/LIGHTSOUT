@@ -21,37 +21,6 @@
             "Id": "f516a501-5c52-42a8-b330-67798914e432"
         },
         {
-            "Type": "command",
-            "Command": "/tp @p 1126 130 -1530",
-            "X": 676,
-            "Title": "",
-            "Y": 453,
-            "Id": "65641cb9-9b46-426a-91ca-b857ee9b02d4"
-        },
-        {
-            "Type": "reply",
-            "Message": {
-                "Color": 16777215,
-                "Text": "(Отправиться в полицейский участок)"
-            },
-            "X": 768,
-            "Title": "перед заправкой",
-            "Y": -330,
-            "Relations": [
-                "417e2c53-1092-4a6e-b0eb-e7e39eac0d67",
-                "e0bb6ae6-d1dd-4f7a-b6d1-e734211478ae"
-            ],
-            "Id": "a3ec4d40-72ee-4805-9f67-00a5d0c4b1e5"
-        },
-        {
-            "Type": "command",
-            "Command": "tp @p 1058 121 -2860",
-            "X": 1024,
-            "Title": "",
-            "Y": -264,
-            "Id": "e0bb6ae6-d1dd-4f7a-b6d1-e734211478ae"
-        },
-        {
             "Condition": {
                 "Condition": {
                     "Blocks": [
@@ -99,10 +68,230 @@
             "Relations": [
                 "16089be8-7710-4a5c-89b9-a302ae9e5aa3",
                 "d8b11e64-8557-4d46-9c3e-09e5c4152823",
-                "dd1017ba-cb92-4c49-978c-85a309adaa20"
+                "dd1017ba-cb92-4c49-978c-85a309adaa20",
+                "f8ed7c14-d638-4fd5-ae62-0e8e502e42b3"
             ],
             "Id": "83e7a62c-4c54-40ce-8ab5-40ad0fb521b5",
             "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Выберите, куда хотите отправиться"
+            },
+            "X": 367,
+            "Title": "",
+            "Y": -1289,
+            "Sound": "",
+            "Relations": [
+                "d0175a9d-5747-4d2c-8d06-b0384f3e0cd4"
+            ],
+            "Id": "aa44b416-0214-45c3-ae58-618d3345545a",
+            "Marker": ""
+        },
+        {
+            "Type": "command",
+            "Command": "tp @p 1058 121 -2860",
+            "X": 858,
+            "Title": "",
+            "Y": -441,
+            "Id": "fd29db5b-78f3-4f76-9978-09df3b717bb1"
+        },
+        {
+            "Type": "command",
+            "Command": "scene play extras2 @p",
+            "X": 856,
+            "Title": "",
+            "Y": -580,
+            "Id": "218d597f-95ad-4b07-8d1d-78e5f2a9e719"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Выберите, куда хотите отправиться"
+            },
+            "X": 434,
+            "Title": "",
+            "Y": -86,
+            "Sound": "",
+            "Relations": [
+                "17253ae4-94cf-4e2b-9fec-dae17918d9a7",
+                "4817ba34-8b00-4f42-9004-9ef7c9cea775"
+            ],
+            "Id": "64234d68-3f1a-40d3-888c-749fbd644b64",
+            "Marker": ""
+        },
+        {
+            "Type": "command",
+            "Command": "scene play Warren_if_northere @p",
+            "X": 1452,
+            "Title": "",
+            "Y": -373,
+            "Id": "417e2c53-1092-4a6e-b0eb-e7e39eac0d67"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Отправиться в полицейский участок)"
+            },
+            "X": 612,
+            "Title": "допрос деймона",
+            "Y": -419,
+            "Relations": [
+                "fd29db5b-78f3-4f76-9978-09df3b717bb1",
+                "218d597f-95ad-4b07-8d1d-78e5f2a9e719",
+                "f11fc29b-3226-44fb-a9f8-9ab6583e507f"
+            ],
+            "Id": "2d811e72-aed2-465c-a376-c7b6872b5004"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16763478,
+                "Text": "СЮЖЕТНЫЕ ЗАДАНИЯ"
+            },
+            "X": 252,
+            "Title": "",
+            "Y": -85,
+            "Relations": [
+                "64234d68-3f1a-40d3-888c-749fbd644b64"
+            ],
+            "Id": "dd1017ba-cb92-4c49-978c-85a309adaa20"
+        },
+        {
+            "Type": "command",
+            "Command": "tp @p 2286 23 -1697",
+            "X": 713,
+            "Title": "",
+            "Y": -1470,
+            "Id": "61b69010-0092-434f-aa2b-8f5439c6eb16"
+        },
+        {
+            "Type": "command",
+            "Command": "mp quest accept @p story_demoncase_dopros",
+            "X": 614,
+            "Title": "",
+            "Y": -565,
+            "Id": "f11fc29b-3226-44fb-a9f8-9ab6583e507f"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 2,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "phone",
+                            "Marker": "nortpolice1",
+                            "Selector": ""
+                        },
+                        {
+                            "Not": 1b,
+                            "Target": 2,
+                            "Type": "quest",
+                            "Or": 0b,
+                            "Id": "story_case2_1",
+                            "Quest": 2,
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 1014,
+            "Title": "",
+            "Y": -303,
+            "Relations": [
+                "a3ec4d40-72ee-4805-9f67-00a5d0c4b1e5"
+            ],
+            "Id": "17253ae4-94cf-4e2b-9fec-dae17918d9a7"
+        },
+        {
+            "Type": "command",
+            "Command": "mp quest accept @p story_demoncase_1",
+            "X": 984,
+            "Title": "",
+            "Y": 85,
+            "Id": "c4cae1a0-b605-445a-afe1-0fdefda9deb8"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Отправиться на улицу Солти)"
+            },
+            "X": 550,
+            "Title": "",
+            "Y": -1459,
+            "Relations": [
+                "61b69010-0092-434f-aa2b-8f5439c6eb16"
+            ],
+            "Id": "940d555f-1416-47a9-ae62-aa82a1958b84"
+        },
+        {
+            "Type": "command",
+            "Command": "/tp @p 1126 130 -1530",
+            "X": 676,
+            "Title": "",
+            "Y": 453,
+            "Id": "65641cb9-9b46-426a-91ca-b857ee9b02d4"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Отправиться в полицейский участок)"
+            },
+            "X": 1198,
+            "Title": "перед заправкой",
+            "Y": -303,
+            "Relations": [
+                "417e2c53-1092-4a6e-b0eb-e7e39eac0d67",
+                "e0bb6ae6-d1dd-4f7a-b6d1-e734211478ae"
+            ],
+            "Id": "a3ec4d40-72ee-4805-9f67-00a5d0c4b1e5"
+        },
+        {
+            "Type": "command",
+            "Command": "tp @p 1058 121 -2860",
+            "X": 1454,
+            "Title": "",
+            "Y": -237,
+            "Id": "e0bb6ae6-d1dd-4f7a-b6d1-e734211478ae"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 2,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "bed",
+                            "Marker": "day2",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 427,
+            "Title": "",
+            "Y": -382,
+            "Relations": [
+                "2d811e72-aed2-465c-a376-c7b6872b5004"
+            ],
+            "Id": "f8ed7c14-d638-4fd5-ae62-0e8e502e42b3"
         },
         {
             "Type": "reply",
@@ -212,63 +401,6 @@
             "Marker": ""
         },
         {
-            "Read": 0b,
-            "Type": "reaction",
-            "Message": {
-                "Color": 16777215,
-                "Text": "Выберите, куда хотите отправиться"
-            },
-            "X": 367,
-            "Title": "",
-            "Y": -1289,
-            "Sound": "",
-            "Relations": [
-                "d0175a9d-5747-4d2c-8d06-b0384f3e0cd4"
-            ],
-            "Id": "aa44b416-0214-45c3-ae58-618d3345545a",
-            "Marker": ""
-        },
-        {
-            "Read": 0b,
-            "Type": "reaction",
-            "Message": {
-                "Color": 16777215,
-                "Text": "Выберите, куда хотите отправиться"
-            },
-            "X": 434,
-            "Title": "",
-            "Y": -86,
-            "Sound": "",
-            "Relations": [
-                "17253ae4-94cf-4e2b-9fec-dae17918d9a7",
-                "4817ba34-8b00-4f42-9004-9ef7c9cea775"
-            ],
-            "Id": "64234d68-3f1a-40d3-888c-749fbd644b64",
-            "Marker": ""
-        },
-        {
-            "Type": "command",
-            "Command": "scene play Warren_if_northere @p",
-            "X": 1022,
-            "Title": "",
-            "Y": -400,
-            "Id": "417e2c53-1092-4a6e-b0eb-e7e39eac0d67"
-        },
-        {
-            "Type": "reply",
-            "Message": {
-                "Color": 16763478,
-                "Text": "СЮЖЕТНЫЕ ЗАДАНИЯ"
-            },
-            "X": 252,
-            "Title": "",
-            "Y": -85,
-            "Relations": [
-                "64234d68-3f1a-40d3-888c-749fbd644b64"
-            ],
-            "Id": "dd1017ba-cb92-4c49-978c-85a309adaa20"
-        },
-        {
             "Type": "command",
             "Command": "tp @p 2367 20 -1719",
             "X": 986,
@@ -292,14 +424,6 @@
             "Id": "0a46ca15-8ce6-4e48-9d51-a31ee3d5f2d3"
         },
         {
-            "Type": "command",
-            "Command": "tp @p 2286 23 -1697",
-            "X": 713,
-            "Title": "",
-            "Y": -1470,
-            "Id": "61b69010-0092-434f-aa2b-8f5439c6eb16"
-        },
-        {
             "Type": "reply",
             "Message": {
                 "Color": 16777215,
@@ -312,63 +436,6 @@
                 "edb51705-d080-425f-b10a-cedb4ad5ab63"
             ],
             "Id": "d0175a9d-5747-4d2c-8d06-b0384f3e0cd4"
-        },
-        {
-            "Condition": {
-                "Condition": {
-                    "Blocks": [
-                        {
-                            "Not": 0b,
-                            "Target": 2,
-                            "Type": "dialogue",
-                            "Or": 0b,
-                            "Id": "phone",
-                            "Marker": "nortpolice1",
-                            "Selector": ""
-                        },
-                        {
-                            "Not": 1b,
-                            "Target": 2,
-                            "Type": "quest",
-                            "Or": 0b,
-                            "Id": "story_case2_1",
-                            "Quest": 2,
-                            "Selector": ""
-                        }
-                    ]
-                },
-                "Mode": 1
-            },
-            "Type": "condition",
-            "X": 586,
-            "Title": "",
-            "Y": -330,
-            "Relations": [
-                "a3ec4d40-72ee-4805-9f67-00a5d0c4b1e5"
-            ],
-            "Id": "17253ae4-94cf-4e2b-9fec-dae17918d9a7"
-        },
-        {
-            "Type": "command",
-            "Command": "mp quest accept @p story_demoncase_1",
-            "X": 984,
-            "Title": "",
-            "Y": 85,
-            "Id": "c4cae1a0-b605-445a-afe1-0fdefda9deb8"
-        },
-        {
-            "Type": "reply",
-            "Message": {
-                "Color": 16777215,
-                "Text": "(Отправиться на улицу Солти)"
-            },
-            "X": 550,
-            "Title": "",
-            "Y": -1459,
-            "Relations": [
-                "61b69010-0092-434f-aa2b-8f5439c6eb16"
-            ],
-            "Id": "940d555f-1416-47a9-ae62-aa82a1958b84"
         }
     ]
 }

@@ -56,7 +56,7 @@
                 "Text": "(Войти в квартиру)"
             },
             "X": 397,
-            "Title": "После поимки Дэймона",
+            "Title": "После кейса2",
             "Y": -101,
             "Relations": [
                 "05b9f303-1603-423f-8e50-8c0d9114c435"
@@ -72,7 +72,7 @@
                             "Target": 2,
                             "Type": "quest",
                             "Or": 0b,
-                            "Id": "story_demoncase_2",
+                            "Id": "story_case2_1",
                             "Quest": 2,
                             "Selector": ""
                         }

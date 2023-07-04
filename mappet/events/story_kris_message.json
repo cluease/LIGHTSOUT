@@ -1,0 +1,115 @@
+{
+    "Main": "53335842-a5b6-43d0-947c-582764229e52",
+    "Nodes": [
+        {
+            "Type": "timer",
+            "Timer": 80,
+            "X": -2,
+            "Title": "",
+            "Y": 554,
+            "Relations": [
+                "bcc578e0-086e-40dc-9eb6-1ec007c0b020",
+                "974ee949-7d7f-44b5-9374-ac15499c525d"
+            ],
+            "Id": "d012d9ae-14fb-4408-aaa6-364d9f06d443"
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p {\"text\":\"\\u041d\\u0430\\u0434\\u043e \\u0432\\u0435\\u0440\\u043d\\u0443\\u0442\\u044c\\u0441\\u044f \\u0434\\u043e\\u043c\\u043e\\u0439 \\u0438 \\u043f\\u0440\\u043e\\u0447\\u0438\\u0442\\u0430\\u0442\\u044c \\u0441\\u043c\\u0441 \\u0432 \\u043d\\u043e\\u0443\\u0442\\u0435\",\"color\":\"yellow\"}",
+            "X": -2,
+            "Title": "",
+            "Y": 710,
+            "Id": "bcc578e0-086e-40dc-9eb6-1ec007c0b020"
+        },
+        {
+            "Type": "timer",
+            "Timer": 100,
+            "X": 0,
+            "Title": "",
+            "Y": 258,
+            "Relations": [
+                "daf8d2e3-2c84-4af4-8512-cb9e80d7bdd4"
+            ],
+            "Id": "38c5fc8e-efda-4a2c-bf2a-6b0490539583"
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p {\"text\":\"\\u041f\\u0440\\u043e\\u043a\\u043b\\u044f\\u0442\\u044c\\u0435, \\u0442\\u0435\\u043b\\u0435\\u0444\\u043e\\u043d \\u0441\\u0435\\u043b\",\"color\":\"yellow\"}",
+            "X": -2,
+            "Title": "",
+            "Y": 410,
+            "Relations": [
+                "d012d9ae-14fb-4408-aaa6-364d9f06d443"
+            ],
+            "Id": "daf8d2e3-2c84-4af4-8512-cb9e80d7bdd4"
+        },
+        {
+            "Type": "timer",
+            "Timer": 40,
+            "X": 314,
+            "Title": "",
+            "Y": 132,
+            "Relations": [
+                "f5bb5eaa-986d-468b-bd00-9f170bf5f52c"
+            ],
+            "Id": "6e332ccb-ab79-4179-8d2f-88427eada11c"
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p {\"text\":\"\\u041e, \\u043c\\u043d\\u0435 \\u043d\\u0430\\u043f\\u0438\\u0441\\u0430\\u043b \\u043a\\u0442\\u043e-\\u0442\\u043e \\u0432 \\u043c\\u0435\\u0441\\u0441\\u0435\\u043d\\u0434\\u0436\\u0435\\u0440\\u0435!\",\"color\":\"yellow\"}",
+            "X": 0,
+            "Title": "",
+            "Y": 92,
+            "Relations": [
+                "38c5fc8e-efda-4a2c-bf2a-6b0490539583"
+            ],
+            "Id": "f5bb5eaa-986d-468b-bd00-9f170bf5f52c"
+        },
+        {
+            "Type": "timer",
+            "Timer": 160,
+            "X": 3,
+            "Title": "",
+            "Y": -111,
+            "Relations": [
+                "d163651d-8924-4ebe-8af6-74a3efb2ed0c"
+            ],
+            "Id": "53335842-a5b6-43d0-947c-582764229e52"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Target": {
+                            "Target": 4,
+                            "Selector": ""
+                        },
+                        "Type": "state",
+                        "State": "krismessage",
+                        "Mode": 1,
+                        "Value": 1.0d,
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": 185,
+            "CustomData": "",
+            "Title": "",
+            "Y": 721,
+            "Id": "974ee949-7d7f-44b5-9374-ac15499c525d"
+        },
+        {
+            "Type": "command",
+            "Command": "playsound customnpcs:misc.message block @p",
+            "X": 308,
+            "Title": "",
+            "Y": -50,
+            "Relations": [
+                "6e332ccb-ab79-4179-8d2f-88427eada11c"
+            ],
+            "Id": "d163651d-8924-4ebe-8af6-74a3efb2ed0c"
+        }
+    ]
+}

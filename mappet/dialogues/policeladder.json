@@ -47,6 +47,54 @@
             "Id": "41f658d1-9f6a-4d38-a321-0937f199e80b"
         },
         {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 2,
+                            "Type": "quest",
+                            "Or": 0b,
+                            "Id": "story_demoncase_dopros",
+                            "Quest": 1,
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 131,
+            "Title": "",
+            "Y": 101,
+            "Relations": [
+                "fbb84bec-0c7a-4b4a-a63d-360ce25cce0f"
+            ],
+            "Id": "96a39512-89de-468b-b9a3-27e4ad18ae3a"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Подняться на 4 этаж и провести допрос)"
+            },
+            "X": 353,
+            "Title": "",
+            "Y": 101,
+            "Relations": [
+                "bda7a512-793a-409a-80ba-268662d35adc"
+            ],
+            "Id": "fbb84bec-0c7a-4b4a-a63d-360ce25cce0f"
+        },
+        {
+            "Type": "command",
+            "Command": "tp @p 1062 137 -2874",
+            "X": 550,
+            "Title": "",
+            "Y": 103,
+            "Id": "bda7a512-793a-409a-80ba-268662d35adc"
+        },
+        {
             "Read": 0b,
             "Type": "reaction",
             "Message": {
@@ -58,7 +106,8 @@
             "Y": -50,
             "Sound": "",
             "Relations": [
-                "ee7efea5-2405-4077-a158-3687732f7749"
+                "ee7efea5-2405-4077-a158-3687732f7749",
+                "96a39512-89de-468b-b9a3-27e4ad18ae3a"
             ],
             "Id": "8985a32a-2852-4d84-a0fb-1bd04193c12c",
             "Marker": ""

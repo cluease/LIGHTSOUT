@@ -1,0 +1,52 @@
+{
+    "Decline": {
+        "Blocks": [
+        ]
+    },
+    "Accept": {
+        "Blocks": [
+        ]
+    },
+    "Complete": {
+        "Blocks": [
+            {
+                "Type": "command",
+                "Command": "mp quest accept @p story_kris_3",
+                "Frequency": 1
+            }
+        ]
+    },
+    "Instant": 1b,
+    "Rewards": [
+    ],
+    "Visible": 1b,
+    "Objectives": [
+        {
+            "Type": "state",
+            "Message": "Сядьте и подождите Кристину",
+            "Expression": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 4,
+                            "Type": "state",
+                            "Or": 0b,
+                            "Comparison": 2,
+                            "Expression": "",
+                            "Value": 1.0d,
+                            "Id": "wherekris",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Result": 0b
+        }
+    ],
+    "Title": "Каменная леди, ледяная сказка",
+    "Story": "[l[6Тип задания:[r
+- Сюжетное",
+    "Cancelable": 0b
+}

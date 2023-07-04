@@ -1,0 +1,79 @@
+{
+    "Main": "c19cd95b-aeb9-4d25-b411-6dbdd0fa5645",
+    "Nodes": [
+        {
+            "Type": "timer",
+            "Timer": 60,
+            "X": -2,
+            "Title": "",
+            "Y": -90,
+            "Relations": [
+                "aa49be1b-ebb7-463f-bcc8-32a6b3a5e8d9"
+            ],
+            "Id": "90fbabfc-69a6-4a98-862a-2f508153b130"
+        },
+        {
+            "Type": "command",
+            "Command": "mp npc summon clickkris fridge 144 34 -2807",
+            "X": -7,
+            "Title": "",
+            "Y": 773,
+            "Id": "bc7e4b8d-5e87-4cb1-bd86-fb5af88df876"
+        },
+        {
+            "Type": "timer",
+            "Timer": 40,
+            "X": -4,
+            "Title": "",
+            "Y": 577,
+            "Relations": [
+                "bc7e4b8d-5e87-4cb1-bd86-fb5af88df876"
+            ],
+            "Id": "9127f006-35a8-4563-8d22-08e2d9a72e3a"
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p {\"text\":\"\\u0427\\u0442\\u043e \\u044d\\u0442\\u043e?!\",\"color\":\"yellow\"}",
+            "X": -6,
+            "Title": "",
+            "Y": 84,
+            "Relations": [
+                "37ff1115-7a07-45eb-94a1-84ffd86eeb48"
+            ],
+            "Id": "aa49be1b-ebb7-463f-bcc8-32a6b3a5e8d9"
+        },
+        {
+            "Type": "command",
+            "Command": "playsound customnpcs:misc.krisknock block @p",
+            "X": -2,
+            "Title": "",
+            "Y": -240,
+            "Relations": [
+                "90fbabfc-69a6-4a98-862a-2f508153b130"
+            ],
+            "Id": "c19cd95b-aeb9-4d25-b411-6dbdd0fa5645"
+        },
+        {
+            "Type": "timer",
+            "Timer": 85,
+            "X": -5,
+            "Title": "",
+            "Y": 247,
+            "Relations": [
+                "56753108-697d-4372-9a53-facfe069e749"
+            ],
+            "Id": "37ff1115-7a07-45eb-94a1-84ffd86eeb48"
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p {\"text\":\"\\u0417\\u0432\\u0443\\u043a\\u0438 \\u0434\\u043e\\u043d\\u043e\\u0441\\u044f\\u0442\\u0441\\u044f \\u0438\\u0437 \\u043a\\u0443\\u0445\\u043d\\u0438\",\"color\":\"yellow\"}",
+            "X": -5,
+            "Title": "",
+            "Y": 407,
+            "Relations": [
+                "9127f006-35a8-4563-8d22-08e2d9a72e3a"
+            ],
+            "Id": "56753108-697d-4372-9a53-facfe069e749"
+        }
+    ]
+}

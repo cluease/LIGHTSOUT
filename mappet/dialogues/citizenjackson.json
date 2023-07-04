@@ -74,7 +74,7 @@
                     "Blocks": [
                         {
                             "Not": 0b,
-                            "Target": 2,
+                            "Target": 4,
                             "Type": "quest",
                             "Or": 0b,
                             "Id": "story_saltystreet_citizens",
@@ -86,9 +86,9 @@
                 "Mode": 1
             },
             "Type": "condition",
-            "X": 5,
+            "X": 7,
             "Title": "",
-            "Y": -206,
+            "Y": -208,
             "Relations": [
                 "07321d32-9a56-411c-80f6-ac699dfc2bd0"
             ],

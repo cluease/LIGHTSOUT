@@ -1,0 +1,200 @@
+{
+    "States": {
+        "fridge": {
+            "RespawnSaveUUID": 0b,
+            "TriggerRespawn": {
+                "Blocks": [
+                ]
+            },
+            "TriggerTick": {
+                "Blocks": [
+                ]
+            },
+            "StateName": "",
+            "TriggerInitialize": {
+                "Blocks": [
+                ]
+            },
+            "Killable": 1b,
+            "CanFallDamage": 1b,
+            "States": {
+            },
+            "PathDistance": 32.0f,
+            "Follow": "",
+            "Xp": 0,
+            "Morph": {
+                "Label": "Открыть холодильник",
+                "AnchorY": 11.42f,
+                "Billboard": 1b,
+                "Name": "label"
+            },
+            "Damage": 2.0f,
+            "TriggerInteract": {
+                "Blocks": [
+                    {
+                        "Type": "command",
+                        "Command": "mp npc despawn @e[mpid=clickkris]",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "scene play krisfridge @p",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "aperture play krisfridge @p",
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "CanSwim": 1b,
+            "Flee": 4.0f,
+            "LookAtPlayer": 0b,
+            "Respawn": 0b,
+            "Immovable": 1b,
+            "MaxHealth": 20.0f,
+            "TriggerDamaged": {
+                "Blocks": [
+                ]
+            },
+            "PatrolTriggers": [
+            ],
+            "CanRanged": 0b,
+            "Drops": [
+            ],
+            "Fallback": 15.0f,
+            "CanPickUpLoot": 0b,
+            "Unique": 0b,
+            "Id": "",
+            "PatrolCirculate": 0b,
+            "DamageDelay": 10,
+            "CanGetBurned": 0b,
+            "Wander": 0b,
+            "RespawnOnCoordinates": 0b,
+            "LookAround": 0b,
+            "RespawnPosY": 1.0d,
+            "RespawnDelay": 1,
+            "RespawnPosX": 0.0d,
+            "SightDistance": 25.0f,
+            "RespawnPosZ": 0.0d,
+            "Invincible": 1b,
+            "TriggerDied": {
+                "Blocks": [
+                ]
+            },
+            "Faction": "interactive",
+            "Speed": 1.0f,
+            "SightRadius": 120.0f,
+            "Health": 20.0f,
+            "Post": [
+            ],
+            "RegenDelay": 80,
+            "TriggerTarget": {
+                "Blocks": [
+                ]
+            },
+            "RegenFrequency": 20,
+            "HasPost": 0b,
+            "Patrol": [
+            ],
+            "PostRadius": 1.0f
+        },
+        "waiting": {
+            "RespawnSaveUUID": 0b,
+            "TriggerRespawn": {
+                "Blocks": [
+                ]
+            },
+            "TriggerTick": {
+                "Blocks": [
+                ]
+            },
+            "StateName": "",
+            "TriggerInitialize": {
+                "Blocks": [
+                ]
+            },
+            "Killable": 1b,
+            "CanFallDamage": 1b,
+            "States": {
+            },
+            "PathDistance": 32.0f,
+            "Follow": "",
+            "Xp": 0,
+            "Morph": {
+                "Label": "Подождать Кристину здесь",
+                "AnchorY": 6.1f,
+                "Billboard": 1b,
+                "Name": "label"
+            },
+            "Damage": 2.0f,
+            "TriggerInteract": {
+                "Blocks": [
+                    {
+                        "Type": "event",
+                        "CustomData": "",
+                        "Frequency": 1,
+                        "Event": "story_kris_waiting"
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "mp npc despawn @e[mpid=clickkris]",
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "CanSwim": 1b,
+            "Flee": 4.0f,
+            "LookAtPlayer": 0b,
+            "Respawn": 0b,
+            "Immovable": 1b,
+            "MaxHealth": 20.0f,
+            "TriggerDamaged": {
+                "Blocks": [
+                ]
+            },
+            "PatrolTriggers": [
+            ],
+            "CanRanged": 0b,
+            "Drops": [
+            ],
+            "Fallback": 15.0f,
+            "CanPickUpLoot": 0b,
+            "Unique": 0b,
+            "Id": "",
+            "PatrolCirculate": 0b,
+            "DamageDelay": 10,
+            "CanGetBurned": 0b,
+            "Wander": 0b,
+            "RespawnOnCoordinates": 0b,
+            "LookAround": 0b,
+            "RespawnPosY": 1.0d,
+            "RespawnDelay": 1,
+            "RespawnPosX": 0.0d,
+            "SightDistance": 25.0f,
+            "RespawnPosZ": 0.0d,
+            "Invincible": 1b,
+            "TriggerDied": {
+                "Blocks": [
+                ]
+            },
+            "Faction": "interactive",
+            "Speed": 1.0f,
+            "SightRadius": 120.0f,
+            "Health": 20.0f,
+            "Post": [
+            ],
+            "RegenDelay": 80,
+            "TriggerTarget": {
+                "Blocks": [
+                ]
+            },
+            "RegenFrequency": 20,
+            "HasPost": 0b,
+            "Patrol": [
+            ],
+            "PostRadius": 1.0f
+        }
+    }
+}

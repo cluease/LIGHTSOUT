@@ -226,7 +226,7 @@
         },
         {
             "Type": "command",
-            "Command": "mp faction add Уоррен 1",
+            "Command": "mp faction add @p warren 1",
             "X": 1356,
             "Title": "",
             "Y": -393,

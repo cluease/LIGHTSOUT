@@ -9,6 +9,16 @@
     },
     "Complete": {
         "Blocks": [
+            {
+                "Type": "command",
+                "Command": "/tellraw @p {\"text\":\"\\u0418\\u0442\\u0430\\u043a, \\u0447\\u0442\\u043e \\u0432 \\u0438\\u0442\\u043e\\u0433\\u0435\\u2026\\n\\u0422\\u0435\\u043c\\u043d\\u044b\\u0439 \\u043b\\u0435\\u0441; \\u043c\\u0443\\u0436\\u0447\\u0438\\u043d\\u0430, \\u0431\\u0435\\u0436\\u0430\\u0432\\u0448\\u0438\\u0439 \\u0441 \\u044d\\u0442\\u043e\\u0433\\u043e \\u0441\\u0430\\u043c\\u043e\\u0433\\u043e \\u043b\\u0435\\u0441\\u0430 \\u0432 \\u0440\\u0432\\u0430\\u043d\\u043e\\u0439 \\u043e\\u0434\\u0435\\u0436\\u0434\\u0435; \\u0437\\u0430\\u0433\\u0430\\u0434\\u043e\\u0447\\u043d\\u0430\\u044f \\u0436\\u0435\\u043d\\u0449\\u0438\\u043d\\u0430 \\u0432 \\u043a\\u043e\\u0444\\u0435\\u0439\\u043d\\u0435 \\u0418 \\u043a\\u0430\\u043a \\u044d\\u0442\\u043e \\u0432\\u0441\\u0435 \\u0441\\u0432\\u044f\\u0437\\u0430\\u0442\\u044c \\u0432\\u043e\\u0435\\u0434\\u0438\\u043d\\u043e? \\u041b\\u0430\\u0434\\u043d\\u043e, \\u043f\\u043e\\u0445\\u043e\\u0436\\u0435, \\u0432\\u0441\\u0435 \\u0436\\u0435 \\u043f\\u0440\\u0438\\u0434\\u0435\\u0442\\u0441\\u044f \\u043f\\u043e\\u0439\\u0442\\u0438 \\u0432 \\u044d\\u0442\\u043e\\u0442 \\u0447\\u0435\\u0440\\u0442\\u043e\\u0432 \\u043b\\u0435\\u0441\",\"color\":\"yellow\"}",
+                "Frequency": 1
+            },
+            {
+                "Type": "command",
+                "Command": "mp event trigger story_kris_message",
+                "Frequency": 1
+            }
         ]
     },
     "Instant": 1b,
@@ -18,13 +28,13 @@
     "Objectives": [
         {
             "Type": "state",
-            "Message": "Поговорите с жителями города о городских убийствах",
+            "Message": "Опросите жителей города",
             "Expression": {
                 "Condition": {
                     "Blocks": [
                         {
                             "Not": 0b,
-                            "Target": 2,
+                            "Target": 4,
                             "Type": "dialogue",
                             "Or": 0b,
                             "Id": "citizenkate",
@@ -33,11 +43,20 @@
                         },
                         {
                             "Not": 0b,
-                            "Target": 2,
+                            "Target": 4,
                             "Type": "dialogue",
                             "Or": 0b,
                             "Id": "citizenjackson",
                             "Marker": "hint2",
+                            "Selector": ""
+                        },
+                        {
+                            "Not": 0b,
+                            "Target": 4,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "citizenbarista",
+                            "Marker": "hint3",
                             "Selector": ""
                         }
                     ]

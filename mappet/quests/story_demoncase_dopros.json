@@ -1,0 +1,54 @@
+{
+    "Decline": {
+        "Blocks": [
+        ]
+    },
+    "Accept": {
+        "Blocks": [
+        ]
+    },
+    "Complete": {
+        "Blocks": [
+        ]
+    },
+    "Instant": 1b,
+    "Rewards": [
+    ],
+    "Visible": 1b,
+    "Objectives": [
+        {
+            "Type": "state",
+            "Message": "Допросите Дэймона",
+            "Expression": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 1,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "damon_dopros",
+                            "Marker": "damon1",
+                            "Selector": ""
+                        },
+                        {
+                            "Not": 0b,
+                            "Target": 1,
+                            "Type": "dialogue",
+                            "Or": 1b,
+                            "Id": "damon_dopros",
+                            "Marker": "damon2",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Expression": "dialogue_read(\"...\", subject)",
+                "Mode": 1
+            },
+            "Result": 0b
+        }
+    ],
+    "Title": "Допрос",
+    "Story": "",
+    "Cancelable": 0b
+}

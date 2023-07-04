@@ -1,0 +1,51 @@
+{
+    "Decline": {
+        "Blocks": [
+        ]
+    },
+    "Accept": {
+        "Blocks": [
+        ]
+    },
+    "Complete": {
+        "Blocks": [
+            {
+                "Type": "command",
+                "Command": "mp quest accept @p story_kris_2",
+                "Frequency": 1
+            }
+        ]
+    },
+    "Instant": 1b,
+    "Rewards": [
+    ],
+    "Visible": 1b,
+    "Objectives": [
+        {
+            "Type": "state",
+            "Message": "Отправляйтесь на встречу с Кристиной в кофейню \"Idea\"",
+            "Expression": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 4,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "citizenbarista",
+                            "Marker": "bar1",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Expression": "dialogue_read(\"...\", subject)",
+                "Mode": 1
+            },
+            "Result": 0b
+        }
+    ],
+    "Title": "Каменная леди, ледяная сказка",
+    "Story": "[l[6Тип задания:[r
+- Сюжетное",
+    "Cancelable": 0b
+}
