@@ -134,24 +134,57 @@
             }
         },
         {
-            "type": "idle",
+            "type": "path",
             "name": "",
             "color": 0,
             "duration": 149,
             "modifiers": [],
-            "position": {
-                "point": {
-                    "x": 1372.079956,
-                    "y": 93.988634,
-                    "z": -1882.332202
+            "points": [
+                {
+                    "point": {
+                        "x": 1372.079956,
+                        "y": 93.988634,
+                        "z": -1882.332202
+                    },
+                    "angle": {
+                        "yaw": -244.22397,
+                        "pitch": 17.103134,
+                        "roll": -0.25,
+                        "fov": 70.0
+                    }
                 },
-                "angle": {
-                    "yaw": -244.22397,
-                    "pitch": 17.103134,
-                    "roll": -0.25,
-                    "fov": 70.0
+                {
+                    "point": {
+                        "x": 1371.179956,
+                        "y": 93.988632,
+                        "z": -1884.032153
+                    },
+                    "angle": {
+                        "yaw": -244.22397,
+                        "pitch": 17.103134,
+                        "roll": -0.25,
+                        "fov": 70.0
+                    }
                 }
-            }
+            ],
+            "interpolation": "hermite",
+            "interpolationAngle": "hermite",
+            "useSpeed": false,
+            "speed": [
+                {
+                    "tick": 0,
+                    "value": 1.0,
+                    "interp": "LINEAR",
+                    "easing": "IN",
+                    "rx": 5.0,
+                    "ry": 0.0,
+                    "lx": 5.0,
+                    "ly": 0.0
+                }
+            ],
+            "circularAutoCenter": true,
+            "circularX": 0.0,
+            "circularZ": 0.0
         },
         {
             "type": "path",
@@ -232,46 +265,6 @@
             "color": 0,
             "duration": 205,
             "modifiers": [
-                {
-                    "type": "shake",
-                    "enabled": true,
-                    "envelope": {
-                        "enabled": false,
-                        "relative": true,
-                        "startX": 0.0,
-                        "startDuration": 10.0,
-                        "endX": 0.0,
-                        "endDuration": 10.0,
-                        "interpolation": "LINEAR",
-                        "keyframes": false,
-                        "channel": [
-                            {
-                                "tick": 0,
-                                "value": 0.0,
-                                "interp": "LINEAR",
-                                "easing": "IN",
-                                "rx": 5.0,
-                                "ry": 0.0,
-                                "lx": 5.0,
-                                "ly": 0.0
-                            },
-                            {
-                                "tick": 30,
-                                "value": 1.0,
-                                "interp": "LINEAR",
-                                "easing": "IN",
-                                "rx": 5.0,
-                                "ry": 0.0,
-                                "lx": 5.0,
-                                "ly": 0.0
-                            }
-                        ],
-                        "visible": false
-                    },
-                    "active": 127,
-                    "shake": -0.2,
-                    "shakeAmount": -0.05
-                },
                 {
                     "type": "drag",
                     "enabled": true,
@@ -434,9 +427,9 @@
                 },
                 {
                     "point": {
-                        "x": 1356.980029,
-                        "y": 92.488626,
-                        "z": -1892.332153
+                        "x": 1356.97998,
+                        "y": 92.488625,
+                        "z": -1891.632153
                     },
                     "angle": {
                         "yaw": 35.02603,

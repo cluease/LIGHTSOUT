@@ -7,6 +7,50 @@
     },
     "Nodes": [
         {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Отправиться на вызов)"
+            },
+            "X": 291,
+            "Title": "case1",
+            "Y": 174,
+            "Relations": [
+                "bce38bf7-3b51-40a1-bb07-c251accd7cd2",
+                "a2e40e45-8537-44d8-8722-803d11c2841e",
+                "6a2b84c6-72df-4c84-b937-9a7bd04cdf7c"
+            ],
+            "Id": "28703821-e5e0-4c40-9f77-7de8d2cb89d7"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 0,
+                            "Type": "state",
+                            "Or": 0b,
+                            "Comparison": 2,
+                            "Expression": "",
+                            "Value": 1.0d,
+                            "Id": "case1",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 77,
+            "Title": "",
+            "Y": 156,
+            "Relations": [
+                "28703821-e5e0-4c40-9f77-7de8d2cb89d7"
+            ],
+            "Id": "7652b38c-44f5-4746-8445-a42922991a5e"
+        },
+        {
             "Read": 0b,
             "Type": "reaction",
             "Message": {
@@ -18,7 +62,8 @@
             "Y": -20,
             "Sound": "",
             "Relations": [
-                "d537501b-2151-463f-9faf-c54d21dac7e0"
+                "d537501b-2151-463f-9faf-c54d21dac7e0",
+                "7652b38c-44f5-4746-8445-a42922991a5e"
             ],
             "Id": "f1a56346-a1c4-4b6b-8970-6352fbf57972",
             "Marker": ""
@@ -59,11 +104,35 @@
         },
         {
             "Type": "command",
+            "Command": "mp quest accept @p story_case1_1",
+            "X": 316,
+            "Title": "",
+            "Y": 516,
+            "Id": "6a2b84c6-72df-4c84-b937-9a7bd04cdf7c"
+        },
+        {
+            "Type": "command",
             "Command": "/tellraw @p {\"text\":\"\\u041e\\u0442\\u0434\\u043e\\u0445\\u043d\\u0443 \\u043d\\u0435\\u043c\\u043d\\u043e\\u0433\\u043e \\u0434\\u043e\\u043c\\u0430, \\u0430 \\u043f\\u043e\\u0442\\u043e\\u043c \\u043c\\u043e\\u0436\\u043d\\u043e \\u0431\\u0443\\u0434\\u0435\\u0442 \\u043e\\u0442\\u043f\\u0440\\u0430\\u0432\\u043b\\u044f\\u0442\\u044c\\u0441\\u044f \\u0432 \\u0433\\u043e\\u0440\\u043e\\u0434 \\u043d\\u0430 \\u043f\\u043e\\u0438\\u0441\\u043a\\u0438 \\u043d\\u043e\\u0432\\u044b\\u0445 \\u0443\\u043b\\u0438\\u043a\",\"color\":\"yellow\"}",
             "X": 450,
             "Title": "",
             "Y": -144,
             "Id": "7d7f6827-382f-4106-9509-b3ecb955fa7c"
+        },
+        {
+            "Type": "command",
+            "Command": "tp @p 1319 131 -1550",
+            "X": 531,
+            "Title": "",
+            "Y": 199,
+            "Id": "bce38bf7-3b51-40a1-bb07-c251accd7cd2"
+        },
+        {
+            "Type": "command",
+            "Command": "/effect @p minecraft:blindness 2 10 true",
+            "X": 535,
+            "Title": "",
+            "Y": 381,
+            "Id": "a2e40e45-8537-44d8-8722-803d11c2841e"
         },
         {
             "Type": "reply",

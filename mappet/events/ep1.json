@@ -1,0 +1,193 @@
+{
+    "Main": "d8d07c7f-1c8b-4b57-855f-50523bbfc466",
+    "Nodes": [
+        {
+            "Type": "timer",
+            "Timer": 40,
+            "X": -18,
+            "Title": "",
+            "Y": 74,
+            "Relations": [
+                "669a2e5f-9684-4ebd-a5a5-e172c2776c8d",
+                "a6731081-c63a-48ad-87f8-99f01f6916e5",
+                "a678b202-0658-4f2f-aa93-752ad96a9dce"
+            ],
+            "Id": "aa55e96c-df2a-4f0b-ab97-653ab18e237a"
+        },
+        {
+            "Type": "command",
+            "Command": "/title @p title {\"text\":\"\\u0417\\u0430\\u0433\\u0440\\u0443\\u0437\\u043a\\u0430 \\u044d\\u043f\\u0438\\u0437\\u043e\\u0434\\u0430..\"}",
+            "X": 248,
+            "Title": "",
+            "Y": 208,
+            "Id": "a6731081-c63a-48ad-87f8-99f01f6916e5"
+        },
+        {
+            "Type": "timer",
+            "Timer": 40,
+            "X": -17,
+            "Title": "",
+            "Y": 744,
+            "Relations": [
+                "4ac79121-ce3c-4be2-a8d6-aa72fd499dbb",
+                "2367cfe7-fa80-48d7-9221-2e6821753d72",
+                "e3c85708-fdd7-4a7b-8bc8-b9bfe046c9a8"
+            ],
+            "Id": "c06cbeca-1e01-4b15-9abc-a4a40728b4a3"
+        },
+        {
+            "Type": "timer",
+            "Timer": 60,
+            "X": -19,
+            "Title": "",
+            "Y": 401,
+            "Relations": [
+                "083bc220-db1f-4325-9e6e-2e50e65b9148",
+                "08285345-b192-46d5-b3bf-3955d01b9f75",
+                "957c00bc-3763-4525-9ea8-55e0e62a8c61"
+            ],
+            "Id": "0f5f87a1-eeb3-4495-9396-01c9a7cb1328"
+        },
+        {
+            "Type": "command",
+            "Command": "/title @p title {\"text\":\"\\u0417\\u0430\\u0433\\u0440\\u0443\\u0437\\u043a\\u0430 \\u044d\\u043f\\u0438\\u0437\\u043e\\u0434\\u0430...\"}",
+            "X": 266,
+            "Title": "",
+            "Y": 641,
+            "Id": "957c00bc-3763-4525-9ea8-55e0e62a8c61"
+        },
+        {
+            "Type": "timer",
+            "Timer": 20,
+            "X": -20,
+            "Title": "",
+            "Y": -272,
+            "Relations": [
+                "0c9e6b64-1d07-4d02-a52e-ed56b2c62dfa",
+                "494a57f7-36e4-42bb-bf4b-ad70ae323ec1",
+                "524505a4-e942-4917-917f-f3659e70648f"
+            ],
+            "Id": "d8d07c7f-1c8b-4b57-855f-50523bbfc466"
+        },
+        {
+            "Type": "command",
+            "Command": "/title @p times 0 60 20",
+            "X": 210,
+            "Title": "",
+            "Y": -152,
+            "Id": "494a57f7-36e4-42bb-bf4b-ad70ae323ec1"
+        },
+        {
+            "Type": "command",
+            "Command": "gamemode 2 @p",
+            "X": -16,
+            "Title": "",
+            "Y": 565,
+            "Relations": [
+                "c06cbeca-1e01-4b15-9abc-a4a40728b4a3"
+            ],
+            "Id": "083bc220-db1f-4325-9e6e-2e50e65b9148"
+        },
+        {
+            "Type": "command",
+            "Command": "/title @p times 0 60 20",
+            "X": 266,
+            "Title": "",
+            "Y": 507,
+            "Id": "08285345-b192-46d5-b3bf-3955d01b9f75"
+        },
+        {
+            "Type": "command",
+            "Command": "/title @p times 0 60 20",
+            "X": 423,
+            "Title": "",
+            "Y": 783,
+            "Id": "4ac79121-ce3c-4be2-a8d6-aa72fd499dbb"
+        },
+        {
+            "Type": "command",
+            "Command": "time set 0",
+            "X": -19,
+            "Title": "",
+            "Y": 239,
+            "Relations": [
+                "0f5f87a1-eeb3-4495-9396-01c9a7cb1328"
+            ],
+            "Id": "a678b202-0658-4f2f-aa93-752ad96a9dce"
+        },
+        {
+            "Type": "command",
+            "Command": "/title @p title {\"text\":\"\\u0417\\u0430\\u0433\\u0440\\u0443\\u0437\\u043a\\u0430 \\u044d\\u043f\\u0438\\u0437\\u043e\\u0434\\u0430.\"}",
+            "X": 208,
+            "Title": "",
+            "Y": -312,
+            "Id": "524505a4-e942-4917-917f-f3659e70648f"
+        },
+        {
+            "Type": "command",
+            "Command": "/title @p times 0 60 20",
+            "X": 252,
+            "Title": "",
+            "Y": 72,
+            "Id": "669a2e5f-9684-4ebd-a5a5-e172c2776c8d"
+        },
+        {
+            "Type": "command",
+            "Command": "/title @p title {\"text\":\"\\u042d\\u041f\\u0418\\u0417\\u041e\\u0414 \\u0417\\u0410\\u0413\\u0420\\u0423\\u0416\\u0415\\u041d\"}",
+            "X": -16,
+            "Title": "ЭПИЗОД ЗАГРУЖЕН",
+            "Y": 914,
+            "Relations": [
+                "21d90f0f-5a16-4a86-9ffd-3431b34f01fb"
+            ],
+            "Id": "e3c85708-fdd7-4a7b-8bc8-b9bfe046c9a8"
+        },
+        {
+            "Type": "command",
+            "Command": "/title @p subtitle {\"text\":\"\\u041f\\u0440\\u0438\\u044f\\u0442\\u043d\\u043e\\u0439 \\u0438\\u0433\\u0440\\u044b!\",\"color\":\"yellow\"}",
+            "X": 426,
+            "Title": "",
+            "Y": 909,
+            "Id": "2367cfe7-fa80-48d7-9221-2e6821753d72"
+        },
+        {
+            "Type": "command",
+            "Command": "scene play wolfrabbit1 @p",
+            "X": -218,
+            "Title": "",
+            "Y": 1281,
+            "Id": "d8a232c8-000d-416b-8ba1-bbcbecd4e60b"
+        },
+        {
+            "Type": "command",
+            "Command": "/morph @p emoticons.slim {Placeholder:{Skin:\"b.a:alex/skins/Nort_Police.png\",Settings:{Hands:1b},Name:\"blockbuster.alex_3d\"},UserData:{Meshes:{body:{Filtering:\"nearest\",Normals:1b,Lighting:1b,Color:16777215,Smooth:1b,Visible:1b,Texture:\"b.a:alex/skins/Nort_Police.png\"}}},Animation:\"slim\"}",
+            "X": -18,
+            "Title": "",
+            "Y": -118,
+            "Relations": [
+                "aa55e96c-df2a-4f0b-ab97-653ab18e237a"
+            ],
+            "Id": "0c9e6b64-1d07-4d02-a52e-ed56b2c62dfa"
+        },
+        {
+            "Type": "timer",
+            "Timer": 50,
+            "X": -18,
+            "Title": "",
+            "Y": 1088,
+            "Relations": [
+                "d8a232c8-000d-416b-8ba1-bbcbecd4e60b",
+                "774c6092-988f-433a-b637-54947ceb1ebd"
+            ],
+            "Id": "21d90f0f-5a16-4a86-9ffd-3431b34f01fb"
+        },
+        {
+            "Type": "command",
+            "Command": "aperture play wolfrabbit1 @p",
+            "X": 162,
+            "Title": "",
+            "Y": 1288,
+            "Id": "774c6092-988f-433a-b637-54947ceb1ebd"
+        }
+    ]
+}

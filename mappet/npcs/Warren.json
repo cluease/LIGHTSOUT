@@ -23,23 +23,35 @@
             "Follow": "",
             "Xp": 0,
             "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 0b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/Warren.png"
+                        }
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "slim_simple_plus",
+                "Name": "emoticons.slim_simple_plus"
             },
             "Damage": 2.0f,
             "TriggerInteract": {
                 "Blocks": [
-                    {
-                        "Dialogue": "warren_before_case2",
-                        "Type": "dialogue",
-                        "CustomData": "",
-                        "Frequency": 1
-                    }
                 ]
             },
             "CanSwim": 1b,
             "Flee": 4.0f,
             "LookAtPlayer": 0b,
             "Respawn": 0b,
-            "Immovable": 0b,
+            "Immovable": 1b,
             "MaxHealth": 20.0f,
             "TriggerDamaged": {
                 "Blocks": [
@@ -56,21 +68,21 @@
             "Id": "",
             "PatrolCirculate": 0b,
             "DamageDelay": 10,
-            "CanGetBurned": 0b,
+            "CanGetBurned": 1b,
             "Wander": 0b,
             "RespawnOnCoordinates": 0b,
-            "LookAround": 0b,
+            "LookAround": 1b,
             "RespawnPosY": 0.0d,
             "RespawnDelay": 0,
             "RespawnPosX": 0.0d,
             "SightDistance": 25.0f,
             "RespawnPosZ": 0.0d,
-            "Invincible": 0b,
+            "Invincible": 1b,
             "TriggerDied": {
                 "Blocks": [
                 ]
             },
-            "Faction": "",
+            "Faction": "interactive",
             "Speed": 1.0f,
             "SightRadius": 120.0f,
             "Health": 20.0f,
