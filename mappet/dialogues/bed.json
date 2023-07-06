@@ -21,14 +21,6 @@
             "Id": "05dc9eed-2909-4dae-9e46-be8d776d4222"
         },
         {
-            "Type": "command",
-            "Command": "/title @a times 20 100 20",
-            "X": 1411,
-            "Title": "",
-            "Y": -190,
-            "Id": "641a25ba-f9d0-4c9a-a561-04e9714937f9"
-        },
-        {
             "Read": 0b,
             "Type": "reaction",
             "Message": {
@@ -63,25 +55,22 @@
                 ]
             },
             "Cancel": 0b,
-            "X": 1413,
+            "X": 1407,
             "CustomData": "",
             "Title": "day2",
-            "Y": -46,
+            "Y": -114,
             "Id": "f2d53efb-127c-4ca0-80a8-6bb81e3233b3"
         },
         {
             "Type": "reply",
             "Message": {
                 "Color": 16777215,
-                "Text": "(Проснуться утром)"
+                "Text": "(Погрузиться в сон)"
             },
             "X": 1141,
             "Title": "",
             "Y": 15,
             "Relations": [
-                "641a25ba-f9d0-4c9a-a561-04e9714937f9",
-                "083e78bc-43d9-4202-8d92-cf4ed2c2304d",
-                "e0e6210a-a066-44d2-b450-a9213c1d06eb",
                 "f2d53efb-127c-4ca0-80a8-6bb81e3233b3",
                 "ebbdfd2e-11ba-4671-98a8-331265310d66"
             ],
@@ -89,10 +78,10 @@
         },
         {
             "Type": "command",
-            "Command": "mp event trigger @p day2wakeup",
-            "X": 1414,
-            "Title": "",
-            "Y": 108,
+            "Command": "tp @p 312 5 -2517",
+            "X": 1408,
+            "Title": "тп в сон",
+            "Y": 120,
             "Id": "ebbdfd2e-11ba-4671-98a8-331265310d66"
         },
         {
@@ -148,14 +137,6 @@
             "Marker": ""
         },
         {
-            "Type": "command",
-            "Command": "/title @a subtitle {\"text\":\"\\u0421\\u0443\\u0431\\u0431\\u043e\\u0442\\u0430\",\"color\":\"yellow\"}",
-            "X": 1241,
-            "Title": "",
-            "Y": -182,
-            "Id": "083e78bc-43d9-4202-8d92-cf4ed2c2304d"
-        },
-        {
             "Type": "reply",
             "Message": {
                 "Color": 16777215,
@@ -185,14 +166,6 @@
             ],
             "Id": "fdb21f0c-ea52-4f50-b766-355728d9b3fa",
             "Marker": "day2"
-        },
-        {
-            "Type": "command",
-            "Command": "/title @a title {\"text\":\"\\u0414\\u0435\\u043d\\u044c 2\",\"bold\":true,\"color\":\"gold\"}",
-            "X": 1066,
-            "Title": "",
-            "Y": -191,
-            "Id": "e0e6210a-a066-44d2-b450-a9213c1d06eb"
         }
     ]
 }

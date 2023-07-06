@@ -127,6 +127,14 @@
         },
         {
             "Type": "command",
+            "Command": "/time set 12500",
+            "X": 855,
+            "Title": "",
+            "Y": -931,
+            "Id": "7414a2f9-067c-4738-b53f-5e788f67fdd8"
+        },
+        {
+            "Type": "command",
             "Command": "scene play Warren_if_northere @p",
             "X": 1452,
             "Title": "",
@@ -238,6 +246,14 @@
         },
         {
             "Type": "command",
+            "Command": "tp @p 2025 76 -662",
+            "X": 855,
+            "Title": "",
+            "Y": -793,
+            "Id": "139cf880-0780-4472-9fad-f9d54939e2cf"
+        },
+        {
+            "Type": "command",
             "Command": "/tp @p 1126 130 -1530",
             "X": 676,
             "Title": "",
@@ -258,6 +274,21 @@
                 "e0bb6ae6-d1dd-4f7a-b6d1-e734211478ae"
             ],
             "Id": "a3ec4d40-72ee-4805-9f67-00a5d0c4b1e5"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Встретиться с незнакомцем на заправке)"
+            },
+            "X": 612,
+            "Title": "если идете с ральфом",
+            "Y": -770,
+            "Relations": [
+                "139cf880-0780-4472-9fad-f9d54939e2cf",
+                "7414a2f9-067c-4738-b53f-5e788f67fdd8"
+            ],
+            "Id": "f21a74be-3b72-4a62-b581-5345b9c070d4"
         },
         {
             "Type": "command",
@@ -436,6 +467,17 @@
                 "edb51705-d080-425f-b10a-cedb4ad5ab63"
             ],
             "Id": "d0175a9d-5747-4d2c-8d06-b0384f3e0cd4"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Сразу отправиться в лес)"
+            },
+            "X": 614,
+            "Title": "если не согласились с ральфом",
+            "Y": -1023,
+            "Id": "abe0e58d-fc4c-4d37-966e-d1fb01bc570a"
         }
     ]
 }

@@ -34,7 +34,7 @@
         },
         {
             "Type": "command",
-            "Command": "/tellraw @p {\"text\":\"*\\u0417\\u0435\\u0432\\u0430\\u0435\\u0442*\",\"color\":\"yellow\"}",
+            "Command": "/tellraw @p {\"text\":\"\\u0421\\u043d\\u043e\\u0432\\u0430 \\u044d\\u0442\\u043e\\u0442 \\u0441\\u043e\\u043d...\",\"color\":\"yellow\"}",
             "X": -10,
             "Title": "",
             "Y": -70,

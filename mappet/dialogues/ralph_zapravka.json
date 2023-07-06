@@ -1,0 +1,212 @@
+{
+    "Closable": 1b,
+    "Main": "1904ad64-8184-4e61-abc1-1990fd53f7b9",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Иначе никак"
+            },
+            "X": 770,
+            "Title": "",
+            "Y": -148,
+            "Sound": "",
+            "Relations": [
+                "941a1258-38fb-4372-b8d7-eb25b923583e"
+            ],
+            "Id": "4afd0119-81e1-40f0-bf5f-ed16593099ad",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Следуй за мной"
+            },
+            "X": 1120,
+            "Title": "",
+            "Y": -146,
+            "Sound": "",
+            "Relations": [
+                "ad881fba-2df5-4288-a9f4-b9edf48b75d4"
+            ],
+            "Id": "9b5f6733-3458-4e7f-8180-10fdb1cdb569",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Не могу ответить взаимностью, давай уже поскорее дойдём до
+этой хижины, про которую ты говорил"
+            },
+            "X": 152,
+            "Title": "",
+            "Y": -146,
+            "Relations": [
+                "819c8f14-065b-4594-b892-ba31b339bfc4"
+            ],
+            "Id": "f6d40535-3ad0-40e7-9973-0ae819eae1a3"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ладно, что надо делать?"
+            },
+            "X": 956,
+            "Title": "",
+            "Y": -146,
+            "Relations": [
+                "9b5f6733-3458-4e7f-8180-10fdb1cdb569"
+            ],
+            "Id": "941a1258-38fb-4372-b8d7-eb25b923583e"
+        },
+        {
+            "Type": "command",
+            "Command": "tp @p 2078 4 -533",
+            "X": 1526,
+            "Title": "",
+            "Y": -241,
+            "Id": "092b13e4-5ee3-4d22-ae56-bb1c88cd5161"
+        },
+        {
+            "Type": "command",
+            "Command": "mp event trigger @p story_forest_ralphzapravka",
+            "X": 1530,
+            "Title": "",
+            "Y": -60,
+            "Id": "c97b0769-52d1-401e-bb99-605c1e02ebe2"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Все не так просто, сначала придется доказать, что ты достойна"
+            },
+            "X": 388,
+            "Title": "",
+            "Y": -144,
+            "Sound": "",
+            "Relations": [
+                "a86ba77c-2e87-42e0-a1bc-d7ae927aef87"
+            ],
+            "Id": "819c8f14-065b-4594-b892-ba31b339bfc4",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Пойти за незнакомцем)"
+            },
+            "X": 1306,
+            "Title": "",
+            "Y": -137,
+            "Relations": [
+                "092b13e4-5ee3-4d22-ae56-bb1c88cd5161",
+                "c97b0769-52d1-401e-bb99-605c1e02ebe2"
+            ],
+            "Id": "ad881fba-2df5-4288-a9f4-b9edf48b75d4"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Приветствую. Рад тебя видеть"
+            },
+            "X": -78,
+            "Title": "",
+            "Y": -146,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 0b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/Ralph.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                    },
+                    "left_arm": {
+                    },
+                    "low_right_arm": {
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                        "RZ": 0.2617994f
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Animation": "slim_simple_plus",
+                "Name": "emoticons.slim_simple_plus"
+            },
+            "Sound": "",
+            "Relations": [
+                "f6d40535-3ad0-40e7-9973-0ae819eae1a3"
+            ],
+            "Id": "1904ad64-8184-4e61-abc1-1990fd53f7b9",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Что за бред?"
+            },
+            "X": 578,
+            "Title": "",
+            "Y": -142,
+            "Relations": [
+                "4afd0119-81e1-40f0-bf5f-ed16593099ad"
+            ],
+            "Id": "a86ba77c-2e87-42e0-a1bc-d7ae927aef87"
+        }
+    ]
+}
