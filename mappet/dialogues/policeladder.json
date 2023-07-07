@@ -18,6 +18,17 @@
                             "Id": "phone",
                             "Marker": "nortpolice1",
                             "Selector": ""
+                        },
+                        {
+                            "Not": 0b,
+                            "Target": 2,
+                            "Type": "state",
+                            "Or": 0b,
+                            "Comparison": 2,
+                            "Expression": "",
+                            "Value": 0.0d,
+                            "Id": "day2",
+                            "Selector": ""
                         }
                     ]
                 },

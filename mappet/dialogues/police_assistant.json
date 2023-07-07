@@ -1,6 +1,6 @@
 {
     "Closable": 0b,
-    "Main": "503d3647-9b65-4830-b068-a37fae08c502",
+    "Main": "9a3b6d6c-56c6-40db-9446-2652c1d3b0a0",
     "OnClose": {
         "Blocks": [
         ]
@@ -30,7 +30,7 @@
             },
             "X": -214,
             "Title": "",
-            "Y": 168,
+            "Y": 170,
             "Morph": {
                 "UserData": {
                     "Meshes": {
@@ -57,7 +57,7 @@
             "Marker": ""
         },
         {
-            "Read": 0b,
+            "Read": 1b,
             "Type": "reaction",
             "Message": {
                 "Color": 16777215,
@@ -140,7 +140,7 @@
             },
             "Sound": "",
             "Id": "d7c7d948-9323-447e-a86e-4fe1452a25c3",
-            "Marker": ""
+            "Marker": "yes2"
         },
         {
             "Condition": {
@@ -211,7 +211,7 @@
             "Id": "921fea17-48ab-4f90-ab3f-961d08edea26"
         },
         {
-            "Read": 0b,
+            "Read": 1b,
             "Type": "reaction",
             "Message": {
                 "Color": 16777215,
@@ -294,7 +294,7 @@
             },
             "Sound": "",
             "Id": "7529dcd9-033c-48f4-b6d3-260eb1f454ab",
-            "Marker": ""
+            "Marker": "yes1"
         },
         {
             "Type": "reply",
@@ -318,6 +318,50 @@
             "Title": "",
             "Y": 138,
             "Id": "63df6c70-5b27-4db1-86cc-b60b964c899f"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Condition": {
+                                "Blocks": [
+                                    {
+                                        "Not": 1b,
+                                        "Target": 2,
+                                        "Type": "dialogue",
+                                        "Or": 0b,
+                                        "Id": "police_assistant",
+                                        "Marker": "yes1",
+                                        "Selector": ""
+                                    },
+                                    {
+                                        "Not": 1b,
+                                        "Target": 2,
+                                        "Type": "dialogue",
+                                        "Or": 1b,
+                                        "Id": "police_assistant",
+                                        "Marker": "yes2",
+                                        "Selector": ""
+                                    }
+                                ]
+                            },
+                            "Not": 0b,
+                            "Type": "condition",
+                            "Or": 0b
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": -413,
+            "Title": "",
+            "Y": 171,
+            "Relations": [
+                "503d3647-9b65-4830-b068-a37fae08c502"
+            ],
+            "Id": "9a3b6d6c-56c6-40db-9446-2652c1d3b0a0"
         }
     ]
 }

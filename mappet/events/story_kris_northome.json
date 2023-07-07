@@ -8,9 +8,18 @@
             "Title": "",
             "Y": 70,
             "Relations": [
-                "0cf42f3f-4b3e-45cf-acba-86bcacc31a71"
+                "0cf42f3f-4b3e-45cf-acba-86bcacc31a71",
+                "1ab4fea6-4999-4d12-8737-c5bf219e855e"
             ],
             "Id": "4e8d9400-6eeb-40ee-a6cc-6f09f5036fae"
+        },
+        {
+            "Type": "command",
+            "Command": "/time set 12800",
+            "X": 262,
+            "Title": "",
+            "Y": 214,
+            "Id": "1ab4fea6-4999-4d12-8737-c5bf219e855e"
         },
         {
             "Type": "timer",

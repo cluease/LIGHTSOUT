@@ -16,7 +16,7 @@
             },
             {
                 "Type": "command",
-                "Command": "mp event trigger story_kris_message",
+                "Command": "mp event trigger story_kris_message @p",
                 "Frequency": 1
             }
         ]
@@ -34,7 +34,7 @@
                     "Blocks": [
                         {
                             "Not": 0b,
-                            "Target": 2,
+                            "Target": 4,
                             "Type": "dialogue",
                             "Or": 0b,
                             "Id": "Ralph_street2",

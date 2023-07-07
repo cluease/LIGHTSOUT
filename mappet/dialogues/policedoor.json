@@ -7,6 +7,14 @@
     },
     "Nodes": [
         {
+            "Type": "command",
+            "Command": "/mp npc despawn @e[mpid=Warren1]",
+            "X": 106,
+            "Title": "",
+            "Y": 512,
+            "Id": "bcea44a7-fe28-4d9e-82e0-e92467c4fa2b"
+        },
+        {
             "Type": "reply",
             "Message": {
                 "Color": 16777215,
@@ -18,7 +26,9 @@
             "Relations": [
                 "bce38bf7-3b51-40a1-bb07-c251accd7cd2",
                 "a2e40e45-8537-44d8-8722-803d11c2841e",
-                "6a2b84c6-72df-4c84-b937-9a7bd04cdf7c"
+                "6a2b84c6-72df-4c84-b937-9a7bd04cdf7c",
+                "bcea44a7-fe28-4d9e-82e0-e92467c4fa2b",
+                "c0604a9c-42ca-4a6c-9a69-89f437625318"
             ],
             "Id": "28703821-e5e0-4c40-9f77-7de8d2cb89d7"
         },
@@ -133,6 +143,14 @@
             "Title": "",
             "Y": 381,
             "Id": "a2e40e45-8537-44d8-8722-803d11c2841e"
+        },
+        {
+            "Type": "command",
+            "Command": "time set 0",
+            "X": 64,
+            "Title": "",
+            "Y": 338,
+            "Id": "c0604a9c-42ca-4a6c-9a69-89f437625318"
         },
         {
             "Type": "reply",

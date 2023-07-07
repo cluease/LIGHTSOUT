@@ -21,6 +21,14 @@
             "Id": "f516a501-5c52-42a8-b330-67798914e432"
         },
         {
+            "Type": "command",
+            "Command": "time set 12850",
+            "X": 1199,
+            "Title": "",
+            "Y": -167,
+            "Id": "c82532ac-e070-41d7-94e8-b613dc7d9b6d"
+        },
+        {
             "Condition": {
                 "Condition": {
                     "Blocks": [
@@ -68,8 +76,7 @@
             "Relations": [
                 "16089be8-7710-4a5c-89b9-a302ae9e5aa3",
                 "d8b11e64-8557-4d46-9c3e-09e5c4152823",
-                "dd1017ba-cb92-4c49-978c-85a309adaa20",
-                "f8ed7c14-d638-4fd5-ae62-0e8e502e42b3"
+                "dd1017ba-cb92-4c49-978c-85a309adaa20"
             ],
             "Id": "83e7a62c-4c54-40ce-8ab5-40ad0fb521b5",
             "Marker": ""
@@ -144,7 +151,7 @@
         {
             "Type": "reply",
             "Message": {
-                "Color": 16777215,
+                "Color": 3898367,
                 "Text": "(Отправиться в полицейский участок)"
             },
             "X": 612,
@@ -167,7 +174,8 @@
             "Title": "",
             "Y": -85,
             "Relations": [
-                "64234d68-3f1a-40d3-888c-749fbd644b64"
+                "64234d68-3f1a-40d3-888c-749fbd644b64",
+                "f8ed7c14-d638-4fd5-ae62-0e8e502e42b3"
             ],
             "Id": "dd1017ba-cb92-4c49-978c-85a309adaa20"
         },
@@ -184,7 +192,7 @@
             "Command": "mp quest accept @p story_demoncase_dopros",
             "X": 614,
             "Title": "",
-            "Y": -565,
+            "Y": -593,
             "Id": "f11fc29b-3226-44fb-a9f8-9ab6583e507f"
         },
         {
@@ -263,7 +271,7 @@
         {
             "Type": "reply",
             "Message": {
-                "Color": 16777215,
+                "Color": 3898367,
                 "Text": "(Отправиться в полицейский участок)"
             },
             "X": 1198,
@@ -271,7 +279,8 @@
             "Y": -303,
             "Relations": [
                 "417e2c53-1092-4a6e-b0eb-e7e39eac0d67",
-                "e0bb6ae6-d1dd-4f7a-b6d1-e734211478ae"
+                "e0bb6ae6-d1dd-4f7a-b6d1-e734211478ae",
+                "c82532ac-e070-41d7-94e8-b613dc7d9b6d"
             ],
             "Id": "a3ec4d40-72ee-4805-9f67-00a5d0c4b1e5"
         },
@@ -310,15 +319,24 @@
                             "Id": "bed",
                             "Marker": "day2",
                             "Selector": ""
+                        },
+                        {
+                            "Not": 1b,
+                            "Target": 2,
+                            "Type": "quest",
+                            "Or": 0b,
+                            "Id": "story_demoncase_dopros",
+                            "Quest": 2,
+                            "Selector": ""
                         }
                     ]
                 },
                 "Mode": 1
             },
             "Type": "condition",
-            "X": 427,
+            "X": 447,
             "Title": "",
-            "Y": -382,
+            "Y": -424,
             "Relations": [
                 "2d811e72-aed2-465c-a376-c7b6872b5004"
             ],
@@ -415,6 +433,14 @@
             "Id": "ba20698d-532e-41e9-8d42-accd036efea1"
         },
         {
+            "Type": "command",
+            "Command": "time set night",
+            "X": 981,
+            "Title": "",
+            "Y": 247,
+            "Id": "51a05f57-a583-44d9-82d5-7487b49ba348"
+        },
+        {
             "Read": 0b,
             "Type": "reaction",
             "Message": {
@@ -442,7 +468,7 @@
         {
             "Type": "reply",
             "Message": {
-                "Color": 16777215,
+                "Color": 13400918,
                 "Text": "(Отправиться на улицу Солти)"
             },
             "X": 800,
@@ -450,7 +476,8 @@
             "Y": -78,
             "Relations": [
                 "8e6957ac-cb54-46eb-9899-a49a51a1fc6b",
-                "c4cae1a0-b605-445a-afe1-0fdefda9deb8"
+                "c4cae1a0-b605-445a-afe1-0fdefda9deb8",
+                "51a05f57-a583-44d9-82d5-7487b49ba348"
             ],
             "Id": "0a46ca15-8ce6-4e48-9d51-a31ee3d5f2d3"
         },

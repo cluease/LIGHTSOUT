@@ -34,11 +34,11 @@
         },
         {
             "Type": "command",
-            "Command": "/playsound customnpcs:misc.punch2 block @p ~ ~ ~ 300",
-            "X": 276,
+            "Command": "/execute @p ~ ~ ~ noppes npc Прохожий visible true",
+            "X": 2224,
             "Title": "",
-            "Y": -332,
-            "Id": "55b56074-e7f7-4818-90e9-89c407b664d3"
+            "Y": -240,
+            "Id": "f17dac41-4dc6-4db7-b0f1-40acd05a4dce"
         },
         {
             "Type": "reply",
@@ -56,301 +56,12 @@
             "Id": "387bacd8-da9d-45b7-9db0-9a571b826aa4"
         },
         {
-            "Read": 0b,
-            "Type": "reaction",
-            "Message": {
-                "Color": 16777215,
-                "Text": "[e(Дэймон съежился от боли)[r
-[l[9Уоррен:[r Норт, это как-то уже слишком…"
-            },
-            "X": 451,
-            "Title": "",
-            "Y": -172,
-            "Morph": {
-                "UserData": {
-                    "Meshes": {
-                        "body": {
-                            "Filtering": "nearest",
-                            "Normals": 1b,
-                            "Lighting": 1b,
-                            "Color": 16777215,
-                            "Smooth": 1b,
-                            "Visible": 1b,
-                            "Texture": "b.a:alex/skins/demon.png"
-                        }
-                    }
-                },
-                "Pose": {
-                    "low_body": {
-                        "RX": -0.61086524f
-                    },
-                    "right_arm": {
-                        "RX": 0.6108652f,
-                        "RY": -0.06981317f
-                    },
-                    "left_leg": {
-                    },
-                    "misc_bone_1": {
-                    },
-                    "misc_bone_2": {
-                    },
-                    "misc_bone_3": {
-                    },
-                    "low_leg_right": {
-                        "RX": -0.17453294f
-                    },
-                    "low_right_arm.end": {
-                        "RX": 0.017453292f,
-                        "RZ": -0.45378563f
-                    },
-                    "misc_gbone_2": {
-                    },
-                    "misc_gbone_1": {
-                    },
-                    "body": {
-                        "RX": -0.13962634f,
-                        "Y": -0.25f
-                    },
-                    "misc_gbone_3": {
-                    },
-                    "head": {
-                        "RX": 0.4363323f,
-                        "RY": 0.017453292f
-                    },
-                    "left_arm": {
-                        "RX": 0.7330383f,
-                        "RY": 0.15707964f
-                    },
-                    "low_right_arm": {
-                        "RX": 0.64577186f,
-                        "RY": -1.0297443f,
-                        "RZ": 0.4363323f
-                    },
-                    "right_leg": {
-                    },
-                    "anchor": {
-                        "RZ": 0.2617994f
-                    },
-                    "low_left_leg": {
-                        "RX": -0.2443461f
-                    },
-                    "low_left_arm": {
-                        "RX": 0.64577186f,
-                        "RY": 1.4835299f,
-                        "RZ": -0.10471976f
-                    },
-                    "low_left_arm.end": {
-                        "RX": -0.9773844f,
-                        "RY": 0.017453292f
-                    }
-                },
-                "Transition": {
-                    "Animates": 1b,
-                    "Duration": 7
-                },
-                "Animation": "default_3d",
-                "Name": "emoticons.default_3d"
-            },
-            "Sound": "",
-            "Relations": [
-                "bf16f52e-806d-4aa5-a880-e3e09978c496"
-            ],
-            "Id": "b86f9cec-1810-4119-b371-d1da04f810b1",
-            "Marker": ""
-        },
-        {
             "Type": "command",
             "Command": "/mp state set @p demonrun 0 ",
             "X": 2433,
             "Title": "",
             "Y": -251,
             "Id": "4d7a866b-b57f-4216-a353-e25e70f4e009"
-        },
-        {
-            "Type": "reply",
-            "Message": {
-                "Color": 16777215,
-                "Text": "Я тебе это припомню, когда ты будешь за 
-решеткой"
-            },
-            "X": 342,
-            "Title": "",
-            "Y": -1,
-            "Relations": [
-                "5b1248ca-0981-4b1b-8443-98788ec00a62"
-            ],
-            "Id": "493e27fa-0d80-42bc-8d78-de560f719c8a"
-        },
-        {
-            "Type": "command",
-            "Command": "mp npc despawn @e[mpid=damon]",
-            "X": 2648,
-            "Title": "",
-            "Y": 30,
-            "Id": "23936c7f-26b4-41d3-9f9f-7c0223991561"
-        },
-        {
-            "Read": 0b,
-            "Type": "reaction",
-            "Message": {
-                "Color": 16777215,
-                "Text": "*Плевок*"
-            },
-            "X": 54,
-            "Title": "",
-            "Y": -66,
-            "Morph": {
-                "UserData": {
-                    "Meshes": {
-                        "body": {
-                            "Filtering": "nearest",
-                            "Normals": 1b,
-                            "Lighting": 1b,
-                            "Color": 16777215,
-                            "Smooth": 1b,
-                            "Visible": 1b,
-                            "Texture": "b.a:alex/skins/demon.png"
-                        }
-                    }
-                },
-                "Pose": {
-                    "low_body": {
-                    },
-                    "right_arm": {
-                    },
-                    "left_leg": {
-                    },
-                    "misc_bone_1": {
-                    },
-                    "misc_bone_2": {
-                    },
-                    "misc_bone_3": {
-                    },
-                    "low_leg_right": {
-                    },
-                    "low_right_arm.end": {
-                    },
-                    "misc_gbone_2": {
-                    },
-                    "misc_gbone_1": {
-                    },
-                    "body": {
-                    },
-                    "misc_gbone_3": {
-                    },
-                    "head": {
-                        "RX": -0.13962634f,
-                        "RY": 0.296706f
-                    },
-                    "left_arm": {
-                    },
-                    "low_right_arm": {
-                    },
-                    "right_leg": {
-                    },
-                    "anchor": {
-                    },
-                    "low_left_leg": {
-                    },
-                    "low_left_arm": {
-                    },
-                    "low_left_arm.end": {
-                    }
-                },
-                "Animation": "default_3d",
-                "Name": "emoticons.default_3d"
-            },
-            "Sound": "",
-            "Relations": [
-                "387bacd8-da9d-45b7-9db0-9a571b826aa4",
-                "7e84fb29-5441-42db-99ed-4dfecd9cdd04",
-                "493e27fa-0d80-42bc-8d78-de560f719c8a"
-            ],
-            "Id": "3dc95fcb-9ea2-496d-b556-d68f4e85e2be",
-            "Marker": ""
-        },
-        {
-            "Read": 0b,
-            "Type": "reaction",
-            "Message": {
-                "Color": 16777215,
-                "Text": "..."
-            },
-            "X": 1123,
-            "Title": "",
-            "Y": -166,
-            "Morph": {
-                "UserData": {
-                    "Meshes": {
-                        "body": {
-                            "Filtering": "nearest",
-                            "Normals": 1b,
-                            "Lighting": 1b,
-                            "Color": 16777215,
-                            "Smooth": 1b,
-                            "Visible": 1b,
-                            "Texture": "b.a:alex/skins/demon.png"
-                        }
-                    }
-                },
-                "Pose": {
-                    "low_body": {
-                    },
-                    "right_arm": {
-                    },
-                    "left_leg": {
-                    },
-                    "misc_bone_1": {
-                    },
-                    "misc_bone_2": {
-                    },
-                    "misc_bone_3": {
-                    },
-                    "low_leg_right": {
-                    },
-                    "low_right_arm.end": {
-                    },
-                    "misc_gbone_2": {
-                    },
-                    "misc_gbone_1": {
-                    },
-                    "body": {
-                    },
-                    "misc_gbone_3": {
-                    },
-                    "head": {
-                        "RX": 0.31415927f,
-                        "RY": 0.5235988f
-                    },
-                    "left_arm": {
-                    },
-                    "low_right_arm": {
-                    },
-                    "right_leg": {
-                    },
-                    "anchor": {
-                        "RZ": 0.2617994f
-                    },
-                    "low_left_leg": {
-                    },
-                    "low_left_arm": {
-                    },
-                    "low_left_arm.end": {
-                    }
-                },
-                "Transition": {
-                    "Animates": 1b,
-                    "Duration": 20
-                },
-                "Animation": "default_3d",
-                "Name": "emoticons.default_3d"
-            },
-            "Sound": "",
-            "Relations": [
-                "fbdaf8ce-ed16-40cc-815e-9fe7c58523aa"
-            ],
-            "Id": "01dba393-7188-4ee6-898f-acecd8657ed1",
-            "Marker": ""
         },
         {
             "Type": "command",
@@ -393,32 +104,6 @@
             "Marker": ""
         },
         {
-            "Type": "command",
-            "Command": "/modelblock morph 2299 18 -1770 {Label:\"[aОтправиться домой\",AnchorY:27.06f,AnchorX:0.0f,Name:\"label\"}",
-            "X": 2386,
-            "Title": "",
-            "Y": 293,
-            "Id": "42ff7e45-39ed-46e2-98e9-5c37083309ec"
-        },
-        {
-            "Type": "reply",
-            "Message": {
-                "Color": 16777215,
-                "Text": "Ладно, разберемся в участке. Уоррен, пакуй его"
-            },
-            "X": 2427,
-            "Title": "",
-            "Y": -52,
-            "Relations": [
-                "d68db0a4-06d9-440b-a4d3-3638fce101f0",
-                "23936c7f-26b4-41d3-9f9f-7c0223991561",
-                "eedde4e1-cd55-45a4-b9af-87f18ea06da0",
-                "42ff7e45-39ed-46e2-98e9-5c37083309ec",
-                "4d7a866b-b57f-4216-a353-e25e70f4e009"
-            ],
-            "Id": "3440582c-fec4-4646-9654-6b40b04369cc"
-        },
-        {
             "Type": "reply",
             "Message": {
                 "Color": 16777215,
@@ -431,20 +116,6 @@
                 "68f18558-77a9-46e3-976a-d32074e92b14"
             ],
             "Id": "fbdaf8ce-ed16-40cc-815e-9fe7c58523aa"
-        },
-        {
-            "Type": "reply",
-            "Message": {
-                "Color": 16777215,
-                "Text": "Давно посылаешь ему угрозы?"
-            },
-            "X": 2008,
-            "Title": "",
-            "Y": -54,
-            "Relations": [
-                "934e83ab-9265-473a-ae7a-f0dfa594fccb"
-            ],
-            "Id": "40a94043-5e0f-481f-af26-9cdd1516c7ed"
         },
         {
             "Read": 0b,
@@ -803,6 +474,353 @@
                 "4eda55f7-4c72-43bf-9410-83c76d950f9f"
             ],
             "Id": "627d1f22-35f5-4b33-8e07-0fa9ef0f7824"
+        },
+        {
+            "Type": "command",
+            "Command": "/execute @p ~ ~ ~ noppes npc Клара visible true",
+            "X": 2204,
+            "Title": "",
+            "Y": 142,
+            "Id": "86981bf0-b1a8-47b3-80bf-7e7e4594fc42"
+        },
+        {
+            "Type": "command",
+            "Command": "/playsound customnpcs:misc.punch2 block @p ~ ~ ~ 300",
+            "X": 276,
+            "Title": "",
+            "Y": -332,
+            "Id": "55b56074-e7f7-4818-90e9-89c407b664d3"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "[e(Дэймон съежился от боли)[r
+[l[9Уоррен:[r Норт, это как-то уже слишком…"
+            },
+            "X": 451,
+            "Title": "",
+            "Y": -172,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/demon.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                        "RX": -0.61086524f
+                    },
+                    "right_arm": {
+                        "RX": 0.6108652f,
+                        "RY": -0.06981317f
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                        "RX": -0.17453294f
+                    },
+                    "low_right_arm.end": {
+                        "RX": 0.017453292f,
+                        "RZ": -0.45378563f
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                        "RX": -0.13962634f,
+                        "Y": -0.25f
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RX": 0.4363323f,
+                        "RY": 0.017453292f
+                    },
+                    "left_arm": {
+                        "RX": 0.7330383f,
+                        "RY": 0.15707964f
+                    },
+                    "low_right_arm": {
+                        "RX": 0.64577186f,
+                        "RY": -1.0297443f,
+                        "RZ": 0.4363323f
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                        "RZ": 0.2617994f
+                    },
+                    "low_left_leg": {
+                        "RX": -0.2443461f
+                    },
+                    "low_left_arm": {
+                        "RX": 0.64577186f,
+                        "RY": 1.4835299f,
+                        "RZ": -0.10471976f
+                    },
+                    "low_left_arm.end": {
+                        "RX": -0.9773844f,
+                        "RY": 0.017453292f
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b,
+                    "Duration": 7
+                },
+                "Animation": "default_3d",
+                "Name": "emoticons.default_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "bf16f52e-806d-4aa5-a880-e3e09978c496"
+            ],
+            "Id": "b86f9cec-1810-4119-b371-d1da04f810b1",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Я тебе это припомню, когда ты будешь за 
+решеткой"
+            },
+            "X": 342,
+            "Title": "",
+            "Y": -1,
+            "Relations": [
+                "5b1248ca-0981-4b1b-8443-98788ec00a62"
+            ],
+            "Id": "493e27fa-0d80-42bc-8d78-de560f719c8a"
+        },
+        {
+            "Type": "command",
+            "Command": "mp npc despawn @e[mpid=damon]",
+            "X": 2648,
+            "Title": "",
+            "Y": 30,
+            "Id": "23936c7f-26b4-41d3-9f9f-7c0223991561"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "*Плевок*"
+            },
+            "X": 54,
+            "Title": "",
+            "Y": -66,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/demon.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RX": -0.13962634f,
+                        "RY": 0.296706f
+                    },
+                    "left_arm": {
+                    },
+                    "low_right_arm": {
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Animation": "default_3d",
+                "Name": "emoticons.default_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "387bacd8-da9d-45b7-9db0-9a571b826aa4",
+                "7e84fb29-5441-42db-99ed-4dfecd9cdd04",
+                "493e27fa-0d80-42bc-8d78-de560f719c8a"
+            ],
+            "Id": "3dc95fcb-9ea2-496d-b556-d68f4e85e2be",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "..."
+            },
+            "X": 1123,
+            "Title": "",
+            "Y": -166,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/demon.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RX": 0.31415927f,
+                        "RY": 0.5235988f
+                    },
+                    "left_arm": {
+                    },
+                    "low_right_arm": {
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                        "RZ": 0.2617994f
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b,
+                    "Duration": 20
+                },
+                "Animation": "default_3d",
+                "Name": "emoticons.default_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "fbdaf8ce-ed16-40cc-815e-9fe7c58523aa"
+            ],
+            "Id": "01dba393-7188-4ee6-898f-acecd8657ed1",
+            "Marker": ""
+        },
+        {
+            "Type": "command",
+            "Command": "/modelblock morph 2299 18 -1770 {Label:\"[aОтправиться домой\",AnchorY:27.06f,AnchorX:0.0f,Name:\"label\"}",
+            "X": 2386,
+            "Title": "",
+            "Y": 293,
+            "Id": "42ff7e45-39ed-46e2-98e9-5c37083309ec"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ладно, разберемся в участке. Уоррен, пакуй его"
+            },
+            "X": 2427,
+            "Title": "",
+            "Y": -52,
+            "Relations": [
+                "d68db0a4-06d9-440b-a4d3-3638fce101f0",
+                "23936c7f-26b4-41d3-9f9f-7c0223991561",
+                "eedde4e1-cd55-45a4-b9af-87f18ea06da0",
+                "42ff7e45-39ed-46e2-98e9-5c37083309ec",
+                "4d7a866b-b57f-4216-a353-e25e70f4e009",
+                "f17dac41-4dc6-4db7-b0f1-40acd05a4dce",
+                "86981bf0-b1a8-47b3-80bf-7e7e4594fc42"
+            ],
+            "Id": "3440582c-fec4-4646-9654-6b40b04369cc"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Давно посылаешь ему угрозы?"
+            },
+            "X": 2008,
+            "Title": "",
+            "Y": -54,
+            "Relations": [
+                "934e83ab-9265-473a-ae7a-f0dfa594fccb"
+            ],
+            "Id": "40a94043-5e0f-481f-af26-9cdd1516c7ed"
         },
         {
             "Type": "reply",

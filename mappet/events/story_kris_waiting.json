@@ -19,7 +19,8 @@
             "Title": "",
             "Y": -180,
             "Relations": [
-                "becf1f8d-0cef-4229-9b35-29791355ba3b"
+                "becf1f8d-0cef-4229-9b35-29791355ba3b",
+                "f6b0c6e3-6254-4c31-9168-cf5d4d8de16b"
             ],
             "Id": "a6c3e8d4-b739-440b-baaf-48721adad831"
         },
@@ -33,6 +34,14 @@
                 "2b95622d-9ee9-4a74-afc5-208a2804b900"
             ],
             "Id": "d48d3fff-1aed-490d-8370-5cbaa52b1f67"
+        },
+        {
+            "Type": "command",
+            "Command": "/time set 12000",
+            "X": 194,
+            "Title": "",
+            "Y": -18,
+            "Id": "f6b0c6e3-6254-4c31-9168-cf5d4d8de16b"
         },
         {
             "Type": "command",

@@ -80,7 +80,8 @@
             "Y": 1989,
             "Relations": [
                 "91294697-0e31-451c-aee1-3ec03a56a222",
-                "fc6ed28f-e546-4a37-ae84-d1de2e7c6c39"
+                "fc6ed28f-e546-4a37-ae84-d1de2e7c6c39",
+                "ef964c0a-8f18-43bf-ab9b-addad7cc95c9"
             ],
             "Id": "0950e09f-ca8e-42f7-804c-29700ddae180"
         },
@@ -171,6 +172,14 @@
                 "4bfed816-e412-4e8d-919c-b8e3b81b5d60"
             ],
             "Id": "6145d264-6ba6-4516-b631-964929547802"
+        },
+        {
+            "Type": "command",
+            "Command": "time set 12500",
+            "X": -266,
+            "Title": "",
+            "Y": 2160,
+            "Id": "ef964c0a-8f18-43bf-ab9b-addad7cc95c9"
         }
     ]
 }

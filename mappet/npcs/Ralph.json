@@ -344,7 +344,7 @@
             "TriggerInteract": {
                 "Blocks": [
                     {
-                        "Dialogue": "Ralph",
+                        "Dialogue": "Ralph_street2",
                         "Type": "dialogue",
                         "CustomData": "",
                         "Frequency": 1

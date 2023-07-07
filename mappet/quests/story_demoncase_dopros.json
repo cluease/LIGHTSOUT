@@ -11,12 +11,12 @@
         "Blocks": [
             {
                 "Type": "command",
-                "Command": "/noppes npc Прохожий visible true",
+                "Command": "/execute @p ~ ~ ~ noppes npc Прохожий visible true",
                 "Frequency": 1
             },
             {
                 "Type": "command",
-                "Command": "/noppes npc Клара visible true",
+                "Command": "/execute @p ~ ~ ~ noppes npc Клара visible true",
                 "Frequency": 1
             }
         ]

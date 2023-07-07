@@ -72,7 +72,8 @@
             "Y": 15,
             "Relations": [
                 "f2d53efb-127c-4ca0-80a8-6bb81e3233b3",
-                "ebbdfd2e-11ba-4671-98a8-331265310d66"
+                "ebbdfd2e-11ba-4671-98a8-331265310d66",
+                "703c8f64-a42b-4a43-aeb9-3c1a8023b0e5"
             ],
             "Id": "2f80f6bd-a199-4239-be2f-9a7a9770110c"
         },
@@ -83,6 +84,14 @@
             "Title": "тп в сон",
             "Y": 120,
             "Id": "ebbdfd2e-11ba-4671-98a8-331265310d66"
+        },
+        {
+            "Type": "command",
+            "Command": "time set day",
+            "X": 1406,
+            "Title": "",
+            "Y": 284,
+            "Id": "703c8f64-a42b-4a43-aeb9-3c1a8023b0e5"
         },
         {
             "Condition": {
@@ -98,12 +107,14 @@
                             "Selector": ""
                         },
                         {
-                            "Not": 1b,
-                            "Target": 1,
-                            "Type": "dialogue",
+                            "Not": 0b,
+                            "Target": 2,
+                            "Type": "state",
                             "Or": 0b,
-                            "Id": "bed",
-                            "Marker": "day2",
+                            "Comparison": 2,
+                            "Expression": "0",
+                            "Value": 0.0d,
+                            "Id": "day2",
                             "Selector": ""
                         }
                     ]

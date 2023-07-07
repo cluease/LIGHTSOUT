@@ -1,5 +1,5 @@
 {
-    "Closable": 1b,
+    "Closable": 0b,
     "Main": "37568490-9dd2-4b1f-9fc0-b7d98ca66450",
     "OnClose": {
         "Blocks": [
@@ -18,7 +18,8 @@
             "Relations": [
                 "e6fce68e-c810-4b3d-a949-72faa4aef726",
                 "814757fb-95be-4d26-b8b5-8997ccb95801",
-                "3d675e66-cf73-4910-883a-8b5091573d2d"
+                "3d675e66-cf73-4910-883a-8b5091573d2d",
+                "5567ee01-80bd-4c53-aab5-faa869346c83"
             ],
             "Id": "180cd6e7-4f9a-41e5-93ab-db6a106750d2"
         },
@@ -45,6 +46,14 @@
                 "e4ce9592-964a-4e0f-af75-3bf91dc1a662"
             ],
             "Id": "a413dc47-1f6a-4d6c-b040-0df18cfec83f"
+        },
+        {
+            "Type": "command",
+            "Command": "/time set 12900",
+            "X": 1868,
+            "Title": "",
+            "Y": -316,
+            "Id": "5567ee01-80bd-4c53-aab5-faa869346c83"
         },
         {
             "Read": 0b,

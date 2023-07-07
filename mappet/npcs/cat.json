@@ -11,7 +11,7 @@
                     {
                         "Type": "command",
                         "Command": "/playsound minecraft:entity.cat.purreow block @p",
-                        "Frequency": 3
+                        "Frequency": 180
                     }
                 ]
             },
@@ -49,6 +49,12 @@
                     {
                         "Type": "command",
                         "Command": "/playsound minecraft:entity.cat.ambient block @p",
+                        "Frequency": 1
+                    },
+                    {
+                        "Dialogue": "cat",
+                        "Type": "dialogue",
+                        "CustomData": "",
                         "Frequency": 1
                     }
                 ]
