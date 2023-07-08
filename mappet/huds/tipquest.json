@@ -1,0 +1,21 @@
+{
+    "Hide": 0b,
+    "Fov": 80.25f,
+    "Morphs": [
+        {
+            "Expire": 0,
+            "Ortho": 0b,
+            "Morph": {
+                "Texture": "b.a:image/skins/tipquest.png",
+                "Name": "blockbuster.image"
+            },
+            "OrthoY": 0.0f,
+            "OrthoX": 0.0f,
+            "Translate": [
+                0.0f,
+                1.1f,
+                1.5f
+            ]
+        }
+    ]
+}

@@ -181,7 +181,7 @@
         },
         {
             "Type": "command",
-            "Command": "tp @p 2286 23 -1697",
+            "Command": "tp @p 426 88 -2000",
             "X": 713,
             "Title": "",
             "Y": -1470,
@@ -226,7 +226,8 @@
             "Title": "",
             "Y": -303,
             "Relations": [
-                "a3ec4d40-72ee-4805-9f67-00a5d0c4b1e5"
+                "a3ec4d40-72ee-4805-9f67-00a5d0c4b1e5",
+                "40414303-9c8f-4cbf-beb4-74884af7d694"
             ],
             "Id": "17253ae4-94cf-4e2b-9fec-dae17918d9a7"
         },
@@ -242,7 +243,7 @@
             "Type": "reply",
             "Message": {
                 "Color": 16777215,
-                "Text": "(Отправиться на улицу Солти)"
+                "Text": "(Отправиться на улицу Баннивэй)"
             },
             "X": 550,
             "Title": "",
@@ -459,6 +460,14 @@
         },
         {
             "Type": "command",
+            "Command": "weather clear",
+            "X": 1197,
+            "Title": "",
+            "Y": -18,
+            "Id": "40414303-9c8f-4cbf-beb4-74884af7d694"
+        },
+        {
+            "Type": "command",
             "Command": "tp @p 2367 20 -1719",
             "X": 986,
             "Title": "",
@@ -484,7 +493,7 @@
         {
             "Type": "reply",
             "Message": {
-                "Color": 16777215,
+                "Color": 10725033,
                 "Text": "(Выйти во двор)"
             },
             "X": 548,

@@ -13,6 +13,11 @@
                 "Type": "command",
                 "Command": "mp quest accept @p story_case1_2",
                 "Frequency": 1
+            },
+            {
+                "Type": "command",
+                "Command": "/mp hud setup @p tipquest ",
+                "Frequency": 1
             }
         ]
     },

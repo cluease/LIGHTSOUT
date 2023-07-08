@@ -7,6 +7,192 @@
     },
     "Nodes": [
         {
+            "Type": "command",
+            "Command": "/tellraw @p {\"text\":\"+ \\u041f\\u0440\\u0430\\u0432\\u043e\\u043d\\u0430\\u0440\\u0443\\u0448\\u0435\\u043d\\u0438\\u0435\",\"color\":\"red\"}",
+            "X": 345,
+            "Title": "",
+            "Y": 545,
+            "Id": "24f34209-d9ad-4895-87bf-63fefb037445"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 2,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "damon_dopros",
+                            "Marker": "damon1",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": -7,
+            "Title": "",
+            "Y": 312,
+            "Relations": [
+                "921fea17-48ab-4f90-ab3f-961d08edea26",
+                "0731a6de-545b-4701-8581-fd560dae7b27"
+            ],
+            "Id": "2258b889-fc86-47f5-8c75-3a1c2a5f8b5c"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 2,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "damon_dopros",
+                            "Marker": "damon2",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": -5,
+            "Title": "",
+            "Y": 52,
+            "Relations": [
+                "f7940f49-d826-4a73-b8cd-c59fff2678ed"
+            ],
+            "Id": "1ca2d3dc-c7f3-43d4-8e11-c1a515421566"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Target": {
+                            "Target": 4,
+                            "Selector": ""
+                        },
+                        "Type": "state",
+                        "State": "Закон",
+                        "Mode": 0,
+                        "Value": 1.0d,
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": 629,
+            "CustomData": "",
+            "Title": "+Закон",
+            "Y": -33,
+            "Id": "2557ff1e-7d35-4272-b217-cf32a139b2f8"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ему удалось оправдаться, а весомых аргументов для того, чтобы посадить его за решетку я не нашла, так что отпускай его"
+            },
+            "X": 232,
+            "Title": "Пообещали не сажать (Нет) +Правонарушение",
+            "Y": 390,
+            "Relations": [
+                "d7c7d948-9323-447e-a86e-4fe1452a25c3",
+                "63df6c70-5b27-4db1-86cc-b60b964c899f",
+                "24f34209-d9ad-4895-87bf-63fefb037445",
+                "e97fb81a-db28-4a8e-bb96-4f75928a5f61"
+            ],
+            "Id": "0731a6de-545b-4701-8581-fd560dae7b27"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Target": {
+                            "Target": 4,
+                            "Selector": ""
+                        },
+                        "Type": "state",
+                        "State": "Правонарушение",
+                        "Mode": 0,
+                        "Value": 1.0d,
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": 344,
+            "CustomData": "",
+            "Title": "+Правонарушение",
+            "Y": 689,
+            "Id": "e97fb81a-db28-4a8e-bb96-4f75928a5f61"
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p {\"text\":\"+ \\u0417\\u0430\\u043a\\u043e\\u043d\",\"color\":\"blue\"}",
+            "X": 632,
+            "Title": "",
+            "Y": -186,
+            "Id": "2c7c152f-baa9-446f-aab5-0fa13d080c25"
+        },
+        {
+            "Type": "command",
+            "Command": "/mp npc summon click doprosexit 1062 137 -2874",
+            "X": 693,
+            "Title": "",
+            "Y": 138,
+            "Id": "63df6c70-5b27-4db1-86cc-b60b964c899f"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Condition": {
+                                "Blocks": [
+                                    {
+                                        "Not": 1b,
+                                        "Target": 2,
+                                        "Type": "dialogue",
+                                        "Or": 0b,
+                                        "Id": "police_assistant",
+                                        "Marker": "yes1",
+                                        "Selector": ""
+                                    },
+                                    {
+                                        "Not": 1b,
+                                        "Target": 2,
+                                        "Type": "dialogue",
+                                        "Or": 1b,
+                                        "Id": "police_assistant",
+                                        "Marker": "yes2",
+                                        "Selector": ""
+                                    }
+                                ]
+                            },
+                            "Not": 0b,
+                            "Type": "condition",
+                            "Or": 0b
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": -413,
+            "Title": "",
+            "Y": 171,
+            "Relations": [
+                "503d3647-9b65-4830-b068-a37fae08c502"
+            ],
+            "Id": "9a3b6d6c-56c6-40db-9446-2652c1d3b0a0"
+        },
+        {
             "Type": "reply",
             "Message": {
                 "Color": 16777215,
@@ -17,7 +203,9 @@
             "Y": -77,
             "Relations": [
                 "7529dcd9-033c-48f4-b6d3-260eb1f454ab",
-                "63df6c70-5b27-4db1-86cc-b60b964c899f"
+                "63df6c70-5b27-4db1-86cc-b60b964c899f",
+                "2557ff1e-7d35-4272-b217-cf32a139b2f8",
+                "2c7c152f-baa9-446f-aab5-0fa13d080c25"
             ],
             "Id": "f7940f49-d826-4a73-b8cd-c59fff2678ed"
         },
@@ -143,70 +331,19 @@
             "Marker": "yes2"
         },
         {
-            "Condition": {
-                "Condition": {
-                    "Blocks": [
-                        {
-                            "Not": 0b,
-                            "Target": 2,
-                            "Type": "dialogue",
-                            "Or": 0b,
-                            "Id": "damon_dopros",
-                            "Marker": "damon1",
-                            "Selector": ""
-                        }
-                    ]
-                },
-                "Mode": 1
-            },
-            "Type": "condition",
-            "X": -7,
-            "Title": "",
-            "Y": 312,
-            "Relations": [
-                "921fea17-48ab-4f90-ab3f-961d08edea26",
-                "0731a6de-545b-4701-8581-fd560dae7b27"
-            ],
-            "Id": "2258b889-fc86-47f5-8c75-3a1c2a5f8b5c"
-        },
-        {
-            "Condition": {
-                "Condition": {
-                    "Blocks": [
-                        {
-                            "Not": 0b,
-                            "Target": 2,
-                            "Type": "dialogue",
-                            "Or": 0b,
-                            "Id": "damon_dopros",
-                            "Marker": "damon2",
-                            "Selector": ""
-                        }
-                    ]
-                },
-                "Mode": 1
-            },
-            "Type": "condition",
-            "X": -5,
-            "Title": "",
-            "Y": 52,
-            "Relations": [
-                "f7940f49-d826-4a73-b8cd-c59fff2678ed"
-            ],
-            "Id": "1ca2d3dc-c7f3-43d4-8e11-c1a515421566"
-        },
-        {
             "Type": "reply",
             "Message": {
                 "Color": 16777215,
                 "Text": "Да"
             },
             "X": 240,
-            "Title": "Если пообещали не сажать (Да) +Закон",
+            "Title": "Пообещали не сажать (Да) +Закон",
             "Y": 174,
             "Relations": [
                 "7529dcd9-033c-48f4-b6d3-260eb1f454ab",
-                "63df6c70-5b27-4db1-86cc-b60b964c899f"
+                "63df6c70-5b27-4db1-86cc-b60b964c899f",
+                "2557ff1e-7d35-4272-b217-cf32a139b2f8",
+                "2c7c152f-baa9-446f-aab5-0fa13d080c25"
             ],
             "Id": "921fea17-48ab-4f90-ab3f-961d08edea26"
         },
@@ -295,73 +432,6 @@
             "Sound": "",
             "Id": "7529dcd9-033c-48f4-b6d3-260eb1f454ab",
             "Marker": "yes1"
-        },
-        {
-            "Type": "reply",
-            "Message": {
-                "Color": 16777215,
-                "Text": "Ему удалось оправдаться, а весомых аргументов для того, чтобы посадить его за решетку я не нашла, так что отпускай его"
-            },
-            "X": 232,
-            "Title": "",
-            "Y": 390,
-            "Relations": [
-                "d7c7d948-9323-447e-a86e-4fe1452a25c3",
-                "63df6c70-5b27-4db1-86cc-b60b964c899f"
-            ],
-            "Id": "0731a6de-545b-4701-8581-fd560dae7b27"
-        },
-        {
-            "Type": "command",
-            "Command": "/mp npc summon click doprosexit 1062 137 -2874",
-            "X": 693,
-            "Title": "",
-            "Y": 138,
-            "Id": "63df6c70-5b27-4db1-86cc-b60b964c899f"
-        },
-        {
-            "Condition": {
-                "Condition": {
-                    "Blocks": [
-                        {
-                            "Condition": {
-                                "Blocks": [
-                                    {
-                                        "Not": 1b,
-                                        "Target": 2,
-                                        "Type": "dialogue",
-                                        "Or": 0b,
-                                        "Id": "police_assistant",
-                                        "Marker": "yes1",
-                                        "Selector": ""
-                                    },
-                                    {
-                                        "Not": 1b,
-                                        "Target": 2,
-                                        "Type": "dialogue",
-                                        "Or": 1b,
-                                        "Id": "police_assistant",
-                                        "Marker": "yes2",
-                                        "Selector": ""
-                                    }
-                                ]
-                            },
-                            "Not": 0b,
-                            "Type": "condition",
-                            "Or": 0b
-                        }
-                    ]
-                },
-                "Mode": 1
-            },
-            "Type": "condition",
-            "X": -413,
-            "Title": "",
-            "Y": 171,
-            "Relations": [
-                "503d3647-9b65-4830-b068-a37fae08c502"
-            ],
-            "Id": "9a3b6d6c-56c6-40db-9446-2652c1d3b0a0"
         }
     ]
 }

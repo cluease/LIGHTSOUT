@@ -16,7 +16,7 @@
             "Title": "",
             "Y": 904,
             "Relations": [
-                "be3e11fe-dab5-41e2-bdc1-08915c099781"
+                "59565f3b-1b9c-4289-b0e9-4f61c5066eb5"
             ],
             "Id": "9bf2d430-dc50-4968-a73a-c45e2a853b3b"
         },
@@ -40,11 +40,27 @@
         },
         {
             "Type": "command",
+            "Command": "mp faction add @p karina 0",
+            "X": -370,
+            "Title": "",
+            "Y": 326,
+            "Id": "f77c0196-f4a2-4ce5-b9ae-288790e64203"
+        },
+        {
+            "Type": "command",
             "Command": "mp faction add @p karina 1",
             "X": 458,
             "Title": "",
             "Y": 318,
             "Id": "e7db4bf3-c8d2-4995-b1a6-92db130b63bb"
+        },
+        {
+            "Type": "command",
+            "Command": "/mp hud setup BlobikQ tiprelationship",
+            "X": 255,
+            "Title": "",
+            "Y": 1006,
+            "Id": "59565f3b-1b9c-4289-b0e9-4f61c5066eb5"
         },
         {
             "Type": "reply",
@@ -87,7 +103,8 @@
             "Y": 768,
             "Sound": "",
             "Relations": [
-                "9bf2d430-dc50-4968-a73a-c45e2a853b3b"
+                "9bf2d430-dc50-4968-a73a-c45e2a853b3b",
+                "00713036-7d17-4537-8079-851ac72c255c"
             ],
             "Id": "71b5e23f-6572-48fa-8c23-f39ebdea92dd",
             "Marker": ""
@@ -133,7 +150,8 @@
             "Title": "",
             "Y": 310,
             "Relations": [
-                "7a0f2cf4-4f0a-4b27-8940-d4e90d8baa86"
+                "7a0f2cf4-4f0a-4b27-8940-d4e90d8baa86",
+                "f77c0196-f4a2-4ce5-b9ae-288790e64203"
             ],
             "Id": "36545109-679d-4dd5-a88a-904a01f6e653"
         },
@@ -265,6 +283,14 @@
                 "e56a0941-7473-451a-bdf6-b07be1c5d66b"
             ],
             "Id": "5c01027a-d82e-44c4-8c64-e4c901fb08f3"
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p {\"text\":\"\\u041a\\u0430\\u0440\\u0438\\u043d\\u0435 \\u043d\\u0435 \\u043f\\u043e\\u043d\\u0440\\u0430\\u0432\\u0438\\u043b\\u0441\\u044f \\u0432\\u0430\\u0448 \\u0442\\u043e\\u043d\",\"color\":\"red\"}",
+            "X": -301,
+            "Title": "",
+            "Y": 918,
+            "Id": "00713036-7d17-4537-8079-851ac72c255c"
         },
         {
             "Read": 0b,

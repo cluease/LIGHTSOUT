@@ -1,0 +1,21 @@
+{
+    "ScriptEnabled": 1b,
+    "ScriptConsole": [
+    ],
+    "Scripts": [
+        {
+            "Script": "function keyPressed(event)
+{
+if (event.key == 33)
+{
+event.API.executeCommand(event.player.world,'/mp hud close @p')
+}
+}",
+            "Console": [
+            ],
+            "ScriptList": [
+            ]
+        }
+    ],
+    "ScriptLanguage": "ECMAScript"
+}

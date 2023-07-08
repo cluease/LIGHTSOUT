@@ -44,7 +44,7 @@
         },
         {
             "Type": "command",
-            "Command": "tp @p 373 91 -1263",
+            "Command": "tp @p 374 95 -1281",
             "X": 372,
             "Title": "",
             "Y": -140,

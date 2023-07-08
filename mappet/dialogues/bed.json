@@ -7,6 +7,14 @@
     },
     "Nodes": [
         {
+            "Type": "command",
+            "Command": "/morph @p emoticons.slim {Placeholder:{Skin:\"b.a:alex/skins/nort_casual.png\",Settings:{Hands:1b},Name:\"blockbuster.alex_3d\"},UserData:{Meshes:{body:{Filtering:\"nearest\",Normals:1b,Lighting:1b,Color:16777215,Smooth:1b,Visible:1b,Texture:\"b.a:alex/skins/nort_casual.png\"}}},Animation:\"slim\"}",
+            "X": 1406,
+            "Title": "",
+            "Y": -284,
+            "Id": "7067aea1-1dd2-46c7-9784-fb76194210d3"
+        },
+        {
             "Type": "reply",
             "Message": {
                 "Color": 16777215,
@@ -28,7 +36,7 @@
                 "Text": "Вы ложитесь в кровать"
             },
             "X": 160,
-            "Title": "",
+            "Title": "ДЕНЬ 1 КОНЕЦ",
             "Y": 12,
             "Sound": "",
             "Relations": [
@@ -71,6 +79,7 @@
             "Title": "",
             "Y": 15,
             "Relations": [
+                "7067aea1-1dd2-46c7-9784-fb76194210d3",
                 "f2d53efb-127c-4ca0-80a8-6bb81e3233b3",
                 "ebbdfd2e-11ba-4671-98a8-331265310d66",
                 "703c8f64-a42b-4a43-aeb9-3c1a8023b0e5"
@@ -122,7 +131,7 @@
                 "Mode": 1
             },
             "Type": "condition",
-            "X": -52,
+            "X": -50,
             "Title": "",
             "Y": 12,
             "Relations": [

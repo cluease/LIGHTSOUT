@@ -333,6 +333,11 @@
                         "CustomData": "",
                         "Frequency": 1,
                         "Event": "story_norttomhome_window"
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "weather rain",
+                        "Frequency": 1
                     }
                 ]
             },

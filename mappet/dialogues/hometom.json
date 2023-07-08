@@ -184,6 +184,14 @@
         },
         {
             "Type": "command",
+            "Command": "/mp hud setup @p tipstats",
+            "X": -226,
+            "Title": "",
+            "Y": 2450,
+            "Id": "d556b6a5-0cae-4df4-9e3c-8dd5ff3ab7a3"
+        },
+        {
+            "Type": "command",
             "Command": "mp faction add @p tom 1",
             "X": -307,
             "Title": "",
@@ -326,7 +334,9 @@
             "Y": 2279,
             "Relations": [
                 "c3a203b8-bcbe-4137-8193-effce2722cb9",
-                "096e63dc-e0d3-409c-a3dd-5b916ef738f9"
+                "096e63dc-e0d3-409c-a3dd-5b916ef738f9",
+                "d556b6a5-0cae-4df4-9e3c-8dd5ff3ab7a3",
+                "12b3c0c1-81a9-4ac1-bda5-99f781e47094"
             ],
             "Id": "e2f04c35-fbd0-4f5e-8270-becf4d841e46"
         },
@@ -361,6 +371,14 @@
             "Title": "+Закон",
             "Y": 2014,
             "Id": "52c800b2-e1be-48ce-9778-b6b47794abaa"
+        },
+        {
+            "Type": "command",
+            "Command": "/playsound minecraft:block.note.chime block @p",
+            "X": 208,
+            "Title": "",
+            "Y": 2523,
+            "Id": "12b3c0c1-81a9-4ac1-bda5-99f781e47094"
         },
         {
             "Type": "reply",
