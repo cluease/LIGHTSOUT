@@ -26,9 +26,9 @@
                 "Color": 16777215,
                 "Text": "(Отправиться на встречу с Кристиной)"
             },
-            "X": 611,
+            "X": 631,
             "Title": "",
-            "Y": -1245,
+            "Y": -1572,
             "Relations": [
                 "f490848e-7a20-4806-bd02-184fa3a492e4"
             ],
@@ -41,6 +41,14 @@
             "Title": "",
             "Y": -167,
             "Id": "c82532ac-e070-41d7-94e8-b613dc7d9b6d"
+        },
+        {
+            "Type": "command",
+            "Command": "/morph @p emoticons.slim {Placeholder:{Skin:\"b.a:alex/skins/Nort_Police.png\",Settings:{Hands:1b},Name:\"blockbuster.alex_3d\"},UserData:{Meshes:{body:{Filtering:\"nearest\",Normals:1b,Lighting:1b,Color:16777215,Smooth:1b,Visible:1b,Texture:\"b.a:alex/skins/Nort_Police.png\"}}},Animation:\"slim\"}",
+            "X": 1030,
+            "Title": "морф в полицейскую форму",
+            "Y": -784,
+            "Id": "a79c60f6-01c2-4919-825e-7428101ce61e"
         },
         {
             "Condition": {
@@ -208,9 +216,9 @@
                 "Mode": 1
             },
             "Type": "condition",
-            "X": 380,
+            "X": 400,
             "Title": "",
-            "Y": -1229,
+            "Y": -1556,
             "Relations": [
                 "229397a4-047f-4a92-8083-f438c76ffe4d"
             ],
@@ -349,7 +357,8 @@
             "Y": -790,
             "Relations": [
                 "139cf880-0780-4472-9fad-f9d54939e2cf",
-                "7414a2f9-067c-4738-b53f-5e788f67fdd8"
+                "7414a2f9-067c-4738-b53f-5e788f67fdd8",
+                "a79c60f6-01c2-4919-825e-7428101ce61e"
             ],
             "Id": "f21a74be-3b72-4a62-b581-5345b9c070d4"
         },
@@ -600,17 +609,17 @@
                 "Color": 16777215,
                 "Text": "(Сразу отправиться в лес)"
             },
-            "X": 609,
+            "X": 611,
             "Title": "если не согласились с ральфом",
-            "Y": -1031,
+            "Y": -1132,
             "Id": "abe0e58d-fc4c-4d37-966e-d1fb01bc570a"
         },
         {
             "Type": "command",
             "Command": "tp @p 2313 20 -1720",
-            "X": 824,
+            "X": 844,
             "Title": "",
-            "Y": -1247,
+            "Y": -1574,
             "Id": "f490848e-7a20-4806-bd02-184fa3a492e4"
         }
     ]

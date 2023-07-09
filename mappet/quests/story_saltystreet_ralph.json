@@ -39,22 +39,23 @@
     "Objectives": [
         {
             "Type": "state",
-            "Message": "Опросите жителей города",
+            "Message": "Найдите незнакомца и расспросите его",
             "Expression": {
                 "Condition": {
                     "Blocks": [
                         {
                             "Not": 0b,
-                            "Target": 4,
-                            "Type": "dialogue",
+                            "Target": 0,
+                            "Type": "state",
                             "Or": 0b,
-                            "Id": "Ralph_street2",
-                            "Marker": "hintralph",
+                            "Comparison": 2,
+                            "Expression": "",
+                            "Value": 1.0d,
+                            "Id": "hintralph",
                             "Selector": ""
                         }
                     ]
                 },
-                "Expression": "dialogue_read(\"...\", subject)",
                 "Mode": 1
             },
             "Result": 0b

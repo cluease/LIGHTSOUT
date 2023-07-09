@@ -133,6 +133,30 @@
             "Id": "e97fb81a-db28-4a8e-bb96-4f75928a5f61"
         },
         {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Target": {
+                            "Target": 0,
+                            "Selector": ""
+                        },
+                        "Type": "state",
+                        "State": "police_assistant",
+                        "Mode": 1,
+                        "Value": 1.0d,
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": 732,
+            "CustomData": "",
+            "Title": "",
+            "Y": 350,
+            "Id": "c58d136d-d46d-4c75-af8d-cdb6333e5f36"
+        },
+        {
             "Type": "command",
             "Command": "/tellraw @p {\"text\":\"+ \\u0417\\u0430\\u043a\\u043e\\u043d\",\"color\":\"blue\"}",
             "X": 632,
@@ -153,38 +177,22 @@
                 "Condition": {
                     "Blocks": [
                         {
-                            "Condition": {
-                                "Blocks": [
-                                    {
-                                        "Not": 1b,
-                                        "Target": 2,
-                                        "Type": "dialogue",
-                                        "Or": 0b,
-                                        "Id": "police_assistant",
-                                        "Marker": "yes1",
-                                        "Selector": ""
-                                    },
-                                    {
-                                        "Not": 1b,
-                                        "Target": 2,
-                                        "Type": "dialogue",
-                                        "Or": 1b,
-                                        "Id": "police_assistant",
-                                        "Marker": "yes2",
-                                        "Selector": ""
-                                    }
-                                ]
-                            },
                             "Not": 0b,
-                            "Type": "condition",
-                            "Or": 0b
+                            "Target": 0,
+                            "Type": "state",
+                            "Or": 0b,
+                            "Comparison": 2,
+                            "Expression": "",
+                            "Value": 0.0d,
+                            "Id": "police_assistant",
+                            "Selector": ""
                         }
                     ]
                 },
                 "Mode": 1
             },
             "Type": "condition",
-            "X": -413,
+            "X": -416,
             "Title": "",
             "Y": 171,
             "Relations": [
@@ -245,7 +253,7 @@
             "Marker": ""
         },
         {
-            "Read": 1b,
+            "Read": 0b,
             "Type": "reaction",
             "Message": {
                 "Color": 16777215,
@@ -327,8 +335,11 @@
                 "Name": "emoticons.slim_simple_plus"
             },
             "Sound": "",
+            "Relations": [
+                "c58d136d-d46d-4c75-af8d-cdb6333e5f36"
+            ],
             "Id": "d7c7d948-9323-447e-a86e-4fe1452a25c3",
-            "Marker": "yes2"
+            "Marker": ""
         },
         {
             "Type": "reply",
@@ -348,7 +359,7 @@
             "Id": "921fea17-48ab-4f90-ab3f-961d08edea26"
         },
         {
-            "Read": 1b,
+            "Read": 0b,
             "Type": "reaction",
             "Message": {
                 "Color": 16777215,
@@ -430,8 +441,11 @@
                 "Name": "emoticons.slim_simple_plus"
             },
             "Sound": "",
+            "Relations": [
+                "c58d136d-d46d-4c75-af8d-cdb6333e5f36"
+            ],
             "Id": "7529dcd9-033c-48f4-b6d3-260eb1f454ab",
-            "Marker": "yes1"
+            "Marker": ""
         }
     ]
 }

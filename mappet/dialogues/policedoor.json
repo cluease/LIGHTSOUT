@@ -47,8 +47,7 @@
             "Sound": "",
             "Relations": [
                 "d537501b-2151-463f-9faf-c54d21dac7e0",
-                "7652b38c-44f5-4746-8445-a42922991a5e",
-                "18b7b4e7-b5d5-4cb1-abc9-dba3a5f19abc"
+                "7652b38c-44f5-4746-8445-a42922991a5e"
             ],
             "Id": "f1a56346-a1c4-4b6b-8970-6352fbf57972",
             "Marker": ""
@@ -122,16 +121,17 @@
                 "a2e40e45-8537-44d8-8722-803d11c2841e",
                 "6a2b84c6-72df-4c84-b937-9a7bd04cdf7c",
                 "bcea44a7-fe28-4d9e-82e0-e92467c4fa2b",
-                "c0604a9c-42ca-4a6c-9a69-89f437625318"
+                "c0604a9c-42ca-4a6c-9a69-89f437625318",
+                "18b7b4e7-b5d5-4cb1-abc9-dba3a5f19abc"
             ],
             "Id": "28703821-e5e0-4c40-9f77-7de8d2cb89d7"
         },
         {
             "Type": "command",
-            "Command": "/mp npc despawn @e[mpid=Warren1]",
-            "X": -90,
+            "Command": "/mp npc despawn @e[mpid=warren1]",
+            "X": 252,
             "Title": "",
-            "Y": 157,
+            "Y": 327,
             "Id": "18b7b4e7-b5d5-4cb1-abc9-dba3a5f19abc"
         },
         {

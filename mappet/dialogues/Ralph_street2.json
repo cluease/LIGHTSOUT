@@ -7,7 +7,7 @@
     },
     "Nodes": [
         {
-            "Read": 1b,
+            "Read": 0b,
             "Type": "reaction",
             "Message": {
                 "Color": 16777215,
@@ -83,10 +83,11 @@
             },
             "Sound": "",
             "Relations": [
-                "3361d80a-ec02-4dbd-acfb-ff665e4c1d98"
+                "3361d80a-ec02-4dbd-acfb-ff665e4c1d98",
+                "4fd2eebf-28b0-4cfb-8b3a-64e62a48c2a2"
             ],
             "Id": "797c2f60-7735-40b0-9538-a62b64c5c76e",
-            "Marker": "hintralph"
+            "Marker": ""
         },
         {
             "Read": 0b,
@@ -503,6 +504,30 @@
             "Marker": ""
         },
         {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Target": {
+                            "Target": 0,
+                            "Selector": ""
+                        },
+                        "Type": "state",
+                        "State": "hintralph",
+                        "Mode": 1,
+                        "Value": 1.0d,
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": 2021,
+            "CustomData": "",
+            "Title": "стейт ральф",
+            "Y": -255,
+            "Id": "4fd2eebf-28b0-4cfb-8b3a-64e62a48c2a2"
+        },
+        {
             "Read": 0b,
             "Type": "reaction",
             "Message": {
@@ -526,7 +551,7 @@
                     "Blocks": [
                         {
                             "Not": 0b,
-                            "Target": 2,
+                            "Target": 4,
                             "Type": "quest",
                             "Or": 0b,
                             "Id": "story_demoncase_dopros",
