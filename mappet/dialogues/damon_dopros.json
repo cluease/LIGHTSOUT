@@ -435,7 +435,7 @@
         },
         {
             "Type": "command",
-            "Command": "mp quest accept story_saltystreet_citizens",
+            "Command": "mp quest accept @p story_saltystreet_citizens",
             "X": 3454,
             "Title": "",
             "Y": 50,

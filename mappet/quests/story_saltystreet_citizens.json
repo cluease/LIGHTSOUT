@@ -16,7 +16,7 @@
             },
             {
                 "Type": "command",
-                "Command": "mp event trigger story_kris_message",
+                "Command": "mp event trigger @p story_kris_message",
                 "Frequency": 1
             }
         ]
@@ -56,7 +56,7 @@
                             "Type": "dialogue",
                             "Or": 0b,
                             "Id": "citizenlodki",
-                            "Marker": "lodki",
+                            "Marker": "hint3",
                             "Selector": ""
                         }
                     ]

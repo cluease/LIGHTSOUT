@@ -16,7 +16,7 @@
             },
             {
                 "Type": "command",
-                "Command": "mp event trigger story_kris_message @p",
+                "Command": "mp event trigger @p story_kris_message",
                 "Frequency": 1
             },
             {

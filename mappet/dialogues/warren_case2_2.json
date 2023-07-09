@@ -162,7 +162,7 @@
             "Id": "44cfa6da-e4ae-45db-aac4-ecc1a3b9d014"
         },
         {
-            "Read": 1b,
+            "Read": 0b,
             "Type": "reaction",
             "Message": {
                 "Color": 16777215,
@@ -172,8 +172,11 @@
             "Title": "",
             "Y": 177,
             "Sound": "",
+            "Relations": [
+                "df6c87ea-d316-4a61-8d27-08b521f17d74"
+            ],
             "Id": "d499fbba-5722-48f8-bc04-3a09802b3cd7",
-            "Marker": "warrencase2_2"
+            "Marker": ""
         },
         {
             "Type": "reply",
@@ -229,7 +232,7 @@
             "Id": "e45603da-679c-4dee-b50d-2b8fb83a17c9"
         },
         {
-            "Read": 1b,
+            "Read": 0b,
             "Type": "reaction",
             "Message": {
                 "Color": 16777215,
@@ -240,10 +243,11 @@
             "Y": -146,
             "Sound": "",
             "Relations": [
-                "f2421da3-8cbf-4c1a-ad68-9102698779bf"
+                "f2421da3-8cbf-4c1a-ad68-9102698779bf",
+                "df6c87ea-d316-4a61-8d27-08b521f17d74"
             ],
             "Id": "a5f111c1-57bf-4f79-8134-6e118d74d377",
-            "Marker": "warrencase2_1"
+            "Marker": ""
         },
         {
             "Type": "command",
@@ -290,7 +294,7 @@
             "Marker": ""
         },
         {
-            "Read": 1b,
+            "Read": 0b,
             "Type": "reaction",
             "Message": {
                 "Color": 16777215,
@@ -302,10 +306,11 @@
             "Y": -398,
             "Sound": "",
             "Relations": [
-                "f2421da3-8cbf-4c1a-ad68-9102698779bf"
+                "f2421da3-8cbf-4c1a-ad68-9102698779bf",
+                "df6c87ea-d316-4a61-8d27-08b521f17d74"
             ],
             "Id": "a3b0c204-20d4-4e14-aa9b-e22ee28cd291",
-            "Marker": "warrencase2_3"
+            "Marker": ""
         },
         {
             "Read": 0b,
@@ -357,6 +362,14 @@
                 "6b34b9a7-13da-43fc-8ffd-791f68dddebc"
             ],
             "Id": "17935bb3-4fde-4f2f-8c5d-a9cbfb6f510d"
+        },
+        {
+            "Type": "command",
+            "Command": "mp state set ~ warrencase2 1",
+            "X": 1970,
+            "Title": "",
+            "Y": -408,
+            "Id": "df6c87ea-d316-4a61-8d27-08b521f17d74"
         },
         {
             "Read": 0b,
@@ -519,30 +532,14 @@
                 "Condition": {
                     "Blocks": [
                         {
-                            "Not": 1b,
-                            "Target": 4,
-                            "Type": "dialogue",
+                            "Not": 0b,
+                            "Target": 0,
+                            "Type": "state",
                             "Or": 0b,
-                            "Id": "warren_case2_2",
-                            "Marker": "warrencase2_1",
-                            "Selector": ""
-                        },
-                        {
-                            "Not": 1b,
-                            "Target": 4,
-                            "Type": "dialogue",
-                            "Or": 1b,
-                            "Id": "warren_case2_2",
-                            "Marker": "warrencase2_2",
-                            "Selector": ""
-                        },
-                        {
-                            "Not": 1b,
-                            "Target": 4,
-                            "Type": "dialogue",
-                            "Or": 1b,
-                            "Id": "warren_case2_2",
-                            "Marker": "warrencase2_3",
+                            "Comparison": 2,
+                            "Expression": "",
+                            "Value": 0.0d,
+                            "Id": "warrencase2",
                             "Selector": ""
                         }
                     ]

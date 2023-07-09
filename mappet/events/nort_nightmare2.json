@@ -99,6 +99,14 @@
         },
         {
             "Type": "command",
+            "Command": "/effect @p minecraft:blindness 5 10 true",
+            "X": 371,
+            "Title": "",
+            "Y": 1821,
+            "Id": "71fb12f5-cb0d-406a-a78b-590ee1c89f76"
+        },
+        {
+            "Type": "command",
             "Command": "stopsound @p master customnpcs:songs.nightmare",
             "X": 201,
             "Title": "",
@@ -235,7 +243,7 @@
         },
         {
             "Type": "command",
-            "Command": "tp @p 368 102 -1288",
+            "Command": "tp @p 368 103 -1288",
             "X": -260,
             "Title": "тп на кровать",
             "Y": 2338,
@@ -259,7 +267,8 @@
             "Title": "",
             "Y": 1962,
             "Relations": [
-                "d0bfeae6-dd48-4b27-896a-1e6a557dc0c5"
+                "d0bfeae6-dd48-4b27-896a-1e6a557dc0c5",
+                "71fb12f5-cb0d-406a-a78b-590ee1c89f76"
             ],
             "Id": "d18fdc35-116f-47c0-aa0d-25d8e1f3560c"
         }

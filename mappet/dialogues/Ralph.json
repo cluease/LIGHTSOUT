@@ -485,6 +485,15 @@
                                         "Id": "victim2",
                                         "Marker": "strangeman",
                                         "Selector": ""
+                                    },
+                                    {
+                                        "Not": 1b,
+                                        "Target": 4,
+                                        "Type": "dialogue",
+                                        "Or": 0b,
+                                        "Id": "Ralph",
+                                        "Marker": "ifyes",
+                                        "Selector": ""
                                     }
                                 ]
                             },

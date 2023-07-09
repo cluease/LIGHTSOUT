@@ -110,6 +110,14 @@
             "Marker": ""
         },
         {
+            "Type": "command",
+            "Command": "/mp hud close @p",
+            "X": 277,
+            "Title": "",
+            "Y": -133,
+            "Id": "3871769c-caba-4e00-a112-40fb3d97f625"
+        },
+        {
             "Type": "reply",
             "Message": {
                 "Color": 16777215,
@@ -248,7 +256,8 @@
             },
             "Sound": "",
             "Relations": [
-                "5c01027a-d82e-44c4-8c64-e4c901fb08f3"
+                "5c01027a-d82e-44c4-8c64-e4c901fb08f3",
+                "3871769c-caba-4e00-a112-40fb3d97f625"
             ],
             "Id": "f0bf959d-8150-4c7c-b452-ae291e8c3faa",
             "Marker": ""

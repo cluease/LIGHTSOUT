@@ -18,7 +18,8 @@
             "Y": -32,
             "Sound": "",
             "Relations": [
-                "e6a80a99-9def-4467-b34a-e378b360340c"
+                "e6a80a99-9def-4467-b34a-e378b360340c",
+                "78b191cd-2ff6-4434-b1a4-55d32c705635"
             ],
             "Id": "31ba8df9-d3f0-416c-8911-17f4ba3ed9c6",
             "Marker": ""
@@ -126,7 +127,7 @@
                 "fbd5d652-5e09-47fe-921c-82181acbe7bb"
             ],
             "Id": "b248a9a0-f7fd-43e4-b392-e41147a9ff0c",
-            "Marker": "lodki"
+            "Marker": "hint3"
         },
         {
             "Type": "reply",
@@ -138,6 +139,29 @@
             "Title": "",
             "Y": -150,
             "Id": "16b79e03-f251-431e-b561-666f97c700b8"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 4,
+                            "Type": "quest",
+                            "Or": 0b,
+                            "Id": "story_saltystreet_citizens",
+                            "Quest": 1,
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 222,
+            "Title": "",
+            "Y": -290,
+            "Id": "78b191cd-2ff6-4434-b1a4-55d32c705635"
         },
         {
             "Read": 0b,

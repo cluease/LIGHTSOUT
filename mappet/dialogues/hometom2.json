@@ -51,7 +51,8 @@
             "Y": 366,
             "Relations": [
                 "1cf575bd-a3d8-4eff-9fc3-e671524fca47",
-                "5aa19e46-a9a3-4962-8f86-91874e0bc420"
+                "5aa19e46-a9a3-4962-8f86-91874e0bc420",
+                "d3ee51c3-4626-42db-ab80-9b6e410ab3dd"
             ],
             "Id": "b4320476-5cde-4f44-b94d-70d504145566"
         },
@@ -189,6 +190,14 @@
             ],
             "Id": "b77d67c8-27c5-4d51-82aa-a07561b7a8cf",
             "Marker": "tom3"
+        },
+        {
+            "Type": "command",
+            "Command": "time set night",
+            "X": 244,
+            "Title": "",
+            "Y": 277,
+            "Id": "d3ee51c3-4626-42db-ab80-9b6e410ab3dd"
         },
         {
             "Condition": {
