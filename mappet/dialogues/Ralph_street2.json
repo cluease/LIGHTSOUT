@@ -532,15 +532,33 @@
                             "Id": "story_demoncase_dopros",
                             "Quest": 2,
                             "Selector": ""
+                        },
+                        {
+                            "Not": 0b,
+                            "Target": 4,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "damon_dopros",
+                            "Marker": "damon1",
+                            "Selector": ""
+                        },
+                        {
+                            "Not": 0b,
+                            "Target": 4,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "Ralph",
+                            "Marker": "ifyes",
+                            "Selector": ""
                         }
                     ]
                 },
                 "Mode": 1
             },
             "Type": "condition",
-            "X": -95,
+            "X": -97,
             "Title": "",
-            "Y": -171,
+            "Y": -177,
             "Relations": [
                 "ddbcdd28-3872-47fc-b2bc-9e6ffce12a9f"
             ],

@@ -70,6 +70,30 @@
             "Id": "941a1258-38fb-4372-b8d7-eb25b923583e"
         },
         {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Target": {
+                            "Target": 0,
+                            "Selector": ""
+                        },
+                        "Type": "state",
+                        "State": "withralph",
+                        "Mode": 1,
+                        "Value": 1.0d,
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": 1524,
+            "CustomData": "",
+            "Title": "с ральфом",
+            "Y": -366,
+            "Id": "407943fe-5cce-42a1-9764-49b6a4d91736"
+        },
+        {
             "Type": "command",
             "Command": "tp @p 2078 4 -533",
             "X": 1526,
@@ -113,7 +137,8 @@
             "Y": -137,
             "Relations": [
                 "092b13e4-5ee3-4d22-ae56-bb1c88cd5161",
-                "c97b0769-52d1-401e-bb99-605c1e02ebe2"
+                "c97b0769-52d1-401e-bb99-605c1e02ebe2",
+                "407943fe-5cce-42a1-9764-49b6a4d91736"
             ],
             "Id": "ad881fba-2df5-4288-a9f4-b9edf48b75d4"
         },

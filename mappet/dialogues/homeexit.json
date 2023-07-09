@@ -175,7 +175,8 @@
             "Y": -85,
             "Relations": [
                 "64234d68-3f1a-40d3-888c-749fbd644b64",
-                "f8ed7c14-d638-4fd5-ae62-0e8e502e42b3"
+                "f8ed7c14-d638-4fd5-ae62-0e8e502e42b3",
+                "5718c7ef-4590-4fb6-a065-07d7845ec318"
             ],
             "Id": "dd1017ba-cb92-4c49-978c-85a309adaa20"
         },
@@ -291,9 +292,9 @@
                 "Color": 16777215,
                 "Text": "(Встретиться с незнакомцем на заправке)"
             },
-            "X": 612,
+            "X": 604,
             "Title": "если идете с ральфом",
-            "Y": -770,
+            "Y": -790,
             "Relations": [
                 "139cf880-0780-4472-9fad-f9d54939e2cf",
                 "7414a2f9-067c-4738-b53f-5e788f67fdd8"
@@ -342,6 +343,43 @@
                 "2d811e72-aed2-465c-a376-c7b6872b5004"
             ],
             "Id": "f8ed7c14-d638-4fd5-ae62-0e8e502e42b3"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 0,
+                            "Type": "state",
+                            "Or": 0b,
+                            "Comparison": 2,
+                            "Expression": "",
+                            "Value": 1.0d,
+                            "Id": "withralphh",
+                            "Selector": ""
+                        },
+                        {
+                            "Not": 0b,
+                            "Target": 4,
+                            "Type": "quest",
+                            "Or": 0b,
+                            "Id": "story_kris_4",
+                            "Quest": 2,
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 372,
+            "Title": "",
+            "Y": -767,
+            "Relations": [
+                "f21a74be-3b72-4a62-b581-5345b9c070d4"
+            ],
+            "Id": "5718c7ef-4590-4fb6-a065-07d7845ec318"
         },
         {
             "Type": "reply",
@@ -510,9 +548,9 @@
                 "Color": 16777215,
                 "Text": "(Сразу отправиться в лес)"
             },
-            "X": 614,
+            "X": 609,
             "Title": "если не согласились с ральфом",
-            "Y": -1034,
+            "Y": -1031,
             "Id": "abe0e58d-fc4c-4d37-966e-d1fb01bc570a"
         }
     ]

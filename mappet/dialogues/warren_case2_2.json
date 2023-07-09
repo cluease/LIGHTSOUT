@@ -1,6 +1,6 @@
 {
     "Closable": 0b,
-    "Main": "522ff653-f065-465f-b77f-03c0fbe76106",
+    "Main": "27c0a4af-6bb5-442b-8ca8-a539c6ec9675",
     "OnClose": {
         "Blocks": [
         ]
@@ -162,7 +162,7 @@
             "Id": "44cfa6da-e4ae-45db-aac4-ecc1a3b9d014"
         },
         {
-            "Read": 0b,
+            "Read": 1b,
             "Type": "reaction",
             "Message": {
                 "Color": 16777215,
@@ -173,7 +173,7 @@
             "Y": 177,
             "Sound": "",
             "Id": "d499fbba-5722-48f8-bc04-3a09802b3cd7",
-            "Marker": ""
+            "Marker": "warrencase2_2"
         },
         {
             "Type": "reply",
@@ -229,7 +229,7 @@
             "Id": "e45603da-679c-4dee-b50d-2b8fb83a17c9"
         },
         {
-            "Read": 0b,
+            "Read": 1b,
             "Type": "reaction",
             "Message": {
                 "Color": 16777215,
@@ -243,7 +243,7 @@
                 "f2421da3-8cbf-4c1a-ad68-9102698779bf"
             ],
             "Id": "a5f111c1-57bf-4f79-8134-6e118d74d377",
-            "Marker": ""
+            "Marker": "warrencase2_1"
         },
         {
             "Type": "command",
@@ -260,7 +260,7 @@
                 "Color": 16777215,
                 "Text": "Ну как все прошло? Удалось что-нибудь выяснить?"
             },
-            "X": 44,
+            "X": 41,
             "Title": "",
             "Y": -52,
             "Morph": {
@@ -290,7 +290,7 @@
             "Marker": ""
         },
         {
-            "Read": 0b,
+            "Read": 1b,
             "Type": "reaction",
             "Message": {
                 "Color": 16777215,
@@ -305,7 +305,7 @@
                 "f2421da3-8cbf-4c1a-ad68-9102698779bf"
             ],
             "Id": "a3b0c204-20d4-4e14-aa9b-e22ee28cd291",
-            "Marker": ""
+            "Marker": "warrencase2_3"
         },
         {
             "Read": 0b,
@@ -513,6 +513,50 @@
                 "e98c07fb-ae52-4c1e-8a3c-6d4659ead65b"
             ],
             "Id": "6f704879-f6d2-42e1-8b39-358924bce78f"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 1b,
+                            "Target": 4,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "warren_case2_2",
+                            "Marker": "warrencase2_1",
+                            "Selector": ""
+                        },
+                        {
+                            "Not": 1b,
+                            "Target": 4,
+                            "Type": "dialogue",
+                            "Or": 1b,
+                            "Id": "warren_case2_2",
+                            "Marker": "warrencase2_2",
+                            "Selector": ""
+                        },
+                        {
+                            "Not": 1b,
+                            "Target": 4,
+                            "Type": "dialogue",
+                            "Or": 1b,
+                            "Id": "warren_case2_2",
+                            "Marker": "warrencase2_3",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": -220,
+            "Title": "",
+            "Y": -56,
+            "Relations": [
+                "522ff653-f065-465f-b77f-03c0fbe76106"
+            ],
+            "Id": "27c0a4af-6bb5-442b-8ca8-a539c6ec9675"
         },
         {
             "Type": "reply",

@@ -1,0 +1,802 @@
+{
+    "Closable": 1b,
+    "Main": "7280947a-8e4d-477a-9213-81141e63517a",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Где тот старик, что с тобой шел?"
+            },
+            "X": 3496,
+            "Title": "",
+            "Y": -142,
+            "Sound": "",
+            "Relations": [
+                "9db4f013-e5bd-453d-b897-b73298a4a4c6"
+            ],
+            "Id": "b45f0cb8-df08-4e34-a1fd-bb486aff2692",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Не страшно?"
+            },
+            "X": 1391,
+            "Title": "",
+            "Y": 23,
+            "Relations": [
+                "bba34b62-115e-43d4-b1fc-ddc1e528b129"
+            ],
+            "Id": "be206f1e-d813-4294-9608-ae04282b679a"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Какой-то ты не шибко разговорчивый"
+            },
+            "X": 1745,
+            "Title": "",
+            "Y": 26,
+            "Relations": [
+                "caf0cb15-4201-4291-ac70-4fcb9b17f2ce"
+            ],
+            "Id": "b241ee75-c69c-43ef-8331-539bae67408e"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Да, уже 6 трупов как минимум обнаружили. Убиты все крайне странным образом"
+            },
+            "X": 2560,
+            "Title": "",
+            "Y": -126,
+            "Relations": [
+                "3b1831aa-7c68-4f6a-8fe8-602664606374"
+            ],
+            "Id": "53852442-3eca-4862-a34c-83971fa61b56"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Слышал что-нибудь об этом?"
+            },
+            "X": 2975,
+            "Title": "",
+            "Y": 178,
+            "Relations": [
+                "ad9c9b63-41d7-4f31-b3a3-7e1a830a7496"
+            ],
+            "Id": "72405722-8808-4cbc-9ba6-f9e133293cbc"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Бежала недавно от какого-то недочеловека недоволка, и вот, добежала до сюда"
+            },
+            "X": 811,
+            "Title": "",
+            "Y": 396,
+            "Relations": [
+                "6e7359e7-7665-4a86-a7ff-d35f335d0f04"
+            ],
+            "Id": "ab5b4c69-5190-424d-9b1e-8fe1cb74f661"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Что там?"
+            },
+            "X": 2410,
+            "Title": "",
+            "Y": 177,
+            "Sound": "",
+            "Relations": [
+                "df58e437-b90c-49b5-8339-1a184d156c4a"
+            ],
+            "Id": "05cea807-75f2-4ece-845c-7725df6afd2e",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Можешь лечь здесь на диване"
+            },
+            "X": 4281,
+            "Title": "",
+            "Y": 10,
+            "Sound": "",
+            "Relations": [
+                "055f9716-cbfc-4af5-961e-ae534921fff8"
+            ],
+            "Id": "6302fc5f-9765-4ea7-b388-5c4252cd3f11",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Как скажешь, спасибо за гостеприимство"
+            },
+            "X": 4814,
+            "Title": "",
+            "Y": 10,
+            "Relations": [
+                "0bafb625-8e15-4176-b4a3-6196dedca27f",
+                "8b3c1f7f-9766-4db8-ab36-f4e3a64722fa"
+            ],
+            "Id": "a97182da-14a6-46da-bc73-b48d71e40b44"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Что ж, попытка не пытка"
+            },
+            "X": 3376,
+            "Title": "",
+            "Y": 182,
+            "Relations": [
+                "7268cfa6-172f-4268-bd8d-0eed75086acf"
+            ],
+            "Id": "2a714114-6255-4e42-af1b-98e1f3d04c13"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Черт, кто так к людям подкрадывается!"
+            },
+            "X": 602,
+            "Title": "",
+            "Y": -161,
+            "Relations": [
+                "eb603547-8306-4ad9-9530-940351d36e01"
+            ],
+            "Id": "67790e1b-6f53-4e6a-a482-88d57d460bc6"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ого, впечатляет"
+            },
+            "X": 808,
+            "Title": "",
+            "Y": 559,
+            "Sound": "",
+            "Relations": [
+                "ae24c46d-bb63-443e-99e9-b740d9fd172f"
+            ],
+            "Id": "6e7359e7-7665-4a86-a7ff-d35f335d0f04",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Городских?"
+            },
+            "X": 2325,
+            "Title": "",
+            "Y": -138,
+            "Sound": "",
+            "Relations": [
+                "53852442-3eca-4862-a34c-83971fa61b56"
+            ],
+            "Id": "0c763d85-45b3-4f22-9544-d591e8aecf16",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Зак. Это мое имя"
+            },
+            "X": 810,
+            "Title": "",
+            "Y": 24,
+            "Sound": "",
+            "Relations": [
+                "ae24c46d-bb63-443e-99e9-b740d9fd172f"
+            ],
+            "Id": "1b0a6fad-1091-4bcb-9530-1c5b80e57d61",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "В гости и без стука?"
+            },
+            "X": -20,
+            "Title": "",
+            "Y": -16,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/Zak.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                    },
+                    "left_arm": {
+                    },
+                    "low_right_arm": {
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                        "RZ": 0.2617994f
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Animation": "slim_3d",
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "7a806791-8885-4c0d-b2bc-4e3363693706"
+            ],
+            "Id": "7280947a-8e4d-477a-9213-81141e63517a",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "В лесу спокойно"
+            },
+            "X": 1555,
+            "Title": "",
+            "Y": -145,
+            "Sound": "",
+            "Relations": [
+                "b241ee75-c69c-43ef-8331-539bae67408e"
+            ],
+            "Id": "fac48131-87ea-4ba7-8cd6-f65a7c5818bf",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Правда? "
+            },
+            "X": 4461,
+            "Title": "",
+            "Y": 9,
+            "Relations": [
+                "18c44ac8-da35-49ee-a3fa-f03aad00cd2a"
+            ],
+            "Id": "055f9716-cbfc-4af5-961e-ae534921fff8"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Какой есть"
+            },
+            "X": 1933,
+            "Title": "",
+            "Y": 22,
+            "Sound": "",
+            "Relations": [
+                "15e71967-e9e4-4b3a-a576-aa9262473487",
+                "b3eb2c8a-c3ed-4a76-886f-2a8b61633e80"
+            ],
+            "Id": "caf0cb15-4201-4291-ac70-4fcb9b17f2ce",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Так ты что-нибудь знаешь?"
+            },
+            "X": 2944,
+            "Title": "",
+            "Y": -128,
+            "Relations": [
+                "dc537964-070b-46b5-a224-80e4ee42e4e4"
+            ],
+            "Id": "75f4e645-387a-4b40-a797-805c4deee439"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Тут такое дело, я изначально шла в эту хижину с одним странным стариком, он говорил, что ты что-то знаешь о городских
+убийствах. Это так?"
+            },
+            "X": 2161,
+            "Title": "Если шли с Ральфом",
+            "Y": -140,
+            "Relations": [
+                "0c763d85-45b3-4f22-9544-d591e8aecf16"
+            ],
+            "Id": "e7879454-40e9-4102-b2eb-ab05c3b41aba"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Прости, я редко здесь вижу людей"
+            },
+            "X": 806,
+            "Title": "",
+            "Y": -164,
+            "Sound": "",
+            "Relations": [
+                "ae24c46d-bb63-443e-99e9-b740d9fd172f"
+            ],
+            "Id": "eb603547-8306-4ad9-9530-940351d36e01",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Не кричи, мы здесь не одни"
+            },
+            "X": 372,
+            "Title": "",
+            "Y": 0,
+            "Sound": "",
+            "Relations": [
+                "67790e1b-6f53-4e6a-a482-88d57d460bc6",
+                "0b4d919a-63d3-4a8c-9516-64c60ceef813",
+                "6dce9963-8182-4791-bbd8-139bf7f2e03f"
+            ],
+            "Id": "e5a02946-9c7e-4c9f-8fd3-79353e71b20a",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Да"
+            },
+            "X": 1197,
+            "Title": "",
+            "Y": 22,
+            "Sound": "",
+            "Relations": [
+                "be206f1e-d813-4294-9608-ae04282b679a",
+                "16c18998-7358-43c3-b6e1-8ee6f6632d48"
+            ],
+            "Id": "5721453e-857e-4026-b35f-f0319c2bac98",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Может быть и хорошо, что ты живешь в лесу. В городе сейчас 
+полный ужас происходит"
+            },
+            "X": 2202,
+            "Title": "Если без Ральфа",
+            "Y": 178,
+            "Relations": [
+                "05cea807-75f2-4ece-845c-7725df6afd2e"
+            ],
+            "Id": "b0ed7ed1-b520-4db1-b446-2503b50d53ff"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Плохо"
+            },
+            "X": 3890,
+            "Title": "",
+            "Y": -144,
+            "Sound": "",
+            "Relations": [
+                "7ca251e7-db00-40be-b0d0-7a3291f59870"
+            ],
+            "Id": "211ae1bb-10c0-4f13-abc8-ff2ce9b8fa75",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Тут вот еще какая ситуация… я не знаю дороги домой, и вряд ли
+ночью найду выход из леса. Ты не знаешь, где здесь можно
+переночевать?"
+            },
+            "X": 4083,
+            "Title": "",
+            "Y": 0,
+            "Relations": [
+                "6302fc5f-9765-4ea7-b388-5c4252cd3f11"
+            ],
+            "Id": "7ca251e7-db00-40be-b0d0-7a3291f59870"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Понятия не имею, исчез куда-то по дороге"
+            },
+            "X": 3713,
+            "Title": "",
+            "Y": -144,
+            "Relations": [
+                "211ae1bb-10c0-4f13-abc8-ff2ce9b8fa75"
+            ],
+            "Id": "9db4f013-e5bd-453d-b897-b73298a4a4c6"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Странно..."
+            },
+            "X": 2819,
+            "Title": "",
+            "Y": 180,
+            "Sound": "",
+            "Relations": [
+                "72405722-8808-4cbc-9ba6-f9e133293cbc"
+            ],
+            "Id": "836e79b2-c61b-41ce-b3e1-01eb9841ca26",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Да я уже в курсе"
+            },
+            "X": 597,
+            "Title": "",
+            "Y": 222,
+            "Relations": [
+                "a3945391-7c6e-4fc8-9704-a0d687eda439"
+            ],
+            "Id": "0b4d919a-63d3-4a8c-9516-64c60ceef813"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Откуда?"
+            },
+            "X": 811,
+            "Title": "",
+            "Y": 220,
+            "Sound": "",
+            "Relations": [
+                "ab5b4c69-5190-424d-9b1e-8fe1cb74f661"
+            ],
+            "Id": "a3945391-7c6e-4fc8-9704-a0d687eda439",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Уже 6 трупов как минимум обнаружили. Убиты все крайне странным образом"
+            },
+            "X": 2605,
+            "Title": "",
+            "Y": 181,
+            "Relations": [
+                "836e79b2-c61b-41ce-b3e1-01eb9841ca26"
+            ],
+            "Id": "df58e437-b90c-49b5-8339-1a184d156c4a"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Странно..."
+            },
+            "X": 2765,
+            "Title": "",
+            "Y": -133,
+            "Sound": "",
+            "Relations": [
+                "75f4e645-387a-4b40-a797-805c4deee439"
+            ],
+            "Id": "3b1831aa-7c68-4f6a-8fe8-602664606374",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Почему в такой глуши?"
+            },
+            "X": 1389,
+            "Title": "",
+            "Y": -147,
+            "Relations": [
+                "fac48131-87ea-4ba7-8cd6-f65a7c5818bf"
+            ],
+            "Id": "16c18998-7358-43c3-b6e1-8ee6f6632d48"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "..."
+            },
+            "X": 3579,
+            "Title": "",
+            "Y": 184,
+            "Sound": "",
+            "Relations": [
+                "7ca251e7-db00-40be-b0d0-7a3291f59870"
+            ],
+            "Id": "7268cfa6-172f-4268-bd8d-0eed75086acf",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ты здесь живешь?"
+            },
+            "X": 1006,
+            "Title": "",
+            "Y": 22,
+            "Relations": [
+                "5721453e-857e-4026-b35f-f0319c2bac98"
+            ],
+            "Id": "ae24c46d-bb63-443e-99e9-b740d9fd172f"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Нет, прости"
+            },
+            "X": 3118,
+            "Title": "",
+            "Y": -125,
+            "Sound": "",
+            "Relations": [
+                "9650cab0-e1c4-4f86-81c6-b7cfd022dcf1"
+            ],
+            "Id": "dc537964-070b-46b5-a224-80e4ee42e4e4",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ты кто?"
+            },
+            "X": 604,
+            "Title": "",
+            "Y": 29,
+            "Relations": [
+                "1b0a6fad-1091-4bcb-9530-1c5b80e57d61"
+            ],
+            "Id": "6dce9963-8182-4791-bbd8-139bf7f2e03f"
+        },
+        {
+            "Type": "command",
+            "Command": "scene play zakcabin1",
+            "X": 4973,
+            "Title": "",
+            "Y": 151,
+            "Id": "8b3c1f7f-9766-4db8-ab36-f4e3a64722fa"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Нет"
+            },
+            "X": 1558,
+            "Title": "",
+            "Y": 26,
+            "Sound": "",
+            "Relations": [
+                "b241ee75-c69c-43ef-8331-539bae67408e"
+            ],
+            "Id": "bba34b62-115e-43d4-b1fc-ddc1e528b129",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Что ж, попытка не пытка"
+            },
+            "X": 3310,
+            "Title": "",
+            "Y": -136,
+            "Relations": [
+                "b45f0cb8-df08-4e34-a1fd-bb486aff2692"
+            ],
+            "Id": "9650cab0-e1c4-4f86-81c6-b7cfd022dcf1"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "ААААА"
+            },
+            "X": 183,
+            "Title": "",
+            "Y": -2,
+            "Relations": [
+                "e5a02946-9c7e-4c9f-8fd3-79353e71b20a"
+            ],
+            "Id": "7a806791-8885-4c0d-b2bc-4e3363693706"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 0,
+                            "Type": "state",
+                            "Or": 0b,
+                            "Comparison": 2,
+                            "Expression": "",
+                            "Value": 1.0d,
+                            "Id": "withralph",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 1998,
+            "Title": "",
+            "Y": -138,
+            "Relations": [
+                "e7879454-40e9-4102-b2eb-ab05c3b41aba"
+            ],
+            "Id": "15e71967-e9e4-4b3a-a576-aa9262473487"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Нет, прости"
+            },
+            "X": 3169,
+            "Title": "",
+            "Y": 179,
+            "Sound": "",
+            "Relations": [
+                "2a714114-6255-4e42-af1b-98e1f3d04c13"
+            ],
+            "Id": "ad9c9b63-41d7-4f31-b3a3-7e1a830a7496",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Только не заходи в подвал, тебе там нечего делать"
+            },
+            "X": 4624,
+            "Title": "",
+            "Y": 11,
+            "Sound": "",
+            "Relations": [
+                "a97182da-14a6-46da-bc73-b48d71e40b44"
+            ],
+            "Id": "18c44ac8-da35-49ee-a3fa-f03aad00cd2a",
+            "Marker": ""
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 0,
+                            "Type": "state",
+                            "Or": 0b,
+                            "Comparison": 2,
+                            "Expression": "",
+                            "Value": 0.0d,
+                            "Id": "withralph",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 2010,
+            "Title": "",
+            "Y": 192,
+            "Relations": [
+                "b0ed7ed1-b520-4db1-b446-2503b50d53ff"
+            ],
+            "Id": "b3eb2c8a-c3ed-4a76-886f-2a8b61633e80"
+        },
+        {
+            "Type": "command",
+            "Command": "/setblock 1470 75 -1999 barrier",
+            "X": 4967,
+            "Title": "",
+            "Y": -109,
+            "Id": "0bafb625-8e15-4176-b4a3-6196dedca27f"
+        }
+    ]
+}

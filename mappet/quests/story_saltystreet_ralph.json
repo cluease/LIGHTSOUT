@@ -18,6 +18,17 @@
                 "Type": "command",
                 "Command": "mp event trigger story_kris_message @p",
                 "Frequency": 1
+            },
+            {
+                "Target": {
+                    "Target": 0,
+                    "Selector": ""
+                },
+                "Type": "state",
+                "State": "withralphh",
+                "Mode": 1,
+                "Value": 1.0d,
+                "Frequency": 1
             }
         ]
     },

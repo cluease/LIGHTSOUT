@@ -9,16 +9,6 @@
     },
     "Complete": {
         "Blocks": [
-            {
-                "Type": "command",
-                "Command": "/execute @p ~ ~ ~ noppes npc Прохожий visible true",
-                "Frequency": 1
-            },
-            {
-                "Type": "command",
-                "Command": "/execute @p ~ ~ ~ noppes npc Клара visible true",
-                "Frequency": 1
-            }
         ]
     },
     "Instant": 1b,
