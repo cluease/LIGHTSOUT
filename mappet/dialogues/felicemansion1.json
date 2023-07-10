@@ -1,0 +1,252 @@
+{
+    "Closable": 1b,
+    "Main": "3b294c2d-5d5b-4813-a221-4aeb3edb7c06",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Я работаю в полиции (Показать значок)"
+            },
+            "X": 202,
+            "Title": "",
+            "Y": -156,
+            "Relations": [
+                "699a1545-c245-4ee0-b36d-277f08db01b3"
+            ],
+            "Id": "1c948fa8-af31-42bb-a9ac-6f187ea1d8e3"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Норт Гроссман, значит… приятно познакомиться.Мое имя Фелиция. Фелиция Монтес. "
+            },
+            "X": 432,
+            "Title": "",
+            "Y": -150,
+            "Sound": "",
+            "Relations": [
+                "22fc1108-4977-4359-a9de-5c681a586a42"
+            ],
+            "Id": "699a1545-c245-4ee0-b36d-277f08db01b3",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ох, это мелочи. Не каждый день появляется возможность спасти такое милое личико"
+            },
+            "X": 1666,
+            "Title": "",
+            "Y": -149,
+            "Sound": "",
+            "Relations": [
+                "3aec0556-6370-46fa-92b0-43f76a24fa49"
+            ],
+            "Id": "c931e16b-2375-426a-8660-2963c24428e2",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Не могли бы вы…"
+            },
+            "X": 1053,
+            "Title": "",
+            "Y": -162,
+            "Relations": [
+                "d41c17e7-b58c-4064-b332-b24df7bc47c9"
+            ],
+            "Id": "0379036a-56dd-4938-aa62-a07725206b40"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Красивое имя"
+            },
+            "X": 658,
+            "Title": "",
+            "Y": -158,
+            "Relations": [
+                "822251c8-2b81-4960-8d0a-3575bf6364af"
+            ],
+            "Id": "22fc1108-4977-4359-a9de-5c681a586a42"
+        },
+        {
+            "Type": "command",
+            "Command": "scene play feliciamansion2",
+            "X": 2102,
+            "Title": "",
+            "Y": -140,
+            "Id": "85471a72-b05a-49cf-82ff-7b1163fe0d47"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Благодарю, душечка"
+            },
+            "X": 852,
+            "Title": "",
+            "Y": -154,
+            "Sound": "",
+            "Relations": [
+                "0379036a-56dd-4938-aa62-a07725206b40"
+            ],
+            "Id": "822251c8-2b81-4960-8d0a-3575bf6364af",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Не стоит, Жерар мне уже все рассказал. Тебе нужно место, где можно переночевать, да? Благо у меня огромный особняк, и живу я в нем совсем одна… для тебя точно найдется комнатушка"
+            },
+            "X": 1252,
+            "Title": "",
+            "Y": -153,
+            "Sound": "",
+            "Relations": [
+                "3ecc013c-8e3b-45c7-afbc-dc11482e5462"
+            ],
+            "Id": "d41c17e7-b58c-4064-b332-b24df7bc47c9",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Закрыть)"
+            },
+            "X": 1874,
+            "Title": "",
+            "Y": -141,
+            "Relations": [
+                "85471a72-b05a-49cf-82ff-7b1163fe0d47"
+            ],
+            "Id": "3aec0556-6370-46fa-92b0-43f76a24fa49"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "И кто же ко мне пожаловал в столь поздний час? Откуда форма, с маскарада украла?"
+            },
+            "X": -30,
+            "Title": "",
+            "Y": -64,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/FeliceMontes.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                        "RX": 0.27925268f
+                    },
+                    "right_arm": {
+                        "RX": 0.41887903f,
+                        "RZ": 0.2443461f
+                    },
+                    "left_leg": {
+                        "RX": 1.8151426f,
+                        "RY": 0.36651915f
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                        "RX": -0.9424778f
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                        "RX": 0.13962634f,
+                        "RY": 0.05235988f
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RX": 0.22689281f,
+                        "RY": 0.08726647f,
+                        "RZ": 0.08726647f
+                    },
+                    "left_arm": {
+                        "RX": 0.43633232f,
+                        "RZ": -0.22689281f
+                    },
+                    "low_right_arm": {
+                        "RZ": 0.20943952f
+                    },
+                    "right_leg": {
+                        "RX": 1.1170107f,
+                        "RY": -0.33161253f,
+                        "RZ": 0.06981317f
+                    },
+                    "anchor": {
+                        "RZ": 0.2617994f
+                    },
+                    "low_left_leg": {
+                        "RX": -0.8552114f
+                    },
+                    "low_left_arm": {
+                        "RZ": -0.33161256f
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Animation": "slim",
+                "Name": "emoticons.slim"
+            },
+            "Sound": "",
+            "Relations": [
+                "1c948fa8-af31-42bb-a9ac-6f187ea1d8e3"
+            ],
+            "Id": "3b294c2d-5d5b-4813-a221-4aeb3edb7c06",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Спасибо вам огромное! Даже не знаю, как вас отблагодарить"
+            },
+            "X": 1452,
+            "Title": "",
+            "Y": -152,
+            "Relations": [
+                "c931e16b-2375-426a-8660-2963c24428e2"
+            ],
+            "Id": "3ecc013c-8e3b-45c7-afbc-dc11482e5462"
+        }
+    ]
+}

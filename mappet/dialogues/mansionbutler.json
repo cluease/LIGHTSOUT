@@ -1,0 +1,143 @@
+{
+    "Closable": 1b,
+    "Main": "480ab355-1575-4b56-b25e-11987669ce18",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Нет, дело в том, что я заблудилась в лесу. Я не знаю дороги домой 
+и мне срочно нужно найти, где можно переночевать"
+            },
+            "X": 192,
+            "Title": "",
+            "Y": 22,
+            "Relations": [
+                "100a7e6b-06c9-45e8-9502-e45a801afc56"
+            ],
+            "Id": "f9073e18-a916-4465-b96a-33ad39c90372"
+        },
+        {
+            "Type": "command",
+            "Command": "scene play feliciabutler2 @p",
+            "X": 944,
+            "Title": "",
+            "Y": -42,
+            "Id": "7da542c1-c813-4829-a2ab-39365a28690b"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Вы хотеть спать сдесь? Энто вам не отель!"
+            },
+            "X": 424,
+            "Title": "",
+            "Y": 24,
+            "Sound": "",
+            "Relations": [
+                "5dfcb686-8636-4896-9731-b40bcdbd53d0"
+            ],
+            "Id": "100a7e6b-06c9-45e8-9502-e45a801afc56",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "ЖдхасьтвУйте, ви к госпóше Монтес?"
+            },
+            "X": -44,
+            "Title": "",
+            "Y": -74,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/butler.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RX": 0.08726647f,
+                        "RY": 0.08726647f
+                    },
+                    "left_arm": {
+                    },
+                    "low_right_arm": {
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                        "RZ": 0.2617994f
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Animation": "default",
+                "Name": "emoticons.default"
+            },
+            "Sound": "",
+            "Relations": [
+                "f9073e18-a916-4465-b96a-33ad39c90372"
+            ],
+            "Id": "480ab355-1575-4b56-b25e-11987669ce18",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Я понимаю, но у меня нет другого выхода. Пожалуйста, сжальтесь"
+            },
+            "X": 686,
+            "Title": "",
+            "Y": 30,
+            "Relations": [
+                "7da542c1-c813-4829-a2ab-39365a28690b"
+            ],
+            "Id": "5dfcb686-8636-4896-9731-b40bcdbd53d0"
+        }
+    ]
+}
