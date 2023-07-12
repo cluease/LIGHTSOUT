@@ -1,0 +1,51 @@
+{
+    "Closable": 1b,
+    "Main": "61d8ad47-6fd1-478f-82c5-1508953f8f00",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Отправиться домой?"
+            },
+            "X": 4,
+            "Title": "",
+            "Y": 16,
+            "Morph": {
+                "RemoveParentSpace": 1b,
+                "Pose": {
+                    "P": [
+                        0.0625f,
+                        1.5f,
+                        -0.25f
+                    ]
+                },
+                "Billboard": 1b,
+                "Texture": "b.a:image/skins/rc.png",
+                "Name": "blockbuster.image"
+            },
+            "Sound": "",
+            "Relations": [
+                "5e0a3cc7-82d0-425f-aaf7-b241e56c9194"
+            ],
+            "Id": "61d8ad47-6fd1-478f-82c5-1508953f8f00",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Да)"
+            },
+            "X": 154,
+            "Title": "",
+            "Y": 82,
+            "Id": "5e0a3cc7-82d0-425f-aaf7-b241e56c9194"
+        }
+    ]
+}
