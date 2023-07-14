@@ -1,0 +1,34 @@
+{
+    "Decline": {
+        "Blocks": [
+        ]
+    },
+    "Accept": {
+        "Blocks": [
+        ]
+    },
+    "Complete": {
+        "Blocks": [
+        ]
+    },
+    "Instant": 1b,
+    "Rewards": [
+    ],
+    "Visible": 1b,
+    "Objectives": [
+        {
+            "Type": "state",
+            "Message": "Покиньте отель",
+            "Expression": {
+                "Condition": {
+                },
+                "Mode": 1
+            },
+            "Result": 0b
+        }
+    ],
+    "Title": "Ограбление",
+    "Story": "[l[6Тип задания:[r
+- Дополнительное",
+    "Cancelable": 0b
+}

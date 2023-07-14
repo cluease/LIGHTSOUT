@@ -417,7 +417,7 @@
         },
         {
             "Type": "command",
-            "Command": "tp @p 1013 35 -650",
+            "Command": "tp @p 1022 31 -650",
             "X": 98,
             "Title": "",
             "Y": 2312,

@@ -1,0 +1,110 @@
+{
+    "Main": "d28a56d5-13c5-4854-83dc-3e8a866d6eb8",
+    "Nodes": [
+        {
+            "Type": "timer",
+            "Timer": 50,
+            "X": 228,
+            "Title": "",
+            "Y": 514,
+            "Relations": [
+                "30cce652-928a-48d5-a757-28f2f7d3d604"
+            ],
+            "Id": "f56d8ad0-ecd2-42f7-875a-12dfb592bd7d"
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p [\"\",{\"text\":\"\\u041d\\u043e\\u0440\\u0442:\",\"color\":\"gold\"},{\"text\":\" \\u0427\\u0435\\u0440\\u0442, \\u043a\\u0442\\u043e-\\u0442\\u043e \\u0438\\u0434\\u0435\\u0442\\u2026\"}]",
+            "X": 14,
+            "Title": "кто-то идет",
+            "Y": 472,
+            "Relations": [
+                "acf2ff70-6ae9-4b7b-94e3-024a3fad6400"
+            ],
+            "Id": "30cce652-928a-48d5-a757-28f2f7d3d604"
+        },
+        {
+            "Type": "timer",
+            "Timer": 53,
+            "X": 14,
+            "Title": "",
+            "Y": 608,
+            "Relations": [
+                "6ff3c8a0-2981-413f-aafd-bf39b971150e",
+                "94c96a24-1f93-4508-beb8-578a52a6ff6f"
+            ],
+            "Id": "acf2ff70-6ae9-4b7b-94e3-024a3fad6400"
+        },
+        {
+            "Type": "command",
+            "Command": "/playsound customnpcs:misc.footsteps block @p",
+            "X": 242,
+            "Title": "",
+            "Y": 364,
+            "Relations": [
+                "f56d8ad0-ecd2-42f7-875a-12dfb592bd7d"
+            ],
+            "Id": "97e44957-c9f4-4ee4-8514-7f93211325a2"
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p [\"\",{\"text\":\"\\u041d\\u0435\\u0437\\u043d\\u0430\\u043a\\u043e\\u043c\\u0435\\u0446:\",\"color\":\"red\"},{\"text\":\" \\u0411\\u044b\\u0441\\u0442\\u0440\\u043e, \\u043f\\u0440\\u044f\\u0447\\u044c\\u0441\\u044f \\u043a\\u0443\\u0434\\u0430-\\u043d\\u0438\\u0431\\u0443\\u0434\\u044c!\"}]",
+            "X": 12,
+            "Title": "прячься",
+            "Y": 742,
+            "Id": "6ff3c8a0-2981-413f-aafd-bf39b971150e"
+        },
+        {
+            "Type": "timer",
+            "Timer": 79,
+            "X": 8,
+            "Title": "",
+            "Y": 56,
+            "Relations": [
+                "7595c959-6ddb-4e05-846a-909c6812b29d"
+            ],
+            "Id": "b3df9ae6-250b-4d7e-afd0-649ba1c0e840"
+        },
+        {
+            "Type": "timer",
+            "Timer": 30,
+            "X": 12,
+            "Title": "",
+            "Y": 314,
+            "Relations": [
+                "97e44957-c9f4-4ee4-8514-7f93211325a2"
+            ],
+            "Id": "2e04d4cd-7e5a-435c-95c5-971979b4ac60"
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p [\"\",{\"text\":\"\\u041d\\u0435\\u0437\\u043d\\u0430\\u043a\\u043e\\u043c\\u0435\\u0446: \",\"color\":\"red\"},{\"text\":\"\\u041a\\u0430\\u043a \\u043d\\u0435 \\u043f\\u043e\\u0434\\u043e\\u0448\\u0435\\u043b? \\u0421\\u043c\\u0435\\u043d\\u0438\\u043b \\u0447\\u0442\\u043e-\\u043b\\u0438, \\u0433\\u0430\\u0434\\u0435\\u043d\\u044b\\u0448\\u2026\"}]",
+            "X": 10,
+            "Title": "сменил что ли",
+            "Y": 188,
+            "Relations": [
+                "2e04d4cd-7e5a-435c-95c5-971979b4ac60"
+            ],
+            "Id": "7595c959-6ddb-4e05-846a-909c6812b29d"
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p [\"\",{\"text\":\"\\u041d\\u043e\\u0440\\u0442:\",\"color\":\"gold\"},{\"text\":\" \\u041a\\u043e\\u0434 \\u043d\\u0435 \\u043f\\u043e\\u0434\\u043e\\u0448\\u0435\\u043b\"}]",
+            "X": 8,
+            "Title": "не подошел",
+            "Y": -92,
+            "Relations": [
+                "b3df9ae6-250b-4d7e-afd0-649ba1c0e840"
+            ],
+            "Id": "d28a56d5-13c5-4854-83dc-3e8a866d6eb8"
+        },
+        {
+            "Type": "command",
+            "Command": "/mp npc summon clickhotel default 67 33 -1796",
+            "X": 226,
+            "Title": "",
+            "Y": 736,
+            "Id": "94c96a24-1f93-4508-beb8-578a52a6ff6f"
+        }
+    ]
+}

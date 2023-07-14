@@ -1,2 +1,9 @@
 {
+    "safeopen": 1.0d,
+    "quests.extra_hotel_kill": 2.0d,
+    "hotel2": 1.0d,
+    "hotel3": 1.0d,
+    "hotel1": 1.0d,
+    "quests.extra_hotel_code": 1.0d,
+    "hotelleave": 1.0d
 }

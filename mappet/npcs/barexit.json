@@ -81,7 +81,7 @@
             "RespawnPosX": 0.0d,
             "SightDistance": 25.0f,
             "RespawnPosZ": 0.0d,
-            "Invincible": 1b,
+            "Invincible": 0b,
             "TriggerDied": {
                 "Blocks": [
                 ]

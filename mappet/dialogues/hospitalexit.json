@@ -1,0 +1,38 @@
+{
+    "Closable": 1b,
+    "Main": "42b8f0bd-b92c-4039-b7d1-a4c95104903f",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Хотите покинуть больницу? "
+            },
+            "X": -32,
+            "Title": "",
+            "Y": -40,
+            "Sound": "",
+            "Relations": [
+                "7cff0477-0f26-405a-b535-3c5d3e527eb7"
+            ],
+            "Id": "42b8f0bd-b92c-4039-b7d1-a4c95104903f",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Да)"
+            },
+            "X": 140,
+            "Title": "",
+            "Y": -30,
+            "Id": "7cff0477-0f26-405a-b535-3c5d3e527eb7"
+        }
+    ]
+}

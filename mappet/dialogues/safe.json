@@ -1,0 +1,222 @@
+{
+    "Closable": 1b,
+    "Main": "60a00322-1ad5-443e-84c2-dfdefd3e1680",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Type": "command",
+            "Command": "/mp event trigger @p extra_hotel_4",
+            "X": 974,
+            "Title": "",
+            "Y": -265,
+            "Id": "d21c43d4-5849-4551-a3f3-50bb808ef7f4"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 1b,
+                            "Target": 4,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "safe",
+                            "Marker": "wrong",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 202,
+            "Title": "",
+            "Y": -243,
+            "Relations": [
+                "e3ff1d8e-433e-4343-a687-8dfc1dedee65"
+            ],
+            "Id": "4fe32d16-2b42-45e5-b62a-2197471f0603"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 4,
+                            "Type": "quest",
+                            "Or": 0b,
+                            "Id": "extra_hotel_code",
+                            "Quest": 2,
+                            "Selector": ""
+                        },
+                        {
+                            "Not": 0b,
+                            "Target": 0,
+                            "Type": "state",
+                            "Or": 0b,
+                            "Comparison": 2,
+                            "Expression": "",
+                            "Value": 0.0d,
+                            "Id": "safeopen",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 204,
+            "Title": "",
+            "Y": 45,
+            "Relations": [
+                "74aea61f-6b95-4fdf-bfa7-9f747c6c476c"
+            ],
+            "Id": "c90526a1-f0c9-428b-b787-47c71bd4a521"
+        },
+        {
+            "Read": 1b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "НЕВЕРНО"
+            },
+            "X": 590,
+            "Title": "",
+            "Y": -146,
+            "Sound": "",
+            "Relations": [
+                "f8096d40-fde0-4495-aaf6-2926621870e9"
+            ],
+            "Id": "97267914-e6a2-4675-add9-3c07ea4e51e2",
+            "Marker": "wrong"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Попробовать ввести новый код)"
+            },
+            "X": 583,
+            "Title": "второй код",
+            "Y": 63,
+            "Relations": [
+                "14cfe34e-26c5-44c6-9cdc-5eaf8469f2f7"
+            ],
+            "Id": "74aea61f-6b95-4fdf-bfa7-9f747c6c476c"
+        },
+        {
+            "Type": "command",
+            "Command": "mp event trigger @p extra_hotel_6",
+            "X": 1204,
+            "Title": "",
+            "Y": 15,
+            "Id": "832ed111-f983-42d6-a806-68b0ecb73b72"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Target": {
+                            "Target": 0,
+                            "Selector": ""
+                        },
+                        "Type": "state",
+                        "State": "safeopen",
+                        "Mode": 1,
+                        "Value": 1.0d,
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": 1207,
+            "CustomData": "",
+            "Title": "",
+            "Y": 221,
+            "Id": "9a07bc75-5420-4a18-855f-0213576bd424"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Вы подошли к сейфу. Нужно ввести код"
+            },
+            "X": 54,
+            "Title": "",
+            "Y": -102,
+            "Sound": "",
+            "Relations": [
+                "4fe32d16-2b42-45e5-b62a-2197471f0603",
+                "c90526a1-f0c9-428b-b787-47c71bd4a521"
+            ],
+            "Id": "60a00322-1ad5-443e-84c2-dfdefd3e1680",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Закрыть)"
+            },
+            "X": 778,
+            "Title": "",
+            "Y": -148,
+            "Relations": [
+                "d21c43d4-5849-4551-a3f3-50bb808ef7f4"
+            ],
+            "Id": "f8096d40-fde0-4495-aaf6-2926621870e9"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Забрать кейс с деньгами)"
+            },
+            "X": 971,
+            "Title": "",
+            "Y": 71,
+            "Relations": [
+                "832ed111-f983-42d6-a806-68b0ecb73b72",
+                "9a07bc75-5420-4a18-855f-0213576bd424"
+            ],
+            "Id": "ecd01c66-255c-4940-8013-1738a6f86934"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Ввести код)"
+            },
+            "X": 376,
+            "Title": "первый код",
+            "Y": -138,
+            "Relations": [
+                "97267914-e6a2-4675-add9-3c07ea4e51e2"
+            ],
+            "Id": "e3ff1d8e-433e-4343-a687-8dfc1dedee65"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Сейф открылся"
+            },
+            "X": 775,
+            "Title": "",
+            "Y": 67,
+            "Sound": "",
+            "Relations": [
+                "ecd01c66-255c-4940-8013-1738a6f86934"
+            ],
+            "Id": "14cfe34e-26c5-44c6-9cdc-5eaf8469f2f7",
+            "Marker": ""
+        }
+    ]
+}

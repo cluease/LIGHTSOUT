@@ -182,6 +182,169 @@
             "Marker": ""
         },
         {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "[3Гарри:[r Слыхали кстати, к нам в следственную группу собираются отправить профайлера. Норт, покажешь ему как у нас в участке дела ведутся? Он на самом деле славный малый, уже участвовал в парочке внушительных расследований"
+            },
+            "X": 7728,
+            "Title": "",
+            "Y": 475,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 0b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/police (3).png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                    },
+                    "left_arm": {
+                    },
+                    "low_right_arm": {
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                        "RZ": 0.5235988f
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "slim_simple_plus",
+                "Name": "emoticons.slim_simple_plus"
+            },
+            "Sound": "",
+            "Relations": [
+                "84d64aa5-487a-4232-af96-e91ed67ac58a"
+            ],
+            "Id": "64405c3a-25cb-4669-8f1d-a8819fb05bf6",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "[dСьюзан:[r Окей. Приятно было пообщаться! Надо бы нам собираться такой компашкой почаще"
+            },
+            "X": 8881,
+            "Title": "",
+            "Y": 476,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/police (1).png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RX": 0.13962634f,
+                        "RY": 0.10471976f,
+                        "RZ": -0.2443461f
+                    },
+                    "left_arm": {
+                    },
+                    "low_right_arm": {
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                        "RZ": 0.5235988f
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "slim",
+                "Name": "emoticons.slim"
+            },
+            "Sound": "",
+            "Relations": [
+                "645328a8-7a2c-4094-9b23-c333d1e8c9ad"
+            ],
+            "Id": "46b08a85-c296-47e7-bd56-d2fdab2a16c6",
+            "Marker": ""
+        },
+        {
             "Type": "reply",
             "Message": {
                 "Color": 16777215,
@@ -210,6 +373,14 @@
             "Id": "6341d444-b2cc-49d0-bcb8-5e994e02eabc"
         },
         {
+            "Type": "command",
+            "Command": "/mp npc state @e[mpid=talktofriends] empty",
+            "X": 9224,
+            "Title": "",
+            "Y": 273,
+            "Id": "519edc55-5d14-49ec-9dcd-ba3f3a2584e2"
+        },
+        {
             "Type": "reply",
             "Message": {
                 "Color": 16777215,
@@ -227,11 +398,14 @@
             "Type": "reply",
             "Message": {
                 "Color": 16777215,
-                "Text": ""
+                "Text": "Убийца один"
             },
-            "X": 6777,
+            "X": 6783,
             "Title": "один",
-            "Y": -98,
+            "Y": -110,
+            "Relations": [
+                "fec9fadc-7744-4ec5-b6a7-514b7d7f57c3"
+            ],
             "Id": "a436fecc-012a-4d58-a231-473d062871a6"
         },
         {
@@ -354,6 +528,36 @@
             "Marker": ""
         },
         {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Обязательно"
+            },
+            "X": 9052,
+            "Title": "",
+            "Y": 484,
+            "Relations": [
+                "c40d211a-88bf-4f8d-bbc3-d644ca0f554b",
+                "7e2f2d4e-e181-403a-bab0-da73df847828",
+                "519edc55-5d14-49ec-9dcd-ba3f3a2584e2"
+            ],
+            "Id": "645328a8-7a2c-4094-9b23-c333d1e8c9ad"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Далее)"
+            },
+            "X": 7557,
+            "Title": "",
+            "Y": 474,
+            "Relations": [
+                "64405c3a-25cb-4669-8f1d-a8819fb05bf6"
+            ],
+            "Id": "ee5d1a95-e3d4-4a9a-9a60-4cf302b7acb5"
+        },
+        {
             "Read": 0b,
             "Type": "reaction",
             "Message": {
@@ -431,6 +635,251 @@
                 "7d362991-ab47-4673-a68e-830af53f3812"
             ],
             "Id": "26f44daf-b051-419b-98a0-1b8dfc7ddada",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "[3Гарри:[r Специалист по анализу невербальных жестов в человеческой
+коммуникации, использующий свои навыки для распознания
+неточностей в поведении криминалитета. 
+[aЛукас:[r Кого-кого?
+[dСьюзан:[r Ходячий детектор лжи, проще говоря
+[3Гарри:[r Надеюсь, ты не против, что я этого паренька на тебя взвалил?"
+            },
+            "X": 8115,
+            "Title": "",
+            "Y": 473,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/police4.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RX": -0.008798152f,
+                        "RY": 0.25268027f,
+                        "RZ": -0.06923959f
+                    },
+                    "left_arm": {
+                    },
+                    "low_right_arm": {
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                        "X": 0.15625f,
+                        "RZ": 0.2617994f,
+                        "Y": -0.1875f,
+                        "Z": -0.1875f
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Animated": 0b,
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "slim",
+                "BodyParts": [
+                    {
+                        "R": [
+                            0.0f,
+                            0.0f,
+                            -180.0f
+                        ],
+                        "T": [
+                            0.28125f,
+                            1.28125f,
+                            -0.53125f
+                        ],
+                        "Limb": "right_arm",
+                        "Morph": {
+                            "UserData": {
+                                "Meshes": {
+                                    "body": {
+                                        "Filtering": "nearest",
+                                        "Normals": 1b,
+                                        "Lighting": 1b,
+                                        "Color": 16777215,
+                                        "Smooth": 1b,
+                                        "Visible": 1b,
+                                        "Texture": "b.a:alex/skins/police (3).png"
+                                    }
+                                }
+                            },
+                            "Pose": {
+                                "low_body": {
+                                },
+                                "right_arm": {
+                                },
+                                "left_leg": {
+                                },
+                                "misc_bone_1": {
+                                },
+                                "misc_bone_2": {
+                                },
+                                "misc_bone_3": {
+                                },
+                                "low_leg_right": {
+                                },
+                                "low_right_arm.end": {
+                                },
+                                "misc_gbone_2": {
+                                },
+                                "misc_gbone_1": {
+                                },
+                                "body": {
+                                },
+                                "misc_gbone_3": {
+                                },
+                                "head": {
+                                    "RX": 0.26179942f,
+                                    "RY": 0.5235988f,
+                                    "RZ": 0.26179945f
+                                },
+                                "left_arm": {
+                                },
+                                "low_right_arm": {
+                                },
+                                "right_leg": {
+                                },
+                                "anchor": {
+                                },
+                                "low_left_leg": {
+                                },
+                                "low_left_arm": {
+                                },
+                                "low_left_arm.end": {
+                                }
+                            },
+                            "Animation": "slim",
+                            "Name": "emoticons.slim"
+                        }
+                    },
+                    {
+                        "R": [
+                            3.017456f,
+                            162.00018f,
+                            3.000252f
+                        ],
+                        "T": [
+                            -0.53125f,
+                            -0.0625f,
+                            0.375f
+                        ],
+                        "Limb": "misc_gbone_2",
+                        "Morph": {
+                            "UserData": {
+                                "Meshes": {
+                                    "body": {
+                                        "Filtering": "nearest",
+                                        "Normals": 1b,
+                                        "Lighting": 1b,
+                                        "Color": 16777215,
+                                        "Smooth": 1b,
+                                        "Visible": 1b,
+                                        "Texture": "b.a:alex/skins/police (1).png"
+                                    }
+                                }
+                            },
+                            "Pose": {
+                                "low_body": {
+                                },
+                                "right_arm": {
+                                },
+                                "left_leg": {
+                                },
+                                "misc_bone_1": {
+                                },
+                                "misc_bone_2": {
+                                },
+                                "misc_bone_3": {
+                                },
+                                "low_leg_right": {
+                                },
+                                "low_right_arm.end": {
+                                },
+                                "misc_gbone_2": {
+                                },
+                                "misc_gbone_1": {
+                                },
+                                "body": {
+                                },
+                                "misc_gbone_3": {
+                                },
+                                "head": {
+                                    "RX": -0.017453292f,
+                                    "RY": 0.06981317f,
+                                    "RZ": 0.17453294f
+                                },
+                                "left_arm": {
+                                },
+                                "low_right_arm": {
+                                },
+                                "right_leg": {
+                                },
+                                "anchor": {
+                                    "RZ": 0.5235988f
+                                },
+                                "low_left_leg": {
+                                },
+                                "low_left_arm": {
+                                },
+                                "low_left_arm.end": {
+                                }
+                            },
+                            "Animation": "slim",
+                            "Name": "emoticons.slim"
+                        }
+                    }
+                ],
+                "Name": "emoticons.slim"
+            },
+            "Sound": "",
+            "Relations": [
+                "67892f7c-cc7b-4ae4-a245-985bed87d0b4"
+            ],
+            "Id": "fa907849-a321-4d4c-9f1f-92b18abb3a3d",
             "Marker": ""
         },
         {
@@ -961,6 +1410,87 @@
             "Marker": ""
         },
         {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "[dСьюзи:[r Нет, Норт права. Улики действительно не человеческие. Но кто тогда? Волки и медведи резко решили сбежать из леса?
+[aЛукас:[r Тогда это уже не наши проблемы. Пусть вызывают службу по отлову животных и караулят 24/7"
+            },
+            "X": 7402,
+            "Title": "",
+            "Y": 468,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/police (1).png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                    },
+                    "left_arm": {
+                    },
+                    "low_right_arm": {
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                        "RZ": 0.5235988f
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "slim",
+                "Name": "emoticons.slim"
+            },
+            "Sound": "",
+            "Relations": [
+                "ee5d1a95-e3d4-4a9a-9a60-4cf302b7acb5"
+            ],
+            "Id": "6dbdf9ad-bfd3-4148-ad74-e7a96abf36d8",
+            "Marker": ""
+        },
+        {
             "Type": "reply",
             "Message": {
                 "Color": 16777215,
@@ -1055,6 +1585,14 @@
             "Marker": ""
         },
         {
+            "Type": "command",
+            "Command": "/noppes npc Гарри visible false",
+            "X": 9220,
+            "Title": "",
+            "Y": 586,
+            "Id": "7e2f2d4e-e181-403a-bab0-da73df847828"
+        },
+        {
             "Type": "reply",
             "Message": {
                 "Color": 16777215,
@@ -1063,6 +1601,9 @@
             "X": 7157,
             "Title": "",
             "Y": 405,
+            "Relations": [
+                "6dbdf9ad-bfd3-4148-ad74-e7a96abf36d8"
+            ],
             "Id": "34e283cc-1b58-4868-8980-73127949d272"
         },
         {
@@ -1283,16 +1824,96 @@
             "Marker": ""
         },
         {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Кто такой профайлер?"
+            },
+            "X": 7913,
+            "Title": "",
+            "Y": 474,
+            "Relations": [
+                "fa907849-a321-4d4c-9f1f-92b18abb3a3d"
+            ],
+            "Id": "84d64aa5-487a-4232-af96-e91ed67ac58a"
+        },
+        {
             "Read": 0b,
             "Type": "reaction",
             "Message": {
                 "Color": 16777215,
-                "Text": ""
+                "Text": "[3Гарри:[r Ну хоть один здравомыслящий человек здесь"
             },
-            "X": 7095,
+            "X": 6990,
             "Title": "",
-            "Y": -163,
+            "Y": -208,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 0b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/police (3).png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                    },
+                    "left_arm": {
+                    },
+                    "low_right_arm": {
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                        "RZ": 0.5235988f
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "slim_simple_plus",
+                "Name": "emoticons.slim_simple_plus"
+            },
             "Sound": "",
+            "Relations": [
+                "ee5d1a95-e3d4-4a9a-9a60-4cf302b7acb5"
+            ],
             "Id": "fec9fadc-7744-4ec5-b6a7-514b7d7f57c3",
             "Marker": ""
         },
@@ -1322,6 +1943,20 @@
             "Type": "reply",
             "Message": {
                 "Color": 16777215,
+                "Text": "Нет, мне не трудно рассказать ему про основные принципы работы у нас"
+            },
+            "X": 8328,
+            "Title": "",
+            "Y": 476,
+            "Relations": [
+                "51e40953-7b7f-4085-9182-d502f78ebfb3"
+            ],
+            "Id": "67892f7c-cc7b-4ae4-a245-985bed87d0b4"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
                 "Text": "Странно..."
             },
             "X": 3475,
@@ -1341,6 +1976,9 @@
             "X": 7150,
             "Title": "",
             "Y": 558,
+            "Relations": [
+                "6dbdf9ad-bfd3-4148-ad74-e7a96abf36d8"
+            ],
             "Id": "195ac59c-8c34-4915-879d-f2127b2a8888"
         },
         {
@@ -1355,7 +1993,7 @@
             "Type": "reply",
             "Message": {
                 "Color": 16777215,
-                "Text": ""
+                "Text": "В этом всем определенно замешана группа людей"
             },
             "X": 6777,
             "Title": "несколько",
@@ -1778,6 +2416,14 @@
             ],
             "Id": "8b199c87-a2de-43c4-91f5-aac39b168847",
             "Marker": ""
+        },
+        {
+            "Type": "command",
+            "Command": "/scene play bargarrywalk @p",
+            "X": 9218,
+            "Title": "",
+            "Y": 440,
+            "Id": "c40d211a-88bf-4f8d-bbc3-d644ca0f554b"
         },
         {
             "Type": "reply",
@@ -2377,6 +3023,205 @@
             "Type": "reaction",
             "Message": {
                 "Color": 16777215,
+                "Text": "[aЛукас:[r Ну вот, Норт тоже за мою версию."
+            },
+            "X": 6976,
+            "Title": "",
+            "Y": 56,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/police4.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                    },
+                    "left_arm": {
+                    },
+                    "low_right_arm": {
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                        "RZ": 0.5235988f
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "slim",
+                "Name": "emoticons.slim"
+            },
+            "Sound": "",
+            "Relations": [
+                "ee5d1a95-e3d4-4a9a-9a60-4cf302b7acb5"
+            ],
+            "Id": "e51a53c6-3b1a-4cf0-806e-eed726eeac0e",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "[3Гарри:[r Вот и здорово, а мне уже домой пора. Сильвия будет волноваться
+[dСьюзан:[r Ууу, обремененный узами супружества. Сожалею
+[3Гарри:[r Следи за языком, Сьюзи
+[dСьюзан:[r Иди уже, кавалер"
+            },
+            "X": 8542,
+            "Title": "",
+            "Y": 474,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/police (1).png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RX": 0.034906585f,
+                        "RY": 0.87266463f
+                    },
+                    "left_arm": {
+                    },
+                    "low_right_arm": {
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                        "X": 0.3125f,
+                        "RZ": 0.5235988f,
+                        "Y": -0.0625f
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "slim",
+                "BodyParts": [
+                    {
+                        "R": [
+                            -1.000002f,
+                            -181.99998f,
+                            4.0E-6f
+                        ],
+                        "T": [
+                            -0.375f,
+                            0.09375f,
+                            0.40625f
+                        ],
+                        "Limb": "misc_gbone_3",
+                        "Morph": {
+                            "UserData": {
+                                "Meshes": {
+                                    "body": {
+                                        "Filtering": "nearest",
+                                        "Normals": 1b,
+                                        "Lighting": 1b,
+                                        "Color": 16777215,
+                                        "Smooth": 0b,
+                                        "Visible": 1b,
+                                        "Texture": "b.a:alex/skins/police (3).png"
+                                    }
+                                }
+                            },
+                            "Animation": "slim_simple_plus",
+                            "Name": "emoticons.slim_simple_plus"
+                        }
+                    }
+                ],
+                "Name": "emoticons.slim"
+            },
+            "Sound": "",
+            "Relations": [
+                "d43e0e20-9659-4d1e-9710-3291886f3d42"
+            ],
+            "Id": "51e40953-7b7f-4085-9182-d502f78ebfb3",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
                 "Text": "[3Гарри:[r А я все равно считаю, что это один убийца. Он же вполне мог убивать в нетрезвом состоянии"
             },
             "X": 5298,
@@ -2547,6 +3392,20 @@
                 "bbb0fb20-e64b-4251-80d1-903533401b74"
             ],
             "Id": "42073795-18c3-4bba-96a5-008f2ecc1af8"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Я наверное тоже пойду, дела есть…"
+            },
+            "X": 8715,
+            "Title": "",
+            "Y": 471,
+            "Relations": [
+                "46b08a85-c296-47e7-bd56-d2fdab2a16c6"
+            ],
+            "Id": "d43e0e20-9659-4d1e-9710-3291886f3d42"
         },
         {
             "Read": 0b,

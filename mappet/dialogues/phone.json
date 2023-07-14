@@ -13,9 +13,9 @@
                 "Color": 16777215,
                 "Text": "Так, улица Паула Донована. Вроде как не особо далеко отсюда"
             },
-            "X": -25,
+            "X": -757,
             "Title": "",
-            "Y": 483,
+            "Y": 384,
             "Sound": "",
             "Relations": [
                 "76bc622d-93fd-4c19-befa-915f5dbf6d20"
@@ -24,32 +24,19 @@
             "Marker": "kris2"
         },
         {
-            "Type": "reply",
-            "Message": {
-                "Color": 16777215,
-                "Text": "(Ответить на звонок)"
+            "Condition": {
+                "Condition": {
+                },
+                "Mode": 1
             },
-            "X": 147,
-            "Title": "",
-            "Y": -268,
+            "Type": "condition",
+            "X": 868,
+            "Title": "уоррен+2",
+            "Y": 754,
             "Relations": [
-                "eb342152-ba88-4fb0-ae19-ea10648ca684"
+                "5fc2009a-face-4080-8082-2e9fc9072456"
             ],
-            "Id": "95d253d7-9ded-4733-b483-1fff637131b4"
-        },
-        {
-            "Type": "reply",
-            "Message": {
-                "Color": 16777215,
-                "Text": "Черт, я совсем забыла что обещала вернуться, сейчас примчу"
-            },
-            "X": 909,
-            "Title": "",
-            "Y": -414,
-            "Relations": [
-                "fdbea25d-607a-4052-b39e-25639fe8c79a"
-            ],
-            "Id": "c3cc5d93-c8de-4546-9c44-212610304d37"
+            "Id": "42fd7599-8982-4f79-ad53-a2472f0394c8"
         },
         {
             "Read": 1b,
@@ -59,9 +46,9 @@
                 "Text": "А ты не изменяешь себе, хаха. Но сразу предупреждаю, Босс
 не в настроении, так что поторопись"
             },
-            "X": 1094,
+            "X": 847,
             "Title": "",
-            "Y": -417,
+            "Y": -1077,
             "Sound": "",
             "Relations": [
                 "e164cdae-1309-4311-8074-5afe47cfc3a9",
@@ -71,28 +58,55 @@
             "Marker": "nortpolice1"
         },
         {
-            "Type": "trigger",
-            "Trigger": {
-                "Blocks": [
-                    {
-                        "Target": {
-                            "Target": 4,
-                            "Selector": ""
-                        },
-                        "Type": "state",
-                        "State": "wherekris",
-                        "Mode": 1,
-                        "Value": 1.0d,
-                        "Frequency": 1
-                    }
-                ]
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Добрый день. Нам передал твои контакты кое-кто, сказал, ты хочешь подзаработать. Сразу говорю, работенка не из легких, придется чуть замарать руки, но это того стоит. Готова приступить к своей первой миссии?"
             },
-            "Cancel": 0b,
-            "X": 220,
-            "CustomData": "",
+            "X": 859,
             "Title": "",
-            "Y": 676,
-            "Id": "3b0b1f15-df2a-452b-887b-5f94d6f6dfaf"
+            "Y": -172,
+            "Sound": "",
+            "Relations": [
+                "5acac3dc-8195-4091-a972-3ce4eff4cf11",
+                "ef5906e8-30b3-418b-ae5f-b2abac7ca567"
+            ],
+            "Id": "05a4cf15-15d1-4008-98d2-da1770ccf9a6",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "[dКарина:[r Хэй-хэй-хэй, Это Карина, надеюсь ты меня помнишь! Мы уже виделись. В рамках нашей еженедельной рубрики «Профессии Фраобэртона» я хочу пригласить тебя на интервью! Ответишь на пару вопросов о своей профессии и, надеюсь, поведаешь пару сплетен, хо-хо. Жду тебя в кафе «Сокол»!"
+            },
+            "X": 997,
+            "Title": "",
+            "Y": 627,
+            "Sound": "",
+            "Relations": [
+                "5acac3dc-8195-4091-a972-3ce4eff4cf11",
+                "c54b486e-1f15-4c62-b599-99403e095ab4"
+            ],
+            "Id": "09239adf-0cfd-4587-bae4-22705d34a16d",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Надо поспешить, черт знает во что она могла вляпаться"
+            },
+            "X": -770,
+            "Title": "",
+            "Y": 539,
+            "Relations": [
+                "8855278d-1884-45ef-ba7c-e260a1f16a69",
+                "3b0b1f15-df2a-452b-887b-5f94d6f6dfaf"
+            ],
+            "Id": "76bc622d-93fd-4c19-befa-915f5dbf6d20"
         },
         {
             "Condition": {
@@ -101,106 +115,111 @@
                         {
                             "Not": 0b,
                             "Target": 4,
-                            "Type": "quest",
+                            "Type": "faction",
                             "Or": 0b,
-                            "Id": "story_kris_2",
-                            "Quest": 1,
-                            "Selector": ""
+                            "Comparison": 2,
+                            "Expression": "",
+                            "Value": 1.0d,
+                            "Id": "karina",
+                            "Selector": "",
+                            "Faction": 3
                         }
                     ]
                 },
                 "Mode": 1
             },
             "Type": "condition",
-            "X": -47,
-            "Title": "",
-            "Y": 160,
+            "X": 871,
+            "Title": "карина+1",
+            "Y": 501,
             "Relations": [
-                "0bbd03d0-c228-4e8b-bb43-a7be6acc7b60"
+                "d038db2b-0f79-4464-b279-6af06ef2e4c5"
             ],
-            "Id": "7c3fbeec-ddbb-48d9-aae8-9525bbb10420"
+            "Id": "7ea174c5-c155-4040-8576-9f0d7c761eac"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Закрыть)"
+            },
+            "X": 1189,
+            "Title": "",
+            "Y": 879,
+            "Id": "1f197457-b8f7-4870-888a-10d4958fbd0a"
         },
         {
             "Read": 0b,
             "Type": "reaction",
             "Message": {
                 "Color": 16777215,
-                "Text": "Уоррен: Норт, ты где там? "
+                "Text": "Отлично, твое первое задание — обчистить номер одного богатея в отеле «Салем», а точнее, забрать из номера кейс с деньгами. Ничего сложного, если будешь действовать тихо"
             },
-            "X": 692,
+            "X": 1249,
             "Title": "",
-            "Y": -274,
+            "Y": -175,
             "Sound": "",
             "Relations": [
-                "c3cc5d93-c8de-4546-9c44-212610304d37"
+                "2581556c-33bd-48c4-9cb0-04aa0996190f",
+                "5acac3dc-8195-4091-a972-3ce4eff4cf11",
+                "c36dd0d8-da40-4a8c-b6d2-9ecc64d9fea6"
             ],
-            "Id": "de473d81-0f7c-4b12-8d62-e6c435480b28",
+            "Id": "f980a554-3c58-485a-8e1a-cbc8beae01f8",
             "Marker": ""
         },
         {
-            "Condition": {
-                "Condition": {
-                    "Blocks": [
-                        {
-                            "Not": 1b,
-                            "Target": 1,
-                            "Type": "dialogue",
-                            "Or": 0b,
-                            "Id": "phone",
-                            "Marker": "nortpolice1",
-                            "Selector": ""
-                        }
-                    ]
-                },
-                "Mode": 1
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ваши сообщения"
             },
-            "Type": "condition",
-            "X": 496,
-            "Title": "пиздец",
-            "Y": -409,
+            "X": 579,
+            "Title": "",
+            "Y": 422,
+            "Sound": "",
             "Relations": [
-                "b4d40abb-2fcf-4236-9bc4-c0f960824897"
+                "d5483bc3-2af8-456e-bf79-1c745677c7d2",
+                "a43c7715-4b92-4126-845f-92e80d46f839",
+                "7ea174c5-c155-4040-8576-9f0d7c761eac",
+                "42fd7599-8982-4f79-ad53-a2472f0394c8",
+                "53fa071e-367a-4e9b-b307-670767d243f4"
             ],
-            "Id": "3aed545b-d256-4eef-a7a7-7865f5e40906"
+            "Id": "a3b64420-9893-4841-994f-23a9bd8aa8bb",
+            "Marker": ""
         },
         {
             "Type": "reply",
             "Message": {
-                "Color": 16777215,
-                "Text": "Надо поспешить, черт знает во что она могла вляпаться"
+                "Color": 8650581,
+                "Text": "(Приглашение в тир от Тома)"
             },
-            "X": -38,
+            "X": 714,
             "Title": "",
-            "Y": 638,
+            "Y": 1091,
             "Relations": [
-                "8855278d-1884-45ef-ba7c-e260a1f16a69",
-                "3b0b1f15-df2a-452b-887b-5f94d6f6dfaf"
+                "bdf21283-4db9-4633-8b83-577a00f66ac2"
             ],
-            "Id": "76bc622d-93fd-4c19-befa-915f5dbf6d20"
-        },
-        {
-            "Type": "command",
-            "Command": "/tellraw @p {\"text\":\"\\u041d\\u0443\\u0436\\u043d\\u043e \\u043f\\u043e\\u0442\\u043e\\u0440\\u043e\\u043f\\u0438\\u0442\\u044c\\u0441\\u044f, \\u0435\\u0441\\u043b\\u0438 \\u043d\\u0435 \\u0445\\u043e\\u0447\\u0443 \\u043e\\u0442\\u0445\\u0432\\u0430\\u0442\\u0438\\u0442\\u044c \\u043e\\u0442 \\u0431\\u043e\\u0441\\u0441\\u0430\",\"color\":\"yellow\"}",
-            "X": 1239,
-            "Title": "",
-            "Y": -558,
-            "Id": "f711f7b7-6433-4274-853b-fc91ee93386d"
+            "Id": "a43c7715-4b92-4126-845f-92e80d46f839"
         },
         {
             "Type": "command",
             "Command": "/stopsound @p block customnpcs:misc.ringtone",
-            "X": 496,
+            "X": 249,
             "Title": "",
-            "Y": -126,
+            "Y": -786,
             "Id": "1adcd2f8-d7ea-4a2d-9bdf-38ca25e08740"
         },
         {
-            "Type": "command",
-            "Command": "mp quest complete @p story_kris_2",
-            "X": 54,
+            "Type": "reply",
+            "Message": {
+                "Color": 16733249,
+                "Text": "(Закрыть)"
+            },
+            "X": 1249,
             "Title": "",
-            "Y": 793,
-            "Id": "8855278d-1884-45ef-ba7c-e260a1f16a69"
+            "Y": -4,
+            "Id": "2581556c-33bd-48c4-9cb0-04aa0996190f"
         },
         {
             "Read": 0b,
@@ -224,39 +243,44 @@
         {
             "Type": "reply",
             "Message": {
+                "Color": 5033292,
+                "Text": "Я готова (ТЕЛЕПОРТИРУЕТ НА ЗАДАНИЕ)"
+            },
+            "X": 1427,
+            "Title": "",
+            "Y": -175,
+            "Relations": [
+                "901e2162-f148-4af2-bf02-057d4ac3d75c"
+            ],
+            "Id": "c36dd0d8-da40-4a8c-b6d2-9ecc64d9fea6"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 8650581,
+                "Text": "(Приглашение на прогулку от Уоррена)"
+            },
+            "X": 747,
+            "Title": "прогулка уоррен",
+            "Y": 861,
+            "Relations": [
+                "f8c89150-1600-4d33-a69e-2218d7467cdf"
+            ],
+            "Id": "5fc2009a-face-4080-8082-2e9fc9072456"
+        },
+        {
+            "Type": "reply",
+            "Message": {
                 "Color": 16777215,
                 "Text": "(Прочитать СМС)"
             },
-            "X": 284,
+            "X": 330,
             "Title": "",
-            "Y": 136,
-            "Id": "a34711f4-8796-4d3f-8f7d-84ce8216d822"
-        },
-        {
-            "Type": "reply",
-            "Message": {
-                "Color": 16777215,
-                "Text": "Уоррен"
-            },
-            "X": 497,
-            "Title": "",
-            "Y": -263,
+            "Y": 529,
             "Relations": [
-                "de473d81-0f7c-4b12-8d62-e6c435480b28",
-                "1adcd2f8-d7ea-4a2d-9bdf-38ca25e08740"
+                "a3b64420-9893-4841-994f-23a9bd8aa8bb"
             ],
-            "Id": "b4d40abb-2fcf-4236-9bc4-c0f960824897"
-        },
-        {
-            "Type": "reply",
-            "Message": {
-                "Color": 16777215,
-                "Text": "Уже бегу [4(Положить трубку)"
-            },
-            "X": 1311,
-            "Title": "",
-            "Y": -416,
-            "Id": "e164cdae-1309-4311-8074-5afe47cfc3a9"
+            "Id": "a34711f4-8796-4d3f-8f7d-84ce8216d822"
         },
         {
             "Read": 0b,
@@ -265,9 +289,9 @@
                 "Color": 16777215,
                 "Text": "Вам звонит..."
             },
-            "X": 318,
+            "X": 71,
             "Title": "",
-            "Y": -266,
+            "Y": -926,
             "Sound": "",
             "Relations": [
                 "3aed545b-d256-4eef-a7a7-7865f5e40906"
@@ -281,13 +305,387 @@
                 "Color": 16777215,
                 "Text": "(Посмотреть геолокацию Кристины)"
             },
-            "X": -50,
+            "X": -782,
             "Title": "",
-            "Y": 314,
+            "Y": 212,
             "Relations": [
                 "fa627ced-6719-4aa3-a0ab-d58c405825ca"
             ],
             "Id": "0bbd03d0-c228-4e8b-bb43-a7be6acc7b60"
+        },
+        {
+            "Type": "command",
+            "Command": "playsound customnpcs:misc.message2 block @p",
+            "X": 1919,
+            "Title": "",
+            "Y": 505,
+            "Id": "5acac3dc-8195-4091-a972-3ce4eff4cf11"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Ответить на звонок)"
+            },
+            "X": -100,
+            "Title": "",
+            "Y": -928,
+            "Relations": [
+                "eb342152-ba88-4fb0-ae19-ea10648ca684"
+            ],
+            "Id": "95d253d7-9ded-4733-b483-1fff637131b4"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Черт, я совсем забыла что обещала вернуться, сейчас примчу"
+            },
+            "X": 662,
+            "Title": "",
+            "Y": -1074,
+            "Relations": [
+                "fdbea25d-607a-4052-b39e-25639fe8c79a"
+            ],
+            "Id": "c3cc5d93-c8de-4546-9c44-212610304d37"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 14640459,
+                "Text": "(Неизвестный номер)"
+            },
+            "X": 656,
+            "Title": "от банды",
+            "Y": -101,
+            "Relations": [
+                "05a4cf15-15d1-4008-98d2-da1770ccf9a6"
+            ],
+            "Id": "53fa071e-367a-4e9b-b307-670767d243f4"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Да"
+            },
+            "X": 1040,
+            "Title": "",
+            "Y": -181,
+            "Relations": [
+                "f980a554-3c58-485a-8e1a-cbc8beae01f8"
+            ],
+            "Id": "ef5906e8-30b3-418b-ae5f-b2abac7ca567"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Отлично, до связи на месте"
+            },
+            "X": 1609,
+            "Title": "",
+            "Y": -181,
+            "Sound": "",
+            "Relations": [
+                "6b256836-f2e7-45ac-b00e-20b2f13ba734",
+                "2581556c-33bd-48c4-9cb0-04aa0996190f",
+                "5acac3dc-8195-4091-a972-3ce4eff4cf11"
+            ],
+            "Id": "901e2162-f148-4af2-bf02-057d4ac3d75c",
+            "Marker": ""
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Target": {
+                            "Target": 4,
+                            "Selector": ""
+                        },
+                        "Type": "state",
+                        "State": "wherekris",
+                        "Mode": 1,
+                        "Value": 1.0d,
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": -512,
+            "CustomData": "",
+            "Title": "",
+            "Y": 577,
+            "Id": "3b0b1f15-df2a-452b-887b-5f94d6f6dfaf"
+        },
+        {
+            "Type": "command",
+            "Command": "tp @p 72 22 -1797",
+            "X": 1762,
+            "Title": "",
+            "Y": -183,
+            "Id": "6b256836-f2e7-45ac-b00e-20b2f13ba734"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 4,
+                            "Type": "quest",
+                            "Or": 0b,
+                            "Id": "story_kris_2",
+                            "Quest": 1,
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": -779,
+            "Title": "",
+            "Y": 58,
+            "Relations": [
+                "0bbd03d0-c228-4e8b-bb43-a7be6acc7b60"
+            ],
+            "Id": "7c3fbeec-ddbb-48d9-aae8-9525bbb10420"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Уоррен: Норт, ты где там? "
+            },
+            "X": 445,
+            "Title": "",
+            "Y": -934,
+            "Sound": "",
+            "Relations": [
+                "c3cc5d93-c8de-4546-9c44-212610304d37"
+            ],
+            "Id": "de473d81-0f7c-4b12-8d62-e6c435480b28",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Закрыть)"
+            },
+            "X": 1200,
+            "Title": "",
+            "Y": 1059,
+            "Id": "f8220687-ca82-49c4-95b7-c75bdc762c17"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 1b,
+                            "Target": 1,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "phone",
+                            "Marker": "nortpolice1",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 249,
+            "Title": "пиздец",
+            "Y": -1069,
+            "Relations": [
+                "b4d40abb-2fcf-4236-9bc4-c0f960824897"
+            ],
+            "Id": "3aed545b-d256-4eef-a7a7-7865f5e40906"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 8650581,
+                "Text": "(Приглашение на интервью)"
+            },
+            "X": 757,
+            "Title": "интервью карина",
+            "Y": 620,
+            "Relations": [
+                "09239adf-0cfd-4587-bae4-22705d34a16d"
+            ],
+            "Id": "d038db2b-0f79-4464-b279-6af06ef2e4c5"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "[dКарина:[r Интернет, детка. Я там не только контакты нашла, если ты понимаешь, о чем я =)"
+            },
+            "X": 1415,
+            "Title": "",
+            "Y": 622,
+            "Sound": "",
+            "Relations": [
+                "2f46b5a1-65b6-4812-b8d4-7c3e391de600",
+                "5acac3dc-8195-4091-a972-3ce4eff4cf11"
+            ],
+            "Id": "f3336eac-dc0d-4eff-8fcb-4e00bb26d2f2",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "[9Уоррен:[r Эй, Норт. Не хочешь прогуляться в Сельвадор-парке? Покажу тебе кое-что интересное"
+            },
+            "X": 999,
+            "Title": "",
+            "Y": 874,
+            "Sound": "",
+            "Relations": [
+                "5acac3dc-8195-4091-a972-3ce4eff4cf11",
+                "1f197457-b8f7-4870-888a-10d4958fbd0a"
+            ],
+            "Id": "f8c89150-1600-4d33-a69e-2218d7467cdf",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Закрыть)"
+            },
+            "X": 1615,
+            "Title": "",
+            "Y": 630,
+            "Id": "2f46b5a1-65b6-4812-b8d4-7c3e391de600"
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p {\"text\":\"\\u041d\\u0443\\u0436\\u043d\\u043e \\u043f\\u043e\\u0442\\u043e\\u0440\\u043e\\u043f\\u0438\\u0442\\u044c\\u0441\\u044f, \\u0435\\u0441\\u043b\\u0438 \\u043d\\u0435 \\u0445\\u043e\\u0447\\u0443 \\u043e\\u0442\\u0445\\u0432\\u0430\\u0442\\u0438\\u0442\\u044c \\u043e\\u0442 \\u0431\\u043e\\u0441\\u0441\\u0430\",\"color\":\"yellow\"}",
+            "X": 992,
+            "Title": "",
+            "Y": -1218,
+            "Id": "f711f7b7-6433-4274-853b-fc91ee93386d"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 8650581,
+                "Text": "(Приглашение в бар от коллег)"
+            },
+            "X": 766,
+            "Title": "Приглос в бар",
+            "Y": 331,
+            "Relations": [
+                "7eaae17f-c9fd-4dd9-8dbb-623bc4371870"
+            ],
+            "Id": "d5483bc3-2af8-456e-bf79-1c745677c7d2"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "[2Сэм:[r Здарова, Норт. Мы с ребятами собираемся пропустить по стаканчику после работы, заходи к нам. Как раз разберем последние новости"
+            },
+            "X": 994,
+            "Title": "",
+            "Y": 239,
+            "Sound": "",
+            "Relations": [
+                "07a48722-30c2-4df1-9369-4c8a03a21c0c",
+                "5acac3dc-8195-4091-a972-3ce4eff4cf11"
+            ],
+            "Id": "7eaae17f-c9fd-4dd9-8dbb-623bc4371870",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Откуда у тебя мои контакты?"
+            },
+            "X": 1240,
+            "Title": "",
+            "Y": 627,
+            "Relations": [
+                "f3336eac-dc0d-4eff-8fcb-4e00bb26d2f2"
+            ],
+            "Id": "c54b486e-1f15-4c62-b599-99403e095ab4"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "[bТом: [rПривет, подруга. Я тут подумал, что ты меня недавно неплохо 
+так выручила, и надо бы тебя за это отблагодарить. Приходи в тир сегодня. Постреляем, поболтаем, будет весело!"
+            },
+            "X": 1000,
+            "Title": "",
+            "Y": 1059,
+            "Sound": "",
+            "Relations": [
+                "f8220687-ca82-49c4-95b7-c75bdc762c17",
+                "5acac3dc-8195-4091-a972-3ce4eff4cf11"
+            ],
+            "Id": "bdf21283-4db9-4633-8b83-577a00f66ac2",
+            "Marker": ""
+        },
+        {
+            "Type": "command",
+            "Command": "mp quest complete @p story_kris_2",
+            "X": -678,
+            "Title": "",
+            "Y": 694,
+            "Id": "8855278d-1884-45ef-ba7c-e260a1f16a69"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Закрыть)"
+            },
+            "X": 1187,
+            "Title": "",
+            "Y": 235,
+            "Id": "07a48722-30c2-4df1-9369-4c8a03a21c0c"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Уоррен"
+            },
+            "X": 250,
+            "Title": "",
+            "Y": -923,
+            "Relations": [
+                "de473d81-0f7c-4b12-8d62-e6c435480b28",
+                "1adcd2f8-d7ea-4a2d-9bdf-38ca25e08740"
+            ],
+            "Id": "b4d40abb-2fcf-4236-9bc4-c0f960824897"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Уже бегу [4(Положить трубку)"
+            },
+            "X": 1064,
+            "Title": "",
+            "Y": -1076,
+            "Id": "e164cdae-1309-4311-8074-5afe47cfc3a9"
         }
     ]
 }
