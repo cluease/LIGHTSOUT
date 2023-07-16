@@ -15,6 +15,112 @@
             "Id": "d21c43d4-5849-4551-a3f3-50bb808ef7f4"
         },
         {
+            "Type": "command",
+            "Command": "/playsound cfm:fire_alarm master @p ~ ~ ~ ",
+            "X": 1196,
+            "Title": "",
+            "Y": -125,
+            "Id": "a5065dd2-2b5c-4d51-bd88-9d5010c3f5c7"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Попробовать ввести новый код)"
+            },
+            "X": 583,
+            "Title": "второй код",
+            "Y": 63,
+            "Relations": [
+                "14cfe34e-26c5-44c6-9cdc-5eaf8469f2f7"
+            ],
+            "Id": "74aea61f-6b95-4fdf-bfa7-9f747c6c476c"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Target": {
+                            "Target": 0,
+                            "Selector": ""
+                        },
+                        "Type": "state",
+                        "State": "safeopen",
+                        "Mode": 1,
+                        "Value": 1.0d,
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": 1207,
+            "CustomData": "",
+            "Title": "",
+            "Y": 221,
+            "Id": "9a07bc75-5420-4a18-855f-0213576bd424"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Вы подошли к сейфу. Нужно ввести код"
+            },
+            "X": 54,
+            "Title": "",
+            "Y": -102,
+            "Sound": "",
+            "Relations": [
+                "4fe32d16-2b42-45e5-b62a-2197471f0603",
+                "c90526a1-f0c9-428b-b787-47c71bd4a521"
+            ],
+            "Id": "60a00322-1ad5-443e-84c2-dfdefd3e1680",
+            "Marker": ""
+        },
+        {
+            "Type": "command",
+            "Command": "/give @p variedcommodities:skull 1 0 {display:{Lore:[\"Довольно увесистый...\"],Name:\"Кейс с деньгами\"}}",
+            "X": 1088,
+            "Title": "",
+            "Y": 377,
+            "Id": "8a76c5ed-f9a6-4ffc-822f-4c95e5601757"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Забрать кейс с деньгами)"
+            },
+            "X": 971,
+            "Title": "",
+            "Y": 71,
+            "Relations": [
+                "832ed111-f983-42d6-a806-68b0ecb73b72",
+                "9a07bc75-5420-4a18-855f-0213576bd424",
+                "a5065dd2-2b5c-4d51-bd88-9d5010c3f5c7",
+                "8a76c5ed-f9a6-4ffc-822f-4c95e5601757"
+            ],
+            "Id": "ecd01c66-255c-4940-8013-1738a6f86934"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Сейф открылся"
+            },
+            "X": 775,
+            "Title": "",
+            "Y": 67,
+            "Sound": "",
+            "Relations": [
+                "ecd01c66-255c-4940-8013-1738a6f86934"
+            ],
+            "Id": "14cfe34e-26c5-44c6-9cdc-5eaf8469f2f7",
+            "Marker": ""
+        },
+        {
             "Condition": {
                 "Condition": {
                     "Blocks": [
@@ -95,68 +201,12 @@
             "Marker": "wrong"
         },
         {
-            "Type": "reply",
-            "Message": {
-                "Color": 16777215,
-                "Text": "(Попробовать ввести новый код)"
-            },
-            "X": 583,
-            "Title": "второй код",
-            "Y": 63,
-            "Relations": [
-                "14cfe34e-26c5-44c6-9cdc-5eaf8469f2f7"
-            ],
-            "Id": "74aea61f-6b95-4fdf-bfa7-9f747c6c476c"
-        },
-        {
             "Type": "command",
             "Command": "mp event trigger @p extra_hotel_6",
             "X": 1204,
             "Title": "",
             "Y": 15,
             "Id": "832ed111-f983-42d6-a806-68b0ecb73b72"
-        },
-        {
-            "Type": "trigger",
-            "Trigger": {
-                "Blocks": [
-                    {
-                        "Target": {
-                            "Target": 0,
-                            "Selector": ""
-                        },
-                        "Type": "state",
-                        "State": "safeopen",
-                        "Mode": 1,
-                        "Value": 1.0d,
-                        "Frequency": 1
-                    }
-                ]
-            },
-            "Cancel": 0b,
-            "X": 1207,
-            "CustomData": "",
-            "Title": "",
-            "Y": 221,
-            "Id": "9a07bc75-5420-4a18-855f-0213576bd424"
-        },
-        {
-            "Read": 0b,
-            "Type": "reaction",
-            "Message": {
-                "Color": 16777215,
-                "Text": "Вы подошли к сейфу. Нужно ввести код"
-            },
-            "X": 54,
-            "Title": "",
-            "Y": -102,
-            "Sound": "",
-            "Relations": [
-                "4fe32d16-2b42-45e5-b62a-2197471f0603",
-                "c90526a1-f0c9-428b-b787-47c71bd4a521"
-            ],
-            "Id": "60a00322-1ad5-443e-84c2-dfdefd3e1680",
-            "Marker": ""
         },
         {
             "Type": "reply",
@@ -176,21 +226,6 @@
             "Type": "reply",
             "Message": {
                 "Color": 16777215,
-                "Text": "(Забрать кейс с деньгами)"
-            },
-            "X": 971,
-            "Title": "",
-            "Y": 71,
-            "Relations": [
-                "832ed111-f983-42d6-a806-68b0ecb73b72",
-                "9a07bc75-5420-4a18-855f-0213576bd424"
-            ],
-            "Id": "ecd01c66-255c-4940-8013-1738a6f86934"
-        },
-        {
-            "Type": "reply",
-            "Message": {
-                "Color": 16777215,
                 "Text": "(Ввести код)"
             },
             "X": 376,
@@ -200,23 +235,6 @@
                 "97267914-e6a2-4675-add9-3c07ea4e51e2"
             ],
             "Id": "e3ff1d8e-433e-4343-a687-8dfc1dedee65"
-        },
-        {
-            "Read": 0b,
-            "Type": "reaction",
-            "Message": {
-                "Color": 16777215,
-                "Text": "Сейф открылся"
-            },
-            "X": 775,
-            "Title": "",
-            "Y": 67,
-            "Sound": "",
-            "Relations": [
-                "ecd01c66-255c-4940-8013-1738a6f86934"
-            ],
-            "Id": "14cfe34e-26c5-44c6-9cdc-5eaf8469f2f7",
-            "Marker": ""
         }
     ]
 }

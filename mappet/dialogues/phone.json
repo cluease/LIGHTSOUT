@@ -58,6 +58,30 @@
             "Marker": "nortpolice1"
         },
         {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Target": {
+                            "Target": 0,
+                            "Selector": ""
+                        },
+                        "Type": "state",
+                        "State": "mafia1",
+                        "Mode": 1,
+                        "Value": 2.0d,
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": 1610,
+            "CustomData": "",
+            "Title": "",
+            "Y": -328,
+            "Id": "0b3aa4b0-1be8-45be-a042-2b992a5d799f"
+        },
+        {
             "Read": 0b,
             "Type": "reaction",
             "Message": {
@@ -74,6 +98,30 @@
             ],
             "Id": "05a4cf15-15d1-4008-98d2-da1770ccf9a6",
             "Marker": ""
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Target": {
+                            "Target": 0,
+                            "Selector": ""
+                        },
+                        "Type": "state",
+                        "State": "barinvite",
+                        "Mode": 1,
+                        "Value": 1.0d,
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": 1288,
+            "CustomData": "",
+            "Title": "",
+            "Y": 364,
+            "Id": "fb2141d5-ac0b-48ce-8976-733f5c700442"
         },
         {
             "Read": 0b,
@@ -179,14 +227,42 @@
             "Y": 422,
             "Sound": "",
             "Relations": [
-                "d5483bc3-2af8-456e-bf79-1c745677c7d2",
                 "a43c7715-4b92-4126-845f-92e80d46f839",
                 "7ea174c5-c155-4040-8576-9f0d7c761eac",
                 "42fd7599-8982-4f79-ad53-a2472f0394c8",
-                "53fa071e-367a-4e9b-b307-670767d243f4"
+                "88026ce6-081a-4022-a2ab-c20c4081d2da",
+                "be0a054f-8f84-4cfd-9282-0ff39d7bb222"
             ],
             "Id": "a3b64420-9893-4841-994f-23a9bd8aa8bb",
             "Marker": ""
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 0,
+                            "Type": "state",
+                            "Or": 0b,
+                            "Comparison": 2,
+                            "Expression": "",
+                            "Value": 0.0d,
+                            "Id": "barinvite",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 680,
+            "Title": "",
+            "Y": 328,
+            "Relations": [
+                "d5483bc3-2af8-456e-bf79-1c745677c7d2"
+            ],
+            "Id": "be0a054f-8f84-4cfd-9282-0ff39d7bb222"
         },
         {
             "Type": "reply",
@@ -250,7 +326,8 @@
             "Title": "",
             "Y": -175,
             "Relations": [
-                "901e2162-f148-4af2-bf02-057d4ac3d75c"
+                "901e2162-f148-4af2-bf02-057d4ac3d75c",
+                "0b3aa4b0-1be8-45be-a042-2b992a5d799f"
             ],
             "Id": "c36dd0d8-da40-4a8c-b6d2-9ecc64d9fea6"
         },
@@ -312,6 +389,34 @@
                 "fa627ced-6719-4aa3-a0ab-d58c405825ca"
             ],
             "Id": "0bbd03d0-c228-4e8b-bb43-a7be6acc7b60"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 0,
+                            "Type": "state",
+                            "Or": 0b,
+                            "Comparison": 2,
+                            "Expression": "",
+                            "Value": 1.0d,
+                            "Id": "mafia1",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 650,
+            "Title": "",
+            "Y": 118,
+            "Relations": [
+                "53fa071e-367a-4e9b-b307-670767d243f4"
+            ],
+            "Id": "88026ce6-081a-4022-a2ab-c20c4081d2da"
         },
         {
             "Type": "command",
@@ -583,9 +688,9 @@
                 "Color": 8650581,
                 "Text": "(Приглашение в бар от коллег)"
             },
-            "X": 766,
+            "X": 815,
             "Title": "Приглос в бар",
-            "Y": 331,
+            "Y": 336,
             "Relations": [
                 "7eaae17f-c9fd-4dd9-8dbb-623bc4371870"
             ],
@@ -604,7 +709,8 @@
             "Sound": "",
             "Relations": [
                 "07a48722-30c2-4df1-9369-4c8a03a21c0c",
-                "5acac3dc-8195-4091-a972-3ce4eff4cf11"
+                "5acac3dc-8195-4091-a972-3ce4eff4cf11",
+                "fb2141d5-ac0b-48ce-8976-733f5c700442"
             ],
             "Id": "7eaae17f-c9fd-4dd9-8dbb-623bc4371870",
             "Marker": ""

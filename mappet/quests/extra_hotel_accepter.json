@@ -1,0 +1,73 @@
+{
+    "Decline": {
+        "Blocks": [
+        ]
+    },
+    "Accept": {
+        "Blocks": [
+        ]
+    },
+    "Complete": {
+        "Blocks": [
+            {
+                "Target": {
+                    "Target": 4,
+                    "Selector": ""
+                },
+                "Type": "item",
+                "Mode": 1,
+                "IgnoreNBT": 1b,
+                "Frequency": 1,
+                "Stack": {
+                    "ForgeCaps": {
+                        "customnpcs:itemscripteddata": {
+                        }
+                    },
+                    "id": "variedcommodities:money",
+                    "Count": 10b,
+                    "tag": {
+                        "display": {
+                            "Lore": [
+                                "§fИх стоит хранить в надежном месте"
+                            ],
+                            "Name": "§2Деньги"
+                        }
+                    },
+                    "Damage": 0s
+                }
+            }
+        ]
+    },
+    "Instant": 1b,
+    "Rewards": [
+    ],
+    "Visible": 1b,
+    "Objectives": [
+        {
+            "Type": "state",
+            "Message": "Отдать кейс с деньгами",
+            "Expression": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 4,
+                            "Type": "dialogue",
+                            "Or": 0b,
+                            "Id": "accepter",
+                            "Marker": "money",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Expression": "dialogue_read(\"...\", subject)",
+                "Mode": 1
+            },
+            "Result": 0b
+        }
+    ],
+    "Title": "[4Ограбление",
+    "Story": "[l[6Тип задания:[r
+- Дополнительное",
+    "Cancelable": 0b
+}

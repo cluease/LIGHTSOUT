@@ -1,0 +1,143 @@
+{
+    "Closable": 1b,
+    "Main": "21e1dbef-fdaa-43d6-9c6b-3319234639db",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Оставить деньги себе)"
+            },
+            "X": -138,
+            "Title": "",
+            "Y": 114,
+            "Relations": [
+                "31663863-d4e6-4a50-b550-e3a9df4d6c01",
+                "a337e76e-23f8-4249-89ce-b920aac8d0b6",
+                "c47b9e0f-b17d-4526-8ce5-b70197df6b53"
+            ],
+            "Id": "dcadda30-4dea-4012-b43f-e1bf058c306c"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Послушать незнакомца и отдать деньги)"
+            },
+            "X": 140,
+            "Title": "",
+            "Y": 102,
+            "Relations": [
+                "90e07bc1-49ec-4b80-8fcd-bf15187fa566",
+                "fd001081-72c5-4455-b911-b81eb4817b33"
+            ],
+            "Id": "2db4962e-06d1-4851-93aa-b76e282dab95"
+        },
+        {
+            "Type": "command",
+            "Command": "aperture play killnort1 @p",
+            "X": -142,
+            "Title": "",
+            "Y": 274,
+            "Id": "31663863-d4e6-4a50-b550-e3a9df4d6c01"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Target": {
+                            "Target": 0,
+                            "Selector": ""
+                        },
+                        "Type": "state",
+                        "State": "killnort1",
+                        "Mode": 1,
+                        "Value": 1.0d,
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": 38,
+            "CustomData": "",
+            "Title": "",
+            "Y": 268,
+            "Id": "c47b9e0f-b17d-4526-8ce5-b70197df6b53"
+        },
+        {
+            "Type": "command",
+            "Command": "scene play nortkill1 @p",
+            "X": -326,
+            "Title": "",
+            "Y": 226,
+            "Id": "a337e76e-23f8-4249-89ce-b920aac8d0b6"
+        },
+        {
+            "Type": "command",
+            "Command": "tp @p 301 91 -2181",
+            "X": 430,
+            "Title": "",
+            "Y": 74,
+            "Id": "90e07bc1-49ec-4b80-8fcd-bf15187fa566"
+        },
+        {
+            "Type": "command",
+            "Command": "mp quest accept @p extra_hotel_accepter",
+            "X": 292,
+            "Title": "",
+            "Y": 274,
+            "Id": "fd001081-72c5-4455-b911-b81eb4817b33"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Что будете делать?"
+            },
+            "X": 12,
+            "Title": "",
+            "Y": -26,
+            "Sound": "",
+            "Relations": [
+                "2db4962e-06d1-4851-93aa-b76e282dab95",
+                "8b798a5f-bb46-4147-9c4f-abeb4f12959e"
+            ],
+            "Id": "21e1dbef-fdaa-43d6-9c6b-3319234639db",
+            "Marker": ""
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 0,
+                            "Type": "state",
+                            "Or": 0b,
+                            "Comparison": 2,
+                            "Expression": "",
+                            "Value": 0.0d,
+                            "Id": "killnort1",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": -260,
+            "Title": "",
+            "Y": 16,
+            "Relations": [
+                "dcadda30-4dea-4012-b43f-e1bf058c306c"
+            ],
+            "Id": "8b798a5f-bb46-4147-9c4f-abeb4f12959e"
+        }
+    ]
+}

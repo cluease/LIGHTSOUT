@@ -13,28 +13,49 @@
                 "Color": 16777215,
                 "Text": "Отправиться домой?"
             },
-            "X": 4,
+            "X": -12,
             "Title": "",
-            "Y": 16,
+            "Y": 10,
             "Morph": {
-                "RemoveParentSpace": 1b,
-                "Pose": {
-                    "P": [
-                        0.0625f,
-                        1.5f,
-                        -0.25f
-                    ]
+                "Settings": {
+                    "Hands": 1b
                 },
-                "Billboard": 1b,
-                "Texture": "b.a:image/skins/rc.png",
-                "Name": "blockbuster.image"
+                "Name": "blockbuster.empty"
             },
             "Sound": "",
             "Relations": [
-                "5e0a3cc7-82d0-425f-aaf7-b241e56c9194"
+                "169c8d37-b8b1-4321-ae64-977cc163660b"
             ],
             "Id": "61d8ad47-6fd1-478f-82c5-1508953f8f00",
             "Marker": ""
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 0,
+                            "Type": "state",
+                            "Or": 0b,
+                            "Comparison": 2,
+                            "Expression": "",
+                            "Value": 1.0d,
+                            "Id": "bartalk",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 148,
+            "Title": "",
+            "Y": -122,
+            "Relations": [
+                "5e0a3cc7-82d0-425f-aaf7-b241e56c9194"
+            ],
+            "Id": "169c8d37-b8b1-4321-ae64-977cc163660b"
         },
         {
             "Type": "reply",

@@ -30,9 +30,18 @@
             "Title": "",
             "Y": 686,
             "Relations": [
-                "36b45a45-0f36-43b3-a966-4a73ce9ae442"
+                "36b45a45-0f36-43b3-a966-4a73ce9ae442",
+                "4d5e4963-1d8a-4c04-af4f-aa340949d312"
             ],
             "Id": "2469d889-7fec-475e-a0bc-425ad659a27e"
+        },
+        {
+            "Type": "command",
+            "Command": "/mp npc summon clickhotel exit 72 22 -1794",
+            "X": 210,
+            "Title": "",
+            "Y": 798,
+            "Id": "4d5e4963-1d8a-4c04-af4f-aa340949d312"
         },
         {
             "Type": "timer",

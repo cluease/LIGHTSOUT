@@ -1,0 +1,299 @@
+{
+    "Closable": 1b,
+    "Main": "1a5bcb09-2e2a-4597-909d-99758d4d974d",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Да"
+            },
+            "X": 352,
+            "Title": "",
+            "Y": -64,
+            "Sound": "",
+            "Relations": [
+                "2eb6b5a9-cd9a-4b52-8c4c-0f3db0b09fd0"
+            ],
+            "Id": "d3e6aa7e-0e6b-4553-afa6-efe035bbab3d",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Тебе я должна отдать кейс?"
+            },
+            "X": 184,
+            "Title": "",
+            "Y": -70,
+            "Relations": [
+                "d3e6aa7e-0e6b-4553-afa6-efe035bbab3d"
+            ],
+            "Id": "1832c923-4f18-4428-a6af-cc434501c20e"
+        },
+        {
+            "Read": 1b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Незнакомец испарился в тени)"
+            },
+            "X": 1447,
+            "Title": "",
+            "Y": -64,
+            "Morph": {
+                "Settings": {
+                    "Hands": 1b
+                },
+                "Name": "blockbuster.empty"
+            },
+            "Sound": "",
+            "Relations": [
+                "df159594-1670-49d7-b116-ec7036a776a2"
+            ],
+            "Id": "e535613e-f336-4fe2-a0fc-183c5d6a72d6",
+            "Marker": "money"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Пойти домой)"
+            },
+            "X": 1624,
+            "Title": "",
+            "Y": -58,
+            "Relations": [
+                "2796a443-4a0e-4b9c-b616-939a5011f24d",
+                "fa35239f-a0db-468a-a829-887c4bf5ba8e",
+                "49cf4fe4-6e0e-48a4-9836-9b75a788bd7c",
+                "be284b90-fb6d-4414-8326-2e15696e9937"
+            ],
+            "Id": "df159594-1670-49d7-b116-ec7036a776a2"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Отдать кейс)"
+            },
+            "X": 522,
+            "Title": "",
+            "Y": -64,
+            "Relations": [
+                "23f83503-f393-4191-8e7a-80c47a5596c0"
+            ],
+            "Id": "2eb6b5a9-cd9a-4b52-8c4c-0f3db0b09fd0"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Мне самой это невыгодно..."
+            },
+            "X": 1256,
+            "Title": "",
+            "Y": -62,
+            "Relations": [
+                "e535613e-f336-4fe2-a0fc-183c5d6a72d6"
+            ],
+            "Id": "138ccfb8-1ade-44ea-a57b-1eee03d0ca43"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Стой"
+            },
+            "X": -18,
+            "Title": "",
+            "Y": -70,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 0b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/accepter.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                        "RX": -0.27925274f,
+                        "RY": -0.27925268f
+                    },
+                    "left_leg": {
+                        "RX": -0.12217305f
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                        "RX": -1.0297443f,
+                        "RY": 0.10471976f
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                        "RX": 0.034906585f,
+                        "Z": -0.34375f
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RX": 0.17453294f,
+                        "RY": -1.0821042f,
+                        "RZ": -0.05235988f
+                    },
+                    "left_arm": {
+                        "RX": 0.43633232f,
+                        "RY": 0.57595867f
+                    },
+                    "low_right_arm": {
+                        "RX": 0.05235988f,
+                        "RY": -0.10471976f
+                    },
+                    "right_leg": {
+                        "RX": -0.22689281f
+                    },
+                    "anchor": {
+                        "X": 0.21875f,
+                        "RZ": 1.5707964f
+                    },
+                    "low_left_leg": {
+                        "RY": 0.017453292f
+                    },
+                    "low_left_arm": {
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Animation": "slim_simple_plus",
+                "Name": "emoticons.slim_simple_plus"
+            },
+            "Sound": "",
+            "Relations": [
+                "1832c923-4f18-4428-a6af-cc434501c20e"
+            ],
+            "Id": "1a5bcb09-2e2a-4597-909d-99758d4d974d",
+            "Marker": ""
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p {\"text\":\"+2 \\u041f\\u0440\\u0430\\u0432\\u043e\\u043d\\u0430\\u0440\\u0443\\u0448\\u0435\\u043d\\u0438\\u044f\",\"color\":\"red\"}",
+            "X": 1783,
+            "Title": "",
+            "Y": -362,
+            "Id": "be284b90-fb6d-4414-8326-2e15696e9937"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ого, не мало"
+            },
+            "X": 864,
+            "Title": "",
+            "Y": -62,
+            "Relations": [
+                "5a7f3557-2f59-4484-b2ba-b1d0b7d87730"
+            ],
+            "Id": "055d08ce-a06b-41f6-8e51-08b5ff3d4a3b"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Твоя доля"
+            },
+            "X": 698,
+            "Title": "",
+            "Y": -66,
+            "Sound": "",
+            "Relations": [
+                "055d08ce-a06b-41f6-8e51-08b5ff3d4a3b"
+            ],
+            "Id": "23f83503-f393-4191-8e7a-80c47a5596c0",
+            "Marker": ""
+        },
+        {
+            "Type": "command",
+            "Command": "/clear @p variedcommodities:skull 0 1 {display:{Lore:[\"Довольно увесистый...\"],Name:\"Кейс с деньгами\"}}",
+            "X": 1783,
+            "Title": "",
+            "Y": 128,
+            "Id": "fa35239f-a0db-468a-a829-887c4bf5ba8e"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Target": {
+                            "Target": 4,
+                            "Selector": ""
+                        },
+                        "Type": "state",
+                        "State": "Правонарушение",
+                        "Mode": 0,
+                        "Value": 2.0d,
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": 1782,
+            "CustomData": "",
+            "Title": "+Правонарушение",
+            "Y": -218,
+            "Id": "49cf4fe4-6e0e-48a4-9836-9b75a788bd7c"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Можешь идти, в скором времени с тобой снова свяжутся. Только не проболтайся никому о нас"
+            },
+            "X": 1048,
+            "Title": "",
+            "Y": -62,
+            "Sound": "",
+            "Relations": [
+                "138ccfb8-1ade-44ea-a57b-1eee03d0ca43"
+            ],
+            "Id": "5a7f3557-2f59-4484-b2ba-b1d0b7d87730",
+            "Marker": ""
+        },
+        {
+            "Type": "command",
+            "Command": "tp @p 374 95 -1281",
+            "X": 1786,
+            "Title": "",
+            "Y": -60,
+            "Id": "2796a443-4a0e-4b9c-b616-939a5011f24d"
+        }
+    ]
+}

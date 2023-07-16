@@ -36,6 +36,14 @@
         },
         {
             "Type": "command",
+            "Command": "tp @p 463 83 -2125",
+            "X": 528,
+            "Title": "",
+            "Y": 708,
+            "Id": "cd594522-81d2-4e34-a14b-57ef92447179"
+        },
+        {
+            "Type": "command",
             "Command": "time set 12850",
             "X": 1199,
             "Title": "",
@@ -315,6 +323,30 @@
             "Id": "940d555f-1416-47a9-ae62-aa82a1958b84"
         },
         {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Target": {
+                            "Target": 0,
+                            "Selector": ""
+                        },
+                        "Type": "state",
+                        "State": "barinvite",
+                        "Mode": 1,
+                        "Value": 2.0d,
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": 339,
+            "CustomData": "",
+            "Title": "",
+            "Y": 884,
+            "Id": "a6ae1688-f576-4ffb-b813-70f5faf8462b"
+        },
+        {
             "Type": "command",
             "Command": "tp @p 2025 76 -662",
             "X": 855,
@@ -452,7 +484,8 @@
             "Title": "",
             "Y": 448,
             "Relations": [
-                "5115fb47-08d5-4e37-947d-43f321064755"
+                "5115fb47-08d5-4e37-947d-43f321064755",
+                "a17db001-1dac-459e-90e8-9c5f18e59630"
             ],
             "Id": "d8b11e64-8557-4d46-9c3e-09e5c4152823"
         },
@@ -541,6 +574,34 @@
             "Id": "51a05f57-a583-44d9-82d5-7487b49ba348"
         },
         {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 0,
+                            "Type": "state",
+                            "Or": 0b,
+                            "Comparison": 2,
+                            "Expression": "",
+                            "Value": 1.0d,
+                            "Id": "barinvite",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 120,
+            "Title": "",
+            "Y": 708,
+            "Relations": [
+                "247a9d61-4a8f-40ab-a3f3-18472918aba5"
+            ],
+            "Id": "a17db001-1dac-459e-90e8-9c5f18e59630"
+        },
+        {
             "Read": 0b,
             "Type": "reaction",
             "Message": {
@@ -621,6 +682,21 @@
             "Title": "",
             "Y": -1574,
             "Id": "f490848e-7a20-4806-bd02-184fa3a492e4"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 6938466,
+                "Text": "(Отправиться в бар к друзьям)"
+            },
+            "X": 339,
+            "Title": "",
+            "Y": 710,
+            "Relations": [
+                "cd594522-81d2-4e34-a14b-57ef92447179",
+                "a6ae1688-f576-4ffb-b813-70f5faf8462b"
+            ],
+            "Id": "247a9d61-4a8f-40ab-a3f3-18472918aba5"
         }
     ]
 }

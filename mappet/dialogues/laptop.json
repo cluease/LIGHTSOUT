@@ -23,6 +23,23 @@
             "Id": "ef40930a-c3a3-474e-8846-f702254a2968"
         },
         {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "..."
+            },
+            "X": 554,
+            "Title": "",
+            "Y": 922,
+            "Sound": "",
+            "Relations": [
+                "7165b1fc-70c5-4a01-b6d5-8d24ba6bb850"
+            ],
+            "Id": "55c05ca6-32b8-44bc-8184-94dfa06f29d4",
+            "Marker": ""
+        },
+        {
             "Type": "reply",
             "Message": {
                 "Color": 16777215,
@@ -146,7 +163,8 @@
             "Y": 476,
             "Sound": "",
             "Relations": [
-                "cca83c60-5d2c-4a3b-ad6f-6f35b7b56634"
+                "cca83c60-5d2c-4a3b-ad6f-6f35b7b56634",
+                "ec630f99-e0f5-488b-9e84-206c36a949bc"
             ],
             "Id": "6dab1cc4-3a0c-455b-8042-3f4de5a5549f",
             "Marker": ""
@@ -212,6 +230,17 @@
             "Id": "b02e99f0-3424-4603-b25a-d0070b3cf80a"
         },
         {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Закрыть)"
+            },
+            "X": 550,
+            "Title": "",
+            "Y": 1432,
+            "Id": "d468369b-d464-4b14-b128-9ac5968150bc"
+        },
+        {
             "Read": 0b,
             "Type": "reaction",
             "Message": {
@@ -273,6 +302,28 @@
             "Type": "reply",
             "Message": {
                 "Color": 16777215,
+                "Text": "Привет, Том... Я тут подумала над твоим предложением получше и решила, что я согласна подзаработать побольше денег"
+            },
+            "X": 554,
+            "Title": "",
+            "Y": 1081,
+            "Relations": [
+                "ce0ab174-0493-4628-a9d2-bfde8a92faa4"
+            ],
+            "Id": "7165b1fc-70c5-4a01-b6d5-8d24ba6bb850"
+        },
+        {
+            "Type": "command",
+            "Command": "playsound customnpcs:misc.message block @p",
+            "X": 810,
+            "Title": "смсзвук",
+            "Y": 1061,
+            "Id": "dbae7cca-b71c-4f83-8fc1-d074eb80f057"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
                 "Text": "(Включить музыку)"
             },
             "X": 459,
@@ -282,6 +333,20 @@
                 "2cf23ee0-c1d8-4cf7-8427-e23839b5a9da"
             ],
             "Id": "8d2c0d2c-b48f-493f-a852-4d1ca6841566"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Томом"
+            },
+            "X": 558,
+            "Title": "",
+            "Y": 745,
+            "Relations": [
+                "55c05ca6-32b8-44bc-8184-94dfa06f29d4"
+            ],
+            "Id": "a072df37-0e3d-417b-9570-17ea266863ad"
         },
         {
             "Type": "reply",
@@ -390,6 +455,30 @@
             "Id": "a4478c62-7991-43a6-9662-0635e4d05bba"
         },
         {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Target": {
+                            "Target": 0,
+                            "Selector": ""
+                        },
+                        "Type": "state",
+                        "State": "mafia1",
+                        "Mode": 1,
+                        "Value": 1.0d,
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": 740,
+            "CustomData": "",
+            "Title": "",
+            "Y": 1396,
+            "Id": "e4d86d47-c1b9-4ba4-a216-5682dda4dd82"
+        },
+        {
             "Type": "reply",
             "Message": {
                 "Color": 16777215,
@@ -465,6 +554,34 @@
             "Marker": ""
         },
         {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 0,
+                            "Type": "state",
+                            "Or": 0b,
+                            "Comparison": 2,
+                            "Expression": "",
+                            "Value": 0.0d,
+                            "Id": "mafia1",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 275,
+            "Title": "",
+            "Y": 648,
+            "Relations": [
+                "a072df37-0e3d-417b-9570-17ea266863ad"
+            ],
+            "Id": "ec630f99-e0f5-488b-9e84-206c36a949bc"
+        },
+        {
             "Read": 0b,
             "Type": "reaction",
             "Message": {
@@ -483,6 +600,26 @@
                 "088dbf9f-16e1-4753-9519-3e034147a376"
             ],
             "Id": "098bfd35-9b24-4eb2-910f-f8aec42cd79e",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "[bТом:[r Привет! Неожиданно, конечно, я рад что ты решила действовать, 
+а не сидеть сложа руки. Жди в ближайшее время смс от кое-кого, они тебе расскажут, что делать"
+            },
+            "X": 555,
+            "Title": "",
+            "Y": 1247,
+            "Sound": "",
+            "Relations": [
+                "dbae7cca-b71c-4f83-8fc1-d074eb80f057",
+                "d468369b-d464-4b14-b128-9ac5968150bc",
+                "e4d86d47-c1b9-4ba4-a216-5682dda4dd82"
+            ],
+            "Id": "ce0ab174-0493-4628-a9d2-bfde8a92faa4",
             "Marker": ""
         }
     ]

@@ -539,7 +539,8 @@
             "Relations": [
                 "c40d211a-88bf-4f8d-bbc3-d644ca0f554b",
                 "7e2f2d4e-e181-403a-bab0-da73df847828",
-                "519edc55-5d14-49ec-9dcd-ba3f3a2584e2"
+                "519edc55-5d14-49ec-9dcd-ba3f3a2584e2",
+                "03194e85-065d-4cba-beca-eb50146607de"
             ],
             "Id": "645328a8-7a2c-4094-9b23-c333d1e8c9ad"
         },
@@ -2041,6 +2042,30 @@
                 "0ed8ed4a-5c29-4eab-9b0b-3805093137ef"
             ],
             "Id": "1e445ce3-dfde-4ff9-8bc0-d42a1bfbc3c9"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Target": {
+                            "Target": 0,
+                            "Selector": ""
+                        },
+                        "Type": "state",
+                        "State": "bartalk",
+                        "Mode": 1,
+                        "Value": 1.0d,
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": 9048,
+            "CustomData": "",
+            "Title": "",
+            "Y": 222,
+            "Id": "03194e85-065d-4cba-beca-eb50146607de"
         },
         {
             "Type": "trigger",
