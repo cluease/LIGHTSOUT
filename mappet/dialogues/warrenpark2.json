@@ -1,0 +1,362 @@
+{
+    "Closable": 0b,
+    "Main": "adb11c14-01ee-4479-bea5-f42965f9e623",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Type": "command",
+            "Command": "scene play warrenpark3",
+            "X": 1696,
+            "Title": "",
+            "Y": -56,
+            "Id": "04753470-d87d-4143-b0d2-91ba0a41ac73"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Воображала"
+            },
+            "X": 661,
+            "Title": "",
+            "Y": -135,
+            "Relations": [
+                "ccc3a955-b004-4015-8e14-963105ffecfa"
+            ],
+            "Id": "ac1c3976-cc30-45ef-8e1b-84a21e2f38c1"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Держи, на тебя похожа - \"Уоррен протягивает вам плюшевую утку\""
+            },
+            "X": 6,
+            "Title": "",
+            "Y": -46,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/warren_casual.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                        "RX": 1.0471976f,
+                        "RY": -0.15707964f
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RZ": -0.08726647f
+                    },
+                    "left_arm": {
+                        "RX": 1.1519173f
+                    },
+                    "low_right_arm": {
+                        "RZ": 0.43633232f
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                        "RZ": 0.2617994f
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                        "RX": 0.05235988f,
+                        "RZ": -0.33161256f
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Animated": 0b,
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "slim",
+                "BodyParts": [
+                    {
+                        "R": [
+                            0.0f,
+                            -180.0f,
+                            0.0f
+                        ],
+                        "Target": 1b,
+                        "S": [
+                            0.75f,
+                            0.75f,
+                            0.75f
+                        ],
+                        "T": [
+                            0.09375f,
+                            1.25f,
+                            -0.25f
+                        ],
+                        "Limb": "misc_bone_3",
+                        "Morph": {
+                            "Name": "item",
+                            "Stack": {
+                                "ForgeCaps": {
+                                    "customnpcs:itemscripteddata": {
+                                    }
+                                },
+                                "id": "minecraft:skull",
+                                "Count": 1b,
+                                "tag": {
+                                    "SkullOwner": {
+                                        "Id": "e5f71134-0436-4743-8530-214ba0386c44",
+                                        "Properties": {
+                                            "textures": [
+                                                {
+                                                    "Value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzg4MmViNDlkODlmMWViOGM2ODgxNGU3MWM2MjYzYmJlYzdiYTYzM2YyN2JmZjZlZmRiOTJhNjc5OWJhIn19fQ=="
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "display": {
+                                        "Name": "§6Плюшевая утка"
+                                    }
+                                },
+                                "Damage": 3s
+                            }
+                        }
+                    }
+                ],
+                "Name": "emoticons.slim"
+            },
+            "Sound": "",
+            "Relations": [
+                "5fd5817a-037b-41bf-801b-e8d4d4bbd3fa"
+            ],
+            "Id": "adb11c14-01ee-4479-bea5-f42965f9e623",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Как ты..."
+            },
+            "X": 248,
+            "Title": "",
+            "Y": -41,
+            "Relations": [
+                "261df1ca-1dc3-4c9f-adc7-6f397a4784a9"
+            ],
+            "Id": "5fd5817a-037b-41bf-801b-e8d4d4bbd3fa"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "На самом деле меня в детстве отец учил стрелять, поэтому 
+сейчас это у меня не вызывает трудностей. Если хочешь, могу тоже как-нибудь обучить парочке приемов"
+            },
+            "X": 924,
+            "Title": "",
+            "Y": -34,
+            "Sound": "",
+            "Relations": [
+                "eb3424ca-7eb1-4d1b-8ea9-044cb052afd3",
+                "590f8cbd-f396-45c8-aee9-100177771e3b"
+            ],
+            "Id": "ccc3a955-b004-4015-8e14-963105ffecfa",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Впечатляет, классно стреляешь"
+            },
+            "X": 656,
+            "Title": "",
+            "Y": 71,
+            "Relations": [
+                "ccc3a955-b004-4015-8e14-963105ffecfa",
+                "ea7c54db-a3b7-4348-94a9-7a72287b4e73",
+                "51ab1f84-3325-4fea-ae4a-2e5dc263e85e"
+            ],
+            "Id": "afaafbad-923c-4053-adce-9816ebad9a95"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "В этом нет необходимости, я и так хорошо стреляю"
+            },
+            "X": 1182,
+            "Title": "",
+            "Y": 131,
+            "Relations": [
+                "ce202272-301c-48ff-902f-d1de89c772fa"
+            ],
+            "Id": "590f8cbd-f396-45c8-aee9-100177771e3b"
+        },
+        {
+            "Type": "command",
+            "Command": "mp faction add @p warren 1",
+            "X": 829,
+            "Title": "",
+            "Y": 219,
+            "Id": "51ab1f84-3325-4fea-ae4a-2e5dc263e85e"
+        },
+        {
+            "Type": "command",
+            "Command": "/tellraw @p {\"text\":\"\\u0423\\u043e\\u0440\\u0440\\u0435\\u043d\\u0443 \\u043f\\u043e\\u043d\\u0440\\u0430\\u0432\\u0438\\u043b\\u0441\\u044f \\u0432\\u0430\\u0448 \\u043a\\u043e\\u043c\\u043f\\u043b\\u0438\\u043c\\u0435\\u043d\\u0442\",\"color\":\"green\"}",
+            "X": 660,
+            "Title": "уоррену понрав",
+            "Y": 299,
+            "Id": "ea7c54db-a3b7-4348-94a9-7a72287b4e73"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Было бы славно"
+            },
+            "X": 1177,
+            "Title": "",
+            "Y": -146,
+            "Relations": [
+                "0d72c929-863c-463b-aa6b-938253c52ba2"
+            ],
+            "Id": "eb3424ca-7eb1-4d1b-8ea9-044cb052afd3"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Ага"
+            },
+            "X": 1527,
+            "Title": "",
+            "Y": -159,
+            "Relations": [
+                "04753470-d87d-4143-b0d2-91ba0a41ac73"
+            ],
+            "Id": "5ea103b4-8ee7-4860-bda6-a2a473fcb0fc"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Значит, забились"
+            },
+            "X": 1360,
+            "Title": "",
+            "Y": -153,
+            "Sound": "",
+            "Relations": [
+                "5ea103b4-8ee7-4860-bda6-a2a473fcb0fc"
+            ],
+            "Id": "0d72c929-863c-463b-aa6b-938253c52ba2",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Просто я целюсь сердцем, а не рукой"
+            },
+            "X": 448,
+            "Title": "",
+            "Y": -46,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/warren_casual.png"
+                        }
+                    }
+                },
+                "Animated": 0b,
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "slim",
+                "Name": "emoticons.slim"
+            },
+            "Sound": "",
+            "Relations": [
+                "ac1c3976-cc30-45ef-8e1b-84a21e2f38c1",
+                "afaafbad-923c-4053-adce-9816ebad9a95"
+            ],
+            "Id": "261df1ca-1dc3-4c9f-adc7-6f397a4784a9",
+            "Marker": ""
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Я бы поспорил"
+            },
+            "X": 1368,
+            "Title": "",
+            "Y": 135,
+            "Sound": "",
+            "Relations": [
+                "02906f71-fb1b-4733-9f68-f3274f97a04c"
+            ],
+            "Id": "ce202272-301c-48ff-902f-d1de89c772fa",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Так, я вроде бы не просила оставлять отзывы о моих способностях"
+            },
+            "X": 1535,
+            "Title": "",
+            "Y": 129,
+            "Relations": [
+                "04753470-d87d-4143-b0d2-91ba0a41ac73"
+            ],
+            "Id": "02906f71-fb1b-4733-9f68-f3274f97a04c"
+        }
+    ]
+}

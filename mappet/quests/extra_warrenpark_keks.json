@@ -1,0 +1,60 @@
+{
+    "Decline": {
+        "Blocks": [
+        ]
+    },
+    "Accept": {
+        "Blocks": [
+        ]
+    },
+    "Complete": {
+        "Blocks": [
+            {
+                "Type": "command",
+                "Command": "mp quest complete @p extra_warrenpark_keks",
+                "Frequency": 1
+            }
+        ]
+    },
+    "Instant": 1b,
+    "Rewards": [
+        {
+            "Type": "item",
+            "Items": [
+                {
+                    "ForgeCaps": {
+                        "customnpcs:itemscripteddata": {
+                        }
+                    },
+                    "id": "minecraft:skull",
+                    "Count": 1b,
+                    "tag": {
+                        "SkullOwner": {
+                            "Id": "63032d93-13b0-43b3-9130-f2c85ac674a8",
+                            "Properties": {
+                                "textures": [
+                                    {
+                                        "Value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjViZjdmNzkyNjMzN2YzZGRkM2ZhZmRhZTYyZTMwNmQ1ZTUzOTA0Y2IwN2FmOWE5YmFkMTExMzExZjczNWUwOCJ9fX0="
+                                    }
+                                ]
+                            }
+                        },
+                        "display": {
+                            "Lore": [
+                                "§fЗвучит необычно"
+                            ],
+                            "Name": "§6Морковный кекс"
+                        }
+                    },
+                    "Damage": 3s
+                }
+            ]
+        }
+    ],
+    "Visible": 1b,
+    "Objectives": [
+    ],
+    "Title": "кэкс",
+    "Story": "",
+    "Cancelable": 0b
+}

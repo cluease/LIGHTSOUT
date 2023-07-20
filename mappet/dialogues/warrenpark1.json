@@ -1,0 +1,106 @@
+{
+    "Closable": 0b,
+    "Main": "b2fff76b-9bd7-4797-9b2e-a81896bcc488",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Потому что здесь щас много интересных активностей происходит, выходные же. Найдем что-нибудь веселое, отвлечемся от работы, не целыми же днями преступников ловить!"
+            },
+            "X": 408,
+            "Title": "",
+            "Y": -40,
+            "Sound": "",
+            "Relations": [
+                "659cbe4f-b373-4dba-884a-19d1c9188784"
+            ],
+            "Id": "7b73dbdd-fa4c-4598-ae18-e3338c0223f0",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Да нам в связи с последними событиями просто показан отдых. Почему кстати, парк, а не какое-нибудь, не знаю… кафе?"
+            },
+            "X": 206,
+            "Title": "",
+            "Y": -34,
+            "Relations": [
+                "7b73dbdd-fa4c-4598-ae18-e3338c0223f0"
+            ],
+            "Id": "fbb7e802-b229-4b8e-855a-db06a6093582"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Привет! Рад, что ты пришла"
+            },
+            "X": -22,
+            "Title": "",
+            "Y": -36,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/warren_casual.png"
+                        }
+                    }
+                },
+                "Animation": "slim_3d",
+                "Name": "emoticons.slim_3d"
+            },
+            "Sound": "",
+            "Relations": [
+                "fbb7e802-b229-4b8e-855a-db06a6093582"
+            ],
+            "Id": "b2fff76b-9bd7-4797-9b2e-a81896bcc488",
+            "Marker": ""
+        },
+        {
+            "Type": "command",
+            "Command": "/mp npc despawn @e[mpid=Warrenwalk]",
+            "X": 770,
+            "Title": "",
+            "Y": -144,
+            "Id": "e95d75a9-20d9-4c88-a2da-124f0f1ff009"
+        },
+        {
+            "Type": "command",
+            "Command": "scene play warrenpark1 @p",
+            "X": 748,
+            "Title": "",
+            "Y": 58,
+            "Id": "28dc2292-6b57-4377-b98e-5c71258633ff"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "В твоих словах есть смысл, пошли скорее"
+            },
+            "X": 598,
+            "Title": "",
+            "Y": -38,
+            "Relations": [
+                "e95d75a9-20d9-4c88-a2da-124f0f1ff009",
+                "28dc2292-6b57-4377-b98e-5c71258633ff"
+            ],
+            "Id": "659cbe4f-b373-4dba-884a-19d1c9188784"
+        }
+    ]
+}

@@ -1,0 +1,384 @@
+{
+    "Closable": 0b,
+    "Main": "2dcf6629-9b49-4ff9-bc49-8aab71027bde",
+    "OnClose": {
+        "Blocks": [
+        ]
+    },
+    "Nodes": [
+        {
+            "Type": "command",
+            "Command": "/mp quest complete @p extra_warrenpark_keks",
+            "X": 936,
+            "Title": "кекс2",
+            "Y": 408,
+            "Id": "c44e610f-252e-4584-903d-3bdc6c193a92"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Хороший выбор! Ты не пожалеешь, на вкус они похожи на морковный торт, только лучше. Мне мама в детстве такие пекла, 
+язык проглотишь"
+            },
+            "X": 321,
+            "Title": "",
+            "Y": 206,
+            "Sound": "",
+            "Relations": [
+                "88320d50-65b8-429c-9c2f-f963f2a1e8ce",
+                "c3bb11ef-b095-4fbd-ad73-114b4b23ed29"
+            ],
+            "Id": "a1cfce6b-193d-45ac-af32-13ba3ca73e99",
+            "Marker": ""
+        },
+        {
+            "Type": "command",
+            "Command": "/mp quest accept @p extra_warrenpark_drink",
+            "X": 249,
+            "Title": "",
+            "Y": -305,
+            "Id": "c08fdf89-6028-409a-b91c-3ab47f838b7b"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Взять кекс)"
+            },
+            "X": 932,
+            "Title": "",
+            "Y": 169,
+            "Relations": [
+                "c44e610f-252e-4584-903d-3bdc6c193a92",
+                "49999b54-b9b8-407f-b0d0-a909b23743bc"
+            ],
+            "Id": "88320d50-65b8-429c-9c2f-f963f2a1e8ce"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "(Взять Глинтвейн)"
+            },
+            "X": 934,
+            "Title": "",
+            "Y": -142,
+            "Relations": [
+                "0fe3c0ae-bab6-4e33-a6c7-e2ae3f469eb7",
+                "49999b54-b9b8-407f-b0d0-a909b23743bc"
+            ],
+            "Id": "0421d13e-9841-41fe-92e2-9c3dbbcfdab6"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Тут еще и продаются мои любимые кексы с морковной начинкой, райское место. Будешь что-нибудь?"
+            },
+            "X": -78,
+            "Title": "",
+            "Y": -50,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/warren_casual.png"
+                        }
+                    }
+                },
+                "Animation": "slim",
+                "Name": "emoticons.slim"
+            },
+            "Sound": "",
+            "Relations": [
+                "c25eac39-e8a0-475a-8045-8cebf0c5588b",
+                "094da8f5-f3a9-4f8b-90be-4648dee1e35e"
+            ],
+            "Id": "2dcf6629-9b49-4ff9-bc49-8aab71027bde",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Какой-то ты сегодня чересчур разговорчивый и эмоциональный. Никогда от тебя раньше не слышала подобных речей"
+            },
+            "X": 476,
+            "Title": "",
+            "Y": 12,
+            "Relations": [
+                "e369a545-8ef9-4fac-8f93-1a1e270a7167"
+            ],
+            "Id": "0a9f05fa-c2d8-4ea8-b167-9bc7e3dd2142"
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Какой-то ты сегодня чересчур разговорчивый и эмоциональный. Никогда от тебя раньше не слышала подобных речей"
+            },
+            "X": 531,
+            "Title": "",
+            "Y": 365,
+            "Relations": [
+                "7abe14c6-dbb5-42c1-966b-c937fbf36bf2"
+            ],
+            "Id": "c3bb11ef-b095-4fbd-ad73-114b4b23ed29"
+        },
+        {
+            "Type": "command",
+            "Command": "/mp quest complete @p extra_warrenpark_drink",
+            "X": 743,
+            "Title": "",
+            "Y": -296,
+            "Id": "0fe3c0ae-bab6-4e33-a6c7-e2ae3f469eb7"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Просто… у меня сегодня очень хорошее настроение. Вот, возьми кекс и кушай, пока он не остыл"
+            },
+            "X": 733,
+            "Title": "",
+            "Y": 354,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/warren_casual.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RX": 0.33161256f,
+                        "RY": -0.10471976f,
+                        "RZ": 0.017453292f
+                    },
+                    "left_arm": {
+                        "RX": 2.5830874f,
+                        "RY": -0.31415924f,
+                        "RZ": -0.41887906f
+                    },
+                    "low_right_arm": {
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                        "RX": 0.22689281f,
+                        "RZ": -0.9773844f
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "slim",
+                "Name": "emoticons.slim"
+            },
+            "Sound": "",
+            "Relations": [
+                "88320d50-65b8-429c-9c2f-f963f2a1e8ce"
+            ],
+            "Id": "7abe14c6-dbb5-42c1-966b-c937fbf36bf2",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Давай морковные кексы, ни разу их не пробовала"
+            },
+            "X": 106,
+            "Title": "",
+            "Y": 234,
+            "Relations": [
+                "a1cfce6b-193d-45ac-af32-13ba3ca73e99",
+                "32433212-2f0d-49d1-9e57-5d1a6fe2d4b6"
+            ],
+            "Id": "094da8f5-f3a9-4f8b-90be-4648dee1e35e"
+        },
+        {
+            "Type": "command",
+            "Command": "/mp quest accept @p extra_warrenpark_keks",
+            "X": 138,
+            "Title": "кекс1",
+            "Y": 452,
+            "Id": "32433212-2f0d-49d1-9e57-5d1a6fe2d4b6"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Классика. Одобряю! Я любил раньше, в своем студенчестве, приходить сюда в зимние каникулы и греться этим чудесным напитком"
+            },
+            "X": 292,
+            "Title": "",
+            "Y": -120,
+            "Sound": "",
+            "Relations": [
+                "0421d13e-9841-41fe-92e2-9c3dbbcfdab6",
+                "0a9f05fa-c2d8-4ea8-b167-9bc7e3dd2142"
+            ],
+            "Id": "b01b0fbe-2800-4e36-a5d8-e4c06cd2146e",
+            "Marker": ""
+        },
+        {
+            "Type": "command",
+            "Command": "scene play warrenpark4 @p",
+            "X": 1202,
+            "Title": "",
+            "Y": 42,
+            "Id": "49999b54-b9b8-407f-b0d0-a909b23743bc"
+        },
+        {
+            "Read": 0b,
+            "Type": "reaction",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Просто… у меня сегодня очень хорошее настроение. Вот, возьми глинтвейн и пей, пока он не остыл"
+            },
+            "X": 712,
+            "Title": "",
+            "Y": 4,
+            "Morph": {
+                "UserData": {
+                    "Meshes": {
+                        "body": {
+                            "Filtering": "nearest",
+                            "Normals": 1b,
+                            "Lighting": 1b,
+                            "Color": 16777215,
+                            "Smooth": 1b,
+                            "Visible": 1b,
+                            "Texture": "b.a:alex/skins/warren_casual.png"
+                        }
+                    }
+                },
+                "Pose": {
+                    "low_body": {
+                    },
+                    "right_arm": {
+                    },
+                    "left_leg": {
+                    },
+                    "misc_bone_1": {
+                    },
+                    "misc_bone_2": {
+                    },
+                    "misc_bone_3": {
+                    },
+                    "low_leg_right": {
+                    },
+                    "low_right_arm.end": {
+                    },
+                    "misc_gbone_2": {
+                    },
+                    "misc_gbone_1": {
+                    },
+                    "body": {
+                    },
+                    "misc_gbone_3": {
+                    },
+                    "head": {
+                        "RX": 0.33161256f,
+                        "RY": -0.10471976f,
+                        "RZ": 0.017453292f
+                    },
+                    "left_arm": {
+                        "RX": 2.5830874f,
+                        "RY": -0.31415924f,
+                        "RZ": -0.41887906f
+                    },
+                    "low_right_arm": {
+                    },
+                    "right_leg": {
+                    },
+                    "anchor": {
+                    },
+                    "low_left_leg": {
+                    },
+                    "low_left_arm": {
+                        "RX": 0.22689281f,
+                        "RZ": -0.9773844f
+                    },
+                    "low_left_arm.end": {
+                    }
+                },
+                "Transition": {
+                    "Animates": 1b
+                },
+                "Animation": "slim",
+                "Name": "emoticons.slim"
+            },
+            "Sound": "",
+            "Relations": [
+                "0421d13e-9841-41fe-92e2-9c3dbbcfdab6"
+            ],
+            "Id": "e369a545-8ef9-4fac-8f93-1a1e270a7167",
+            "Marker": ""
+        },
+        {
+            "Type": "reply",
+            "Message": {
+                "Color": 16777215,
+                "Text": "Давай Глинтвейн"
+            },
+            "X": 106,
+            "Title": "",
+            "Y": -112,
+            "Relations": [
+                "b01b0fbe-2800-4e36-a5d8-e4c06cd2146e",
+                "c08fdf89-6028-409a-b91c-3ab47f838b7b"
+            ],
+            "Id": "c25eac39-e8a0-475a-8045-8cebf0c5588b"
+        }
+    ]
+}
